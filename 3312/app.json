@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.azimolabs.maskformatter.sampleapp",
+    "label" : "MaskFormatterSample",
+    "icon" : null,
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "7",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 13,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.azimolabs.maskformatter.sampleapp\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"@android:style/Theme.Holo.Light.NoActionBar\" android:label=\"MaskFormatterSample\" android:debuggable=\"true\">\n\t\t<activity android:name=\"com.azimolabs.maskformatter.sampleapp.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 9855,
+  "crc32" : 2254132453,
+  "sha256" : "18fb35c40550b3bd7f761ffa2ac8044ad9e22f6c3a8880389ec30927e50813d9",
+  "buildTime" : 1496784524000
+}

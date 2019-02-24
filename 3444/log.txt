@@ -1,0 +1,187 @@
+2018-12-25 11:34:06,850 INFO  DownloadService - Downloading "https://github.com/campusappcn/Pan/archive/master.zip", attempt 3
+2018-12-25 11:34:07,791 INFO  DownloadService - Downloaded https://github.com/campusappcn/Pan/archive/master.zip, attempt 3
+2018-12-25 11:34:07,792 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/master.zip": 400 KB
+2018-12-25 11:34:07,792 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-25 11:34:07,798 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/master.zip: true
+2018-12-25 11:34:07,798 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src'.
+2018-12-25 11:34:07,863 INFO  FullProcessService - Size of directory with sources: 1012 KB
+2018-12-25 11:34:07,864 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src]
+2018-12-25 11:34:07,881 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/.git/
+
+2018-12-25 11:34:07,892 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/gradlew
+2018-12-25 11:34:07,899 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/sample-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/sample-github-users/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/build.gradle
+2018-12-25 11:34:07,906 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/sample-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/sample-github-users/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/settings.gradle
+2018-12-25 11:34:07,906 INFO  ProjectBuildService - Remote scripts: none
+2018-12-25 11:34:07,906 INFO  ProjectFixService - Fixing project...
+2018-12-25 11:34:07,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/local.properties
+2018-12-25 11:34:07,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-25 11:34:07,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/library/local.properties
+2018-12-25 11:34:07,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-25 11:34:07,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/sample-databinding/local.properties
+2018-12-25 11:34:07,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/sample-databinding/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=23]
+2018-12-25 11:34:07,924 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/sample-github-users/local.properties
+2018-12-25 11:34:07,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/sample-github-users/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-25 11:34:07,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/local.properties
+2018-12-25 11:34:07,925 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-25 11:34:07,926 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-25 11:34:07,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=23]
+2018-12-25 11:34:07,926 INFO  ProjectFixService - Project was maybe fixed
+2018-12-25 11:34:07,927 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-25 11:34:07,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-25 11:34:15,492 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-12-25 11:34:15,492 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-25 11:34:15,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-25 11:34:57,944 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app-test:checkDebugClasspath
+Download https://jcenter.bintray.com/com/arcao/slf4j-timber/2.1/slf4j-timber-2.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife/9.0.0-rc1/butterknife-9.0.0-rc1.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-runtime/9.0.0-rc1/butterknife-runtime-9.0.0-rc1.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/9.0.0-rc1/butterknife-annotations-9.0.0-rc1.pom
+Download https://jcenter.bintray.com/com/arcao/slf4j-timber/2.1/slf4j-timber-2.1.jar
+:app-test:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:app-test:preDebugBuild
+:library:compileDebugAidl NO-SOURCE
+:app-test:compileDebugAidl NO-SOURCE
+:library:packageDebugRenderscript NO-SOURCE
+:app-test:compileDebugRenderscript
+:app-test:checkDebugManifest
+:app-test:generateDebugBuildConfig
+:app-test:prepareLintJar
+:app-test:mainApkListPersistenceDebug
+:app-test:generateDebugResValues
+:app-test:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:app-test:mergeDebugResources
+:app-test:createDebugCompatibleScreenManifests
+:app-test:processDebugManifest
+:app-test:splitsDiscoveryTaskDebug
+:library:generateDebugRFile
+:app-test:processDebugResources
+:app-test:generateDebugSources
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:generateDebugSources
+:library:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/9.0.0-rc1/butterknife-compiler-9.0.0-rc1.pom
+:library:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app-test:javaPreCompileDebug
+:app-test:compileDebugJavaWithJavac
+:app-test:compileDebugNdk NO-SOURCE
+:app-test:compileDebugSources
+:app-test:mergeDebugShaders
+:app-test:compileDebugShaders
+:app-test:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:app-test:mergeDebugAssets
+:app-test:transformClassesWithJacocoForDebug
+:app-test:transformClassesWithDexBuilderForDebug
+:app-test:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app-test:transformDexArchiveWithDexMergerForDebug
+:app-test:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app-test:transformNativeLibsWithMergeJniLibsForDebug
+:app-test:transformNativeLibsWithStripDebugSymbolForDebug
+:app-test:checkDebugLibraries
+:app-test:processDebugJavaRes NO-SOURCE
+:app-test:transformResourcesWithMergeJavaResForDebug
+:app-test:validateSigningDebug
+:app-test:packageDebug
+:app-test:assembleDebug
+:app-test:checkReleaseClasspath
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:app-test:preReleaseBuild
+:library:compileReleaseAidl NO-SOURCE
+:app-test:compileReleaseAidl NO-SOURCE
+:library:packageReleaseRenderscript NO-SOURCE
+:app-test:compileReleaseRenderscript
+:app-test:checkReleaseManifest
+:app-test:generateReleaseBuildConfig
+:app-test:mainApkListPersistenceRelease
+:app-test:generateReleaseResValues
+:app-test:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:app-test:mergeReleaseResources
+:app-test:createReleaseCompatibleScreenManifests
+:app-test:processReleaseManifest
+:app-test:splitsDiscoveryTaskRelease
+:library:generateReleaseRFile
+:app-test:processReleaseResources
+:app-test:generateReleaseSources
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app-test:javaPreCompileRelease
+:app-test:compileReleaseJavaWithJavac
+:app-test:compileReleaseNdk NO-SOURCE
+:app-test:compileReleaseSources
+:app-test:lintVitalRelease
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/build.gradle:74: Ignore: Unknown issue id "LogNotTimber" [LintError]
+        disable "AllowBackup", "LogNotTimber", 'HardcodedText', 'TypographyFractions', 'TypographyQuotes', 'RtlHardcoded', 'RtlCompat', 'RtlEnabled', 'InvalidPackage', 'ContentDescription', 'SmallSp', 'RtlSymmetry'
+                                ~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/build.gradle:74: Ignore: Unknown issue id "LogNotTimber" [LintError]
+        disable "AllowBackup", "LogNotTimber", 'HardcodedText', 'TypographyFractions', 'TypographyQuotes', 'RtlHardcoded', 'RtlCompat', 'RtlEnabled', 'InvalidPackage', 'ContentDescription', 'SmallSp', 'RtlSymmetry'
+                                ~~~~~~~~~~~~
+0 errors, 0 warnings
+:app-test:mergeReleaseShaders
+:app-test:compileReleaseShaders
+:app-test:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:app-test:mergeReleaseAssets
+:app-test:transformClassesWithDexBuilderForRelease
+:app-test:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app-test:transformDexArchiveWithDexMergerForRelease
+:app-test:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:app-test:transformNativeLibsWithMergeJniLibsForRelease
+:app-test:transformNativeLibsWithStripDebugSymbolForRelease
+:app-test:checkReleaseLibraries
+:app-test:processReleaseJavaRes NO-SOURCE
+:app-test:transformResourcesWithMergeJavaResForRelease
+:app-test:packageRelease
+:app-test:assembleRelease
+:app-test:assemble
+:app-test:build
+
+BUILD SUCCESSFUL in 42s
+91 actionable tasks: 91 executed
+
+2018-12-25 11:34:58,040 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712446842-0/src/Pan-master/app-test/build/outputs/apk/release/app-test-release-unsigned.apk

@@ -1,0 +1,739 @@
+2019-01-09 14:05:41,570 INFO  DownloadService - Downloading "https://github.com/olegosipenko/PTTextView/archive/master.zip", attempt 3
+2019-01-09 14:06:42,705 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-09 14:06:43,534 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-09 14:06:43,535 INFO  DownloadService - Downloading "https://github.com/olegosipenko/PTTextView/archive/master.zip", attempt 3
+2019-01-09 14:07:45,135 DEBUG FullProcessService - Repository https://github.com/olegosipenko/PTTextView available: true
+2019-01-09 14:07:45,135 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-09 14:07:45,135 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/olegosipenko/PTTextView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src]
+2019-01-09 14:07:53,890 INFO  SysUtils - 
+2019-01-09 14:07:53,901 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/.git": true
+2019-01-09 14:07:53,905 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-01-09 14:07:53,905 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src]
+2019-01-09 14:07:53,925 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/.git/
+
+2019-01-09 14:07:53,931 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/gradlew
+2019-01-09 14:07:53,936 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/build.gradle
+2019-01-09 14:07:53,941 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/settings.gradle
+2019-01-09 14:07:53,942 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-01-09 14:07:54,044 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-01-09 14:07:54,044 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-01-09 14:07:54,141 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-01-09 14:07:54,141 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-01-09 14:07:54,141 INFO  ProjectFixService - Fixing project...
+2019-01-09 14:07:54,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/local.properties
+2019-01-09 14:07:54,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-01-09 14:07:54,154 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/local.properties
+2019-01-09 14:07:54,154 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-09 14:07:54,155 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/local.properties
+2019-01-09 14:07:54,155 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-09 14:07:54,156 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-09 14:07:54,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-09 14:07:54,157 INFO  ProjectFixService - Project was maybe fixed
+2019-01-09 14:07:54,157 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-09 14:07:54,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-09 14:08:19,975 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-09 14:08:19,975 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-01-09 14:08:19,975 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-01-09 14:08:19,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-01-09 14:08:32,189 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-09 14:08:32,189 INFO  SysUtils - Configuration on demand is an incubating feature.
+:pttextview:compileLint
+:pttextview:copyDebugLint UP-TO-DATE
+:pttextview:preBuild UP-TO-DATE
+:pttextview:preDebugBuild UP-TO-DATE
+:pttextview:checkDebugManifest
+:pttextview:preDebugAndroidTestBuild UP-TO-DATE
+:pttextview:preDebugUnitTestBuild UP-TO-DATE
+:pttextview:preReleaseBuild UP-TO-DATE
+:pttextview:preReleaseUnitTestBuild UP-TO-DATE
+:pttextview:prepareComAndroidSupportAppcompatV72311Library
+:pttextview:prepareComAndroidSupportSupportV42311Library
+:pttextview:prepareDebugDependencies
+:pttextview:compileDebugAidl
+:pttextview:compileDebugRenderscript
+:pttextview:generateDebugBuildConfig
+:pttextview:generateDebugAssets UP-TO-DATE
+:pttextview:mergeDebugAssets
+:pttextview:generateDebugResValues
+:pttextview:generateDebugResources
+:pttextview:mergeDebugResources
+:pttextview:processDebugManifest
+:pttextview:processDebugResources
+:pttextview:generateDebugSources
+:pttextview:processDebugJavaRes UP-TO-DATE
+:pttextview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/src/main/java/pttextview/widget/PTDigitalClock.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/src/main/java/pttextview/utils/PTTypefaceManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:pttextview:extractDebugAnnotations
+:pttextview:mergeDebugProguardFiles
+:pttextview:packageDebugJar
+:pttextview:compileDebugNdk UP-TO-DATE
+:pttextview:packageDebugJniLibs UP-TO-DATE
+:pttextview:packageDebugLocalJar UP-TO-DATE
+:pttextview:packageDebugRenderscript UP-TO-DATE
+:pttextview:packageDebugResources
+:pttextview:bundleDebug
+:pttextview:compileDebugSources
+:pttextview:assembleDebug
+:pttextview:copyReleaseLint UP-TO-DATE
+:pttextview:checkReleaseManifest
+:pttextview:prepareReleaseDependencies
+:pttextview:compileReleaseAidl
+:pttextview:compileReleaseRenderscript
+:pttextview:generateReleaseBuildConfig
+:pttextview:generateReleaseAssets UP-TO-DATE
+:pttextview:mergeReleaseAssets
+:pttextview:generateReleaseResValues
+:pttextview:generateReleaseResources
+:pttextview:mergeReleaseResources
+:pttextview:processReleaseManifest
+:pttextview:processReleaseResources
+:pttextview:generateReleaseSources
+:pttextview:processReleaseJavaRes UP-TO-DATE
+:pttextview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/src/main/java/pttextview/widget/PTDigitalClock.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/PTTextView/src/main/java/pttextview/utils/PTTypefaceManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:pttextview:extractReleaseAnnotations
+:pttextview:mergeReleaseProguardFiles
+:pttextview:packageReleaseJar
+:pttextview:compileReleaseNdk UP-TO-DATE
+:pttextview:packageReleaseJniLibs UP-TO-DATE
+:pttextview:packageReleaseLocalJar UP-TO-DATE
+:pttextview:packageReleaseRenderscript UP-TO-DATE
+:pttextview:packageReleaseResources
+:pttextview:bundleRelease
+:pttextview:compileReleaseSources
+:pttextview:assembleRelease
+:pttextview:assemble
+:pttextview:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':pttextview:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':pttextview:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:339)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:231)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:417)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:236)
+	at com.android.build.gradle.tasks.Lint.this$5$createAndroidProject(Lint.groovy)
+	at com.android.build.gradle.tasks.Lint$this$5$createAndroidProject$3.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:78)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 11.691 secs
+
+2019-01-09 14:08:32,237 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-09 14:08:32,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-09 14:08:39,423 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-09 14:08:39,424 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-09 14:08:39,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-09 14:08:46,563 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-09 14:08:46,563 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':pttextview.sampleapp'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':pttextview.sampleapp'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:101)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:64)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.select(DefaultBuildExecuter.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:142)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+
+
+BUILD FAILED
+
+Total time: 6.205 secs
+
+2019-01-09 14:08:46,563 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-01-09 14:08:46,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-09 14:09:02,570 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:69)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-09 14:09:02,570 INFO  SysUtils - Configuration on demand is an incubating feature.
+:pttextview:compileLint
+:pttextview:copyReleaseLint UP-TO-DATE
+:pttextview:preBuild UP-TO-DATE
+:pttextview:preReleaseBuild UP-TO-DATE
+:pttextview:checkReleaseManifest
+:pttextview:preDebugAndroidTestBuild UP-TO-DATE
+:pttextview:preDebugBuild UP-TO-DATE
+:pttextview:preDebugUnitTestBuild UP-TO-DATE
+:pttextview:preReleaseUnitTestBuild UP-TO-DATE
+:pttextview:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:pttextview:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:pttextview:prepareReleaseDependencies
+:pttextview:compileReleaseAidl UP-TO-DATE
+:pttextview:compileReleaseRenderscript UP-TO-DATE
+:pttextview:generateReleaseBuildConfig UP-TO-DATE
+:pttextview:generateReleaseAssets UP-TO-DATE
+:pttextview:mergeReleaseAssets UP-TO-DATE
+:pttextview:generateReleaseResValues UP-TO-DATE
+:pttextview:generateReleaseResources UP-TO-DATE
+:pttextview:mergeReleaseResources UP-TO-DATE
+:pttextview:processReleaseManifest UP-TO-DATE
+:pttextview:processReleaseResources UP-TO-DATE
+:pttextview:generateReleaseSources UP-TO-DATE
+:pttextview:processReleaseJavaRes UP-TO-DATE
+:pttextview:compileReleaseJavaWithJavac UP-TO-DATE
+:pttextview:extractReleaseAnnotations UP-TO-DATE
+:pttextview:mergeReleaseProguardFiles UP-TO-DATE
+:pttextview:packageReleaseJar UP-TO-DATE
+:pttextview:compileReleaseNdk UP-TO-DATE
+:pttextview:packageReleaseJniLibs UP-TO-DATE
+:pttextview:packageReleaseLocalJar UP-TO-DATE
+:pttextview:packageReleaseRenderscript UP-TO-DATE
+:pttextview:packageReleaseResources UP-TO-DATE
+:pttextview:bundleRelease UP-TO-DATE
+:pttextview.sampleapp:preBuild UP-TO-DATE
+:pttextview.sampleapp:preDebugBuild UP-TO-DATE
+:pttextview.sampleapp:checkDebugManifest
+:pttextview.sampleapp:preReleaseBuild UP-TO-DATE
+:pttextview.sampleapp:prepareComAndroidSupportAppcompatV72311Library
+:pttextview.sampleapp:prepareComAndroidSupportSupportV42311Library
+:pttextview.sampleapp:prepareComGithubOlegosipenkoPttextview100Library
+:pttextview.sampleapp:prepareComJakewhartonRxbindingRxbinding040Library
+:pttextview.sampleapp:prepareComJakewhartonRxbindingRxbindingKotlin040Library
+:pttextview.sampleapp:prepareIoReactivexRxandroid110Library
+:pttextview.sampleapp:prepareDebugDependencies
+:pttextview.sampleapp:compileDebugAidl
+:pttextview.sampleapp:compileDebugRenderscript
+:pttextview.sampleapp:generateDebugBuildConfig
+:pttextview.sampleapp:generateDebugAssets UP-TO-DATE
+:pttextview.sampleapp:mergeDebugAssets
+:pttextview.sampleapp:generateDebugResValues
+:pttextview.sampleapp:generateDebugResources
+:pttextview.sampleapp:mergeDebugResources
+:pttextview.sampleapp:processDebugManifest
+:pttextview.sampleapp:processDebugResources
+:pttextview.sampleapp:generateDebugSources
+:pttextview.sampleapp:processDebugJavaRes UP-TO-DATE
+:pttextview.sampleapp:compileDebugKotline: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (10, 34): Unresolved reference: activity_main
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (20, 9): Unresolved reference: viewGroup
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (20, 42): Cannot infer a type for this parameter. Please specify it explicitly.
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (20, 45): Cannot infer a type for this parameter. Please specify it explicitly.
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (22, 56): Unresolved reference: javaClass
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (61, 42): infix modifier is required on 'map' in 'kotlin.collections'
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (10, 34): Unresolved reference: activity_sample
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (11, 27): Unresolved reference: visibility
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (24, 33): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (24, 45): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (24, 56): Unresolved reference: textInput
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (24, 67): Unresolved reference: text
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (28, 49): Unresolved reference: seekBar
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (32, 25): Unresolved reference: text
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (33, 29): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (33, 67): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (34, 25): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (59, 13): Unresolved reference: textInput
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (60, 13): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (61, 13): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (62, 13): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (62, 37): Unresolved reference: seekBar
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (66, 13): Unresolved reference: textInput
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (67, 13): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (68, 13): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (69, 13): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (69, 36): Unresolved reference: seekBar
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (70, 59): Unresolved reference: textInput
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (73, 29): Unresolved reference: inputText
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':pttextview.sampleapp:compileDebugKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':pttextview.sampleapp:compileDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile.callCompiler(Tasks.kt:88)
+	at org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile.compile(Tasks.kt:61)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 14.909 secs
+
+2019-01-09 14:09:02,661 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-09 14:09:02,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-09 14:09:10,408 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-01-09 14:09:10,408 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-09 14:09:10,408 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-09 14:09:23,476 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-09 14:09:23,476 INFO  SysUtils - Configuration on demand is an incubating feature.
+:pttextview:compileLint
+:pttextview:copyDebugLint UP-TO-DATE
+:pttextview:preBuild UP-TO-DATE
+:pttextview:preDebugBuild UP-TO-DATE
+:pttextview:checkDebugManifest
+:pttextview:preDebugAndroidTestBuild UP-TO-DATE
+:pttextview:preDebugUnitTestBuild UP-TO-DATE
+:pttextview:preReleaseBuild UP-TO-DATE
+:pttextview:preReleaseUnitTestBuild UP-TO-DATE
+:pttextview:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:pttextview:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:pttextview:prepareDebugDependencies
+:pttextview:compileDebugAidl UP-TO-DATE
+:pttextview:compileDebugRenderscript UP-TO-DATE
+:pttextview:generateDebugBuildConfig UP-TO-DATE
+:pttextview:generateDebugAssets UP-TO-DATE
+:pttextview:mergeDebugAssets UP-TO-DATE
+:pttextview:generateDebugResValues UP-TO-DATE
+:pttextview:generateDebugResources UP-TO-DATE
+:pttextview:mergeDebugResources UP-TO-DATE
+:pttextview:processDebugManifest UP-TO-DATE
+:pttextview:processDebugResources UP-TO-DATE
+:pttextview:generateDebugSources UP-TO-DATE
+:pttextview:processDebugJavaRes UP-TO-DATE
+:pttextview:compileDebugJavaWithJavac UP-TO-DATE
+:pttextview:extractDebugAnnotations UP-TO-DATE
+:pttextview:mergeDebugProguardFiles UP-TO-DATE
+:pttextview:packageDebugJar UP-TO-DATE
+:pttextview:compileDebugNdk UP-TO-DATE
+:pttextview:packageDebugJniLibs UP-TO-DATE
+:pttextview:packageDebugLocalJar UP-TO-DATE
+:pttextview:packageDebugRenderscript UP-TO-DATE
+:pttextview:packageDebugResources UP-TO-DATE
+:pttextview:bundleDebug UP-TO-DATE
+:pttextview:compileDebugSources UP-TO-DATE
+:pttextview:assembleDebug UP-TO-DATE
+:pttextview:copyReleaseLint UP-TO-DATE
+:pttextview:checkReleaseManifest
+:pttextview:prepareReleaseDependencies
+:pttextview:compileReleaseAidl UP-TO-DATE
+:pttextview:compileReleaseRenderscript UP-TO-DATE
+:pttextview:generateReleaseBuildConfig UP-TO-DATE
+:pttextview:generateReleaseAssets UP-TO-DATE
+:pttextview:mergeReleaseAssets UP-TO-DATE
+:pttextview:generateReleaseResValues UP-TO-DATE
+:pttextview:generateReleaseResources UP-TO-DATE
+:pttextview:mergeReleaseResources UP-TO-DATE
+:pttextview:processReleaseManifest UP-TO-DATE
+:pttextview:processReleaseResources UP-TO-DATE
+:pttextview:generateReleaseSources UP-TO-DATE
+:pttextview:processReleaseJavaRes UP-TO-DATE
+:pttextview:compileReleaseJavaWithJavac UP-TO-DATE
+:pttextview:extractReleaseAnnotations UP-TO-DATE
+:pttextview:mergeReleaseProguardFiles UP-TO-DATE
+:pttextview:packageReleaseJar UP-TO-DATE
+:pttextview:compileReleaseNdk UP-TO-DATE
+:pttextview:packageReleaseJniLibs UP-TO-DATE
+:pttextview:packageReleaseLocalJar UP-TO-DATE
+:pttextview:packageReleaseRenderscript UP-TO-DATE
+:pttextview:packageReleaseResources UP-TO-DATE
+:pttextview:bundleRelease UP-TO-DATE
+:pttextview:compileReleaseSources UP-TO-DATE
+:pttextview:assembleRelease UP-TO-DATE
+:pttextview:assemble
+:pttextview:build
+:pttextview.sampleapp:preBuild UP-TO-DATE
+:pttextview.sampleapp:preDebugBuild UP-TO-DATE
+:pttextview.sampleapp:checkDebugManifest
+:pttextview.sampleapp:preReleaseBuild UP-TO-DATE
+:pttextview.sampleapp:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:pttextview.sampleapp:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:pttextview.sampleapp:prepareComGithubOlegosipenkoPttextview100Library UP-TO-DATE
+:pttextview.sampleapp:prepareComJakewhartonRxbindingRxbinding040Library UP-TO-DATE
+:pttextview.sampleapp:prepareComJakewhartonRxbindingRxbindingKotlin040Library UP-TO-DATE
+:pttextview.sampleapp:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:pttextview.sampleapp:prepareDebugDependencies
+:pttextview.sampleapp:compileDebugAidl UP-TO-DATE
+:pttextview.sampleapp:compileDebugRenderscript UP-TO-DATE
+:pttextview.sampleapp:generateDebugBuildConfig UP-TO-DATE
+:pttextview.sampleapp:generateDebugAssets UP-TO-DATE
+:pttextview.sampleapp:mergeDebugAssets UP-TO-DATE
+:pttextview.sampleapp:generateDebugResValues UP-TO-DATE
+:pttextview.sampleapp:generateDebugResources UP-TO-DATE
+:pttextview.sampleapp:mergeDebugResources UP-TO-DATE
+:pttextview.sampleapp:processDebugManifest UP-TO-DATE
+:pttextview.sampleapp:processDebugResources UP-TO-DATE
+:pttextview.sampleapp:generateDebugSources UP-TO-DATE
+:pttextview.sampleapp:processDebugJavaRes UP-TO-DATE
+:pttextview.sampleapp:compileDebugKotline: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (10, 34): Unresolved reference: activity_main
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (20, 9): Unresolved reference: viewGroup
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (20, 42): Cannot infer a type for this parameter. Please specify it explicitly.
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (20, 45): Cannot infer a type for this parameter. Please specify it explicitly.
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (22, 56): Unresolved reference: javaClass
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/MainActivity.kt: (61, 42): infix modifier is required on 'map' in 'kotlin.collections'
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (10, 34): Unresolved reference: activity_sample
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (11, 27): Unresolved reference: visibility
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (24, 33): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (24, 45): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (24, 56): Unresolved reference: textInput
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (24, 67): Unresolved reference: text
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (28, 49): Unresolved reference: seekBar
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (32, 25): Unresolved reference: text
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (33, 29): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (33, 67): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (34, 25): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (59, 13): Unresolved reference: textInput
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (60, 13): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (61, 13): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (62, 13): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (62, 37): Unresolved reference: seekBar
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (66, 13): Unresolved reference: textInput
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (67, 13): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (68, 13): Unresolved reference: sampleText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (69, 13): Unresolved reference: inputText
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (69, 36): Unresolved reference: seekBar
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (70, 59): Unresolved reference: textInput
+e: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547017541562-0/src/pttextview.sampleapp/src/main/kotlin/oleg/osipenko/pttextviewsampleapp/SampleActivity.kt: (73, 29): Unresolved reference: inputText
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':pttextview.sampleapp:compileDebugKotlin'.
+> Compilation error. See log for more details
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':pttextview.sampleapp:compileDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.GradleException: Compilation error. See log for more details
+	at org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile.callCompiler(Tasks.kt:88)
+	at org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile.compile(Tasks.kt:61)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 12.068 secs
+
+2019-01-09 14:09:23,540 ERROR FullProcessService - Project build has not produced APK file
+2019-01-09 14:09:23,613 ERROR FullProcessService - Could not find generated or existed APK file

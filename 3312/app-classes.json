@@ -1,0 +1,4 @@
+{
+  "com.azimolabs.maskformatter" : [ "BuildConfig", "CharTransforms", "CharTransforms$TransformPattern", "InvalidTextException", "MaskFormatter" ],
+  "com.azimolabs.maskformatter.sampleapp" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$dimen", "R$id", "R$layout", "R$string" ]
+}

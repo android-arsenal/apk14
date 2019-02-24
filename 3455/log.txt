@@ -1,0 +1,137 @@
+2018-12-24 17:27:23,709 INFO  DownloadService - Downloading "https://github.com/Rogero0o/MissView/archive/master.zip", attempt 3
+2018-12-24 17:27:52,858 INFO  DownloadService - Downloaded https://github.com/Rogero0o/MissView/archive/master.zip, attempt 3
+2018-12-24 17:27:52,858 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/master.zip": 15 MB
+2018-12-24 17:27:52,858 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-24 17:27:52,865 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/master.zip: true
+2018-12-24 17:27:52,865 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src'.
+2018-12-24 17:27:52,969 INFO  FullProcessService - Size of directory with sources: 15 MB
+2018-12-24 17:27:52,969 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src]
+2018-12-24 17:27:52,987 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/.git/
+
+2018-12-24 17:27:52,991 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/gradlew
+2018-12-24 17:27:52,998 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/build.gradle
+2018-12-24 17:27:53,001 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/settings.gradle
+2018-12-24 17:27:53,002 INFO  ProjectBuildService - Remote scripts: none
+2018-12-24 17:27:53,002 INFO  ProjectFixService - Fixing project...
+2018-12-24 17:27:53,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/local.properties
+2018-12-24 17:27:53,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=19,targetSdkVersion=21]
+2018-12-24 17:27:53,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/library/local.properties
+2018-12-24 17:27:53,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/library/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-12-24 17:27:53,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/local.properties
+2018-12-24 17:27:53,012 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-12-24 17:27:53,013 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-12-24 17:27:53,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=19,targetSdkVersion=21]
+2018-12-24 17:27:53,014 INFO  ProjectFixService - Project was maybe fixed
+2018-12-24 17:27:53,014 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-24 17:27:53,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-24 17:28:05,765 INFO  ProjectTaskService - Detected possible tasks: 60
+2018-12-24 17:28:05,766 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-12-24 17:28:05,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-12-24 17:28:26,030 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild UP-TO-DATE
+:demo:compileDebugNdk UP-TO-DATE
+:demo:checkDebugManifest
+:demo:preReleaseBuild UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJava
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:demo:prepareComAndroidSupportAppcompatV72103Library
+:demo:prepareComAndroidSupportSupportV42103Library
+:demo:prepareComRogerMissviewLibraryLibrary100Library
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:generateDebugAssets UP-TO-DATE
+:demo:mergeDebugAssets
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:demo:processDebugManifest
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:compileDebugJava
+:demo:preDexDebug
+:demo:dexDebug
+:demo:processDebugJavaRes UP-TO-DATE
+:demo:validateDebugSigning
+:demo:packageDebug
+:demo:zipalignDebug
+:demo:assembleDebug
+:demo:checkReleaseManifest
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseAssets UP-TO-DATE
+:demo:mergeReleaseAssets
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+
+:demo:processReleaseManifest
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:compileReleaseJava
+:demo:lintVitalRelease
+:demo:compileReleaseNdk UP-TO-DATE
+:demo:preDexRelease
+:demo:dexRelease
+:demo:processReleaseJavaRes UP-TO-DATE
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 19.725 secs
+
+2018-12-24 17:28:26,085 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647243707-0/src/MissView-master/demo/build/outputs/apk/demo-debug-unaligned.apk

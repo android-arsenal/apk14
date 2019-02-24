@@ -1,0 +1,39 @@
+2016-08-03 01:04:31,269 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/ngs-doo/dsl-json/archive/master.zip", attempt 3
+2016-08-03 01:04:34,260 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/ngs-doo/dsl-json/archive/master.zip, attempt 3
+2016-08-03 01:04:35,305 DEBUG o.z.z.ZipUtil - Extracting '/tmp/rdisk/3459/master.zip' into '/tmp/rdisk/3459/src'.
+2016-08-03 01:04:35,494 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 2 MB
+2016-08-03 01:04:35,501 INFO  c.g.v.a.u.SysUtils - Execute command: [git, init, /tmp/rdisk/3459/src]
+2016-08-03 01:04:35,628 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/3459/src/dsl-json-master/examples/Android/gradlew
+2016-08-03 01:04:35,656 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /tmp/rdisk/3459/src/dsl-json-master/examples/Android/build.gradle /tmp/rdisk/3459/src/dsl-json-master/examples/Android/app/build.gradle
+2016-08-03 01:04:35,673 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /tmp/rdisk/3459/src/dsl-json-master/examples/Android/app/build.gradle /tmp/rdisk/3459/src/dsl-json-master/examples/Android/build.gradle /tmp/rdisk/3459/src/dsl-json-master/examples/Android/settings.gradle
+2016-08-03 01:04:35,680 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-08-03 01:04:35,681 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-08-03 01:04:35,725 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-08-03 01:04:35,725 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-08-03 01:04:35,730 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-03 01:04:35,733 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-03 01:04:35,738 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-08-03 01:04:35,741 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-08-03 01:04:35,790 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/3459/src/dsl-json-master/examples/Android/local.properties
+2016-08-03 01:04:35,805 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/3459/src/dsl-json-master/examples/Android/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2016-08-03 01:04:35,816 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/3459/src/dsl-json-master/examples/Android/app/local.properties
+2016-08-03 01:04:35,817 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/3459/src/dsl-json-master/examples/Android/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2016-08-03 01:04:35,818 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-08-03 01:04:35,826 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-03 01:04:35,827 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3459/src/dsl-json-master/examples/Android/gradlew, -b, /tmp/rdisk/3459/src/dsl-json-master/examples/Android/build.gradle, tasks]
+2016-08-03 01:04:36,055 ERROR c.g.v.a.s.a.ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2016-08-03 01:04:36,056 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 0
+2016-08-03 01:04:36,061 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: none
+2016-08-03 01:04:36,061 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3459/src/dsl-json-master/examples/Android/gradlew, -b, /tmp/rdisk/3459/src/dsl-json-master/examples/Android/build.gradle, --stacktrace, build]
+2016-08-03 01:04:36,256 INFO  c.g.v.a.u.SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+
+2016-08-03 01:04:36,280 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-03 01:04:36,281 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3459/src/dsl-json-master/examples/Android/gradlew, -b, /tmp/rdisk/3459/src/dsl-json-master/examples/Android/app/build.gradle, tasks]
+2016-08-03 01:04:36,486 ERROR c.g.v.a.s.a.ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2016-08-03 01:04:36,487 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 0
+2016-08-03 01:04:36,487 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: none
+2016-08-03 01:04:36,488 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3459/src/dsl-json-master/examples/Android/gradlew, -b, /tmp/rdisk/3459/src/dsl-json-master/examples/Android/app/build.gradle, --stacktrace, build]
+2016-08-03 01:04:36,681 INFO  c.g.v.a.u.SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+
+2016-08-03 01:04:36,694 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-08-03 01:04:36,705 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

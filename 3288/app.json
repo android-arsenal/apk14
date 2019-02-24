@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.xwray.passwordviewsample",
+    "label" : "PasswordView Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEeklEQVR42u1Z32scVRSuTSzWQl/qi6CCgiJt/QNCoCa1EVT6IBLwwZQ2KWJtq/TNB6HpD9gW7UMs2a6NsTaE0JZumybQmGJNSSSJJqSikIeU/gLRbXezu1nbmN3M2eP5Ort0du3OvbO72RmhAx9zmXt+fN+de+7cmVm27PHh4YOZqwTVLqOqGOLLAQ8NpD4fq6G01wheEDzvEpB7zaO42ZKX89MCfzqdDhHRrJvIcPCDk1JEttMwjIA4sjh6BvF4vEOoPVFQQLZYEonEMyLgLpzknJQzydkVZHInMZjCKzw8PPyslWu+gGqcp6enX15cXIxlBJDbIw8OGQHx3t7etVaujxQwMjLyigiIelFAT0/POl0BnrwDXV1d65dGgCG49hfT2TEm33mmjzuZ3m9jevdLE2jjGvpgA1vDCwJCMabOH02Cr7c6A3zgixgVFxCeYzrSz7TpgHPi+UAMxELMJReA294/yfTOodKJ5wMxEdtYKgH3/mHae0ZNpG4f00cdTP5BpuC4CbRxDX0qf+RArrIKmP2b6cPj6uSfn2a6ESo8p9EHG1Uc5ELOsgiI32NqPmafcON+pr4J/eURtvCxi4mckrs0AQuyk/jkhHrEMHfzSSZTTLfumkA7vx8+qriSGxyKF9A+QFpz1krs/gLTsUu5hY42rqHPaqtRU+BQnICrN9iob7UXUC9FeTucSx7FWsgefVYR8K23L2xwSP9606GAZCpG2/xsbNhrL2D3idwRbR9UTwvYWH12209RcEg3+zkRn3Mg4PupWNbZlkzH5YdEFmSev+VTC4DNgqUmEEMloK6VExfGHQjY1q4nwLryXA/pP7Suh3JXJB0BW9ocCGgOeE/A1qMOBFy6qifg+A+5y+bbGlMINtZlFTF0BPSPOyziloBawK5vcwsSS6VKAGysPoihErA94LCIsYz+douNjftIue/BgypLZl6WyJ2dhe3RN29ZRuGr2B+BQ/r320U+yAKDpLX/sY7ofNJcWTYffmiDNq6hz2qrsS8ChxK2EimiPSfV0+L8z//dKqQWmf6ImEA7vx8+qriSGxxK28zN3WeSOah8Ip8b13tNhA1sFU/gBzkld3m20zHZke74Rj1in/UwzfxZmDz6YKOKg1zIWdYXGhTfgaDGCw1G72umrwaYTv1kAm1cq9N4RiCHpdDL/0o5MJVboOUCYiK2UYmXerwttV1kevNg6cQRA7Eyb2CV/ayCLwknrzB9cNQ5cfjAt8DXiMp/2Lp5h6n3F6Yv+pg+/c4k+N4RE2jjGvpgA1vDS1/mPPhp8f/7cXd0dPRVr96B7u7u1+wEPPhpEAwGn0ulUhE4eeUHh3DjaDQ66/P5XgLHoaGhartfTE/NzMycERHwYwhx68jmTiaTPDk5eU64rdT5R1ZVW1u7bmJi4kI4HI7GYrE5UR/HuZLI5oxEItGxsbG+mpoaTJ8q3T+VKwUvNjQ0vNHS0rK5qanJFSD3JjnARTn6+SIaGxtXSHOVYLXLWAUuRf14R7HI3HvSTRQs2MeHR45/AVRIb5VEwGh5AAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1981,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.xwray.passwordviewsample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f080091\" android:label=\"PasswordView Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.xwray.passwordviewsample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1610955,
+  "crc32" : 277941901,
+  "sha256" : "10b1a14456e114b57627d6235147296320b74f01d1d60094830eee363c14df9e",
+  "buildTime" : 1522288762000
+}

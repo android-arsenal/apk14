@@ -1,0 +1,10 @@
+2019-01-09 12:59:58,575 INFO  DownloadService - Downloading "https://github.com/libetl/soundtransform/archive/master.zip", attempt 3
+2019-01-09 13:00:28,197 INFO  DownloadService - Downloaded https://github.com/libetl/soundtransform/archive/master.zip, attempt 3
+2019-01-09 13:00:28,198 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547013598571-0/master.zip": 3 MB
+2019-01-09 13:00:28,198 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-09 13:00:28,203 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547013598571-0/master.zip: false
+2019-01-09 13:00:28,203 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-01-09 13:00:28,203 ERROR FullProcessService - Could not find directory with sources
+2019-01-09 13:00:28,204 ERROR FullProcessService - Project will not be processed
+2019-01-09 13:00:28,204 ERROR FullProcessService - Project build has not produced APK file
+2019-01-09 13:00:28,204 ERROR FullProcessService - Could not find generated or existed APK file

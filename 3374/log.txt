@@ -1,0 +1,193 @@
+2019-01-05 21:30:27,322 INFO  DownloadService - Downloading "https://github.com/kobakei/spot/archive/master.zip", attempt 3
+2019-01-05 21:30:28,930 INFO  DownloadService - Downloaded https://github.com/kobakei/spot/archive/master.zip, attempt 3
+2019-01-05 21:30:28,931 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/master.zip": 126 KB
+2019-01-05 21:30:28,931 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-05 21:30:28,936 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/master.zip: true
+2019-01-05 21:30:28,937 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src'.
+2019-01-05 21:30:28,965 INFO  FullProcessService - Size of directory with sources: 171 KB
+2019-01-05 21:30:28,965 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src]
+2019-01-05 21:30:28,987 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/.git/
+
+2019-01-05 21:30:28,991 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/gradlew
+2019-01-05 21:30:28,996 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/compiler/build.gradle
+2019-01-05 21:30:28,999 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/compiler/build.gradle
+2019-01-05 21:30:29,000 INFO  ProjectBuildService - Remote scripts: none
+2019-01-05 21:30:29,000 INFO  ProjectFixService - Fixing project...
+2019-01-05 21:30:29,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/local.properties
+2019-01-05 21:30:29,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-05 21:30:29,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/library/local.properties
+2019-01-05 21:30:29,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-05 21:30:29,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/local.properties
+2019-01-05 21:30:29,012 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-05 21:30:29,012 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-05 21:30:29,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-05 21:30:29,013 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/compiler/local.properties
+2019-01-05 21:30:29,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/compiler/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-05 21:30:29,014 INFO  ProjectFixService - Project was maybe fixed
+2019-01-05 21:30:29,014 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-05 21:30:29,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-05 21:30:36,880 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-05 21:30:36,880 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-05 21:30:36,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-05 21:31:26,891 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:app:preDebugBuild
+:library:compileDebugAidl
+:app:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:prepareLintJar
+:library:javaPreCompileRelease
+:library:mergeReleaseConsumerProguardFiles
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:compiler:processResources NO-SOURCE
+:library:generateDebugBuildConfig
+:library:javaPreCompileDebug
+:library:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:validateSigningRelease
+:library:generateDebugRFile
+:app:processDebugResources
+:library:generateReleaseRFile
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavac
+:library:extractReleaseAnnotations
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:bundleRelease
+:compiler:compileJava
+:compiler:classes
+:compiler:jar
+:library:generateDebugSources
+:library:compileDebugJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/src/main/java/io/github/kobakei/spotsample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:app:processReleaseResources
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/src/main/java/io/github/kobakei/spotsample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithDexBuilderForRelease
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 49s
+112 actionable tasks: 112 executed
+
+2019-01-05 21:31:26,992 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698627318-0/src/spot-master/app/build/outputs/apk/debug/app-debug.apk

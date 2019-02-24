@@ -1,0 +1,557 @@
+2018-12-24 17:25:22,589 INFO  DownloadService - Downloading "https://github.com/fatangare/LogcatViewer/archive/master.zip", attempt 3
+2018-12-24 17:25:25,336 INFO  DownloadService - Downloaded https://github.com/fatangare/LogcatViewer/archive/master.zip, attempt 3
+2018-12-24 17:25:25,336 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/master.zip": 550 KB
+2018-12-24 17:25:25,336 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-24 17:25:25,336 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/master.zip: true
+2018-12-24 17:25:25,337 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src'.
+2018-12-24 17:25:25,367 INFO  FullProcessService - Size of directory with sources: 712 KB
+2018-12-24 17:25:25,367 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src]
+2018-12-24 17:25:25,389 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/.git/
+
+2018-12-24 17:25:25,393 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/gradlew
+2018-12-24 17:25:25,398 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewerexample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/standOut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/build.gradle
+2018-12-24 17:25:25,402 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/standOut/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewerexample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/settings.gradle
+2018-12-24 17:25:25,402 INFO  ProjectBuildService - Remote scripts: none
+2018-12-24 17:25:25,402 INFO  ProjectFixService - Fixing project...
+2018-12-24 17:25:25,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewer/local.properties
+2018-12-24 17:25:25,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewer/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=22]
+2018-12-24 17:25:25,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewerexample/local.properties
+2018-12-24 17:25:25,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewerexample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=22]
+2018-12-24 17:25:25,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/standOut/local.properties
+2018-12-24 17:25:25,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/standOut/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=22]
+2018-12-24 17:25:25,414 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/local.properties
+2018-12-24 17:25:25,414 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-12-24 17:25:25,415 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-12-24 17:25:25,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=22]
+2018-12-24 17:25:25,416 INFO  ProjectFixService - Project was maybe fixed
+2018-12-24 17:25:25,416 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-24 17:25:25,416 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-24 17:25:33,015 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-12-24 17:25:33,015 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-12-24 17:25:33,015 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-12-24 17:25:33,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-24 17:25:43,286 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-24 17:25:43,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:logcatviewer:preBuild UP-TO-DATE
+:logcatviewer:preDebugBuild UP-TO-DATE
+:logcatviewer:compileDebugNdk UP-TO-DATE
+:logcatviewer:compileLint
+:logcatviewer:copyDebugLint UP-TO-DATE
+:logcatviewer:checkDebugManifest
+:logcatviewer:preDebugAndroidTestBuild UP-TO-DATE
+:logcatviewer:preDebugUnitTestBuild UP-TO-DATE
+:logcatviewer:preReleaseBuild UP-TO-DATE
+:logcatviewer:preReleaseUnitTestBuild UP-TO-DATE
+:standOut:preBuild UP-TO-DATE
+:standOut:preReleaseBuild UP-TO-DATE
+:standOut:compileReleaseNdk UP-TO-DATE
+:standOut:compileLint
+:standOut:copyReleaseLint UP-TO-DATE
+:standOut:checkReleaseManifest
+:standOut:preDebugAndroidTestBuild UP-TO-DATE
+:standOut:preDebugBuild UP-TO-DATE
+:standOut:preDebugUnitTestBuild UP-TO-DATE
+:standOut:preReleaseUnitTestBuild UP-TO-DATE
+:standOut:prepareComAndroidSupportSupportV42301Library
+:standOut:prepareReleaseDependencies
+:standOut:compileReleaseAidl
+:standOut:compileReleaseRenderscript
+:standOut:generateReleaseBuildConfig
+:standOut:mergeReleaseShaders
+:standOut:compileReleaseShaders
+:standOut:generateReleaseAssets
+:standOut:mergeReleaseAssets
+:standOut:generateReleaseResValues
+:standOut:generateReleaseResources
+:standOut:mergeReleaseResources
+:standOut:processReleaseManifest
+:standOut:processReleaseResources
+:standOut:generateReleaseSources
+:standOut:incrementalReleaseJavaCompilationSafeguard
+:standOut:compileReleaseJavaWithJavac
+:standOut:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/standOut/src/main/java/wei/mark/standout/StandOutWindow.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:standOut:extractReleaseAnnotations
+:standOut:mergeReleaseProguardFiles
+:standOut:packageReleaseRenderscript UP-TO-DATE
+:standOut:packageReleaseResources
+:standOut:processReleaseJavaRes UP-TO-DATE
+:standOut:transformResourcesWithMergeJavaResForRelease
+:standOut:transformClassesAndResourcesWithSyncLibJarsForRelease
+:standOut:mergeReleaseJniLibFolders
+:standOut:transformNative_libsWithMergeJniLibsForRelease
+:standOut:transformNative_libsWithSyncJniLibsForRelease
+:standOut:bundleRelease
+:logcatviewer:prepareComAndroidSupportSupportV42301Library
+:logcatviewer:prepareLogcatViewerMasterStandOutUnspecifiedLibrary
+:logcatviewer:prepareDebugDependencies
+:logcatviewer:compileDebugAidl
+:logcatviewer:compileDebugRenderscript
+:logcatviewer:generateDebugBuildConfig
+:logcatviewer:mergeDebugShaders
+:logcatviewer:compileDebugShaders
+:logcatviewer:generateDebugAssets
+:logcatviewer:mergeDebugAssets
+:logcatviewer:generateDebugResValues
+:logcatviewer:generateDebugResources
+:logcatviewer:mergeDebugResources
+:logcatviewer:processDebugManifest
+:logcatviewer:processDebugResources
+:logcatviewer:generateDebugSources
+:logcatviewer:incrementalDebugJavaCompilationSafeguard
+:logcatviewer:compileDebugJavaWithJavac
+:logcatviewer:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:logcatviewer:extractDebugAnnotations
+:logcatviewer:mergeDebugProguardFiles
+:logcatviewer:packageDebugRenderscript UP-TO-DATE
+:logcatviewer:packageDebugResources
+:logcatviewer:processDebugJavaRes UP-TO-DATE
+:logcatviewer:transformResourcesWithMergeJavaResForDebug
+:logcatviewer:transformClassesAndResourcesWithSyncLibJarsForDebug
+:logcatviewer:mergeDebugJniLibFolders
+:logcatviewer:transformNative_libsWithMergeJniLibsForDebug
+:logcatviewer:transformNative_libsWithSyncJniLibsForDebug
+:logcatviewer:bundleDebug
+:logcatviewer:compileDebugSources
+:logcatviewer:assembleDebug
+:logcatviewer:compileReleaseNdk UP-TO-DATE
+:logcatviewer:copyReleaseLint UP-TO-DATE
+:logcatviewer:checkReleaseManifest
+:logcatviewer:prepareReleaseDependencies
+:logcatviewer:compileReleaseAidl
+:logcatviewer:compileReleaseRenderscript
+:logcatviewer:generateReleaseBuildConfig
+:logcatviewer:mergeReleaseShaders
+:logcatviewer:compileReleaseShaders
+:logcatviewer:generateReleaseAssets
+:logcatviewer:mergeReleaseAssets
+:logcatviewer:generateReleaseResValues
+:logcatviewer:generateReleaseResources
+:logcatviewer:mergeReleaseResources
+:logcatviewer:processReleaseManifest
+:logcatviewer:processReleaseResources
+:logcatviewer:generateReleaseSources
+:logcatviewer:incrementalReleaseJavaCompilationSafeguard
+:logcatviewer:compileReleaseJavaWithJavac
+:logcatviewer:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:logcatviewer:extractReleaseAnnotations
+:logcatviewer:mergeReleaseProguardFiles
+:logcatviewer:packageReleaseRenderscript UP-TO-DATE
+:logcatviewer:packageReleaseResources
+:logcatviewer:processReleaseJavaRes UP-TO-DATE
+:logcatviewer:transformResourcesWithMergeJavaResForRelease
+:logcatviewer:transformClassesAndResourcesWithSyncLibJarsForRelease
+:logcatviewer:mergeReleaseJniLibFolders
+:logcatviewer:transformNative_libsWithMergeJniLibsForRelease
+:logcatviewer:transformNative_libsWithSyncJniLibsForRelease
+:logcatviewer:bundleRelease
+:logcatviewer:compileReleaseSources
+:logcatviewer:assembleRelease
+:logcatviewer:assemble
+:logcatviewer:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':logcatviewer:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':logcatviewer:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 9.761 secs
+
+2018-12-24 17:25:43,313 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-24 17:25:43,313 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewerexample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-24 17:25:49,272 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-24 17:25:49,272 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-24 17:25:49,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewerexample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-24 17:26:03,078 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-24 17:26:03,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:logcatviewer:preBuild UP-TO-DATE
+:logcatviewer:preReleaseBuild UP-TO-DATE
+:logcatviewer:compileReleaseNdk UP-TO-DATE
+:logcatviewer:compileLint
+:logcatviewer:copyReleaseLint UP-TO-DATE
+:logcatviewer:checkReleaseManifest
+:logcatviewer:preDebugAndroidTestBuild UP-TO-DATE
+:logcatviewer:preDebugBuild UP-TO-DATE
+:logcatviewer:preDebugUnitTestBuild UP-TO-DATE
+:logcatviewer:preReleaseUnitTestBuild UP-TO-DATE
+:standOut:preBuild UP-TO-DATE
+:standOut:preReleaseBuild UP-TO-DATE
+:standOut:compileReleaseNdk UP-TO-DATE
+:standOut:compileLint
+:standOut:copyReleaseLint UP-TO-DATE
+:standOut:checkReleaseManifest
+:standOut:preDebugAndroidTestBuild UP-TO-DATE
+:standOut:preDebugBuild UP-TO-DATE
+:standOut:preDebugUnitTestBuild UP-TO-DATE
+:standOut:preReleaseUnitTestBuild UP-TO-DATE
+:standOut:prepareComAndroidSupportSupportV42301Library UP-TO-DATE
+:standOut:prepareReleaseDependencies
+:standOut:compileReleaseAidl UP-TO-DATE
+:standOut:compileReleaseRenderscript UP-TO-DATE
+:standOut:generateReleaseBuildConfig UP-TO-DATE
+:standOut:mergeReleaseShaders UP-TO-DATE
+:standOut:compileReleaseShaders UP-TO-DATE
+:standOut:generateReleaseAssets UP-TO-DATE
+:standOut:mergeReleaseAssets UP-TO-DATE
+:standOut:generateReleaseResValues UP-TO-DATE
+:standOut:generateReleaseResources UP-TO-DATE
+:standOut:mergeReleaseResources UP-TO-DATE
+:standOut:processReleaseManifest UP-TO-DATE
+:standOut:processReleaseResources UP-TO-DATE
+:standOut:generateReleaseSources UP-TO-DATE
+:standOut:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:standOut:compileReleaseJavaWithJavac UP-TO-DATE
+:standOut:extractReleaseAnnotations UP-TO-DATE
+:standOut:mergeReleaseProguardFiles UP-TO-DATE
+:standOut:packageReleaseRenderscript UP-TO-DATE
+:standOut:packageReleaseResources UP-TO-DATE
+:standOut:processReleaseJavaRes UP-TO-DATE
+:standOut:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:standOut:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:standOut:mergeReleaseJniLibFolders UP-TO-DATE
+:standOut:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:standOut:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:standOut:bundleRelease UP-TO-DATE
+:logcatviewer:prepareComAndroidSupportSupportV42301Library UP-TO-DATE
+:logcatviewer:prepareLogcatViewerMasterStandOutUnspecifiedLibrary UP-TO-DATE
+:logcatviewer:prepareReleaseDependencies
+:logcatviewer:compileReleaseAidl UP-TO-DATE
+:logcatviewer:compileReleaseRenderscript UP-TO-DATE
+:logcatviewer:generateReleaseBuildConfig UP-TO-DATE
+:logcatviewer:mergeReleaseShaders UP-TO-DATE
+:logcatviewer:compileReleaseShaders UP-TO-DATE
+:logcatviewer:generateReleaseAssets UP-TO-DATE
+:logcatviewer:mergeReleaseAssets UP-TO-DATE
+:logcatviewer:generateReleaseResValues UP-TO-DATE
+:logcatviewer:generateReleaseResources UP-TO-DATE
+:logcatviewer:mergeReleaseResources UP-TO-DATE
+:logcatviewer:processReleaseManifest UP-TO-DATE
+:logcatviewer:processReleaseResources UP-TO-DATE
+:logcatviewer:generateReleaseSources UP-TO-DATE
+:logcatviewer:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:logcatviewer:compileReleaseJavaWithJavac UP-TO-DATE
+:logcatviewer:extractReleaseAnnotations UP-TO-DATE
+:logcatviewer:mergeReleaseProguardFiles UP-TO-DATE
+:logcatviewer:packageReleaseRenderscript UP-TO-DATE
+:logcatviewer:packageReleaseResources UP-TO-DATE
+:logcatviewer:processReleaseJavaRes UP-TO-DATE
+:logcatviewer:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:logcatviewer:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:logcatviewer:mergeReleaseJniLibFolders UP-TO-DATE
+:logcatviewer:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:logcatviewer:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:logcatviewer:bundleRelease UP-TO-DATE
+:logcatviewerexample:preBuild UP-TO-DATE
+:logcatviewerexample:preDebugBuild UP-TO-DATE
+:logcatviewerexample:checkDebugManifest
+:logcatviewerexample:preReleaseBuild UP-TO-DATE
+:logcatviewerexample:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:logcatviewerexample:prepareComAndroidSupportAppcompatV72321Library
+:logcatviewerexample:prepareComAndroidSupportSupportV42321Library
+:logcatviewerexample:prepareComAndroidSupportSupportVectorDrawable2321Library
+:logcatviewerexample:prepareLogcatViewerMasterLogcatviewerUnspecifiedLibrary
+:logcatviewerexample:prepareLogcatViewerMasterStandOutUnspecifiedLibrary
+:logcatviewerexample:prepareDebugDependencies
+:logcatviewerexample:compileDebugAidl
+:logcatviewerexample:compileDebugRenderscript
+:logcatviewerexample:generateDebugBuildConfig
+:logcatviewerexample:mergeDebugShaders
+:logcatviewerexample:compileDebugShaders
+:logcatviewerexample:generateDebugAssets
+:logcatviewerexample:mergeDebugAssets
+:logcatviewerexample:generateDebugResValues
+:logcatviewerexample:generateDebugResources
+:logcatviewerexample:mergeDebugResources
+:logcatviewerexample:processDebugManifest
+:logcatviewerexample:processDebugResources
+:logcatviewerexample:generateDebugSources
+:logcatviewerexample:incrementalDebugJavaCompilationSafeguard
+:logcatviewerexample:compileDebugJavaWithJavac
+:logcatviewerexample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:logcatviewerexample:compileDebugNdk UP-TO-DATE
+:logcatviewerexample:compileDebugSources
+:logcatviewerexample:prePackageMarkerForDebug
+:logcatviewerexample:transformClassesWithDexForDebug
+Merged dex #1 (32 defs/37.1KiB)
+Merged dex #2 (24 defs/37.9KiB)
+Merged dex #3 (5 defs/15.3KiB)
+Merged dex #4 (327 defs/532.5KiB)
+Merged dex #5 (768 defs/935.5KiB)
+Merged dex #6 (17 defs/48.5KiB)
+Merged dex #7 (39 defs/90.3KiB)
+Merged dex #8 (333 defs/261.0KiB)
+Merged dex #9 (41 defs/6.5KiB)
+Result is 1586 defs/2377.2KiB. Took 0.2s
+:logcatviewerexample:mergeDebugJniLibFolders
+:logcatviewerexample:transformNative_libsWithMergeJniLibsForDebug
+:logcatviewerexample:processDebugJavaRes UP-TO-DATE
+:logcatviewerexample:transformResourcesWithMergeJavaResForDebug
+:logcatviewerexample:validateDebugSigning
+:logcatviewerexample:packageDebug
+:logcatviewerexample:zipalignDebug
+:logcatviewerexample:assembleDebug
+:logcatviewerexample:checkReleaseManifest
+:logcatviewerexample:prepareReleaseDependencies
+:logcatviewerexample:compileReleaseAidl
+:logcatviewerexample:compileReleaseRenderscript
+:logcatviewerexample:generateReleaseBuildConfig
+:logcatviewerexample:mergeReleaseShaders
+:logcatviewerexample:compileReleaseShaders
+:logcatviewerexample:generateReleaseAssets
+:logcatviewerexample:mergeReleaseAssets
+:logcatviewerexample:generateReleaseResValues
+:logcatviewerexample:generateReleaseResources
+:logcatviewerexample:mergeReleaseResources
+:logcatviewerexample:processReleaseManifest
+:logcatviewerexample:processReleaseResources
+:logcatviewerexample:generateReleaseSources
+:logcatviewerexample:incrementalReleaseJavaCompilationSafeguard
+:logcatviewerexample:compileReleaseJavaWithJavac
+:logcatviewerexample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:logcatviewerexample:compileReleaseNdk UP-TO-DATE
+:logcatviewerexample:compileReleaseSources
+:logcatviewerexample:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':logcatviewerexample:lintVitalRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':logcatviewerexample:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 13.233 secs
+
+2018-12-24 17:26:03,155 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647122586-0/src/LogcatViewer-master/logcatviewerexample/build/outputs/apk/logcatviewerexample-debug-unaligned.apk

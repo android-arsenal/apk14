@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.heinrichreimersoftware.androidissuereporter.example",
+    "label" : "android-issue-reporter Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.3.1",
+    "versionCode" : 13100,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "13100",
+    "platformBuildVersionName" : "1.3.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2754,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"13100\" android:versionName=\"1.3.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.heinrichreimersoftware.androidissuereporter.example\" platformBuildVersionCode=\"13100\" platformBuildVersionName=\"1.3.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0f013f\" android:label=\"android-issue-reporter Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.heinrichreimersoftware.androidissuereporter.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.heinrichreimersoftware.androidissuereporter.example.ExampleReporterActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f015b\" android:name=\"com.heinrichreimersoftware.androidissuereporter.IssueReporterLauncher$Activity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2150227,
+  "crc32" : 3661770238,
+  "sha256" : "2682c9039f345b1d304a126d82afb967d4b6b6f19e8dde0af8a1e5c2442d3ab5",
+  "buildTime" : 1546076410000
+}

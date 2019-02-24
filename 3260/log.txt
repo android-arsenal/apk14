@@ -1,0 +1,15 @@
+2019-01-09 14:14:56,183 INFO  DownloadService - Downloading "https://github.com/Nightonke/WoWoViewPager/archive/master.zip", attempt 3
+2019-01-09 14:15:56,728 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-09 14:15:57,619 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-09 14:15:57,619 INFO  DownloadService - Downloading "https://github.com/Nightonke/WoWoViewPager/archive/master.zip", attempt 3
+2019-01-09 14:16:59,121 DEBUG FullProcessService - Repository https://github.com/Nightonke/WoWoViewPager available: true
+2019-01-09 14:16:59,121 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-09 14:16:59,121 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Nightonke/WoWoViewPager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547018096180-0/src]
+2019-01-09 14:18:51,487 INFO  SysUtils - 
+2019-01-09 14:18:51,500 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547018096180-0/src/.git": true
+2019-01-09 14:18:51,507 INFO  FullProcessService - Size of directory with sources: 54 MB
+2019-01-09 14:18:51,507 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-01-09 14:18:51,507 ERROR FullProcessService - Project will not be processed
+2019-01-09 14:18:51,507 ERROR FullProcessService - Project build has not produced APK file
+2019-01-09 14:18:51,511 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547018096180-0/src/Apk/WoWo V1.0.1.apk
+2019-01-09 14:18:51,511 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547018096180-0/src/Apk/WoWo V1.0.1.apk

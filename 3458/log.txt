@@ -1,0 +1,18 @@
+2018-12-24 17:26:23,500 INFO  DownloadService - Downloading "https://github.com/Commit451/gradle-android-javadocs/archive/master.zip", attempt 3
+2018-12-24 17:26:24,184 INFO  DownloadService - Downloaded https://github.com/Commit451/gradle-android-javadocs/archive/master.zip, attempt 3
+2018-12-24 17:26:24,185 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647183496-0/master.zip": 6 KB
+2018-12-24 17:26:24,185 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-24 17:26:24,190 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647183496-0/master.zip: true
+2018-12-24 17:26:24,190 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647183496-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647183496-0/src'.
+2018-12-24 17:26:24,192 INFO  FullProcessService - Size of directory with sources: 13 KB
+2018-12-24 17:26:24,192 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647183496-0/src]
+2018-12-24 17:26:24,215 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647183496-0/src/.git/
+
+2018-12-24 17:26:24,216 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-12-24 17:26:24,216 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-12-24 17:26:24,217 INFO  ProjectBuildService - Build script(s): none
+2018-12-24 17:26:24,218 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647183496-0/src/gradle-android-javadocs-master/gradle-android-javadocs.gradle
+2018-12-24 17:26:24,218 INFO  ProjectBuildService - Remote scripts: none
+2018-12-24 17:26:24,218 ERROR FullProcessService - Project is not correct Gradle project
+2018-12-24 17:26:24,218 ERROR FullProcessService - Project build has not produced APK file
+2018-12-24 17:26:24,219 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.jaeger.statusbardemo",
+    "label" : "StatusBarUtil",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.3.2",
+    "versionCode" : 6,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEs0lEQVRo3u2ZW2tcVRiGn3XYh9lzbpJpY4xp0jZFReoBFEFEb7zwzpuC/8AD+Df8Bfof/AGiWBQUERQUK1Qqam2bpJ3EHGYyM9mndfDCInhhRTLYHZj39oPFevje9a61vw0zzXQsifsVH3r7LV+FTd557/1/3Kc86R2YAcwAZgAnXPp+xWR9/WQDiCCYWWgGMAM41kPLc6l162QAKG+51LqBxCHwdPWYp9tbPLOwjfTuwaTQf5ETkrlowOWzX7HQNFyYt3STebJizNn5b/n67sN8urlA5nQ1AbRwPDIXculMn2YYkQQRgUypxQnd2PL46U2eX/K8+02PidXVs9Br5zZ4cvEO3bhGO0qo6QgtFUpKlJBIHE+c3uGdpw6RuGoBnG/s8/zybSSWehCjhfqrlqaWGz+docy7OF/ywsoeLz6UVgvgpeVdRsWQWIfs9usIt3qv4ikLwyeffc5vtzYAKMyAV9cGCHw1AEKfs9raZZynCCG4cuVHPvr4KuDx3tNshbzx5jrr6w2MsZSlYbXdZyE8qsYh7oYjhJjgnAcPl19fQUqB8w5rHb/cHvLb3QGHWUHpLSiB1jHWXqhICnnHje2UuZbCGsfY5Agh0DKkGZ3myXPnOL+0zfjokFFaMEwzvuyfZ982qwGwUy5wdW+Ny70+sQro74+x1rHYq5O6LSZHgkAp2m1NuxXSMwkXVobc+mLAT6PugwVQGF6c+5ql2i8c0ULqU6wudhgdFWxtHdFt1bDe0GnEaB2AsAgh8d4Ra/vgO3Cx2WetdZPdYcHGzoRAKlY6p2gmEcGSpCgs9aSGkhLnPUIIvHd4IWFKKaSPF2EWZz3WOTZvT5ASYhWx1O6SRJootBhbUpYlIJAoBAIEuCmNzI4F8POox/mgg7Qph4cpP19zeCNRhFhvmGQZk7yAUtAIQ87MNUhqGuMc+Ap0IKfGhzsv86z5AFsIDvKMa1ct/a0U5x1l7ggjydrDTVYXW0Txn1ayzjOtmeWxU8jImPnFhDTPwStGB4a7vx9SizVLiwnrKx1OdxoE+t45AKyb3sh1Ks9Caz3WeKSE9lxAoCOSUNNtRERa4ZyjtBaBQAiBc35aDpoGgKcoLKZ0SCnAg/CeI28AqAWKKFB4D96BkhLrRHUsBBAoxSi3KCVxVmCVx5QCZzx9UrLCYiwEStJKIupxRFaYagB4qdkulunGQ4bjHClBKYGUAlN6sixjMCqphYpTzRi8YGNXcSdt/cvfif+xA9/lz/FY/zqNuERG4JynsBYpHUktIE4kT63N0+s0kUKwt9kkE43qWMjJgAOxyMGv3xOEklpdo7TEtpfx9YQo3WCSlTjnkEpR12ZqKTS1T8q8uUytrombChkJrHSMaHOzvEhhPLd3Rhwe5RjriGU5tYtsagBjP0fSCJFSoLQgjCR6ss/grsNbxfZeyu5wQpoXKDKkK6s1lUh9k1vDi9TNNsIXGBswKhoYPWTcqjE/n7I3yunUayhv0fmIIpmrDoBotRg++gqDPAdj7k3mQIzHXL95wNnDHfI9wf6mZXMQU2ZjqBLAn6tphP77kr7dZtTr8cNkAmmGmDiIIug1q2Wh+990AaLTOXnD3ZlmOgH6A/pwDNSmuJaAAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2188,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6\" android:versionName=\"1.3.2\" package=\"com.jaeger.statusbardemo\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0e0008\" android:label=\"StatusBarUtil\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.jaeger.statusbarutil.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"StatusBarUtil\" android:name=\"com.jaeger.statusbarutil.ColorStatusBarActivity\" />\n\t\t<activity android:name=\"com.jaeger.statusbarutil.ImageStatusBarActivity\" />\n\t\t<activity android:name=\"com.jaeger.statusbarutil.ImageViewActivity\" />\n\t\t<activity android:name=\"com.jaeger.statusbarutil.UseInFragmentActivity\" />\n\t\t<activity android:name=\"com.jaeger.statusbarutil.SwipeBackActivity\" />\n\t\t<activity android:name=\"com.jaeger.statusbarutil.SwitchModeActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2482284,
+  "crc32" : 2695655609,
+  "sha256" : "5870eabe8af65300c95080d45e9e88a7b82e96cc2ee189fbfe2c001cf6667160",
+  "buildTime" : 1546779194000
+}

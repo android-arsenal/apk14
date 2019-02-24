@@ -1,0 +1,71 @@
+2019-01-02 19:40:18,282 INFO  DownloadService - Downloading "https://github.com/mmin18/FlexLayout/archive/master.zip", attempt 3
+2019-01-02 19:41:19,031 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-02 19:41:20,092 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-02 19:41:20,092 INFO  DownloadService - Downloading "https://github.com/mmin18/FlexLayout/archive/master.zip", attempt 3
+2019-01-02 19:42:21,463 DEBUG FullProcessService - Repository https://github.com/mmin18/FlexLayout available: true
+2019-01-02 19:42:21,463 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-02 19:42:21,463 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mmin18/FlexLayout, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src]
+2019-01-02 19:42:23,980 INFO  SysUtils - 
+2019-01-02 19:42:24,007 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/.git": true
+2019-01-02 19:42:24,009 INFO  FullProcessService - Size of directory with sources: 520 KB
+2019-01-02 19:42:24,009 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src]
+2019-01-02 19:42:24,028 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/.git/
+
+2019-01-02 19:42:24,030 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-01-02 19:42:24,030 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-01-02 19:42:24,032 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/build.gradle
+2019-01-02 19:42:24,034 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/settings.gradle
+2019-01-02 19:42:24,035 INFO  ProjectBuildService - Remote scripts: none
+2019-01-02 19:42:24,035 INFO  ProjectFixService - Fixing project...
+2019-01-02 19:42:24,040 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/library/local.properties
+2019-01-02 19:42:24,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/library/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-01-02 19:42:24,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/sample/local.properties
+2019-01-02 19:42:24,043 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/sample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-01-02 19:42:24,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/local.properties
+2019-01-02 19:42:24,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-01-02 19:42:24,044 INFO  ProjectFixService - Project was maybe fixed
+2019-01-02 19:42:24,044 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-02 19:42:24,044 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-02 19:42:24,049 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-01-02 19:42:24,049 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-02 19:42:24,049 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-02 19:42:24,049 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-02 19:42:24,053 ERROR SysUtils - Could not process external command
+java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at org.apache.commons.exec.launcher.Java13CommandLauncher.exec(Java13CommandLauncher.java:61)
+	at org.apache.commons.exec.DefaultExecutor.launch(DefaultExecutor.java:279)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:336)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 28 common frames omitted
+2019-01-02 19:42:24,053 INFO  SysUtils - 
+2019-01-02 19:42:24,055 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432818277-0/src/imgs/FlexLayout.apk

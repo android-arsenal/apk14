@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.devbrackets.android.exomediademo",
+    "label" : "ExoMedia Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "1.0.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WAKE_LOCK", "android.permission.FOREGROUND_SERVICE", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADaklEQVR42u2ZX0hTURzHj/9Kk3ywQJMUSovY0nqJwjBNygepmclQdGb+2XRu6TbB/XHpDCVNsfmnEmQZROWfEi18KCp68KG/EtpLvQaJOZrQQxS6X+fcebelzjlk7VzZD76cbffqPp9zztV7zkXIX/7y1yYroTAIGQzBVIawuSyDIZAJ7bUqp/MHWtkOpK6OQ3WVsVSFMBG2FczsC4NkGz7hJtLKv+HWjNTSOaalISyLRjbDMBJWOzsroK7sxQcBaSrpj0rSh4kDHKNQI9mJaqWzthNkv3G7iK0XqAphImykk5Xi7yhPEOO4Bsrz9+ETfiwZLi61Vidrqw962ur0vVY7GxGoEVuQMIvnELiQvR9b2gRstst/mAYBK8NGBFRlFpSdcfBfAXYEbALOv8C6ynt7tuplVlfHNpiVDKwAGQGXAh5OIdW4Bk72qQCLeGMEwOUUWucIuJ3/xgk9DE0ZoPVVHRzpUXpLYkMC4E7g0bTBnsYXOuB1VEOwzisi3hcgGfjYwEythLYqbgqwuTvZAJIRNexqvsRNATb97+qhYLAWtjfIuSnARj6qAsXDYohslNIj0PRSB7dxD68nijEFLJhz4dPnfCi+VwoR9VLfCxzrvwbpDzpx2wItXafB1J3iMtW952ERC5D8mcuF19MFIDCVQYjOhwKpw3fgzPgwJN/vg7fGeJjvinSZG7dS7QJsfs3mwrMPIjjeLYEALgr8nMmDgYlC4LWVc2sESM8/fS+ClB4xBGo5MoU6etJgCl/AzydFcA7P/VA9BRexJwKj7TzgXynyBNz3Ahac6euxIGtKhzBtOX3/yNYS+GKMAV3zCYiqK6H3VmI1ga/GKGi/ehQS9IX038w5C7zBAv2th4Gvz4cgjZSa22mrO4HMJ4OQZOqE+MtFFCxoPFxSHjJ1QXRbPf5bTueS0u2iPlAr/3+L+jUFOL2tcjHnAKc2tohAVmaiQyArIxbVVszZ9kY5sLWoKDWj9OR4593pUFQhGsISwJxAcwhjkXAEM4c5704HobhoPj4whqpKzEgpnseWFqQsm6ciDAtmImyFOY/R7qhEhtn+xMYmEYazB+2NO4WS+AKUdOAs4rNJEPgmS99PWAgTYSOM9t5f/pSGz9+CX4XjRFCacIZxzWdlaWnBSCIJoTKEzV/+8tfmqr/f8bASSdKt7AAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 4836,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.devbrackets.android.exomediademo\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"1.0.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"ExoMedia Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.devbrackets.android.exomediademo.App\" android:allowBackup=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:label=\"ExoMedia Demo\" android:name=\"com.devbrackets.android.exomediademo.ui.activity.StartupActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"ExoMedia Video Player\" android:name=\"com.devbrackets.android.exomediademo.ui.activity.VideoPlayerActivity\" android:configChanges=\"0x4a0\" />\n\t\t<activity android:label=\"ExoMedia Video Player\" android:name=\"com.devbrackets.android.exomediademo.ui.activity.FullScreenVideoPlayerActivity\" android:configChanges=\"0x4a0\" />\n\t\t<activity android:label=\"ExoMedia Video Player\" android:name=\"com.devbrackets.android.exomediademo.ui.activity.VideoSelectionActivity\" />\n\t\t<activity android:label=\"ExoMedia Audio Player\" android:name=\"com.devbrackets.android.exomediademo.ui.activity.AudioSelectionActivity\" />\n\t\t<activity android:label=\"ExoMedia Audio Player\" android:name=\"com.devbrackets.android.exomediademo.ui.activity.AudioPlayerActivity\" />\n\t\t<service android:name=\"com.devbrackets.android.exomediademo.service.MediaService\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.devbrackets.android.playlistcore.components.mediasession.DefaultMediaSessionControlsReceiver\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MEDIA_BUTTON\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"com.squareup.leakcanary.internal.HeapAnalyzerService\" android:enabled=\"false\" android:process=\":leakcanary\" />\n\t\t<service android:name=\"com.squareup.leakcanary.DisplayLeakService\" android:enabled=\"false\" android:process=\":leakcanary\" />\n\t\t<activity android:theme=\"resourceId:0x7f0c0160\" android:label=\"Leaks\" android:icon=\"res/drawable-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"com.squareup.leakcanary.internal.DisplayLeakActivity\" android:enabled=\"false\" android:process=\":leakcanary\" android:taskAffinity=\"com.squareup.leakcanary.com.devbrackets.android.exomediademo\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0c0161\" android:label=\"Storage permission\" android:icon=\"res/drawable-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"com.squareup.leakcanary.internal.RequestStoragePermissionActivity\" android:enabled=\"false\" android:process=\":leakcanary\" android:taskAffinity=\"com.squareup.leakcanary.com.devbrackets.android.exomediademo\" android:excludeFromRecents=\"true\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3236703,
+  "crc32" : 3519701362,
+  "sha256" : "7d4787ba26bb371ea7eaf0f7ad2885856f403ad34e1bbf0b0c5038f93282588c",
+  "buildTime" : 1547019486000
+}

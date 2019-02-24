@@ -1,0 +1,932 @@
+2019-01-09 19:51:23,054 INFO  DownloadService - Downloading "https://github.com/patloew/RxFit/archive/master.zip", attempt 3
+2019-01-09 19:52:23,635 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-09 19:52:24,659 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2019-01-09 19:52:24,659 INFO  DownloadService - Downloading "https://github.com/patloew/RxFit/archive/2.x.zip", attempt 3
+2019-01-09 19:53:26,031 DEBUG FullProcessService - Repository https://github.com/patloew/RxFit available: true
+2019-01-09 19:53:26,032 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-09 19:53:26,032 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/patloew/RxFit, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src]
+2019-01-09 19:53:27,993 INFO  SysUtils - 
+2019-01-09 19:53:28,001 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/.git": true
+2019-01-09 19:53:28,005 INFO  FullProcessService - Size of directory with sources: 384 KB
+2019-01-09 19:53:28,005 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src]
+2019-01-09 19:53:28,022 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/.git/
+
+2019-01-09 19:53:28,026 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/gradlew
+2019-01-09 19:53:28,029 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/build.gradle
+2019-01-09 19:53:28,033 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/settings.gradle
+2019-01-09 19:53:28,033 INFO  ProjectBuildService - Remote scripts: none
+2019-01-09 19:53:28,033 INFO  ProjectFixService - Fixing project...
+2019-01-09 19:53:28,041 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/local.properties
+2019-01-09 19:53:28,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-01-09 19:53:28,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/sample/local.properties
+2019-01-09 19:53:28,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-01-09 19:53:28,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/local.properties
+2019-01-09 19:53:28,043 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-all.zip
+2019-01-09 19:53:28,043 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.1-bin.zip)
+2019-01-09 19:53:28,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2019-01-09 19:53:28,044 INFO  ProjectFixService - Project was maybe fixed
+2019-01-09 19:53:28,044 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-09 19:53:28,044 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-09 19:53:37,197 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-09 19:53:37,197 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-09 19:53:37,197 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-09 19:53:37,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-09 19:53:49,526 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-09 19:53:49,526 INFO  SysUtils - Configuration on demand is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42400Library
+:library:prepareComGoogleAndroidGmsPlayServicesBase1000Library
+:library:prepareComGoogleAndroidGmsPlayServicesBasement1000Library
+:library:prepareComGoogleAndroidGmsPlayServicesFitness1000Library
+:library:prepareComGoogleAndroidGmsPlayServicesLocation1000Library
+:library:prepareComGoogleAndroidGmsPlayServicesTasks1000Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractDebugAnnotations
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:transformClassesWithRetrolambdaForDebug
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForDebug
+:library:transformNative_libsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:transformClassesWithRetrolambdaForRelease
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:generateJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/SensorsRemoveDataPointIntentSingle.java:5: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.GoogleApiClient;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/SensorsRemoveDataPointIntentSingle.java:6: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Status;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/SensorsRemoveDataPointIntentSingle.java:7: error: package com.google.android.gms.fitness does not exist
+import com.google.android.gms.fitness.Fitness;
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/SensorsRemoveDataPointIntentSingle.java:11: error: package io.reactivex does not exist
+import io.reactivex.SingleEmitter;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:7: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:9: error: package com.google.android.gms.common does not exist
+import com.google.android.gms.common.ConnectionResult;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:10: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Api;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:11: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.GoogleApiClient;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:12: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Scope;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:18: error: package io.reactivex does not exist
+import io.reactivex.SingleEmitter;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:19: error: package io.reactivex does not exist
+import io.reactivex.SingleOnSubscribe;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:6: error: package com.google.android.gms.common does not exist
+import com.google.android.gms.common.ConnectionResult;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:7: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Api;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:8: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.GoogleApiClient;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:9: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.PendingResult;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:10: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Result;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:11: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.ResultCallback;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:12: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Scope;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:40: error: cannot find symbol
+abstract class BaseSingle<T> extends BaseRx<T> implements SingleOnSubscribe<T> {
+                                                          ^
+  symbol: class SingleOnSubscribe
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/SensorsRemoveDataPointIntentSingle.java:26: error: cannot find symbol
+class SensorsRemoveDataPointIntentSingle extends BaseSingle<Status> {
+                                                            ^
+  symbol: class Status
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/RxFit.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/RxFit.java:6: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Api;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/RxFit.java:7: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Scope;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/RxFit.java:11: error: package io.reactivex does not exist
+import io.reactivex.Completable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/RxFit.java:12: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/SensorsRemoveDataPointIntentSingle.java:36: error: cannot find symbol
+    protected void onGoogleApiClientReady(GoogleApiClient apiClient, final SingleEmitter<Status> subscriber) {
+                                          ^
+  symbol:   class GoogleApiClient
+  location: class SensorsRemoveDataPointIntentSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/SensorsRemoveDataPointIntentSingle.java:36: error: cannot find symbol
+    protected void onGoogleApiClientReady(GoogleApiClient apiClient, final SingleEmitter<Status> subscriber) {
+                                                                           ^
+  symbol:   class SingleEmitter
+  location: class SensorsRemoveDataPointIntentSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/SensorsRemoveDataPointIntentSingle.java:36: error: cannot find symbol
+    protected void onGoogleApiClientReady(GoogleApiClient apiClient, final SingleEmitter<Status> subscriber) {
+                                                                                         ^
+  symbol:   class Status
+  location: class SensorsRemoveDataPointIntentSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:42: error: cannot find symbol
+    final Map<GoogleApiClient, SingleEmitter<T>> subscriptionInfoMap = new ConcurrentHashMap<>();
+              ^
+  symbol:   class GoogleApiClient
+  location: class BaseSingle<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:42: error: cannot find symbol
+    final Map<GoogleApiClient, SingleEmitter<T>> subscriptionInfoMap = new ConcurrentHashMap<>();
+                               ^
+  symbol:   class SingleEmitter
+  location: class BaseSingle<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:48: error: cannot find symbol
+    protected BaseSingle(@NonNull Context ctx, @NonNull Api<? extends Api.ApiOptions.NotRequiredOptions>[] services, Scope[] scopes) {
+                                                        ^
+  symbol:   class Api
+  location: class BaseSingle<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:48: error: package Api.ApiOptions does not exist
+    protected BaseSingle(@NonNull Context ctx, @NonNull Api<? extends Api.ApiOptions.NotRequiredOptions>[] services, Scope[] scopes) {
+                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:48: error: cannot find symbol
+    protected BaseSingle(@NonNull Context ctx, @NonNull Api<? extends Api.ApiOptions.NotRequiredOptions>[] services, Scope[] scopes) {
+                                                                                                                     ^
+  symbol:   class Scope
+  location: class BaseSingle<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:53: error: cannot find symbol
+    public final void subscribe(SingleEmitter<T> subscriber) throws Exception {
+                                ^
+  symbol:   class SingleEmitter
+  location: class BaseSingle<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:73: error: cannot find symbol
+    protected abstract void onGoogleApiClientReady(GoogleApiClient apiClient, SingleEmitter<T> subscriber);
+                                                   ^
+  symbol:   class GoogleApiClient
+  location: class BaseSingle<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:73: error: cannot find symbol
+    protected abstract void onGoogleApiClientReady(GoogleApiClient apiClient, SingleEmitter<T> subscriber);
+                                                                              ^
+  symbol:   class SingleEmitter
+  location: class BaseSingle<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseSingle.java:75: error: cannot find symbol
+    protected final void handleResolutionResult(int resultCode, ConnectionResult connectionResult) {
+                                                                ^
+  symbol:   class ConnectionResult
+  location: class BaseSingle<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseSingle
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:41: error: cannot find symbol
+    private final Api<? extends Api.ApiOptions.NotRequiredOptions>[] services;
+                  ^
+  symbol:   class Api
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:41: error: package Api.ApiOptions does not exist
+    private final Api<? extends Api.ApiOptions.NotRequiredOptions>[] services;
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:42: error: cannot find symbol
+    private final Scope[] scopes;
+                  ^
+  symbol:   class Scope
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:62: error: cannot find symbol
+    protected BaseRx(@NonNull Context ctx, @NonNull Api<? extends Api.ApiOptions.NotRequiredOptions>[] services, Scope[] scopes) {
+                                                    ^
+  symbol:   class Api
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:62: error: package Api.ApiOptions does not exist
+    protected BaseRx(@NonNull Context ctx, @NonNull Api<? extends Api.ApiOptions.NotRequiredOptions>[] services, Scope[] scopes) {
+                                                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:62: error: cannot find symbol
+    protected BaseRx(@NonNull Context ctx, @NonNull Api<? extends Api.ApiOptions.NotRequiredOptions>[] services, Scope[] scopes) {
+                                                                                                                 ^
+  symbol:   class Scope
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:71: error: cannot find symbol
+    protected final <T extends Result> void setupFitnessPendingResult(PendingResult<T> pendingResult, ResultCallback<T> resultCallback) {
+                               ^
+  symbol:   class Result
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:71: error: cannot find symbol
+    protected final <T extends Result> void setupFitnessPendingResult(PendingResult<T> pendingResult, ResultCallback<T> resultCallback) {
+                                                                      ^
+  symbol:   class PendingResult
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:71: error: cannot find symbol
+    protected final <T extends Result> void setupFitnessPendingResult(PendingResult<T> pendingResult, ResultCallback<T> resultCallback) {
+                                                                                                      ^
+  symbol:   class ResultCallback
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:79: error: package GoogleApiClient does not exist
+    protected GoogleApiClient.Builder getApiClientBuilder() {
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:118: error: package GoogleApiClient does not exist
+            GoogleApiClient.ConnectionCallbacks,
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:119: error: package GoogleApiClient does not exist
+            GoogleApiClient.OnConnectionFailedListener {
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:83: error: cannot find symbol
+    protected GoogleApiClient createApiClient(ApiClientConnectionCallbacks apiClientConnectionCallbacks) {
+              ^
+  symbol:   class GoogleApiClient
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:108: error: cannot find symbol
+    protected void onUnsubscribed(GoogleApiClient apiClient) { }
+                                  ^
+  symbol:   class GoogleApiClient
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:110: error: cannot find symbol
+    protected abstract void handleResolutionResult(int resultCode, ConnectionResult connectionResult);
+                                                                   ^
+  symbol:   class ConnectionResult
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/BaseRx.java:112: error: cannot find symbol
+    static final void onResolutionResult(int resultCode, ConnectionResult connectionResult) {
+                                                         ^
+  symbol:   class ConnectionResult
+  location: class BaseRx<T>
+  where T is a type-variable:
+    T extends Object declared in class BaseRx
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/RxFit.java:40: error: cannot find symbol
+    final Api<? extends Api.ApiOptions.NotRequiredOptions>[] apis;
+          ^
+  symbol:   class Api
+  location: class RxFit
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/RxFit.java:40: error: package Api.ApiOptions does not exist
+    final Api<? extends Api.ApiOptions.NotRequiredOptions>[] apis;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/RxFit.java:41: error: cannot find symbol
+    final Scope[] scopes;
+          ^
+  symbol:   class Scope
+  location: class RxFit
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Ble.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Ble.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.RequiresPermission;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Ble.java:6: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Status;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Ble.java:7: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.BleDevice;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Ble.java:8: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataType;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Ble.java:12: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Ble.java:13: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Config.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Config.java:5: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Status;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Config.java:6: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataType;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Config.java:7: error: package com.google.android.gms.fitness.request does not exist
+import com.google.android.gms.fitness.request.DataTypeCreateRequest;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Config.java:11: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Goals.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Goals.java:5: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.Goal;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Goals.java:6: error: package com.google.android.gms.fitness.request does not exist
+import com.google.android.gms.fitness.request.GoalsReadRequest;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Goals.java:10: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Goals.java:11: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:6: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Status;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:7: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.Bucket;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:8: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataSet;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:9: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataSource;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:10: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataType;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:11: error: package com.google.android.gms.fitness.request does not exist
+import com.google.android.gms.fitness.request.DataDeleteRequest;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:12: error: package com.google.android.gms.fitness.request does not exist
+import com.google.android.gms.fitness.request.DataReadRequest;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:13: error: package com.google.android.gms.fitness.request does not exist
+import com.google.android.gms.fitness.request.DataUpdateRequest;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:14: error: package com.google.android.gms.fitness.result does not exist
+import com.google.android.gms.fitness.result.DataReadResult;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:18: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/History.java:19: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Recording.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Recording.java:5: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Status;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Recording.java:6: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataSource;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Recording.java:7: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataType;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Recording.java:8: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.Subscription;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Recording.java:12: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Recording.java:13: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Sensors.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Sensors.java:6: error: package com.google.android.gms.common.api does not exist
+import com.google.android.gms.common.api.Status;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Sensors.java:7: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataPoint;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Sensors.java:8: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataSource;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Sensors.java:9: error: package com.google.android.gms.fitness.data does not exist
+import com.google.android.gms.fitness.data.DataType;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Sensors.java:10: error: package com.google.android.gms.fitness.request does not exist
+import com.google.android.gms.fitness.request.DataSourcesRequest;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/library/src/main/java/com/patloew/rxfit/Sensors.java:11: error: package com.google.android.gms.fitness.request does not exist
+import com.google.android.gms.fitness.request.SensorRequest;
+                                             ^
+
+100 warnings
+:library:generateJavadocsJar
+:library:generateSourcesJar
+:library:assemble
+:library:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:233)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:55)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:186)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:183)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:79)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:51)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getCCompiler(DefaultNdkInfo.java:263)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getCCompiler(NdkHandler.java:306)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:240)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:175)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.java:288)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.java:105)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:136)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:129)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:118)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:623)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:606)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 12.114 secs
+
+2019-01-09 19:53:49,572 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-09 19:53:49,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-09 19:53:55,482 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-09 19:53:55,482 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-09 19:53:55,482 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-09 19:53:55,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-09 19:54:01,593 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-09 19:54:01,593 INFO  SysUtils - Configuration on demand is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:573)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:125)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:175)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:172)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:79)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:51)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 55 more
+
+
+BUILD FAILED
+
+Total time: 5.866 secs
+
+2019-01-09 19:54:01,640 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-09 19:54:01,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-09 19:54:07,969 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-09 19:54:07,969 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-09 19:54:07,969 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-09 19:54:07,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547038283046-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-09 19:54:14,341 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-09 19:54:14,342 INFO  SysUtils - Configuration on demand is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':sample'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:573)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:125)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:175)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:172)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:112)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:92)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:66)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:79)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:51)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:330)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:207)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:300)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:333)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:87)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1342)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantData(ApplicationTaskManager.java:289)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:485)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:293)
+	at com.android.build.gradle.internal.VariantManager$3.call(VariantManager.java:290)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:44)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:286)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:688)
+	at com.android.build.gradle.BasePlugin$11.call(BasePlugin.java:685)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:683)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:608)
+	at com.android.build.gradle.BasePlugin$10.call(BasePlugin.java:605)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:156)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:120)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$1(BasePlugin.java:603)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 55 more
+
+
+BUILD FAILED
+
+Total time: 6.1 secs
+
+2019-01-09 19:54:14,392 ERROR FullProcessService - Project build has not produced APK file
+2019-01-09 19:54:14,442 ERROR FullProcessService - Could not find generated or existed APK file

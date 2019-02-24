@@ -1,0 +1,188 @@
+2019-01-06 20:58:19,392 INFO  DownloadService - Downloading "https://github.com/julianfalcionelli/MagicForm/archive/master.zip", attempt 3
+2019-01-06 20:58:19,902 INFO  DownloadService - Downloaded https://github.com/julianfalcionelli/MagicForm/archive/master.zip, attempt 3
+2019-01-06 20:58:19,902 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/master.zip": 73 KB
+2019-01-06 20:58:19,902 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-06 20:58:19,907 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/master.zip: true
+2019-01-06 20:58:19,908 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src'.
+2019-01-06 20:58:19,922 INFO  FullProcessService - Size of directory with sources: 93 KB
+2019-01-06 20:58:19,922 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src]
+2019-01-06 20:58:19,946 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/.git/
+
+2019-01-06 20:58:19,949 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/gradlew
+2019-01-06 20:58:19,952 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/build.gradle
+2019-01-06 20:58:19,954 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/settings.gradle
+2019-01-06 20:58:19,955 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-01-06 20:58:20,056 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-01-06 20:58:20,056 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-01-06 20:58:20,056 INFO  ProjectFixService - Fixing project...
+2019-01-06 20:58:20,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/local.properties
+2019-01-06 20:58:20,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-06 20:58:20,065 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-06 20:58:20,066 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/local.properties
+2019-01-06 20:58:20,067 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-06 20:58:20,067 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-06 20:58:20,069 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-06 20:58:20,069 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-06 20:58:20,070 INFO  ProjectFixService - Project was maybe fixed
+2019-01-06 20:58:20,070 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-06 20:58:20,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-06 20:58:28,870 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-06 20:58:28,870 INFO  ProjectTaskService - Excluded tasks (18): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-06 20:58:28,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-06 20:58:43,609 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:packageDebugResources
+:app:processDebugManifest
+:app:generateDebugRFile
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/src/main/java/julianfalcionelli/magicform/MagicForm.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:extractDebugAnnotations
+:app:mergeDebugConsumerProguardFiles
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:packageDebugAssets
+:app:packageDebugRenderscript NO-SOURCE
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformNativeLibsWithSyncJniLibsForDebug
+:app:bundleDebugAar
+:app:compileDebugSources
+:app:assembleDebug
+:app:preReleaseBuild UP-TO-DATE
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:packageReleaseResources
+:app:processReleaseManifest
+:app:generateReleaseRFile
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/app/src/main/java/julianfalcionelli/magicform/MagicForm.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:extractReleaseAnnotations
+:app:mergeReleaseConsumerProguardFiles
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:packageReleaseAssets
+:app:packageReleaseRenderscript NO-SOURCE
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformNativeLibsWithSyncJniLibsForRelease
+:app:bundleReleaseAar
+:app:compileReleaseSources
+:app:mergeReleaseResources
+:app:verifyReleaseResources
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 14s
+45 actionable tasks: 45 executed
+
+2019-01-06 20:58:43,692 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-06 20:58:43,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-06 20:58:51,060 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-06 20:58:51,060 INFO  ProjectTaskService - Excluded tasks (18): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-06 20:58:51,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783099387-0/src/MagicForm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-06 20:59:00,649 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:packageDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:generateDebugRFile UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:extractDebugAnnotations UP-TO-DATE
+:app:mergeDebugConsumerProguardFiles UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:packageDebugAssets UP-TO-DATE
+:app:packageDebugRenderscript NO-SOURCE
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:app:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:app:bundleDebugAar UP-TO-DATE
+:app:compileDebugSources UP-TO-DATE
+:app:assembleDebug UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:checkReleaseManifest UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:packageReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:generateReleaseRFile UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:javaPreCompileRelease UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:extractReleaseAnnotations UP-TO-DATE
+:app:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:app:mergeReleaseShaders UP-TO-DATE
+:app:compileReleaseShaders UP-TO-DATE
+:app:generateReleaseAssets UP-TO-DATE
+:app:packageReleaseAssets UP-TO-DATE
+:app:packageReleaseRenderscript NO-SOURCE
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseJniLibFolders UP-TO-DATE
+:app:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:app:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:app:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:app:bundleReleaseAar UP-TO-DATE
+:app:compileReleaseSources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:verifyReleaseResources UP-TO-DATE
+:app:assembleRelease UP-TO-DATE
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 9s
+45 actionable tasks: 45 up-to-date
+
+2019-01-06 20:59:00,707 ERROR FullProcessService - Project build has not produced APK file
+2019-01-06 20:59:00,766 ERROR FullProcessService - Could not find generated or existed APK file

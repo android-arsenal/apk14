@@ -1,0 +1,42 @@
+{
+  "meta" : {
+    "packageName" : "com.yalantis.horizon",
+    "label" : "Horizon",
+    "icon" : "res/mipmap-mdpi-v4/icon.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2438415",
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : false
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECORD_AUDIO" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/icon.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1546,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.yalantis.horizon\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2438415\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" />\n\t<application android:theme=\"resourceId:0x7f0a008a\" android:label=\"Horizon\" android:icon=\"res/mipmap-xxxhdpi-v4/icon.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.yalantis.horizon.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2573623,
+  "crc32" : 3979240100,
+  "sha256" : "194823695f865ee782325e087933ed093899d94e530201d8dced8b9e5e17eec1",
+  "buildTime" : 1546792789000
+}

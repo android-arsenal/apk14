@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.facebook.redex.test.instr",
+    "label" : null,
+    "icon" : null,
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : null,
+    "targetSdkVersion" : null,
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2166767",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : null,
+  "locales" : [ ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.facebook.redex.test.instr\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2166767\">\n\t<instrumentation android:label=\"redex\" android:name=\"android.support.test.runner.AndroidJUnitRunner\" android:targetPackage=\"com.facebook.redex.test.instr\" />\n\t<application android:debuggable=\"true\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"RedexTest\" android:name=\".RedexTest\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 230958,
+  "crc32" : 32770395,
+  "sha256" : "62de75fd32b94dd80553337a19bc6b0af195edea98b111bce279b29fc3ce9941",
+  "buildTime" : 1548649344000
+}

@@ -1,0 +1,36 @@
+2016-08-01 21:00:40,101 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/pakoito/RxPartialApplication/archive/master.zip", attempt 3
+2016-08-01 21:00:42,798 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/pakoito/RxPartialApplication/archive/master.zip, attempt 3
+2016-08-01 21:00:43,167 DEBUG o.z.z.ZipUtil - Extracting '/tmp/rdisk/3420/master.zip' into '/tmp/rdisk/3420/src'.
+2016-08-01 21:00:43,196 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 141 KB
+2016-08-01 21:00:43,200 INFO  c.g.v.a.u.SysUtils - Execute command: [git, init, /tmp/rdisk/3420/src]
+2016-08-01 21:00:43,280 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/3420/src/RxPartialApplication-master/gradlew
+2016-08-01 21:00:43,286 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /tmp/rdisk/3420/src/RxPartialApplication-master/build.gradle /tmp/rdisk/3420/src/RxPartialApplication-master/rxpartialapplication/build.gradle
+2016-08-01 21:00:43,292 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /tmp/rdisk/3420/src/RxPartialApplication-master/build.gradle /tmp/rdisk/3420/src/RxPartialApplication-master/rxpartialapplication/build.gradle /tmp/rdisk/3420/src/RxPartialApplication-master/settings.gradle
+2016-08-01 21:00:43,301 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-08-01 21:00:43,302 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-08-01 21:00:43,363 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-08-01 21:00:43,363 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-08-01 21:00:43,367 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-01 21:00:43,369 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-01 21:00:43,374 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-08-01 21:00:43,376 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-08-01 21:00:43,377 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/3420/src/RxPartialApplication-master/local.properties
+2016-08-01 21:00:43,384 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: false (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2016-08-01 21:00:43,400 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/3420/src/RxPartialApplication-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-08-01 21:00:43,419 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/tmp/rdisk/3420/src/RxPartialApplication-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-08-01 21:00:43,424 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/3420/src/RxPartialApplication-master/rxpartialapplication/local.properties
+2016-08-01 21:00:43,432 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/3420/src/RxPartialApplication-master/rxpartialapplication/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-08-01 21:00:43,432 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/tmp/rdisk/3420/src/RxPartialApplication-master/rxpartialapplication/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-08-01 21:00:43,435 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-08-01 21:00:43,443 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-01 21:00:43,443 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3420/src/RxPartialApplication-master/gradlew, -b, /tmp/rdisk/3420/src/RxPartialApplication-master/build.gradle, tasks]
+2016-08-01 21:00:49,440 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 40
+2016-08-01 21:00:49,441 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-08-01 21:00:49,441 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3420/src/RxPartialApplication-master/gradlew, -b, /tmp/rdisk/3420/src/RxPartialApplication-master/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-08-01 21:00:57,383 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-01 21:00:57,383 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3420/src/RxPartialApplication-master/gradlew, -b, /tmp/rdisk/3420/src/RxPartialApplication-master/rxpartialapplication/build.gradle, tasks]
+2016-08-01 21:01:02,766 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 40
+2016-08-01 21:01:02,766 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-08-01 21:01:02,766 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3420/src/RxPartialApplication-master/gradlew, -b, /tmp/rdisk/3420/src/RxPartialApplication-master/rxpartialapplication/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-08-01 21:01:08,607 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-08-01 21:01:08,615 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

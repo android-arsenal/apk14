@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.dision.android.rtlviewpager",
+    "label" : "RtlViewPager",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACalBMVEUAAAD////////////////////////////////+/v7+/v79/f38/Pz+/v79/f3w8PAAAAD8/Pz8/Pz9/f39/f3y8vLIyMjW1tb7+/v5+fmMjIzm5uby8vKwsLDIyMj7+/vz8/PDw8Ofn5+AgIBpaWlWVlZKSkpDQ0PExMTHx8cFBQVlZWX7+/uqqqrg4OCPj48kJCQAAAATExMyMjJMTExfX19sbGxycnISEhIVFRUGBgaysrKWlpY+Pj5ubm6amprJycnp6en8/PzIyMg/Pz8dHR2enp729vba2tpmZmaCgoLn5+fv7+9TU1MvLy8oKCiioqKYmJhJSUny8vK7u7szMzP39/dHR0epqanPz8/19fXLy8stLS3w8PCJiYloaGhFRUWsrKw4ODi8vLzu7u4uLi64uLg6Ojr4+PhwcHBxcXF/f3+0tLQjIyNYWFjX19etra1ERET6+vqrq6sJCQmZmZmBgYE9PT1aWlqSkpJgYGDq6uobGxtGRkbT09PZ2dmOjo6wsLCgoKB6enrx8fFiYmJSUlJqamrKyspUVFSkpKQLCwspKSmoqKgnJyfMzMz09PTo6Oh4eHjk5OSmpqbh4eHW1tZ8fHx1dXVNTU2Dg4OGhoY7Ozs1NTXFxcWKiopZWVmQkJBVVVU0NDS+vr7Gxsa6urrR0dFvb29OTk7e3t5hYWExMTHt7e3Ly8tRUVHBwcGsrKytra36+vr////v7++Hh4eqqqoAAADb29vLy8sAAAA3NzfLy8vr6+vv7+/u7u7s7OzHx8c0NDQAAAAAAABGRkZgYGBcXFxbW1tmZmYAAAAAAAC/v793wgvxAAAAznRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv////7yol7v////////////////8q//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8n//8rHOz/7CIDCKmtAyqw7fDv7bEsCSBCTUtMBQsOBIFsioMAAAJXSURBVEjHY2CgF2BkIgAYUZQzMxM2ElkNkMnCyoYXsLKAlcHUs3NwchEAnNzscB3MDDy8fIQBvwBUAyMDiyCfkLAIXiAsxCsqxgDxORODuASfCA5jJaWkIQwRXhlZoFKIBjl5hAYFRSVlFVU1dXU1VRVlJQ1NLW0dmAZdhAaYDXr6qgaGRsYmpmbm5mamJsYWhpaGVtZ4NNjY2tk7ODrBbHNydHYxdHXDowEO3BU9IAxPL28+IjT4+Pr5B4BZOjAh/BoCg4JDQsNQhPBq0AmP4Iv0iyJeQ3RMLF9cPB/xGrzs+PgSEonXEJWUzJeSmkK8hrT0DL7ETD7iNWRl8/HF5xCvIdhPk88nNy8zn1gNBYVFfMUlpWXlCsRpyKio5OOr8uSrrqn1rCOsIcMt1Kiej6+hnq/RoKk5PZiQhpbWtnZVCNOjgy/Mv4OQBq/OKJMuuCLF7p5e/Bqk+/on+E+Ea5iUFe0/Ga+GKbVOU7MRHk3M5+ubhlfD9Blo0RU9UwevBvNZaBoyp+D3w2xzVPXSPT74NYTMyUDREFdFIFij5oYgq6+OmUcoHuYv0EHSsHCREyEN1YunINRP9FtCOC0tnbsMpmRCa6YTEal1eeoKSBkmnbcyBWfyRiqM+Vat6FvdNE+zYU37Wpz5YR1qFp3qZte2ftIGHfQctxGqgZFh02ZewhXKlq3bGLZDq6wdO4u28G7BC3i3SO7aAa/jdu/Zu2//gf14wIH9Bw8d3o2oRo8cPXb8xIkTJ3EAoNTxY0ePIFfUp06fIQBOn0Kt/LefJQC2060VAwBUHT4sIqBMZgAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2810,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.dision.android.rtlviewpager\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0a0083\" android:label=\"RtlViewPager\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.dision.android.rtlviewpagerexample.DisionApp\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"RtlViewPager\" android:name=\"com.dision.android.rtlviewpagerexample.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1888762,
+  "crc32" : 3136545380,
+  "sha256" : "d43ef26ff72ef4db45c13af72610b5c7140848216d54fbcea602f550ed2a8f13",
+  "buildTime" : 1545801849000
+}

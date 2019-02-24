@@ -1,0 +1,88 @@
+2019-01-06 21:05:35,131 INFO  DownloadService - Downloading "https://github.com/FranRiadigos/Android-Material-Avatar/archive/master.zip", attempt 3
+2019-01-06 21:05:42,472 INFO  DownloadService - Downloaded https://github.com/FranRiadigos/Android-Material-Avatar/archive/master.zip, attempt 3
+2019-01-06 21:05:42,472 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/master.zip": 17 MB
+2019-01-06 21:05:42,472 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-06 21:05:42,473 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/master.zip: true
+2019-01-06 21:05:42,473 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src'.
+2019-01-06 21:05:42,623 INFO  FullProcessService - Size of directory with sources: 18 MB
+2019-01-06 21:05:42,623 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src]
+2019-01-06 21:05:42,640 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/.git/
+
+2019-01-06 21:05:42,644 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/gradlew
+2019-01-06 21:05:42,647 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/build.gradle
+2019-01-06 21:05:42,650 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/settings.gradle
+2019-01-06 21:05:42,651 INFO  ProjectBuildService - Remote scripts: none
+2019-01-06 21:05:42,651 INFO  ProjectFixService - Fixing project...
+2019-01-06 21:05:42,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/app/local.properties
+2019-01-06 21:05:42,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-01-06 21:05:42,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/local.properties
+2019-01-06 21:05:42,659 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-06 21:05:42,660 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-06 21:05:42,660 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-01-06 21:05:42,660 INFO  ProjectFixService - Project was maybe fixed
+2019-01-06 21:05:42,661 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-06 21:05:42,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-06 21:05:57,693 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-06 21:05:57,694 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2019-01-06 21:05:57,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2019-01-06 21:06:23,644 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72310Library
+:app:prepareComAndroidSupportDesign2310Library
+:app:prepareComAndroidSupportRecyclerviewV72310Library
+:app:prepareComAndroidSupportSupportV42310Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJava
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJava
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.407 secs
+
+2019-01-06 21:06:23,702 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783535127-0/src/Android-Material-Avatar-master/app/build/outputs/apk/app-debug.apk

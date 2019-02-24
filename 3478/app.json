@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "github.nisrulz.projectqreader",
+    "label" : "QREader",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.1",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.CAMERA" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2370,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.0.1\" package=\"github.nisrulz.projectqreader\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"QREader\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"github.nisrulz.projectqreader.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.google.android.gms.vision.DEPENDENCIES\" android:value=\"barcode\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"11400000\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1946849,
+  "crc32" : 2221448695,
+  "sha256" : "edd3752c28bc35c88381be9d6c84488d28371c24696ca15585e4eeef29f46383",
+  "buildTime" : 1522253316000
+}

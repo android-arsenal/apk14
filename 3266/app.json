@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "io.github.meness.timelinepostcontainer.app",
+    "label" : "TimelinePostContainer",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.4.1",
+    "versionCode" : 15,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABX1BMVEUAAAD//wCS3FmR3FqR3FqR3VqT3ViR3FqS3FqS3FiS3VqT3FmR3FqS2VqR3Fqf32CU21mS3VmP4FyQ3FuR3FmT3FmR3FqR21qR3VmP3F2V3FiR3FqR3FqR21uJ2GKW4VqS3VqT3FuT3ViS3FiQ21qS3FqR3FqQ21qAv0CA/4Cb3lmO41WR3FqR3FqR3VqT31mQ3lmP2l2R3VmS3FqO2V6R3ViT3ViZzGaS3VmR3VqQ21uS3VuR3FqS3FmP3FmO2VWS3FqR3FqT3FuR3VmU21eR3FqS3lyV1VWR21qq/1WS3FqT3FqR21qS222R3FuR21qS3lmS3lmP21yR3FqX3F2R3FqR3FqR3VqZ5k2Q3FqP4FeS21uN3FiS21mR3FqR3VqQ21qP2lqU3FqQ3FqV3FmM2VmU21mQ3FqQ3FqS3VyA1VWS21iS3FiR3lmS3FmZ5maT3FmS3VqS3lyR3FqR3FrFPBA1AAAAdHRSTlMAAWfV8/Ro/tutUlD9NjMIOVkZiuRC5Z54Qjrw9XkNEdtJf7B6g/hxBAIXEuPmuSgXKau4G7NxBatKgWLomlAbtsM7lU/RLwzXA8aZgAfWpE3OMvcWzPmOCsspDh2P8pRHImbpZxRkn71LBjHbZOIK1ls9ZrZNhhAAAAGWSURBVEjH7dVXU8JAFAXgDSiCIkUQSxKCimgUe2+ooCKWqIgFlKaC2Nv5/2OiccZhgF3ffOC85GYmX+Ym2b0hpJ7/Es5gbGikpsFo4HRgagJTmkw6MMPS3EJNswVmHVjRytJ5K6x6BdhYgA2oCuwOp9NhZwZtLrf2jG5XGxto98DT0dnZoR66WEA3L4herfCKAt9NB5JP6CG9fV9X9gg+iQr86CfeAAIDg+pJP/w0IBv5ITJsDY5gdIyQcd4oU8AEJokKpqZnwM/OkXlMUMACFr8AkZeWsUIWsUABIa1rDZDVNayrTxSigDAi32AjiM0tEkGYAqL8dkwFO7sI7O2TmMJHaa/1AIdEsgJH2q0PcUD9DvFjJRE7OT07V+uEchynLw0RydTFpValkhAZ1pKcRiaby+dz2QzSMstq5a6uv/fw9Q3HuIEKxdtS6bZYYN9xP7nz31cFiYcKecSTXiXKQfS59kx6jpaBF3NtYH4pb0lKVcgr3vRK+t1S9UH2/hGrNMj+PCr/PIw5g8Iy7hUDV/81/pt8AtLcx66r0qfMAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2593,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"15\" android:versionName=\"2.4.1\" package=\"io.github.meness.timelinepostcontainer.app\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f080091\" android:label=\"TimelinePostContainer\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:largeHeap=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"TimelinePostContainer\" android:name=\"io.github.meness.timelinepostcontainer.app.SampleOneActivity\" android:configChanges=\"0x20\" />\n\t\t<activity android:name=\"io.github.meness.timelinepostcontainer.app.SampleTwoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"TimelinePostContainer\" android:name=\"com.todddavies.components.progressbar.Main\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1852659,
+  "crc32" : 875058638,
+  "sha256" : "ad5ad6758fa2c90fe393e626b2d5ecfa1667ce1522b62800ab5104dc70a2603b",
+  "buildTime" : 1496784524000
+}

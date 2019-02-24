@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.nightonke.blurlockviewsample",
+    "label" : "BlurLock",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABRFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQA8Nw1HQRBGQA8yLgsIBwFDPg9FQA8sKAk/Og796TrNvS8bGQVtZBj55TkJCAEFBQBZUhS/sCxjWxaGfB745DmpnCcREANfVxWvoShyaRpIQhD24ziWiiK7rCvdzDN/dR0XFQWsnic1MQs5NAx7cRxlXRfEtC1wZxmHfR/m1DVEPw+0pikDAwAoJQgcGgb34zmmmSYlIgh+dBwiHweRhSE6NQ04NAz86DrgzjNmXhcLCgJ0axp9cxwODQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACFByf/AAAAbHRSTlMAAwQCEx4dCpbo7Jj/mgHq+f38FyXvKu7///////////////////////////////////////////////////////////////////////////////////8nKxwiCKmtsO3wsSwJIEJNS0wFCw49dToUAAABUElEQVRIx2NgoBdgZCIAGFGUMzMTNhJZDZDJwsqGF7CygJXB1LNzcHIRAJwc7HAdzAzcPEQAXj6oBkYGFn4eAUEhvEBQgIdfmAHicyYGEVEeIULmC/GIigGVQjWIk6pBdFTDENcgISklJSUtI8HDIysnLS+vQFCDohIYKKvwqIJoNXVCGjQ01bS0tXV09Xj0DQyVjIyJ8IOJKZAwMwcSFkqWxHjaxMraxlbNigQNYE/YkaDB3sHB0UlXBqrB2cWVGD+4KTlCNcCtwaXB3cPTy8vNTsmbx8dXyc/Ly5eABv8ASEQEugcpQQF+DcEhFkAQahDG425rAQHBo/lh8GogtTAOJ86GCKgGRoZILmIqFK4oaIXCwBwdQ0yVFRsNr+MYxeLiE0QT8ADRhPjEJEZENZqckpqWnp6egQMApdJSU5KRK+rMrGwCICuTmZKmAy0BAH0BkyEWxI7fAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2107,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.nightonke.blurlockviewsample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090090\" android:label=\"BlurLock\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.nightonke.blurlockviewsample.ShowActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0900c2\" android:name=\"com.nightonke.blurlockviewsample.SettingsActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2398064,
+  "crc32" : 3499452413,
+  "sha256" : "3cc865bcdfcdba566bc7fd46addf5c8cfe004cd75b4f77d51c4354669b519de3",
+  "buildTime" : 1546890356000
+}

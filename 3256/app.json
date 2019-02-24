@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.devbrackets.android.playlistcoredemo",
+    "label" : "PlaylistCore Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WAKE_LOCK" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 5511,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.devbrackets.android.playlistcoredemo\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<application android:theme=\"resourceId:0x7f0e0005\" android:label=\"PlaylistCore Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.devbrackets.android.playlistcoredemo.App\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"PlaylistCore Demo\" android:name=\"com.devbrackets.android.playlistcoredemo.ui.activity.StartupActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Video Player\" android:name=\"com.devbrackets.android.playlistcoredemo.ui.activity.VideoPlayerActivity\" android:configChanges=\"0x4a0\" />\n\t\t<activity android:label=\"Audio Player\" android:name=\"com.devbrackets.android.playlistcoredemo.ui.activity.MediaSelectionActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e0006\" android:label=\"Audio Player\" android:name=\"com.devbrackets.android.playlistcoredemo.ui.activity.AudioPlayerActivity\" />\n\t\t<service android:name=\"com.devbrackets.android.playlistcoredemo.service.MediaService\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME\" android:value=\"com.devbrackets.android.playlistcoredemo.helper.cast.DemoCastOptionsProvider\" />\n\t\t<receiver android:name=\"com.devbrackets.android.playlistcore.components.mediasession.DefaultMediaSessionControlsReceiver\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MEDIA_BUTTON\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"com.google.android.gms.cast.framework.media.MediaIntentReceiver\" android:exported=\"false\" />\n\t\t<service android:name=\"com.google.android.gms.cast.framework.media.MediaNotificationService\" />\n\t\t<service android:name=\"com.google.android.gms.cast.framework.ReconnectionService\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 4138508,
+  "crc32" : 2868293123,
+  "sha256" : "ac1a535a294f70b19458c9a30932a365460cd13a279762411590b98cd0853a03",
+  "buildTime" : 1526015863000
+}

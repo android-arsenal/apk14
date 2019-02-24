@@ -1,0 +1,182 @@
+2019-01-06 21:04:59,276 INFO  DownloadService - Downloading "https://github.com/xmartlabs/RxSimpleNoSQL/archive/master.zip", attempt 3
+2019-01-06 21:04:59,768 INFO  DownloadService - Downloaded https://github.com/xmartlabs/RxSimpleNoSQL/archive/master.zip, attempt 3
+2019-01-06 21:04:59,768 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/master.zip": 71 KB
+2019-01-06 21:04:59,768 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-06 21:04:59,770 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/master.zip: true
+2019-01-06 21:04:59,770 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src'.
+2019-01-06 21:04:59,779 INFO  FullProcessService - Size of directory with sources: 103 KB
+2019-01-06 21:04:59,780 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src]
+2019-01-06 21:04:59,798 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/.git/
+
+2019-01-06 21:04:59,800 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/gradlew
+2019-01-06 21:04:59,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/rxsimplenosql/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/build.gradle
+2019-01-06 21:04:59,804 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/rxsimplenosql/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/settings.gradle
+2019-01-06 21:04:59,804 INFO  ProjectBuildService - Remote scripts: none
+2019-01-06 21:04:59,804 INFO  ProjectFixService - Fixing project...
+2019-01-06 21:04:59,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/rxsimplenosql/local.properties
+2019-01-06 21:04:59,809 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/rxsimplenosql/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2019-01-06 21:04:59,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/local.properties
+2019-01-06 21:04:59,810 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-01-06 21:04:59,810 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-01-06 21:04:59,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2019-01-06 21:04:59,811 INFO  ProjectFixService - Project was maybe fixed
+2019-01-06 21:04:59,811 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-06 21:04:59,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/rxsimplenosql/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-06 21:05:11,825 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-06 21:05:11,825 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-06 21:05:11,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/rxsimplenosql/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-06 21:05:21,281 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rxsimplenosql:preBuild UP-TO-DATE
+:rxsimplenosql:preDebugBuild UP-TO-DATE
+:rxsimplenosql:compileDebugNdk UP-TO-DATE
+:rxsimplenosql:compileLint
+:rxsimplenosql:copyDebugLint UP-TO-DATE
+:rxsimplenosql:mergeDebugProguardFiles
+:rxsimplenosql:packageDebugRenderscript UP-TO-DATE
+:rxsimplenosql:checkDebugManifest
+:rxsimplenosql:prepareDebugDependencies
+:rxsimplenosql:compileDebugRenderscript
+:rxsimplenosql:generateDebugResValues
+:rxsimplenosql:generateDebugResources
+:rxsimplenosql:packageDebugResources
+:rxsimplenosql:compileDebugAidl
+:rxsimplenosql:generateDebugBuildConfig
+:rxsimplenosql:mergeDebugShaders
+:rxsimplenosql:compileDebugShaders
+:rxsimplenosql:generateDebugAssets
+:rxsimplenosql:mergeDebugAssets
+:rxsimplenosql:processDebugManifest
+:rxsimplenosql:processDebugResources
+:rxsimplenosql:generateDebugSources
+:rxsimplenosql:incrementalDebugJavaCompilationSafeguard
+:rxsimplenosql:compileDebugJavaWithJavac
+:rxsimplenosql:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rxsimplenosql:processDebugJavaRes UP-TO-DATE
+:rxsimplenosql:transformResourcesWithMergeJavaResForDebug
+:rxsimplenosql:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxsimplenosql:mergeDebugJniLibFolders
+:rxsimplenosql:transformNative_libsWithMergeJniLibsForDebug
+:rxsimplenosql:transformNative_libsWithSyncJniLibsForDebug
+:rxsimplenosql:bundleDebug
+:rxsimplenosql:compileDebugSources
+:rxsimplenosql:assembleDebug
+:rxsimplenosql:preReleaseBuild UP-TO-DATE
+:rxsimplenosql:compileReleaseNdk UP-TO-DATE
+:rxsimplenosql:copyReleaseLint UP-TO-DATE
+:rxsimplenosql:mergeReleaseProguardFiles
+:rxsimplenosql:packageReleaseRenderscript UP-TO-DATE
+:rxsimplenosql:checkReleaseManifest
+:rxsimplenosql:prepareReleaseDependencies
+:rxsimplenosql:compileReleaseRenderscript
+:rxsimplenosql:generateReleaseResValues
+:rxsimplenosql:generateReleaseResources
+:rxsimplenosql:packageReleaseResources
+:rxsimplenosql:compileReleaseAidl
+:rxsimplenosql:generateReleaseBuildConfig
+:rxsimplenosql:mergeReleaseShaders
+:rxsimplenosql:compileReleaseShaders
+:rxsimplenosql:generateReleaseAssets
+:rxsimplenosql:mergeReleaseAssets
+:rxsimplenosql:processReleaseManifest
+:rxsimplenosql:processReleaseResources
+:rxsimplenosql:generateReleaseSources
+:rxsimplenosql:incrementalReleaseJavaCompilationSafeguard
+:rxsimplenosql:compileReleaseJavaWithJavac
+:rxsimplenosql:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rxsimplenosql:processReleaseJavaRes UP-TO-DATE
+:rxsimplenosql:transformResourcesWithMergeJavaResForRelease
+:rxsimplenosql:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxsimplenosql:mergeReleaseJniLibFolders
+:rxsimplenosql:transformNative_libsWithMergeJniLibsForRelease
+:rxsimplenosql:transformNative_libsWithSyncJniLibsForRelease
+:rxsimplenosql:bundleRelease
+:rxsimplenosql:compileReleaseSources
+:rxsimplenosql:assembleRelease
+:rxsimplenosql:assemble
+:rxsimplenosql:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.924 secs
+
+2019-01-06 21:05:21,315 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-06 21:05:21,315 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-06 21:05:27,703 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-06 21:05:27,704 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-06 21:05:27,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783499272-0/src/RxSimpleNoSQL-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-06 21:05:34,906 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rxsimplenosql:preBuild UP-TO-DATE
+:rxsimplenosql:preDebugBuild UP-TO-DATE
+:rxsimplenosql:compileDebugNdk UP-TO-DATE
+:rxsimplenosql:compileLint
+:rxsimplenosql:copyDebugLint UP-TO-DATE
+:rxsimplenosql:mergeDebugProguardFiles UP-TO-DATE
+:rxsimplenosql:packageDebugRenderscript UP-TO-DATE
+:rxsimplenosql:checkDebugManifest
+:rxsimplenosql:prepareDebugDependencies
+:rxsimplenosql:compileDebugRenderscript UP-TO-DATE
+:rxsimplenosql:generateDebugResValues UP-TO-DATE
+:rxsimplenosql:generateDebugResources UP-TO-DATE
+:rxsimplenosql:packageDebugResources UP-TO-DATE
+:rxsimplenosql:compileDebugAidl UP-TO-DATE
+:rxsimplenosql:generateDebugBuildConfig UP-TO-DATE
+:rxsimplenosql:mergeDebugShaders UP-TO-DATE
+:rxsimplenosql:compileDebugShaders UP-TO-DATE
+:rxsimplenosql:generateDebugAssets UP-TO-DATE
+:rxsimplenosql:mergeDebugAssets UP-TO-DATE
+:rxsimplenosql:processDebugManifest UP-TO-DATE
+:rxsimplenosql:processDebugResources UP-TO-DATE
+:rxsimplenosql:generateDebugSources UP-TO-DATE
+:rxsimplenosql:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:rxsimplenosql:compileDebugJavaWithJavac UP-TO-DATE
+:rxsimplenosql:processDebugJavaRes UP-TO-DATE
+:rxsimplenosql:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:rxsimplenosql:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:rxsimplenosql:mergeDebugJniLibFolders UP-TO-DATE
+:rxsimplenosql:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:rxsimplenosql:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:rxsimplenosql:bundleDebug UP-TO-DATE
+:rxsimplenosql:compileDebugSources UP-TO-DATE
+:rxsimplenosql:assembleDebug UP-TO-DATE
+:rxsimplenosql:preReleaseBuild UP-TO-DATE
+:rxsimplenosql:compileReleaseNdk UP-TO-DATE
+:rxsimplenosql:copyReleaseLint UP-TO-DATE
+:rxsimplenosql:mergeReleaseProguardFiles UP-TO-DATE
+:rxsimplenosql:packageReleaseRenderscript UP-TO-DATE
+:rxsimplenosql:checkReleaseManifest
+:rxsimplenosql:prepareReleaseDependencies
+:rxsimplenosql:compileReleaseRenderscript UP-TO-DATE
+:rxsimplenosql:generateReleaseResValues UP-TO-DATE
+:rxsimplenosql:generateReleaseResources UP-TO-DATE
+:rxsimplenosql:packageReleaseResources UP-TO-DATE
+:rxsimplenosql:compileReleaseAidl UP-TO-DATE
+:rxsimplenosql:generateReleaseBuildConfig UP-TO-DATE
+:rxsimplenosql:mergeReleaseShaders UP-TO-DATE
+:rxsimplenosql:compileReleaseShaders UP-TO-DATE
+:rxsimplenosql:generateReleaseAssets UP-TO-DATE
+:rxsimplenosql:mergeReleaseAssets UP-TO-DATE
+:rxsimplenosql:processReleaseManifest UP-TO-DATE
+:rxsimplenosql:processReleaseResources UP-TO-DATE
+:rxsimplenosql:generateReleaseSources UP-TO-DATE
+:rxsimplenosql:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:rxsimplenosql:compileReleaseJavaWithJavac UP-TO-DATE
+:rxsimplenosql:processReleaseJavaRes UP-TO-DATE
+:rxsimplenosql:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:rxsimplenosql:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:rxsimplenosql:mergeReleaseJniLibFolders UP-TO-DATE
+:rxsimplenosql:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:rxsimplenosql:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:rxsimplenosql:bundleRelease UP-TO-DATE
+:rxsimplenosql:compileReleaseSources UP-TO-DATE
+:rxsimplenosql:assembleRelease UP-TO-DATE
+:rxsimplenosql:assemble UP-TO-DATE
+:rxsimplenosql:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.687 secs
+
+2019-01-06 21:05:34,936 ERROR FullProcessService - Project build has not produced APK file
+2019-01-06 21:05:34,963 ERROR FullProcessService - Could not find generated or existed APK file

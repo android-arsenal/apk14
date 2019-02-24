@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.theartofdev.edmodo.cropper.quick.start",
+    "label" : "Image Cropper Quick Start",
+    "icon" : "res/drawable-xhdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.CAMERA" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-xhdpi-v4/ic_launcher.png",
+    "density" : 320,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAACrFBMVEVVVVVNXXRPXXJPXHJPW3JPX3ROW3NPXXJPXHNPXXRQWnJOYnVOXHNPXXJOXHNRYHNPXHNOXXJPXXJPXHJISG1MW3NPXHRPXHRPX3NPXHNPXHJVVapNXHNMX3JNXHNOXHNOXHFNX3BPXHNPX28/P39PW3NUVHFQXnNVan9PXXJOXXVPXXNPXHJPXXNOXXMAAABOXHJOXHJOXXJPXHJOXXNRXHNOXHJPXXNOW3FIW21PXHJVVWpPXHJfX39OXXNOXHJPXHNPXXNOXHNPXXJOXHJFXHNPXHJPXXJOXXJQXXhQXXNPXHNNY25PW3BPXXNPXXNPXHJOXnJRXHNPXXNSX3JPXXNQXWtOXnJQXXRPXHJNXnBOXXNOXHNMZn9QXnRPXXJOXXNOXHJLXHFQXHJQXXNIbW1OXXNPX3JOYmtQXnF/f39QXnROXHJOXXNPXXJOXHJPXXNOXHNOXXNOXXJOXXJUYXlSYHVOXXNOXHNPXXNNXnQAAABOXHNPXXJPXXFPXnNOXXNOXXJPXXJQXXRNWnRMWXJOXXNVVX9PXXJOXHNPXHJOXnRNXHFMZmZOXHJPXXJOXHNPXXNLWnhPXHNPXXNOXHNPXXNPXHO0usOTm6nKztWMlaOAipro6u2IkqFzfo/+/v+Ol6Xu8PKPl6bM0Nb4+fq/xczf4eX5+fpjb4P4+Pmwt8BXZHmnrrlPXXPl5+pWZHlRX3X6+vvIzNPCx87v8PJZZnvu7/FYZXr3+Pldan6WnqzAxc2HkZ/19fexuMFSX3Vqdoi+w8vEydC/xMyFj56Xn6z////Cx8/R1Nrk5un9/f1nc4Z7hpbHzNN3gpLr7e9VY3ji5Oj8/f2Bi5tSYHVbaH38/PxQXnRea395hJWWnqv+/v5UYXdaZ3zR1duKk6K3vcb5+vqqsbxWk3I6AAAAmHRSTlMDT5m7ejBL9OR9TA3Jg+w1Y9PEUAc1ilNA0ToDbCghWF47kBAEQAlsDKpiasHHhQF/a6xgzyzd/pYO5wz3CMzG4V361f0Ll9jpE3X1Fz3u+PLGWKYo6BNOT7Ar0jcKI468ti9piQd+Qxo2Alzw9sjcgKjF488VJa9usS4A7e5ad5+c/jk7FPwG+5h2USQKlW24kBGa2+K696GhOlEAAAU2SURBVGjerdr3XxNnHAfwp+5ZFffCwYm4iooYxbpQFMWBAxWqOOM4FQxLFFzRDByIaIxa68Za2j6t2KJ0SZuWS4u2ta2ttmlL5R/pkYTkufmM3Pc3HpLv+5VP7p7cPc+BEoKyZZ0Yfm5MQZIJ+st+ocCy7/DxokqS9wLsK7KLV+XlL4eK2ps7/ujunZEC5rWbD7mhVlnTSi27eHZgw5aTb0Fs5UwqcjAB5nX7M0yQoOy5lh0cPbD6YjpRe39Uy8qW0AF89uJSSFWpWwvjKYCzC+dDykqePZcYsGW+CRkqbdoZMmDpFBNkKvvkRALAPDEfMtfUcRwOSClzwwhqz1hOH0h5wwkjKvfoWD0gKzPC/uLRdKxQG0jJNMGIy17MaQER56OWEgKYywzpL6a0nVMFJrqhQVU6Sg1YKjv+X/709M8njMKE00rANkX6miffvxIaf2gg7Pj3d996vnka/jsvRgHID6D/fIJYH31N1L+++Suf4Lv124vQBD5SBvBnZfNb/b2W/kLjl0T9P6/zv/rfR6GhpBHxEiB7oew9tUKgmkjyaQ70Fxo/Cw8emCEBFsvn/xfkQH3zveCLhZfhUecwFFit/P0iBlrzEevn39HfuOgwYL6IvqPhE49YKODRqweh/jV/3Uf7nOdCwLp0ZPzHVwJSTcinwZX3Y8lHyx3aCmzYjxyiDZL+FECN95ls1hsyOAhsyQiP3vcIbEDNhx/Iv52BMUHgJPIBnj9gBLyK/nD+ygBgllwfvv8rG/BM7arS4QfWSgbfe5cNUD2EB/iBzdLBf774wzCgvAXIPqT6P9yJhpxf2sCsShEodrMAoflHF8hYLwKrIAOAzD96gLV/CbDlMQDyfLQA2K8PyMqnB5B8aqp1gRXTwYnl1ACaj/eOLpBuA8MhLYDkI84/Hl0ADgLnaAE0H3H+wQBHwBhKQJKPOP9ggAWggA6Q5gOxQBRIogJk+eABFzDRAPJ88IAVQApAkQ8egDSAMh9jAZV8DAXU8jESUM3HQEA9HxLATgRo5IMHnOACCaCVDx7oRTRVaOZDMlVY8IB2PnigHOzDAjr54IGe4DAO0MsHD/QAx/fqA7r5YIHXF4GiXF3gtm4+WKAiDlSO1wV+0c0HC3R3gJKjVj1A0M0HV87e4pXd7jQSQD0fXLkOisDOUhLAy9IfduvacvluwQNM+Yi1zX9/sAsPVN/xkNTdm7ImiX6AzyH5kknqRtVjSY9NfOAmcJLdIEAQHl5HV766BO8yVc81NsB3TXKWBQGHxWoUgF4kOBP41qWEHcuUwDtM/euuhjvMiw6tVXBlSuDtahbgSm24Q2c+vJyzJFUBPL/8KXX7qkvhJS/YaQ26ILU1mXUJU2uy69hBsuJVONtoYKNZAsTPTTMWcLWXL2tOsxsJONsp1k3PTGYD7t4IfL/S0TYzlUvLiVOZgJtVfuCSZLCtTW1xfNweJuHxQ59Qd+UROjSnr+rqOzeWbfn9+rWmq7WS/a5TvPoGBTea+WyQ9H8NaG2xxB6zG9A/AWhvEhUWuyPvn6K3zRVxStJ8VDbqYreXRtJ/zimA22rkRk1g79+2L0+wWXo6z8rW3tnGRrbdGzMyiaW/q91M4g3rEQeot9Q6bmxPsSMeP2NYKl3/Th3MlA8NRJ/PJT7rnPM6r6F/7IEbOmQg0c5+ckVCNM/04MbgmJU5+P6busTx7I+eOAaUz8rQPGqdrm7bEiN49CRQlev791uRrnJ/V9G998GuBjydI1af6bZBRxZEuYIfxdkrqrxnj0VxDpL3/g+aXTCjyzY1WwAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 1389,
+  "locales" : [ "", "es_GT", "sl", "as", "ru_RU", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.theartofdev.edmodo.cropper.quick.start\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<application android:theme=\"resourceId:0x7f0c003c\" android:label=\"Image Cropper Quick Start\" android:icon=\"res/drawable-xhdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"Image Cropper Quick Start\" android:name=\"com.theartofdev.edmodo.cropper.quick.start.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.theartofdev.edmodo.cropper.CropImageActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1358574,
+  "crc32" : 1415433039,
+  "sha256" : "f444973e73f7934389400ab7ba5990bc28a9a151fdaedeb54a350af453d7543e",
+  "buildTime" : 1545057268000
+}

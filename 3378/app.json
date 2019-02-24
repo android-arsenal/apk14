@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.malinskiy.sheldon2.sample",
+    "label" : "Sample",
+    "icon" : null,
+    "versionName" : "1.0.1",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 1619,
+  "locales" : [ ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.0.1\" package=\"com.malinskiy.sheldon2.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"25\" />\n\t<application android:label=\"Sample\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"com.malinskiy.sheldon2.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 578948,
+  "crc32" : 166580218,
+  "sha256" : "5e8cce6d034ced2210c6b90f8a27275eb68d2e75c110b1718c5f08e53516e694",
+  "buildTime" : 1522271252000
+}

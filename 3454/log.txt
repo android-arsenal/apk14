@@ -1,0 +1,267 @@
+2018-12-24 17:28:34,939 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 3
+2018-12-24 17:28:40,822 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 2
+2018-12-24 17:28:46,876 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 1
+2018-12-24 17:29:47,121 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-24 17:29:48,312 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2018-12-24 17:29:48,312 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/2.x.zip", attempt 3
+2018-12-24 17:30:49,813 DEBUG FullProcessService - Repository https://github.com/trello/navi available: true
+2018-12-24 17:30:49,813 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-24 17:30:49,813 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/trello/navi, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src]
+2018-12-24 17:30:51,749 INFO  SysUtils - 
+2018-12-24 17:30:51,787 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/.git": true
+2018-12-24 17:30:51,790 INFO  FullProcessService - Size of directory with sources: 242 KB
+2018-12-24 17:30:51,790 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src]
+2018-12-24 17:30:51,809 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/.git/
+
+2018-12-24 17:30:51,811 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew
+2018-12-24 17:30:51,815 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/build.gradle
+2018-12-24 17:30:51,818 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradle/artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/settings.gradle
+2018-12-24 17:30:51,818 INFO  ProjectBuildService - Remote scripts: none
+2018-12-24 17:30:51,818 INFO  ProjectFixService - Fixing project...
+2018-12-24 17:30:51,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/local.properties
+2018-12-24 17:30:51,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2018-12-24 17:30:51,832 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-24 17:30:51,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/local.properties
+2018-12-24 17:30:51,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2018-12-24 17:30:51,836 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-24 17:30:51,837 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/local.properties
+2018-12-24 17:30:51,838 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2018-12-24 17:30:51,838 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2018-12-24 17:30:51,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2018-12-24 17:30:51,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-24 17:30:51,841 INFO  ProjectFixService - Project was maybe fixed
+2018-12-24 17:30:51,841 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-24 17:30:51,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-24 17:31:00,007 INFO  ProjectTaskService - Detected possible tasks: 80
+2018-12-24 17:31:00,007 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-24 17:31:00,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-24 17:31:14,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :navi:preBuild UP-TO-DATE
+> Task :navi:preDebugBuild UP-TO-DATE
+> Task :navi:compileDebugAidl NO-SOURCE
+> Task :navi:compileDebugRenderscript
+> Task :navi:checkDebugManifest
+> Task :navi:generateDebugBuildConfig SKIPPED
+> Task :navi:generateDebugResValues
+> Task :navi:generateDebugResources
+> Task :navi:packageDebugResources
+> Task :navi:processDebugManifest
+> Task :navi:generateDebugRFile
+> Task :navi:prepareLintJar
+> Task :navi:generateDebugSources
+> Task :navi:javaPreCompileDebug
+
+> Task :navi:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/src/main/java/com/trello/navi2/internal/NaviEmitter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :navi:extractDebugAnnotations
+> Task :navi:mergeDebugConsumerProguardFiles
+> Task :navi:mergeDebugShaders
+> Task :navi:compileDebugShaders
+> Task :navi:generateDebugAssets
+> Task :navi:packageDebugAssets
+> Task :navi:packageDebugRenderscript NO-SOURCE
+> Task :navi:processDebugJavaRes NO-SOURCE
+> Task :navi:transformResourcesWithMergeJavaResForDebug
+> Task :navi:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :navi:compileDebugNdk NO-SOURCE
+> Task :navi:mergeDebugJniLibFolders
+> Task :navi:transformNativeLibsWithMergeJniLibsForDebug
+> Task :navi:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :navi:transformNativeLibsWithSyncJniLibsForDebug
+> Task :navi:bundleDebugAar
+> Task :navi:compileDebugSources
+> Task :navi:assembleDebug
+> Task :navi:preReleaseBuild UP-TO-DATE
+> Task :navi:compileReleaseAidl NO-SOURCE
+> Task :navi:compileReleaseRenderscript
+> Task :navi:checkReleaseManifest
+> Task :navi:generateReleaseBuildConfig SKIPPED
+> Task :navi:generateReleaseResValues
+> Task :navi:generateReleaseResources
+> Task :navi:packageReleaseResources
+> Task :navi:processReleaseManifest
+> Task :navi:generateReleaseRFile
+> Task :navi:generateReleaseSources
+> Task :navi:javaPreCompileRelease
+
+> Task :navi:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/src/main/java/com/trello/navi2/internal/NaviEmitter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :navi:extractReleaseAnnotations
+> Task :navi:mergeReleaseConsumerProguardFiles
+> Task :navi:mergeReleaseShaders
+> Task :navi:compileReleaseShaders
+> Task :navi:generateReleaseAssets
+> Task :navi:packageReleaseAssets
+> Task :navi:packageReleaseRenderscript NO-SOURCE
+> Task :navi:processReleaseJavaRes NO-SOURCE
+> Task :navi:transformResourcesWithMergeJavaResForRelease
+> Task :navi:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :navi:compileReleaseNdk NO-SOURCE
+> Task :navi:mergeReleaseJniLibFolders
+> Task :navi:transformNativeLibsWithMergeJniLibsForRelease
+> Task :navi:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :navi:transformNativeLibsWithSyncJniLibsForRelease
+> Task :navi:bundleReleaseAar
+> Task :navi:compileReleaseSources
+> Task :navi:mergeReleaseResources
+> Task :navi:verifyReleaseResources
+> Task :navi:assembleRelease
+
+> Task :navi:generateReleaseJavadoc
+javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+1 warning
+
+> Task :navi:generateReleaseJavadocJar
+> Task :navi:generateReleaseSourcesJar
+> Task :navi:signArchives SKIPPED
+> Task :navi:assemble
+> Task :navi:build
+
+BUILD SUCCESSFUL in 13s
+46 actionable tasks: 46 executed
+
+2018-12-24 17:31:14,173 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-24 17:31:14,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-24 17:31:19,959 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-24 17:31:19,959 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-24 17:31:19,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-24 17:31:42,474 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :navi:preBuild UP-TO-DATE
+> Task :navi:preDebugBuild UP-TO-DATE
+> Task :navi:compileDebugAidl NO-SOURCE
+> Task :navi:compileDebugRenderscript UP-TO-DATE
+> Task :navi:checkDebugManifest UP-TO-DATE
+> Task :navi:generateDebugBuildConfig SKIPPED
+> Task :navi:generateDebugResValues UP-TO-DATE
+> Task :navi:generateDebugResources UP-TO-DATE
+> Task :navi:packageDebugResources UP-TO-DATE
+> Task :navi:processDebugManifest UP-TO-DATE
+> Task :navi:generateDebugRFile UP-TO-DATE
+> Task :navi:prepareLintJar UP-TO-DATE
+> Task :navi:generateDebugSources UP-TO-DATE
+> Task :navi:javaPreCompileDebug UP-TO-DATE
+> Task :navi:compileDebugJavaWithJavac UP-TO-DATE
+> Task :navi:processDebugJavaRes NO-SOURCE
+> Task :navi:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:checkDebugClasspath
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :navi:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :navi:mergeDebugShaders UP-TO-DATE
+> Task :navi:compileDebugShaders UP-TO-DATE
+> Task :navi:generateDebugAssets UP-TO-DATE
+> Task :navi:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :navi:compileDebugNdk NO-SOURCE
+> Task :navi:mergeDebugJniLibFolders UP-TO-DATE
+> Task :navi:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :navi:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :navi:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:checkDebugLibraries
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :navi:preReleaseBuild UP-TO-DATE
+> Task :navi:compileReleaseAidl NO-SOURCE
+> Task :navi:compileReleaseRenderscript UP-TO-DATE
+> Task :navi:checkReleaseManifest UP-TO-DATE
+> Task :navi:generateReleaseBuildConfig SKIPPED
+> Task :navi:generateReleaseResValues UP-TO-DATE
+> Task :navi:generateReleaseResources UP-TO-DATE
+> Task :navi:packageReleaseResources UP-TO-DATE
+> Task :navi:processReleaseManifest UP-TO-DATE
+> Task :navi:generateReleaseRFile UP-TO-DATE
+> Task :navi:generateReleaseSources UP-TO-DATE
+> Task :navi:javaPreCompileRelease UP-TO-DATE
+> Task :navi:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :navi:processReleaseJavaRes NO-SOURCE
+> Task :navi:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:checkReleaseClasspath
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :navi:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :navi:mergeReleaseShaders UP-TO-DATE
+> Task :navi:compileReleaseShaders UP-TO-DATE
+> Task :navi:generateReleaseAssets UP-TO-DATE
+> Task :navi:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :navi:compileReleaseNdk NO-SOURCE
+> Task :navi:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :navi:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :navi:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :navi:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:checkReleaseLibraries
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 22s
+88 actionable tasks: 59 executed, 29 up-to-date
+
+2018-12-24 17:31:42,555 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

@@ -1,0 +1,322 @@
+2019-01-08 02:14:10,995 INFO  DownloadService - Downloading "https://github.com/jrejaud/Onboarder/archive/master.zip", attempt 3
+2019-01-08 02:15:11,599 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-08 02:15:12,551 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-08 02:15:12,551 INFO  DownloadService - Downloading "https://github.com/jrejaud/Onboarder/archive/master.zip", attempt 3
+2019-01-08 02:16:14,033 DEBUG FullProcessService - Repository https://github.com/jrejaud/Onboarder available: true
+2019-01-08 02:16:14,033 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-08 02:16:14,033 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jrejaud/Onboarder, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src]
+2019-01-08 02:16:16,995 INFO  SysUtils - 
+2019-01-08 02:16:17,022 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/.git": true
+2019-01-08 02:16:17,025 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-08 02:16:17,025 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src]
+2019-01-08 02:16:17,042 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/.git/
+
+2019-01-08 02:16:17,045 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/gradlew
+2019-01-08 02:16:17,048 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/onboarder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/build.gradle
+2019-01-08 02:16:17,051 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/onboarder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/settings.gradle
+2019-01-08 02:16:17,051 INFO  ProjectBuildService - Remote scripts: none
+2019-01-08 02:16:17,051 INFO  ProjectFixService - Fixing project...
+2019-01-08 02:16:17,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/app/local.properties
+2019-01-08 02:16:17,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-08 02:16:17,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/onboarder/local.properties
+2019-01-08 02:16:17,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/onboarder/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-08 02:16:17,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/local.properties
+2019-01-08 02:16:17,059 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-01-08 02:16:17,059 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-01-08 02:16:17,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-08 02:16:17,060 INFO  ProjectFixService - Project was maybe fixed
+2019-01-08 02:16:17,060 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 02:16:17,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 02:16:18,969 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-08 02:16:18,969 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-08 02:16:18,969 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-08 02:16:18,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-08 02:16:20,602 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-08 02:16:20,602 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/app/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating root project 'app'.
+> Plugin with id 'com.android.application' not found.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'app'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:93)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:148)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:153)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:38)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:25)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:55)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:499)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:86)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$2.run(DefaultGradleLauncher.java:125)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:122)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:77)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.application' not found.
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:110)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:112)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:35)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:79)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:135)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:34)
+	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
+	at build_9nd2devglishojmocl43q5pbs.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/app/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
+	... 50 more
+
+
+BUILD FAILED
+
+Total time: 1.445 secs
+
+2019-01-08 02:16:20,606 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 02:16:20,606 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/onboarder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 02:16:30,894 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-08 02:16:30,894 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-08 02:16:30,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/onboarder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-08 02:16:41,080 INFO  SysUtils - Configuration on demand is an incubating feature.
+:onboarder:preBuild UP-TO-DATE
+:onboarder:preDebugBuild UP-TO-DATE
+:onboarder:compileDebugNdk UP-TO-DATE
+:onboarder:compileLint
+:onboarder:copyDebugLint UP-TO-DATE
+:onboarder:checkDebugManifest
+:onboarder:preDebugAndroidTestBuild UP-TO-DATE
+:onboarder:preDebugUnitTestBuild UP-TO-DATE
+:onboarder:preReleaseBuild UP-TO-DATE
+:onboarder:preReleaseUnitTestBuild UP-TO-DATE
+:onboarder:prepareComAndroidSupportAnimatedVectorDrawable2321Library
+:onboarder:prepareComAndroidSupportAppcompatV72321Library
+:onboarder:prepareComAndroidSupportSupportV42321Library
+:onboarder:prepareComAndroidSupportSupportVectorDrawable2321Library
+:onboarder:prepareComGithubJrejaudViewPagerIndicator2001Library
+:onboarder:prepareDebugDependencies
+:onboarder:compileDebugAidl
+:onboarder:compileDebugRenderscript
+:onboarder:generateDebugBuildConfig
+:onboarder:generateDebugAssets UP-TO-DATE
+:onboarder:mergeDebugAssets
+:onboarder:generateDebugResValues
+:onboarder:generateDebugResources
+:onboarder:mergeDebugResources
+:onboarder:processDebugManifest
+:onboarder:processDebugResources
+:onboarder:generateDebugSources
+:onboarder:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/onboarder/src/main/java/com/jrejaud/onboarder/OnboardingActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:onboarder:extractDebugAnnotations
+:onboarder:mergeDebugProguardFiles
+:onboarder:packageDebugRenderscript UP-TO-DATE
+:onboarder:packageDebugResources
+:onboarder:processDebugJavaRes UP-TO-DATE
+:onboarder:transformResourcesWithMergeJavaResForDebug
+:onboarder:transformClassesAndResourcesWithSyncLibJarsForDebug
+:onboarder:mergeDebugJniLibFolders
+:onboarder:transformNative_libsWithMergeJniLibsForDebug
+:onboarder:transformNative_libsWithSyncJniLibsForDebug
+:onboarder:bundleDebug
+:onboarder:compileDebugSources
+:onboarder:assembleDebug
+:onboarder:compileReleaseNdk UP-TO-DATE
+:onboarder:copyReleaseLint UP-TO-DATE
+:onboarder:checkReleaseManifest
+:onboarder:prepareReleaseDependencies
+:onboarder:compileReleaseAidl
+:onboarder:compileReleaseRenderscript
+:onboarder:generateReleaseBuildConfig
+:onboarder:generateReleaseAssets UP-TO-DATE
+:onboarder:mergeReleaseAssets
+:onboarder:generateReleaseResValues
+:onboarder:generateReleaseResources
+:onboarder:mergeReleaseResources
+:onboarder:processReleaseManifest
+:onboarder:processReleaseResources
+:onboarder:generateReleaseSources
+:onboarder:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/onboarder/src/main/java/com/jrejaud/onboarder/OnboardingActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:onboarder:extractReleaseAnnotations
+:onboarder:mergeReleaseProguardFiles
+:onboarder:packageReleaseRenderscript UP-TO-DATE
+:onboarder:packageReleaseResources
+:onboarder:processReleaseJavaRes UP-TO-DATE
+:onboarder:transformResourcesWithMergeJavaResForRelease
+:onboarder:transformClassesAndResourcesWithSyncLibJarsForRelease
+:onboarder:mergeReleaseJniLibFolders
+:onboarder:transformNative_libsWithMergeJniLibsForRelease
+:onboarder:transformNative_libsWithSyncJniLibsForRelease
+:onboarder:bundleRelease
+:onboarder:compileReleaseSources
+:onboarder:assembleRelease
+:onboarder:assemble
+:onboarder:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.685 secs
+
+2019-01-08 02:16:41,135 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 02:16:41,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 02:16:46,446 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-08 02:16:46,446 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-08 02:16:46,446 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888450992-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-08 02:16:51,971 INFO  SysUtils - Configuration on demand is an incubating feature.
+:onboarder:preBuild UP-TO-DATE
+:onboarder:preDebugBuild UP-TO-DATE
+:onboarder:compileDebugNdk UP-TO-DATE
+:onboarder:compileLint
+:onboarder:copyDebugLint UP-TO-DATE
+:onboarder:checkDebugManifest
+:onboarder:preDebugAndroidTestBuild UP-TO-DATE
+:onboarder:preDebugUnitTestBuild UP-TO-DATE
+:onboarder:preReleaseBuild UP-TO-DATE
+:onboarder:preReleaseUnitTestBuild UP-TO-DATE
+:onboarder:prepareComAndroidSupportAnimatedVectorDrawable2321Library UP-TO-DATE
+:onboarder:prepareComAndroidSupportAppcompatV72321Library UP-TO-DATE
+:onboarder:prepareComAndroidSupportSupportV42321Library UP-TO-DATE
+:onboarder:prepareComAndroidSupportSupportVectorDrawable2321Library UP-TO-DATE
+:onboarder:prepareComGithubJrejaudViewPagerIndicator2001Library UP-TO-DATE
+:onboarder:prepareDebugDependencies
+:onboarder:compileDebugAidl UP-TO-DATE
+:onboarder:compileDebugRenderscript UP-TO-DATE
+:onboarder:generateDebugBuildConfig UP-TO-DATE
+:onboarder:generateDebugAssets UP-TO-DATE
+:onboarder:mergeDebugAssets UP-TO-DATE
+:onboarder:generateDebugResValues UP-TO-DATE
+:onboarder:generateDebugResources UP-TO-DATE
+:onboarder:mergeDebugResources UP-TO-DATE
+:onboarder:processDebugManifest UP-TO-DATE
+:onboarder:processDebugResources UP-TO-DATE
+:onboarder:generateDebugSources UP-TO-DATE
+:onboarder:compileDebugJavaWithJavac UP-TO-DATE
+:onboarder:extractDebugAnnotations UP-TO-DATE
+:onboarder:mergeDebugProguardFiles UP-TO-DATE
+:onboarder:packageDebugRenderscript UP-TO-DATE
+:onboarder:packageDebugResources UP-TO-DATE
+:onboarder:processDebugJavaRes UP-TO-DATE
+:onboarder:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:onboarder:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:onboarder:mergeDebugJniLibFolders UP-TO-DATE
+:onboarder:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:onboarder:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:onboarder:bundleDebug UP-TO-DATE
+:onboarder:compileDebugSources UP-TO-DATE
+:onboarder:assembleDebug UP-TO-DATE
+:onboarder:compileReleaseNdk UP-TO-DATE
+:onboarder:copyReleaseLint UP-TO-DATE
+:onboarder:checkReleaseManifest
+:onboarder:prepareReleaseDependencies
+:onboarder:compileReleaseAidl UP-TO-DATE
+:onboarder:compileReleaseRenderscript UP-TO-DATE
+:onboarder:generateReleaseBuildConfig UP-TO-DATE
+:onboarder:generateReleaseAssets UP-TO-DATE
+:onboarder:mergeReleaseAssets UP-TO-DATE
+:onboarder:generateReleaseResValues UP-TO-DATE
+:onboarder:generateReleaseResources UP-TO-DATE
+:onboarder:mergeReleaseResources UP-TO-DATE
+:onboarder:processReleaseManifest UP-TO-DATE
+:onboarder:processReleaseResources UP-TO-DATE
+:onboarder:generateReleaseSources UP-TO-DATE
+:onboarder:compileReleaseJavaWithJavac UP-TO-DATE
+:onboarder:extractReleaseAnnotations UP-TO-DATE
+:onboarder:mergeReleaseProguardFiles UP-TO-DATE
+:onboarder:packageReleaseRenderscript UP-TO-DATE
+:onboarder:packageReleaseResources UP-TO-DATE
+:onboarder:processReleaseJavaRes UP-TO-DATE
+:onboarder:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:onboarder:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:onboarder:mergeReleaseJniLibFolders UP-TO-DATE
+:onboarder:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:onboarder:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:onboarder:bundleRelease UP-TO-DATE
+:onboarder:compileReleaseSources UP-TO-DATE
+:onboarder:assembleRelease UP-TO-DATE
+:onboarder:assemble UP-TO-DATE
+:onboarder:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.025 secs
+
+2019-01-08 02:16:52,026 ERROR FullProcessService - Project build has not produced APK file
+2019-01-08 02:16:52,074 ERROR FullProcessService - Could not find generated or existed APK file

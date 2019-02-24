@@ -1,0 +1,215 @@
+16:11:43.033 [main] INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/vokal/Android-Lint-Checks/archive/master.zip", attempt 3
+16:11:46.060 [main] INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/vokal/Android-Lint-Checks/archive/master.zip, attempt 3
+16:11:46.580 [main] DEBUG o.z.z.ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src'.
+16:11:46.630 [main] INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 137 KB
+16:11:46.666 [main] INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew
+16:11:46.676 [main] INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/aarWrapper/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/rxlifecycle/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/todo/build.gradle
+16:11:46.688 [main] INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/aarWrapper/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/rxlifecycle/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/settings.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/todo/build.gradle
+16:11:46.709 [main] INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+16:11:46.711 [main] INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+16:11:46.783 [main] INFO  c.g.v.a.s.AndroidToolsService - Android home: /Users/vbauer/Library/Android/sdk
+16:11:46.788 [main] INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3
+16:11:46.790 [main] INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3
+16:11:46.794 [main] INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 14 15 16 17 18 19 20 21 22 23 8 24
+16:11:46.796 [main] INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 8 10 14 15 16 17 18 19 20 21 22 23 24
+16:11:46.798 [main] INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/local.properties
+16:11:46.806 [main] INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: true (https://services.gradle.org/distributions/gradle-2.6-all.zip)
+16:11:46.806 [main] INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.6-bin.zip)
+16:11:46.823 [main] INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+16:11:46.838 [main] INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/aarWrapper/local.properties
+16:11:46.840 [main] INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/aarWrapper/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+16:11:46.842 [main] INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/rxlifecycle/local.properties
+16:11:46.850 [main] INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/rxlifecycle/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+16:11:46.851 [main] INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/todo/local.properties
+16:11:46.857 [main] INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/todo/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+16:11:46.858 [main] INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+16:11:46.869 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+16:11:46.872 [main] INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/build.gradle, tasks]
+16:12:04.074 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 76
+16:12:04.084 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest connectedCheck test check testDebugUnitTest connectedAndroidTest lintRelease
+16:12:04.085 [main] INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/build.gradle, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, connectedCheck, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+16:12:18.249 [main] INFO  c.g.v.a.s.a.ProjectBuildService - [buildinfo] Not using buildInfo properties file for this build.
+:aarWrapper:compileLint
+:aarWrapper:copyDebugLint UP-TO-DATE
+:aarWrapper:mergeDebugProguardFiles
+:aarWrapper:preBuild UP-TO-DATE
+:aarWrapper:preDebugBuild UP-TO-DATE
+:aarWrapper:checkDebugManifest
+:aarWrapper:prepareDebugDependencies
+:aarWrapper:compileDebugAidl
+:aarWrapper:compileDebugRenderscript
+:aarWrapper:generateDebugBuildConfig
+:aarWrapper:generateDebugAssets UP-TO-DATE
+:aarWrapper:mergeDebugAssets
+:aarWrapper:generateDebugResValues
+:aarWrapper:generateDebugResources
+:aarWrapper:packageDebugResources
+:aarWrapper:processDebugManifest
+:aarWrapper:processDebugResources
+:aarWrapper:generateDebugSources
+:aarWrapper:processDebugJavaRes UP-TO-DATE
+:aarWrapper:compileDebugJavaWithJavac
+:aarWrapper:packageDebugJar
+:aarWrapper:compileDebugNdk UP-TO-DATE
+:aarWrapper:packageDebugJniLibs UP-TO-DATE
+:aarWrapper:packageDebugLocalJar UP-TO-DATE
+:aarWrapper:packageDebugRenderscript UP-TO-DATE
+:aarWrapper:bundleDebug
+:aarWrapper:compileDebugSources
+:aarWrapper:assembleDebug
+:aarWrapper:copyReleaseLint UP-TO-DATE
+:aarWrapper:mergeReleaseProguardFiles
+:aarWrapper:preReleaseBuild UP-TO-DATE
+:aarWrapper:checkReleaseManifest
+:aarWrapper:prepareReleaseDependencies
+:aarWrapper:compileReleaseAidl
+:aarWrapper:compileReleaseRenderscript
+:aarWrapper:generateReleaseBuildConfig
+:aarWrapper:generateReleaseAssets UP-TO-DATE
+:aarWrapper:mergeReleaseAssets
+:aarWrapper:generateReleaseResValues
+:aarWrapper:generateReleaseResources
+:aarWrapper:packageReleaseResources
+:aarWrapper:processReleaseManifest
+:aarWrapper:processReleaseResources
+:aarWrapper:generateReleaseSources
+:aarWrapper:processReleaseJavaRes UP-TO-DATE
+:aarWrapper:compileReleaseJavaWithJavac
+:aarWrapper:packageReleaseJar
+:aarWrapper:compileReleaseNdk UP-TO-DATE
+:aarWrapper:packageReleaseJniLibs UP-TO-DATE
+:aarWrapper:packageReleaseLocalJar UP-TO-DATE
+:aarWrapper:packageReleaseRenderscript UP-TO-DATE
+:aarWrapper:bundleRelease
+:aarWrapper:compileReleaseSources
+:aarWrapper:assembleRelease
+:aarWrapper:assemble
+:aarWrapper:build
+:rxlifecycle:compileJava
+:rxlifecycle:processResources UP-TO-DATE
+:rxlifecycle:classes
+:rxlifecycle:jar
+:rxlifecycle:assemble
+:rxlifecycle:build
+:todo:compileJava
+:todo:processResources UP-TO-DATE
+:todo:classes
+:todo:jar
+:todo:assemble
+:todo:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.564 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
+
+16:12:18.271 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+16:12:18.271 [main] INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/aarWrapper/build.gradle, tasks]
+16:12:30.220 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 62
+16:12:30.220 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: lintDebug test check deviceCheck testDebugUnitTest connectedAndroidTest lint testReleaseUnitTest lintRelease deviceAndroidTest connectedCheck
+16:12:30.221 [main] INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/aarWrapper/build.gradle, --stacktrace, -x, lintDebug, -x, test, -x, check, -x, deviceCheck, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lint, -x, testReleaseUnitTest, -x, lintRelease, -x, deviceAndroidTest, -x, connectedCheck, build]
+16:12:42.229 [main] INFO  c.g.v.a.s.a.ProjectBuildService - [buildinfo] Not using buildInfo properties file for this build.
+:aarWrapper:compileLint
+:aarWrapper:copyDebugLint UP-TO-DATE
+:aarWrapper:mergeDebugProguardFiles UP-TO-DATE
+:aarWrapper:preBuild UP-TO-DATE
+:aarWrapper:preDebugBuild UP-TO-DATE
+:aarWrapper:checkDebugManifest
+:aarWrapper:prepareDebugDependencies
+:aarWrapper:compileDebugAidl UP-TO-DATE
+:aarWrapper:compileDebugRenderscript UP-TO-DATE
+:aarWrapper:generateDebugBuildConfig UP-TO-DATE
+:aarWrapper:generateDebugAssets UP-TO-DATE
+:aarWrapper:mergeDebugAssets UP-TO-DATE
+:aarWrapper:generateDebugResValues UP-TO-DATE
+:aarWrapper:generateDebugResources UP-TO-DATE
+:aarWrapper:packageDebugResources UP-TO-DATE
+:aarWrapper:processDebugManifest UP-TO-DATE
+:aarWrapper:processDebugResources UP-TO-DATE
+:aarWrapper:generateDebugSources UP-TO-DATE
+:aarWrapper:processDebugJavaRes UP-TO-DATE
+:aarWrapper:compileDebugJavaWithJavac UP-TO-DATE
+:aarWrapper:packageDebugJar UP-TO-DATE
+:aarWrapper:compileDebugNdk UP-TO-DATE
+:aarWrapper:packageDebugJniLibs UP-TO-DATE
+:aarWrapper:packageDebugLocalJar UP-TO-DATE
+:aarWrapper:packageDebugRenderscript UP-TO-DATE
+:aarWrapper:bundleDebug UP-TO-DATE
+:aarWrapper:compileDebugSources UP-TO-DATE
+:aarWrapper:assembleDebug UP-TO-DATE
+:aarWrapper:copyReleaseLint UP-TO-DATE
+:aarWrapper:mergeReleaseProguardFiles UP-TO-DATE
+:aarWrapper:preReleaseBuild UP-TO-DATE
+:aarWrapper:checkReleaseManifest
+:aarWrapper:prepareReleaseDependencies
+:aarWrapper:compileReleaseAidl UP-TO-DATE
+:aarWrapper:compileReleaseRenderscript UP-TO-DATE
+:aarWrapper:generateReleaseBuildConfig UP-TO-DATE
+:aarWrapper:generateReleaseAssets UP-TO-DATE
+:aarWrapper:mergeReleaseAssets UP-TO-DATE
+:aarWrapper:generateReleaseResValues UP-TO-DATE
+:aarWrapper:generateReleaseResources UP-TO-DATE
+:aarWrapper:packageReleaseResources UP-TO-DATE
+:aarWrapper:processReleaseManifest UP-TO-DATE
+:aarWrapper:processReleaseResources UP-TO-DATE
+:aarWrapper:generateReleaseSources UP-TO-DATE
+:aarWrapper:processReleaseJavaRes UP-TO-DATE
+:aarWrapper:compileReleaseJavaWithJavac UP-TO-DATE
+:aarWrapper:packageReleaseJar UP-TO-DATE
+:aarWrapper:compileReleaseNdk UP-TO-DATE
+:aarWrapper:packageReleaseJniLibs UP-TO-DATE
+:aarWrapper:packageReleaseLocalJar UP-TO-DATE
+:aarWrapper:packageReleaseRenderscript UP-TO-DATE
+:aarWrapper:bundleRelease UP-TO-DATE
+:aarWrapper:compileReleaseSources UP-TO-DATE
+:aarWrapper:assembleRelease UP-TO-DATE
+:aarWrapper:assemble UP-TO-DATE
+:aarWrapper:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.423 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
+
+16:12:42.245 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+16:12:42.246 [main] INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/rxlifecycle/build.gradle, tasks]
+16:12:53.774 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 48
+16:12:53.774 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+16:12:53.774 [main] INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/rxlifecycle/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+16:13:05.188 [main] INFO  c.g.v.a.s.a.ProjectBuildService - [buildinfo] Not using buildInfo properties file for this build.
+:rxlifecycle:compileJava UP-TO-DATE
+:rxlifecycle:processResources UP-TO-DATE
+:rxlifecycle:classes UP-TO-DATE
+:rxlifecycle:jar UP-TO-DATE
+:rxlifecycle:assemble UP-TO-DATE
+:rxlifecycle:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.825 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
+
+16:13:05.202 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+16:13:05.202 [main] INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/todo/build.gradle, tasks]
+16:13:16.851 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 48
+16:13:16.853 [main] INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+16:13:16.854 [main] INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464948702364-0/src/Android-Lint-Checks-master/todo/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+16:13:28.428 [main] INFO  c.g.v.a.s.a.ProjectBuildService - [buildinfo] Not using buildInfo properties file for this build.
+:todo:compileJava UP-TO-DATE
+:todo:processResources UP-TO-DATE
+:todo:classes UP-TO-DATE
+:todo:jar UP-TO-DATE
+:todo:assemble UP-TO-DATE
+:todo:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.963 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.6/userguide/gradle_daemon.html
+
+16:13:28.442 [main] ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+16:13:28.453 [main] ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

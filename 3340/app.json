@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.silvestr.dotprogressbarexample",
+    "label" : "DotProgressBarExample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABPlBMVEUAAAD////////////////////////////////+/v7+/v79/f38/Pzw8PAAAAD8/Pz8/Pz9/f39/f3y8vLIyMjW1tb7+/vy8vKwsLDIyMj7+/uqqqr6/P1ovPECkOjLy8usrKytra36+vrv7++Hh4eqqqoAAADb29vLy8sAAAA3NzfLy8vr6+vv7+/u7u7s7OzHx8c0NDQAAAAAAABGRkZgYGBcXFxbW1tmZmYAAAAAAAC/v7/+/v79/f3v+f3b8v33+/2z3feY0fXY7frS6vqX0fW64Pj8/f3i8vuIy/T7/P1/1f0NsPwArPwetvyx5f0Aj+gNlenB4/i23vcIk+l8xPIfn+wAkemX3f3c8/3j8vtatu9Ss+8KlOny+PyMzfRIw/yU3P3k8/zS6vmW0fW64Pfi8fv////6+vr5+fl3NpiVAAAAPHRSTlMAAwQCEx4dCpbo7JaYmgHq+f386hcl7+8qJe4q/Pz8Jysc7OwiAwiprQMqsO3w7+2xLAkgQk1LTAULDgRrAR/jAAABRUlEQVRIx2NgoBdgZCIAGFGUMzMTNhJZDZDJwsqGF7CygJXB1LNzcHIRAJzc7HAdzAw8NraEAS8fVAMjAwu/rYCgEF4gKGAjLMIA8TkTg6iYrRAh84VsxCWASiEaJKWI0iCN0CA2qmGka7Czd8ChQcbRyRkk7uLq5g6kPDw9PWxtvbx9fP38gVxnJ0cZNA2yAQGBQba2wSEBAaFA9WHh4WEethG+QOATaRsUGBAgi6ohSi4gICDa1jYGSMXG2caHA0G8bQJIg2+ibTRQVC6JMg0kOwnu6eSUVJCn0wh6muRgHU18I0MDqYWxPHE2KEA1MDIoKtkQrlDSlVUYVKFVlpp6RrpNOl5gk56poQav4zS1tHV09XTxAD1dfQNDTUQ1amRsYmpmZmaOAwClTE2MjZAragtLKwLA0gK18le1JgBU6daKAQB1IGB5w8ZpbQAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2126,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.2\" package=\"com.silvestr.dotprogressbarexample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"DotProgressBarExample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"DotProgressBarExample\" android:name=\"com.silvestr.dotprogressbarexample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.silvestr.dotprogressbarexample.SecondActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1739486,
+  "crc32" : 1020103718,
+  "sha256" : "447a7d6f309431773368579f3bc72b50199a359258582165f183e4d5332488e2",
+  "buildTime" : 1522278249000
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "me.henrytao.mvvmlifecycledemo",
+    "label" : "MVVM Life Cycle",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.7.6",
+    "versionCode" : 15,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 3224,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "zh", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"15\" android:versionName=\"2.7.6\" package=\"me.henrytao.mvvmlifecycledemo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008e\" android:label=\"MVVM Life Cycle\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"me.henrytao.mvvmlifecycledemo.App\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"MVVM Life Cycle\" android:name=\"me.henrytao.mvvmlifecycledemo.ui.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"TO-DO-MVVM\" android:name=\"me.henrytao.mvvmlifecycledemo.ui.home.HomeActivity\" />\n\t\t<activity android:label=\"New TO-DO\" android:name=\"me.henrytao.mvvmlifecycledemo.ui.taskaddedit.TaskAddEditActivity\" android:windowSoftInputMode=\"0x10\" />\n\t\t<activity android:label=\"TO-DO-MVVM Task Detail\" android:name=\"me.henrytao.mvvmlifecycledemo.ui.taskdetail.TaskDetailActivity\" />\n\t\t<activity android:label=\"TestActivity\" android:name=\"me.henrytao.mvvmlifecycledemo.test.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2228579,
+  "crc32" : 871602496,
+  "sha256" : "16875f1f4be1563e07efce56d903187907ab213dd55de9a0dc2f4bc0285d55da",
+  "buildTime" : 1496784526000
+}

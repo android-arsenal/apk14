@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.porokoro.paperboy.sample",
+    "label" : "Paperboy 3.0.0 Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "3.0.0",
+    "versionCode" : 3000000,
+    "installLocation" : null,
+    "minSdkVersion" : "13",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "24",
+    "platformBuildVersionName" : "7.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2684,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3000000\" android:versionName=\"3.0.0\" package=\"com.github.porokoro.paperboy.sample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"13\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f090094\" android:label=\"Paperboy 3.0.0 Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"false\">\n\t\t<activity android:label=\"Paperboy 3.0.0 Sample\" android:name=\"com.github.porokoro.paperboy.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.github.porokoro.paperboy.sample.JavaSampleActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2017285,
+  "crc32" : 1627955120,
+  "sha256" : "885641ae9735a704fc6d9046c79f27ea4453962957a78625e8cbb17022cc8c22",
+  "buildTime" : 1546432314000
+}

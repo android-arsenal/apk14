@@ -1,0 +1,77 @@
+2018-12-29 16:42:12,090 INFO  DownloadService - Downloading "https://github.com/gabrielittner/auto-value-with/archive/master.zip", attempt 3
+2018-12-29 16:42:13,696 INFO  DownloadService - Downloaded https://github.com/gabrielittner/auto-value-with/archive/master.zip, attempt 3
+2018-12-29 16:42:13,697 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/master.zip": 70 KB
+2018-12-29 16:42:13,697 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-29 16:42:13,702 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/master.zip: true
+2018-12-29 16:42:13,702 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src'.
+2018-12-29 16:42:13,713 INFO  FullProcessService - Size of directory with sources: 101 KB
+2018-12-29 16:42:13,713 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src]
+2018-12-29 16:42:13,733 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/.git/
+
+2018-12-29 16:42:13,735 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/gradlew
+2018-12-29 16:42:13,737 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/auto-value-with/build.gradle
+2018-12-29 16:42:13,739 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/auto-value-with/build.gradle
+2018-12-29 16:42:13,739 INFO  ProjectBuildService - Remote scripts: none
+2018-12-29 16:42:13,739 INFO  ProjectFixService - Fixing project...
+2018-12-29 16:42:13,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/local.properties
+2018-12-29 16:42:13,745 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2018-12-29 16:42:13,746 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2018-12-29 16:42:13,747 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-29 16:42:13,747 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-29 16:42:13,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/auto-value-with/local.properties
+2018-12-29 16:42:13,750 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/auto-value-with/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-29 16:42:13,750 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/auto-value-with/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-29 16:42:13,750 INFO  ProjectFixService - Project was maybe fixed
+2018-12-29 16:42:13,750 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-29 16:42:13,751 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-29 16:42:21,868 INFO  ProjectTaskService - Detected possible tasks: 47
+2018-12-29 16:42:21,868 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-29 16:42:21,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-29 16:42:31,777 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Task :auto-value-with:compileJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+> Task :auto-value-with:processResources NO-SOURCE
+> Task :auto-value-with:classes
+> Task :auto-value-with:jar
+> Task :auto-value-with:javadocsJar
+> Task :auto-value-with:shadowJar
+> Task :auto-value-with:sourcesJar
+> Task :auto-value-with:signArchives SKIPPED
+> Task :auto-value-with:assemble
+> Task :auto-value-with:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 5 executed
+
+2018-12-29 16:42:31,781 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-29 16:42:31,781 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/auto-value-with/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-29 16:42:35,325 INFO  ProjectTaskService - Detected possible tasks: 46
+2018-12-29 16:42:35,325 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-29 16:42:35,325 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546076532085-0/src/auto-value-with-master/auto-value-with/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-29 16:42:39,597 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :auto-value-with:compileJava UP-TO-DATE
+> Task :auto-value-with:processResources NO-SOURCE
+> Task :auto-value-with:classes UP-TO-DATE
+> Task :auto-value-with:jar
+> Task :auto-value-with:javadocsJar UP-TO-DATE
+> Task :auto-value-with:shadowJar
+> Task :auto-value-with:sourcesJar UP-TO-DATE
+> Task :auto-value-with:signArchives SKIPPED
+> Task :auto-value-with:assemble
+> Task :auto-value-with:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 4s
+5 actionable tasks: 2 executed, 3 up-to-date
+
+2018-12-29 16:42:39,601 ERROR FullProcessService - Project build has not produced APK file
+2018-12-29 16:42:39,605 ERROR FullProcessService - Could not find generated or existed APK file

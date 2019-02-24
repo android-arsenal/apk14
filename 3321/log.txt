@@ -1,0 +1,69 @@
+2019-01-08 02:16:52,354 INFO  DownloadService - Downloading "https://github.com/manolovn/cssdroid/archive/master.zip", attempt 3
+2019-01-08 02:17:52,939 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-08 02:17:54,021 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-08 02:17:54,021 INFO  DownloadService - Downloading "https://github.com/manolovn/cssdroid/archive/master.zip", attempt 3
+2019-01-08 02:18:55,310 DEBUG FullProcessService - Repository https://github.com/manolovn/cssdroid available: true
+2019-01-08 02:18:55,310 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-08 02:18:55,311 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/manolovn/cssdroid, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src]
+2019-01-08 02:18:57,213 INFO  SysUtils - 
+2019-01-08 02:18:57,247 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/.git": true
+2019-01-08 02:18:57,250 INFO  FullProcessService - Size of directory with sources: 125 KB
+2019-01-08 02:18:57,250 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src]
+2019-01-08 02:18:57,267 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/.git/
+
+2019-01-08 02:18:57,270 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/gradlew
+2019-01-08 02:18:57,273 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/build.gradle
+2019-01-08 02:18:57,276 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/quality/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/quality/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/quality/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/settings.gradle
+2019-01-08 02:18:57,276 INFO  ProjectBuildService - Remote scripts: none
+2019-01-08 02:18:57,276 INFO  ProjectFixService - Fixing project...
+2019-01-08 02:18:57,284 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/local.properties
+2019-01-08 02:18:57,285 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-01-08 02:18:57,285 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-01-08 02:18:57,288 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-08 02:18:57,288 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-08 02:18:57,289 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/local.properties
+2019-01-08 02:18:57,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-08 02:18:57,291 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-08 02:18:57,291 INFO  ProjectFixService - Project was maybe fixed
+2019-01-08 02:18:57,291 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 02:18:57,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 02:19:14,048 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-01-08 02:19:14,048 INFO  ProjectTaskService - Excluded tasks (4): javadoc checkstyle test check
+2019-01-08 02:19:14,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, checkstyle, -x, test, -x, check, build]
+2019-01-08 02:19:19,673 INFO  SysUtils - Configuration on demand is an incubating feature.
+:cssdroid:compileJava
+:cssdroid:processResources
+:cssdroid:classes
+:cssdroid:jar
+:cssdroid:javadocJar
+:cssdroid:sourcesJar
+:cssdroid:signArchives SKIPPED
+:cssdroid:assemble
+:cssdroid:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.134 secs
+
+2019-01-08 02:19:19,679 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 02:19:19,679 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 02:19:23,934 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-01-08 02:19:23,934 INFO  ProjectTaskService - Excluded tasks (4): javadoc checkstyle test check
+2019-01-08 02:19:23,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546888612351-0/src/cssdroid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, checkstyle, -x, test, -x, check, build]
+2019-01-08 02:19:28,148 INFO  SysUtils - Configuration on demand is an incubating feature.
+:cssdroid:compileJava UP-TO-DATE
+:cssdroid:processResources UP-TO-DATE
+:cssdroid:classes UP-TO-DATE
+:cssdroid:jar UP-TO-DATE
+:cssdroid:javadocJar UP-TO-DATE
+:cssdroid:sourcesJar UP-TO-DATE
+:cssdroid:signArchives SKIPPED
+:cssdroid:assemble UP-TO-DATE
+:cssdroid:build
+
+BUILD SUCCESSFUL
+
+Total time: 3.736 secs
+
+2019-01-08 02:19:28,155 ERROR FullProcessService - Project build has not produced APK file
+2019-01-08 02:19:28,160 ERROR FullProcessService - Could not find generated or existed APK file

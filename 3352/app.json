@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.kunzisoft.androidclearchroma.sample",
+    "label" : "AndroidClearChroma Sample",
+    "icon" : "res/mipmap-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2315,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.kunzisoft.androidclearchroma.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0a00ab\" android:label=\"AndroidClearChroma Sample\" android:icon=\"res/mipmap-ldpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0a00ae\" android:label=\"AndroidClearChroma Sample\" android:name=\"com.kunzisoft.androidclearchroma.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"AndroidClearChroma Sample\" android:name=\"com.kunzisoft.androidclearchroma.sample.FragmentColorActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a0028\" android:label=\"AndroidClearChroma Sample\" android:name=\"com.kunzisoft.androidclearchroma.sample.PreferencesCompatActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1877164,
+  "crc32" : 1644568862,
+  "sha256" : "ec05b44e2f10c908d83c90e87836e4429086b6e395e2bca368aa703f655e6948",
+  "buildTime" : 1496784525000
+}

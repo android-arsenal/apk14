@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "github.nisrulz.samplezentone",
+    "label" : "Zentone",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "24",
+    "platformBuildVersionName" : "7.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAE2ElEQVRo3u1az08kRRT+XlU3M/xwGRiGVWICq3jQKEfk4lFumxhjuIh6Y6MHw8HjJhvvxhMnbx48CMn+AcSLxsR4Uw+DkTgrRBQYYRgY5kd3VT0PdM90zwwwMzQNm+xLOqmprq76vqrvvfo1wDO7WaOLXjKzvKxMDMZEpLv7glkws7gtvXwRHmpXmIiMl04DGATAN6iQUyI6aMbWloBfgJkHAHzBzO8CsG54ABQzPxZCfEZE5WYSbcFprb8UQjxgjq7jjTFwjEKhWoUAcHfoTjeff1wsFi0AD86VEDNLItLMnNZabxBRhpkdIrIuk9AH33yFo0oFn7x3H+nUEJKwMIPR+vsfcr9BuRp/Fg7x6Pvv8Go6g2/f+RBjY2OXSoiZlRCir1Qq5bPZ7Btzc3N7PlYAEM1kNjY2RpnZBgAikl4ZedHzX6kkK64jlVHSAJIcLff39+vvlTLSMUoq1rJQK8tjpyqJSB4cHMhL6hYeBgCwd3d3080d3+LZx8fH6Nppveq0OZMme5/n8/lQMSnOmlOm4YeHh4cdN+M4Tkue6GV+aKnEA6Y1w2dPRA0SdJYvvTyfgF+mGxKdEuipEm10CJifHrKSIAC2kBhJDGA42Q8SIlSmUCj01HYkIfLh2/dBNRfliovTJ7uA7AP6040ePshjp7CPpJ3Azx99CktagBfhgmSPjo6QSqXiH4E3J1/GVGoUfUxwqzUoxw0BM4bhuA6UctFv20hI2XakfBKxEwCA8fHxui9wIAYQUd15DRjcpueb08ViMX4CAFBR4SjhA/NBM3PIwS8i4kXDeAn4Pc8cBiME1Wfj5tG5KN0JiUgJkBd9m0E28gE23BF4P31ychInAbSVUH0E2MAwdwzet1KpFBOBgOZDEiLR8AVCV+D9dLlcjlFC1GiYiFqcuVvwfrqbpURvM7K37mLmkFTCc4LpCXwsEvLXPM0rQSlkS6SKAnz0IyBlIN43oo0IjgBzzxK6/hEwHNJ6Q/sIEbi1Ego2pNmcO93dWgnJAPhccR+OVtgp7OP3f3L1fYPvD1GAj5zAaxP3MJIcBAAUa2X8uvsEP/3xCxzlwpYW5l6ZQWrgudsroaG+JKaHn6+TqKoaXK1gSQuz0zO4l3kxUvCRbWiClh4dBQnCX8d57Dh5SCEwO/06pjITVwIfTxTybDQ1ghf6h/Hv7t8YSAxcuefjm8iCFVsW2DCM0aGJLWoJXSMBASEIhg2YzZXBxyoh/wiFSMA0rYueGgnZ0g4tIZ46CfmHWMFtZNTgr9cHhAVB1PMu7MYlZFkWhJBnq88rbmR6GYErXwxYQsASwttGUnxRSEopENHFnt/xWutIwAv/dOAcAgwA29vbp8ysiQjMrAEYALqXp1SraCGEBjXyvIuJTtPG+w2llN7a2qoAwNraGrc9CfHun/o2Nze/npycXLBtu+WEoRs7OCkCxiBpJ0A9SsXfzGez2cezs7Pve7dGF96RuYuLi5+vrKwkpqam3rIsSzIzUw8sJIBqtQa3UuvFSZmIyHVdncvlflxeXn4EwL3sLMofhQSAu/Pz8y9NTEwMKqVM4P21XnwTEQfSYm9v73R9fT0HYI+Za83XrOc4H4ulpSUbZ3fEd274GVxaWrI7vugO2urqqsxkMjf6V4N8Ps8LCwsaz+yW2v9N2U66uf/SxAAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 1994,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.0\" package=\"github.nisrulz.samplezentone\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f080039\" android:label=\"Zentone\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Zentone\" android:name=\"github.nisrulz.samplezentone.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1579171,
+  "crc32" : 1693307647,
+  "sha256" : "d9faa211d70f99de2c914e3f2b28435db2f54989354233e9b3b8f88147ebfb37",
+  "buildTime" : 1546792601000
+}

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.sunfusheng.StickyHeaderListView",
+    "label" : "StickyHeaderListView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.8.0",
+    "versionCode" : 9,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_NETWORK_STATE", "android.permission.ACCESS_WIFI_STATE", "android.permission.INTERNET", "android.permission.CHANGE_WIFI_STATE", "android.permission.CHANGE_NETWORK_STATE", "android.permission.READ_LOGS", "android.permission.WRITE_SETTINGS", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.MOUNT_UNMOUNT_FILESYSTEMS", "android.permission.SYSTEM_ALERT_WINDOW" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2995,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"9\" android:versionName=\"1.8.0\" package=\"com.sunfusheng.StickyHeaderListView\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.READ_LOGS\" />\n\t<uses-permission android:name=\"android.permission.WRITE_SETTINGS\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\" />\n\t<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n\t<application android:theme=\"resourceId:0x7f0d0007\" android:label=\"StickyHeaderListView\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.sunfusheng.StickyHeaderListView.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.sunfusheng.StickyHeaderListView.AboutActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f0d0000\" android:name=\"com.sunfusheng.FirPermissionHelper$FirPermissionActivity\" android:configChanges=\"0x4a0\" android:windowSoftInputMode=\"0x3\" />\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.sunfusheng.StickyHeaderListView.file_provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/file_provider_paths.xml\" />\n\t\t</provider>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2331604,
+  "crc32" : 284547299,
+  "sha256" : "8f1ec72dfa084563273500d2c2fb95001abced02435adde64f959c3548e19f5a",
+  "buildTime" : 1545056789000
+}

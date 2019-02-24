@@ -1,0 +1,1297 @@
+2019-01-20 19:54:10,491 INFO  DownloadService - Downloading "https://github.com/Polidea/RxAndroidBle/archive/master.zip", attempt 3
+2019-01-20 19:54:12,954 INFO  DownloadService - Downloaded https://github.com/Polidea/RxAndroidBle/archive/master.zip, attempt 3
+2019-01-20 19:54:12,955 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/master.zip": 691 KB
+2019-01-20 19:54:12,955 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 19:54:12,961 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/master.zip: true
+2019-01-20 19:54:12,961 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src'.
+2019-01-20 19:54:13,065 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-20 19:54:13,065 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src]
+2019-01-20 19:54:13,092 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/.git/
+
+2019-01-20 19:54:13,103 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradlew
+2019-01-20 19:54:13,114 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-compiler-shadow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-library-shadow/build.gradle
+2019-01-20 19:54:13,124 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradle/shadow.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-library-shadow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-compiler-shadow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample-kotlin/build.gradle
+2019-01-20 19:54:13,125 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 19:54:13,125 INFO  ProjectFixService - Fixing project...
+2019-01-20 19:54:13,154 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/local.properties
+2019-01-20 19:54:13,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,157 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,158 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/local.properties
+2019-01-20 19:54:13,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample-kotlin/local.properties
+2019-01-20 19:54:13,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,165 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample/local.properties
+2019-01-20 19:54:13,169 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,169 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/local.properties
+2019-01-20 19:54:13,171 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-20 19:54:13,171 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-20 19:54:13,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-compiler-shadow/local.properties
+2019-01-20 19:54:13,179 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-compiler-shadow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,179 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-compiler-shadow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-library-shadow/local.properties
+2019-01-20 19:54:13,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-library-shadow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,183 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/dagger-library-shadow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-01-20 19:54:13,184 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 19:54:13,184 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:54:13,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:54:23,039 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-20 19:54:23,039 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-20 19:54:23,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-20 19:55:00,459 INFO  SysUtils - Configuration on demand is an incubating feature.
+:mockrxandroidble:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:5: error: cannot find symbol
+import com.polidea.rxandroidble2.RxBleConnection;
+                                ^
+  symbol:   class RxBleConnection
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:6: error: cannot find symbol
+import com.polidea.rxandroidble2.RxBleDevice;
+                                ^
+  symbol:   class RxBleDevice
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:7: error: cannot find symbol
+import com.polidea.rxandroidble2.RxBleDeviceServices;
+                                ^
+  symbol:   class RxBleDeviceServices
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:8: error: cannot find symbol
+import com.polidea.rxandroidble2.Timeout;
+                                ^
+  symbol:   class Timeout
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:9: error: package com.polidea.rxandroidble2.exceptions does not exist
+import com.polidea.rxandroidble2.exceptions.BleAlreadyConnectedException;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:18: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:19: error: package io.reactivex.disposables does not exist
+import io.reactivex.disposables.Disposable;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:20: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Action;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:21: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Consumer;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:22: error: package io.reactivex.subjects does not exist
+import io.reactivex.subjects.BehaviorSubject;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:24: error: package com.polidea.rxandroidble2.RxBleConnection does not exist
+import static com.polidea.rxandroidble2.RxBleConnection.RxBleConnectionState.CONNECTED;
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:24: error: static import only from classes and interfaces
+import static com.polidea.rxandroidble2.RxBleConnection.RxBleConnectionState.CONNECTED;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:25: error: package com.polidea.rxandroidble2.RxBleConnection does not exist
+import static com.polidea.rxandroidble2.RxBleConnection.RxBleConnectionState.CONNECTING;
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:25: error: static import only from classes and interfaces
+import static com.polidea.rxandroidble2.RxBleConnection.RxBleConnectionState.CONNECTING;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:26: error: package com.polidea.rxandroidble2.RxBleConnection does not exist
+import static com.polidea.rxandroidble2.RxBleConnection.RxBleConnectionState.DISCONNECTED;
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:26: error: static import only from classes and interfaces
+import static com.polidea.rxandroidble2.RxBleConnection.RxBleConnectionState.DISCONNECTED;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:28: error: cannot find symbol
+public class RxBleDeviceMock implements RxBleDevice {
+                                        ^
+  symbol: class RxBleDevice
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:30: error: cannot find symbol
+    private RxBleConnection rxBleConnection;
+            ^
+  symbol:   class RxBleConnection
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:31: error: cannot find symbol
+    private BehaviorSubject<RxBleConnection.RxBleConnectionState> connectionStateBehaviorSubject = BehaviorSubject.createDefault(
+            ^
+  symbol:   class BehaviorSubject
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:31: error: package RxBleConnection does not exist
+    private BehaviorSubject<RxBleConnection.RxBleConnectionState> connectionStateBehaviorSubject = BehaviorSubject.createDefault(
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:45: error: cannot find symbol
+                           RxBleDeviceServices rxBleDeviceServices,
+                           ^
+  symbol:   class RxBleDeviceServices
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:46: error: cannot find symbol
+                           Map<UUID, Observable<byte[]>> characteristicNotificationSources) {
+                                     ^
+  symbol:   class Observable
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:62: error: cannot find symbol
+    public Observable<RxBleConnection> establishConnection(boolean autoConnect) {
+           ^
+  symbol:   class Observable
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:62: error: cannot find symbol
+    public Observable<RxBleConnection> establishConnection(boolean autoConnect) {
+                      ^
+  symbol:   class RxBleConnection
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:95: error: cannot find symbol
+    public Observable<RxBleConnection> establishConnection(boolean autoConnect, Timeout operationTimeout) {
+                                                                                ^
+  symbol:   class Timeout
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:95: error: cannot find symbol
+    public Observable<RxBleConnection> establishConnection(boolean autoConnect, Timeout operationTimeout) {
+           ^
+  symbol:   class Observable
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:95: error: cannot find symbol
+    public Observable<RxBleConnection> establishConnection(boolean autoConnect, Timeout operationTimeout) {
+                      ^
+  symbol:   class RxBleConnection
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:99: error: cannot find symbol
+    private Observable<RxBleConnection> emitConnectionWithoutCompleting() {
+            ^
+  symbol:   class Observable
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:99: error: cannot find symbol
+    private Observable<RxBleConnection> emitConnectionWithoutCompleting() {
+                       ^
+  symbol:   class RxBleConnection
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:108: error: package RxBleConnection does not exist
+    public RxBleConnection.RxBleConnectionState getConnectionState() {
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:136: error: cannot find symbol
+    public Observable<RxBleConnection.RxBleConnectionState> observeConnectionStateChanges() {
+           ^
+  symbol:   class Observable
+  location: class RxBleDeviceMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleDeviceMock.java:136: error: package RxBleConnection does not exist
+    public Observable<RxBleConnection.RxBleConnectionState> observeConnectionStateChanges() {
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:5: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:8: error: cannot find symbol
+import com.polidea.rxandroidble2.NotificationSetupMode;
+                                ^
+  symbol:   class NotificationSetupMode
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:9: error: cannot find symbol
+import com.polidea.rxandroidble2.RxBleConnection;
+                                ^
+  symbol:   class RxBleConnection
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:10: error: cannot find symbol
+import com.polidea.rxandroidble2.RxBleCustomOperation;
+                                ^
+  symbol:   class RxBleCustomOperation
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:11: error: cannot find symbol
+import com.polidea.rxandroidble2.RxBleDeviceServices;
+                                ^
+  symbol:   class RxBleDeviceServices
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:12: error: package com.polidea.rxandroidble2.exceptions does not exist
+import com.polidea.rxandroidble2.exceptions.BleConflictingNotificationAlreadySetException;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:13: error: package com.polidea.rxandroidble2.internal does not exist
+import com.polidea.rxandroidble2.internal.Priority;
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:14: error: package com.polidea.rxandroidble2.internal.connection does not exist
+import com.polidea.rxandroidble2.internal.connection.ImmediateSerializedBatchAckStrategy;
+                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:15: error: package com.polidea.rxandroidble2.internal.util does not exist
+import com.polidea.rxandroidble2.internal.util.ObservableUtil;
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:24: error: package io.reactivex does not exist
+import io.reactivex.Completable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:25: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:26: error: package io.reactivex does not exist
+import io.reactivex.ObservableSource;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:27: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:28: error: package io.reactivex does not exist
+import io.reactivex.SingleSource;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:29: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Action;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:30: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Consumer;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:31: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Function;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:32: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Predicate;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:33: error: package io.reactivex.internal.functions does not exist
+import io.reactivex.internal.functions.Functions;
+                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:36: error: cannot find symbol
+public class RxBleConnectionMock implements RxBleConnection {
+                                            ^
+  symbol: class RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:54: error: cannot find symbol
+    private HashMap<UUID, Observable<Observable<byte[]>>> notificationObservableMap = new HashMap<>();
+                          ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:54: error: cannot find symbol
+    private HashMap<UUID, Observable<Observable<byte[]>>> notificationObservableMap = new HashMap<>();
+                                     ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:55: error: cannot find symbol
+    private HashMap<UUID, Observable<Observable<byte[]>>> indicationObservableMap = new HashMap<>();
+                          ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:55: error: cannot find symbol
+    private HashMap<UUID, Observable<Observable<byte[]>>> indicationObservableMap = new HashMap<>();
+                                     ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:56: error: cannot find symbol
+    private RxBleDeviceServices rxBleDeviceServices;
+            ^
+  symbol:   class RxBleDeviceServices
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:59: error: cannot find symbol
+    private Map<UUID, Observable<byte[]>> characteristicNotificationSources;
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:62: error: cannot find symbol
+    public RxBleConnectionMock(RxBleDeviceServices rxBleDeviceServices,
+                               ^
+  symbol:   class RxBleDeviceServices
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:64: error: cannot find symbol
+                               Map<UUID, Observable<byte[]>> characteristicNotificationSources) {
+                                         ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:71: error: cannot find symbol
+    public Completable requestConnectionPriority(int connectionPriority,
+           ^
+  symbol:   class Completable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:78: error: cannot find symbol
+    public Single<Integer> requestMtu(final int mtu) {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:94: error: cannot find symbol
+    public Single<RxBleDeviceServices> discoverServices() {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:94: error: cannot find symbol
+    public Single<RxBleDeviceServices> discoverServices() {
+                  ^
+  symbol:   class RxBleDeviceServices
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:99: error: cannot find symbol
+    public Single<RxBleDeviceServices> discoverServices(long timeout, @NonNull TimeUnit timeUnit) {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:99: error: cannot find symbol
+    public Single<RxBleDeviceServices> discoverServices(long timeout, @NonNull TimeUnit timeUnit) {
+                  ^
+  symbol:   class RxBleDeviceServices
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:104: error: cannot find symbol
+    public Single<BluetoothGattCharacteristic> getCharacteristic(@NonNull final UUID characteristicUuid) {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:116: error: cannot find symbol
+    public Single<byte[]> readCharacteristic(@NonNull UUID characteristicUuid) {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:126: error: cannot find symbol
+    public Single<byte[]> readCharacteristic(@NonNull BluetoothGattCharacteristic characteristic) {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:131: error: cannot find symbol
+    public Single<byte[]> readDescriptor(@NonNull final UUID serviceUuid, @NonNull final UUID characteristicUuid,
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:149: error: cannot find symbol
+    public Single<byte[]> readDescriptor(@NonNull BluetoothGattDescriptor descriptor) {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:154: error: cannot find symbol
+    public Single<Integer> readRssi() {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:159: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupNotification(@NonNull UUID characteristicUuid) {
+           ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:159: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupNotification(@NonNull UUID characteristicUuid) {
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:164: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupNotification(@NonNull BluetoothGattCharacteristic characteristic) {
+           ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:164: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupNotification(@NonNull BluetoothGattCharacteristic characteristic) {
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:170: error: cannot find symbol
+                                                            @NonNull final NotificationSetupMode setupMode) {
+                                                                           ^
+  symbol:   class NotificationSetupMode
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:169: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupNotification(@NonNull final UUID characteristicUuid,
+           ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:169: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupNotification(@NonNull final UUID characteristicUuid,
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:203: error: cannot find symbol
+                                                            @NonNull NotificationSetupMode setupMode) {
+                                                                     ^
+  symbol:   class NotificationSetupMode
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:202: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupNotification(@NonNull BluetoothGattCharacteristic characteristic,
+           ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:202: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupNotification(@NonNull BluetoothGattCharacteristic characteristic,
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:208: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupIndication(@NonNull UUID characteristicUuid) {
+           ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:208: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupIndication(@NonNull UUID characteristicUuid) {
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:213: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupIndication(@NonNull BluetoothGattCharacteristic characteristic) {
+           ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:213: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupIndication(@NonNull BluetoothGattCharacteristic characteristic) {
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:219: error: cannot find symbol
+                                                          @NonNull final NotificationSetupMode setupMode) {
+                                                                         ^
+  symbol:   class NotificationSetupMode
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:218: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupIndication(@NonNull final UUID characteristicUuid,
+           ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:218: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupIndication(@NonNull final UUID characteristicUuid,
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:252: error: cannot find symbol
+                                                          @NonNull NotificationSetupMode setupMode) {
+                                                                   ^
+  symbol:   class NotificationSetupMode
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:251: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupIndication(@NonNull BluetoothGattCharacteristic characteristic,
+           ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:251: error: cannot find symbol
+    public Observable<Observable<byte[]>> setupIndication(@NonNull BluetoothGattCharacteristic characteristic,
+                      ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:257: error: cannot find symbol
+    public Single<byte[]> writeCharacteristic(@NonNull BluetoothGattCharacteristic bluetoothGattCharacteristic, @NonNull byte[] data) {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:263: error: cannot find symbol
+    public LongWriteOperationBuilder createNewLongWriteBuilder() {
+           ^
+  symbol:   class LongWriteOperationBuilder
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:357: error: cannot find symbol
+    public Single<byte[]> writeCharacteristic(@NonNull UUID characteristicUuid, @NonNull final byte[] data) {
+           ^
+  symbol:   class Single
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:369: error: cannot find symbol
+    public Completable writeDescriptor(@NonNull final UUID serviceUuid, @NonNull final UUID characteristicUuid,
+           ^
+  symbol:   class Completable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:388: error: cannot find symbol
+    public Completable writeDescriptor(@NonNull final BluetoothGattDescriptor descriptor, @NonNull final byte[] data) {
+           ^
+  symbol:   class Completable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:398: error: cannot find symbol
+                                                                                      NotificationSetupMode setupMode,
+                                                                                      ^
+  symbol:   class NotificationSetupMode
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:397: error: cannot find symbol
+    private Observable<Observable<byte[]>> createCharacteristicNotificationObservable(final UUID characteristicUuid,
+            ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/mockrxandroidble/src/main/java/com/polidea/rxandroidble2/mockrxandroidble/RxBleConnectionMock.java:397: error: cannot find symbol
+    private Observable<Observable<byte[]>> createCharacteristicNotificationObservable(final UUID characteristicUuid,
+                       ^
+  symbol:   class Observable
+  location: class RxBleConnectionMock
+
+100 warnings
+:mockrxandroidble:androidJavadocsJar
+:mockrxandroidble:androidSourcesJar
+:mockrxandroidble:preBuild UP-TO-DATE
+:mockrxandroidble:preDebugBuild UP-TO-DATE
+:rxandroidble:checkstyle
+:rxandroidble:preBuild
+:rxandroidble:preDebugBuild
+:rxandroidble:compileDebugAidl NO-SOURCE
+:mockrxandroidble:compileDebugAidl NO-SOURCE
+:rxandroidble:packageDebugRenderscript NO-SOURCE
+:mockrxandroidble:compileDebugRenderscript
+:mockrxandroidble:checkDebugManifest
+:mockrxandroidble:generateDebugBuildConfig
+:mockrxandroidble:generateDebugResValues
+:mockrxandroidble:generateDebugResources
+:mockrxandroidble:packageDebugResources
+:mockrxandroidble:processDebugManifest
+:rxandroidble:compileDebugRenderscript
+:rxandroidble:generateDebugResValues
+:rxandroidble:generateDebugResources
+:rxandroidble:packageDebugResources
+:rxandroidble:checkDebugManifest
+:rxandroidble:processDebugManifest
+:rxandroidble:generateDebugRFile
+:mockrxandroidble:generateDebugRFile
+:mockrxandroidble:prepareLintJar
+:mockrxandroidble:generateDebugSources
+:dagger-compiler-shadow:compileJava NO-SOURCE
+:dagger-compiler-shadow:processResources NO-SOURCE
+:dagger-compiler-shadow:classes UP-TO-DATE
+:dagger-compiler-shadow:shadowJar
+:dagger-library-shadow:compileJava NO-SOURCE
+:dagger-library-shadow:processResources NO-SOURCE
+:dagger-library-shadow:classes UP-TO-DATE
+:dagger-library-shadow:shadowJar
+:rxandroidble:generateDebugBuildConfig
+:rxandroidble:prepareLintJar
+:rxandroidble:generateDebugSources
+:rxandroidble:javaPreCompileDebug
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+Download https://jcenter.bintray.com/com/jakewharton/rxrelay2/rxrelay/2.1.0/rxrelay-2.1.0.jar
+:rxandroidble:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:rxandroidble:processDebugJavaRes NO-SOURCE
+:rxandroidble:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:mockrxandroidble:javaPreCompileDebug
+:mockrxandroidble:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mockrxandroidble:extractDebugAnnotations
+:mockrxandroidble:mergeDebugConsumerProguardFiles
+:mockrxandroidble:mergeDebugShaders
+:mockrxandroidble:compileDebugShaders
+:mockrxandroidble:generateDebugAssets
+:mockrxandroidble:packageDebugAssets
+:mockrxandroidble:packageDebugRenderscript NO-SOURCE
+:mockrxandroidble:processDebugJavaRes NO-SOURCE
+:mockrxandroidble:transformResourcesWithMergeJavaResForDebug
+:mockrxandroidble:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mockrxandroidble:compileDebugNdk NO-SOURCE
+:mockrxandroidble:mergeDebugJniLibFolders
+:mockrxandroidble:transformNativeLibsWithMergeJniLibsForDebug
+:mockrxandroidble:transformNativeLibsWithStripDebugSymbolForDebug
+:mockrxandroidble:transformNativeLibsWithSyncJniLibsForDebug
+:mockrxandroidble:bundleDebugAar
+:mockrxandroidble:compileDebugSources
+:mockrxandroidble:assembleDebug
+:mockrxandroidble:preReleaseBuild UP-TO-DATE
+:rxandroidble:preReleaseBuild
+:rxandroidble:compileReleaseAidl NO-SOURCE
+:mockrxandroidble:compileReleaseAidl NO-SOURCE
+:rxandroidble:packageReleaseRenderscript NO-SOURCE
+:mockrxandroidble:compileReleaseRenderscript
+:mockrxandroidble:checkReleaseManifest
+:mockrxandroidble:generateReleaseBuildConfig
+:mockrxandroidble:generateReleaseResValues
+:mockrxandroidble:generateReleaseResources
+:mockrxandroidble:packageReleaseResources
+:mockrxandroidble:processReleaseManifest
+:rxandroidble:compileReleaseRenderscript
+:rxandroidble:generateReleaseResValues
+:rxandroidble:generateReleaseResources
+:rxandroidble:packageReleaseResources
+:rxandroidble:checkReleaseManifest
+:rxandroidble:processReleaseManifest
+:rxandroidble:generateReleaseRFile
+:mockrxandroidble:generateReleaseRFile
+:mockrxandroidble:generateReleaseSources
+:rxandroidble:generateReleaseBuildConfig
+:rxandroidble:generateReleaseSources
+:rxandroidble:javaPreCompileRelease
+:rxandroidble:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:rxandroidble:processReleaseJavaRes NO-SOURCE
+:rxandroidble:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:mockrxandroidble:javaPreCompileRelease
+:mockrxandroidble:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mockrxandroidble:extractReleaseAnnotations
+:mockrxandroidble:mergeReleaseConsumerProguardFiles
+:mockrxandroidble:mergeReleaseShaders
+:mockrxandroidble:compileReleaseShaders
+:mockrxandroidble:generateReleaseAssets
+:mockrxandroidble:packageReleaseAssets
+:mockrxandroidble:packageReleaseRenderscript NO-SOURCE
+:mockrxandroidble:processReleaseJavaRes NO-SOURCE
+:mockrxandroidble:transformResourcesWithMergeJavaResForRelease
+:mockrxandroidble:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mockrxandroidble:compileReleaseNdk NO-SOURCE
+:mockrxandroidble:mergeReleaseJniLibFolders
+:mockrxandroidble:transformNativeLibsWithMergeJniLibsForRelease
+:mockrxandroidble:transformNativeLibsWithStripDebugSymbolForRelease
+:mockrxandroidble:transformNativeLibsWithSyncJniLibsForRelease
+:mockrxandroidble:bundleReleaseAar
+:mockrxandroidble:compileReleaseSources
+:mockrxandroidble:mergeReleaseResources
+:mockrxandroidble:verifyReleaseResources
+:mockrxandroidble:assembleRelease
+:mockrxandroidble:signArchives SKIPPED
+:mockrxandroidble:assemble
+:mockrxandroidble:build
+
+BUILD SUCCESSFUL in 37s
+72 actionable tasks: 72 executed
+
+2019-01-20 19:55:00,510 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:55:00,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:55:09,936 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-20 19:55:09,936 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-20 19:55:09,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-20 19:55:29,447 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxandroidble:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:12: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:13: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:40: error: package bleshadow.dagger does not exist
+import bleshadow.dagger.Binds;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:41: error: package bleshadow.dagger does not exist
+import bleshadow.dagger.Component;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:42: error: package bleshadow.dagger does not exist
+import bleshadow.dagger.Module;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:43: error: package bleshadow.dagger does not exist
+import bleshadow.dagger.Provides;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:44: error: package bleshadow.javax.inject does not exist
+import bleshadow.javax.inject.Named;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:45: error: package bleshadow.javax.inject does not exist
+import bleshadow.javax.inject.Provider;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:46: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:47: error: package io.reactivex does not exist
+import io.reactivex.Scheduler;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:48: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Function;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:49: error: package io.reactivex.schedulers does not exist
+import io.reactivex.schedulers.Schedulers;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientScope.java:6: error: package bleshadow.javax.inject does not exist
+import bleshadow.javax.inject.Scope;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientScope.java:8: error: cannot find symbol
+@Scope
+ ^
+  symbol: class Scope
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/ClientComponent.java:52: error: cannot find symbol
+@Component(modules = {ClientComponent.ClientModule.class, ClientComponent.ClientModuleBinder.class})
+ ^
+  symbol: class Component
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:4: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:7: error: cannot find symbol
+import com.polidea.rxandroidble2.DaggerClientComponent;
+                                ^
+  symbol:   class DaggerClientComponent
+  location: package com.polidea.rxandroidble2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:12: error: package bleshadow.javax.inject does not exist
+import bleshadow.javax.inject.Inject;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:13: error: package bleshadow.javax.inject does not exist
+import bleshadow.javax.inject.Named;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:14: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:15: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:16: error: package io.reactivex.observers does not exist
+import io.reactivex.observers.DisposableObserver;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:24: error: cannot find symbol
+public class LocationServicesOkObservable extends Observable<Boolean> {
+                                                  ^
+  symbol: class Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleClient.java:4: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleClient.java:5: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleClient.java:16: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:27: error: cannot find symbol
+    private final Observable<Boolean> locationServicesOkObsImpl;
+                  ^
+  symbol:   class Observable
+  location: class LocationServicesOkObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:40: error: cannot find symbol
+            @Named(ClientComponent.NamedBooleanObservables.LOCATION_SERVICES_OK) final Observable<Boolean> locationServicesOkObsImpl) {
+                                                                                       ^
+  symbol:   class Observable
+  location: class LocationServicesOkObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/helpers/LocationServicesOkObservable.java:45: error: cannot find symbol
+    protected void subscribeActual(final Observer<? super Boolean> observer) {
+                                         ^
+  symbol:   class Observer
+  location: class LocationServicesOkObservable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDevice.java:6: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDevice.java:7: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDevice.java:14: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleClient.java:107: error: cannot find symbol
+    public abstract Observable<RxBleScanResult> scanBleDevices(@Nullable UUID... filterServiceUUIDs);
+                    ^
+  symbol:   class Observable
+  location: class RxBleClient
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/scan/ScanSettings.java:7: error: cannot find symbol
+import androidx.annotation.IntDef;
+                          ^
+  symbol:   class IntDef
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/scan/ScanFilter.java:9: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleClient.java:122: error: cannot find symbol
+    public abstract Observable<ScanResult> scanBleDevices(ScanSettings scanSettings, ScanFilter... scanFilters);
+                    ^
+  symbol:   class Observable
+  location: class RxBleClient
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/scan/BackgroundScanner.java:6: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/scan/BackgroundScanner.java:7: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/scan/BackgroundScanner.java:11: error: cannot find symbol
+@RequiresApi(api = Build.VERSION_CODES.O)
+ ^
+  symbol: class RequiresApi
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleClient.java:147: error: cannot find symbol
+    public abstract Observable<State> observeStateChanges();
+                    ^
+  symbol:   class Observable
+  location: class RxBleClient
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDevice.java:31: error: cannot find symbol
+    Observable<RxBleConnection.RxBleConnectionState> observeConnectionStateChanges();
+    ^
+  symbol:   class Observable
+  location: interface RxBleDevice
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:7: error: cannot find symbol
+import androidx.annotation.IntDef;
+                          ^
+  symbol:   class IntDef
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:8: error: cannot find symbol
+import androidx.annotation.IntRange;
+                          ^
+  symbol:   class IntRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:9: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:10: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:28: error: package io.reactivex does not exist
+import io.reactivex.Completable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:29: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:30: error: package io.reactivex does not exist
+import io.reactivex.ObservableTransformer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:31: error: package io.reactivex does not exist
+import io.reactivex.Scheduler;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:32: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDevice.java:71: error: cannot find symbol
+    Observable<RxBleConnection> establishConnection(boolean autoConnect);
+    ^
+  symbol:   class Observable
+  location: interface RxBleDevice
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDevice.java:110: error: cannot find symbol
+    Observable<RxBleConnection> establishConnection(boolean autoConnect, @NonNull Timeout operationTimeout);
+    ^
+  symbol:   class Observable
+  location: interface RxBleDevice
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/scan/ScanRecord.java:4: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:249: error: cannot find symbol
+    Single<RxBleDeviceServices> discoverServices();
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:6: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:16: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:17: error: package io.reactivex does not exist
+import io.reactivex.Single;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:18: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Function;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:19: error: package io.reactivex.functions does not exist
+import io.reactivex.functions.Predicate;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:267: error: cannot find symbol
+    Single<RxBleDeviceServices> discoverServices(@IntRange(from = 1) long timeout, @NonNull TimeUnit timeUnit);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:272: error: cannot find symbol
+    Observable<Observable<byte[]>> setupNotification(@NonNull UUID characteristicUuid);
+    ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:272: error: cannot find symbol
+    Observable<Observable<byte[]>> setupNotification(@NonNull UUID characteristicUuid);
+               ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:277: error: cannot find symbol
+    Observable<Observable<byte[]>> setupNotification(@NonNull BluetoothGattCharacteristic characteristic);
+    ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:277: error: cannot find symbol
+    Observable<Observable<byte[]>> setupNotification(@NonNull BluetoothGattCharacteristic characteristic);
+               ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:297: error: cannot find symbol
+    Observable<Observable<byte[]>> setupNotification(@NonNull UUID characteristicUuid, @NonNull NotificationSetupMode setupMode);
+    ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:297: error: cannot find symbol
+    Observable<Observable<byte[]>> setupNotification(@NonNull UUID characteristicUuid, @NonNull NotificationSetupMode setupMode);
+               ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:319: error: cannot find symbol
+    Observable<Observable<byte[]>> setupNotification(@NonNull BluetoothGattCharacteristic characteristic,
+    ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:319: error: cannot find symbol
+    Observable<Observable<byte[]>> setupNotification(@NonNull BluetoothGattCharacteristic characteristic,
+               ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:325: error: cannot find symbol
+    Observable<Observable<byte[]>> setupIndication(@NonNull UUID characteristicUuid);
+    ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:325: error: cannot find symbol
+    Observable<Observable<byte[]>> setupIndication(@NonNull UUID characteristicUuid);
+               ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:330: error: cannot find symbol
+    Observable<Observable<byte[]>> setupIndication(@NonNull BluetoothGattCharacteristic characteristic);
+    ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:330: error: cannot find symbol
+    Observable<Observable<byte[]>> setupIndication(@NonNull BluetoothGattCharacteristic characteristic);
+               ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:350: error: cannot find symbol
+    Observable<Observable<byte[]>> setupIndication(@NonNull UUID characteristicUuid, @NonNull NotificationSetupMode setupMode);
+    ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:350: error: cannot find symbol
+    Observable<Observable<byte[]>> setupIndication(@NonNull UUID characteristicUuid, @NonNull NotificationSetupMode setupMode);
+               ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:372: error: cannot find symbol
+    Observable<Observable<byte[]>> setupIndication(@NonNull BluetoothGattCharacteristic characteristic,
+    ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:372: error: cannot find symbol
+    Observable<Observable<byte[]>> setupIndication(@NonNull BluetoothGattCharacteristic characteristic,
+               ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:388: error: cannot find symbol
+    Single<BluetoothGattCharacteristic> getCharacteristic(@NonNull UUID characteristicUuid);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:399: error: cannot find symbol
+    Single<byte[]> readCharacteristic(@NonNull UUID characteristicUuid);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:411: error: cannot find symbol
+    Single<byte[]> readCharacteristic(@NonNull BluetoothGattCharacteristic characteristic);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:422: error: cannot find symbol
+    Single<byte[]> writeCharacteristic(@NonNull UUID characteristicUuid, @NonNull byte[] data);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:435: error: cannot find symbol
+    Single<byte[]> writeCharacteristic(@NonNull BluetoothGattCharacteristic bluetoothGattCharacteristic, @NonNull byte[] data);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:458: error: cannot find symbol
+    Single<byte[]> readDescriptor(@NonNull UUID serviceUuid, @NonNull UUID characteristicUuid, @NonNull UUID descriptorUuid);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:470: error: cannot find symbol
+    Single<byte[]> readDescriptor(@NonNull BluetoothGattDescriptor descriptor);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:482: error: cannot find symbol
+    Completable writeDescriptor(@NonNull UUID serviceUuid, @NonNull UUID characteristicUuid,
+    ^
+  symbol:   class Completable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:495: error: cannot find symbol
+    Completable writeDescriptor(@NonNull BluetoothGattDescriptor descriptor, @NonNull byte[] data);
+    ^
+  symbol:   class Completable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:530: error: cannot find symbol
+    Completable requestConnectionPriority(
+    ^
+  symbol:   class Completable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:541: error: cannot find symbol
+    Single<Integer> readRssi();
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:554: error: cannot find symbol
+    Single<Integer> requestMtu(@IntRange(from = GATT_MTU_MINIMUM, to = GATT_MTU_MAXIMUM) int mtu);
+    ^
+  symbol:   class Single
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleCustomOperation.java:4: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleCustomOperation.java:9: error: package io.reactivex does not exist
+import io.reactivex.Observable;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleCustomOperation.java:10: error: package io.reactivex does not exist
+import io.reactivex.Observer;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleCustomOperation.java:11: error: package io.reactivex does not exist
+import io.reactivex.Scheduler;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:589: error: cannot find symbol
+    <T> Observable<T> queue(@NonNull RxBleCustomOperation<T> operation);
+        ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:616: error: cannot find symbol
+    <T> Observable<T> queue(@NonNull RxBleCustomOperation<T> operation, Priority priority);
+        ^
+  symbol:   class Observable
+  location: interface RxBleConnection
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:47: error: cannot find symbol
+    public Single<BluetoothGattService> getService(@NonNull final UUID serviceUuid) {
+           ^
+  symbol:   class Single
+  location: class RxBleDeviceServices
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:71: error: cannot find symbol
+    public Single<BluetoothGattCharacteristic> getCharacteristic(@NonNull final UUID characteristicUuid) {
+           ^
+  symbol:   class Single
+  location: class RxBleDeviceServices
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:96: error: cannot find symbol
+    public Single<BluetoothGattCharacteristic> getCharacteristic(@NonNull UUID serviceUuid, @NonNull final UUID characteristicUuid) {
+           ^
+  symbol:   class Single
+  location: class RxBleDeviceServices
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:111: error: cannot find symbol
+    public Single<BluetoothGattDescriptor> getDescriptor(final UUID characteristicUuid, final UUID descriptorUuid) {
+           ^
+  symbol:   class Single
+  location: class RxBleDeviceServices
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleDeviceServices.java:127: error: cannot find symbol
+    public Single<BluetoothGattDescriptor> getDescriptor(
+           ^
+  symbol:   class Single
+  location: class RxBleDeviceServices
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/rxandroidble/src/main/java/com/polidea/rxandroidble2/RxBleConnection.java:192: error: cannot find symbol
+    interface WriteOperationRetryStrategy extends ObservableTransformer<WriteOperationRetryStrategy.LongWriteFailure,
+                                                  ^
+  symbol:   class ObservableTransformer
+  location: interface RxBleConnection
+
+100 warnings
+:rxandroidble:androidJavadocsJar
+:rxandroidble:androidSourcesJar
+:rxandroidble:checkstyle UP-TO-DATE
+:rxandroidble:preBuild UP-TO-DATE
+:rxandroidble:preDebugBuild UP-TO-DATE
+:rxandroidble:compileDebugAidl NO-SOURCE
+:dagger-library-shadow:compileJava NO-SOURCE
+:dagger-library-shadow:processResources NO-SOURCE
+:dagger-library-shadow:classes UP-TO-DATE
+:dagger-library-shadow:shadowJar UP-TO-DATE
+:dagger-compiler-shadow:compileJava NO-SOURCE
+:dagger-compiler-shadow:processResources NO-SOURCE
+:dagger-compiler-shadow:classes UP-TO-DATE
+:dagger-compiler-shadow:shadowJar UP-TO-DATE
+:rxandroidble:compileDebugRenderscript UP-TO-DATE
+:rxandroidble:checkDebugManifest UP-TO-DATE
+:rxandroidble:generateDebugBuildConfig UP-TO-DATE
+:rxandroidble:generateDebugResValues UP-TO-DATE
+:rxandroidble:generateDebugResources UP-TO-DATE
+:rxandroidble:packageDebugResources UP-TO-DATE
+:rxandroidble:processDebugManifest UP-TO-DATE
+:rxandroidble:generateDebugRFile UP-TO-DATE
+:rxandroidble:prepareLintJar UP-TO-DATE
+:rxandroidble:generateDebugSources UP-TO-DATE
+:rxandroidble:javaPreCompileDebug UP-TO-DATE
+:rxandroidble:compileDebugJavaWithJavac UP-TO-DATE
+:rxandroidble:extractDebugAnnotations
+:rxandroidble:mergeDebugConsumerProguardFiles
+:rxandroidble:mergeDebugShaders
+:rxandroidble:compileDebugShaders
+:rxandroidble:generateDebugAssets
+:rxandroidble:packageDebugAssets
+:rxandroidble:packageDebugRenderscript NO-SOURCE
+:rxandroidble:processDebugJavaRes NO-SOURCE
+:rxandroidble:transformResourcesWithMergeJavaResForDebug
+:rxandroidble:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxandroidble:compileDebugNdk NO-SOURCE
+:rxandroidble:mergeDebugJniLibFolders
+:rxandroidble:transformNativeLibsWithMergeJniLibsForDebug
+:rxandroidble:transformNativeLibsWithStripDebugSymbolForDebug
+:rxandroidble:transformNativeLibsWithSyncJniLibsForDebug
+:rxandroidble:bundleDebugAar
+:rxandroidble:compileDebugSources UP-TO-DATE
+:rxandroidble:assembleDebug
+:rxandroidble:preReleaseBuild UP-TO-DATE
+:rxandroidble:compileReleaseAidl NO-SOURCE
+:rxandroidble:compileReleaseRenderscript UP-TO-DATE
+:rxandroidble:checkReleaseManifest UP-TO-DATE
+:rxandroidble:generateReleaseBuildConfig UP-TO-DATE
+:rxandroidble:generateReleaseResValues UP-TO-DATE
+:rxandroidble:generateReleaseResources UP-TO-DATE
+:rxandroidble:packageReleaseResources UP-TO-DATE
+:rxandroidble:processReleaseManifest UP-TO-DATE
+:rxandroidble:generateReleaseRFile UP-TO-DATE
+:rxandroidble:generateReleaseSources UP-TO-DATE
+:rxandroidble:javaPreCompileRelease UP-TO-DATE
+:rxandroidble:compileReleaseJavaWithJavac UP-TO-DATE
+:rxandroidble:extractReleaseAnnotations
+:rxandroidble:mergeReleaseConsumerProguardFiles
+:rxandroidble:mergeReleaseShaders
+:rxandroidble:compileReleaseShaders
+:rxandroidble:generateReleaseAssets
+:rxandroidble:packageReleaseAssets
+:rxandroidble:packageReleaseRenderscript NO-SOURCE
+:rxandroidble:processReleaseJavaRes NO-SOURCE
+:rxandroidble:transformResourcesWithMergeJavaResForRelease
+:rxandroidble:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxandroidble:compileReleaseNdk NO-SOURCE
+:rxandroidble:mergeReleaseJniLibFolders
+:rxandroidble:transformNativeLibsWithMergeJniLibsForRelease
+:rxandroidble:transformNativeLibsWithStripDebugSymbolForRelease
+:rxandroidble:transformNativeLibsWithSyncJniLibsForRelease
+:rxandroidble:bundleReleaseAar
+:rxandroidble:compileReleaseSources UP-TO-DATE
+:rxandroidble:mergeReleaseResources
+:rxandroidble:verifyReleaseResources
+:rxandroidble:assembleRelease
+:rxandroidble:signArchives SKIPPED
+:rxandroidble:assemble
+:rxandroidble:build
+
+BUILD SUCCESSFUL in 19s
+51 actionable tasks: 29 executed, 22 up-to-date
+
+2019-01-20 19:55:29,510 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:55:29,511 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:55:38,338 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-20 19:55:38,338 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 19:55:38,338 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 19:56:40,257 INFO  SysUtils - Configuration on demand is an incubating feature.
+:dagger-compiler-shadow:compileJava NO-SOURCE
+:dagger-compiler-shadow:processResources NO-SOURCE
+:dagger-compiler-shadow:classes UP-TO-DATE
+:dagger-compiler-shadow:shadowJar UP-TO-DATE
+:dagger-library-shadow:compileJava NO-SOURCE
+:dagger-library-shadow:processResources NO-SOURCE
+:dagger-library-shadow:classes UP-TO-DATE
+:dagger-library-shadow:shadowJar UP-TO-DATE
+:rxandroidble:checkstyle UP-TO-DATE
+:rxandroidble:preBuild UP-TO-DATE
+:rxandroidble:preDebugBuild UP-TO-DATE
+:rxandroidble:compileDebugAidl NO-SOURCE
+:rxandroidble:compileDebugRenderscript UP-TO-DATE
+:rxandroidble:checkDebugManifest UP-TO-DATE
+:rxandroidble:generateDebugBuildConfig UP-TO-DATE
+:rxandroidble:generateDebugResValues UP-TO-DATE
+:rxandroidble:generateDebugResources UP-TO-DATE
+:rxandroidble:packageDebugResources UP-TO-DATE
+:rxandroidble:processDebugManifest UP-TO-DATE
+:rxandroidble:generateDebugRFile UP-TO-DATE
+:rxandroidble:prepareLintJar UP-TO-DATE
+:rxandroidble:generateDebugSources UP-TO-DATE
+:rxandroidble:javaPreCompileDebug UP-TO-DATE
+:rxandroidble:compileDebugJavaWithJavac UP-TO-DATE
+:rxandroidble:processDebugJavaRes NO-SOURCE
+:rxandroidble:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:sample-kotlin:checkDebugClasspath
+:sample-kotlin:preBuild UP-TO-DATE
+:sample-kotlin:preDebugBuild
+:sample-kotlin:compileDebugAidl NO-SOURCE
+:rxandroidble:packageDebugRenderscript NO-SOURCE
+:sample-kotlin:compileDebugRenderscript
+:sample-kotlin:checkDebugManifest
+:sample-kotlin:generateDebugBuildConfig
+:sample-kotlin:mainApkListPersistenceDebug
+:sample-kotlin:generateDebugResValues
+:sample-kotlin:generateDebugResources
+:sample-kotlin:mergeDebugResources
+:sample-kotlin:createDebugCompatibleScreenManifests
+:sample-kotlin:processDebugManifest
+:sample-kotlin:splitsDiscoveryTaskDebug
+:sample-kotlin:processDebugResources
+:sample-kotlin:compileDebugKotlin
+:sample-kotlin:prepareLintJar
+:sample-kotlin:generateDebugSources
+:sample-kotlin:javaPreCompileDebug
+:sample-kotlin:compileDebugJavaWithJavac
+:sample-kotlin:compileDebugNdk NO-SOURCE
+:sample-kotlin:compileDebugSources
+:rxandroidble:mergeDebugShaders UP-TO-DATE
+:rxandroidble:compileDebugShaders UP-TO-DATE
+:rxandroidble:generateDebugAssets UP-TO-DATE
+:rxandroidble:packageDebugAssets UP-TO-DATE
+:sample-kotlin:mergeDebugShaders
+:sample-kotlin:compileDebugShaders
+:sample-kotlin:generateDebugAssets
+:sample-kotlin:mergeDebugAssets
+:sample-kotlin:transformClassesWithDexBuilderForDebug
+:sample-kotlin:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample-kotlin:transformDexArchiveWithDexMergerForDebug
+:rxandroidble:compileDebugNdk NO-SOURCE
+:rxandroidble:mergeDebugJniLibFolders UP-TO-DATE
+:rxandroidble:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:rxandroidble:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:rxandroidble:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample-kotlin:mergeDebugJniLibFolders
+:sample-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:sample-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:sample-kotlin:checkDebugLibraries
+:sample-kotlin:processDebugJavaRes NO-SOURCE
+:sample-kotlin:transformResourcesWithMergeJavaResForDebug
+:sample-kotlin:validateSigningDebug
+:sample-kotlin:packageDebug
+:sample-kotlin:assembleDebug
+:rxandroidble:preReleaseBuild UP-TO-DATE
+:rxandroidble:compileReleaseAidl NO-SOURCE
+:rxandroidble:compileReleaseRenderscript UP-TO-DATE
+:rxandroidble:checkReleaseManifest UP-TO-DATE
+:rxandroidble:generateReleaseBuildConfig UP-TO-DATE
+:rxandroidble:generateReleaseResValues UP-TO-DATE
+:rxandroidble:generateReleaseResources UP-TO-DATE
+:rxandroidble:packageReleaseResources UP-TO-DATE
+:rxandroidble:processReleaseManifest UP-TO-DATE
+:rxandroidble:generateReleaseRFile UP-TO-DATE
+:rxandroidble:generateReleaseSources UP-TO-DATE
+:rxandroidble:javaPreCompileRelease UP-TO-DATE
+:rxandroidble:compileReleaseJavaWithJavac UP-TO-DATE
+:rxandroidble:processReleaseJavaRes NO-SOURCE
+:rxandroidble:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:sample-kotlin:checkReleaseClasspath
+:sample-kotlin:preReleaseBuild
+:sample-kotlin:compileReleaseAidl NO-SOURCE
+:rxandroidble:packageReleaseRenderscript NO-SOURCE
+:sample-kotlin:compileReleaseRenderscript
+:sample-kotlin:checkReleaseManifest
+:sample-kotlin:generateReleaseBuildConfig
+:sample-kotlin:mainApkListPersistenceRelease
+:sample-kotlin:generateReleaseResValues
+:sample-kotlin:generateReleaseResources
+:sample-kotlin:mergeReleaseResources
+:sample-kotlin:createReleaseCompatibleScreenManifests
+:sample-kotlin:processReleaseManifest
+:sample-kotlin:splitsDiscoveryTaskRelease
+:sample-kotlin:processReleaseResources
+:sample-kotlin:compileReleaseKotlin
+:sample-kotlin:generateReleaseSources
+:sample-kotlin:javaPreCompileRelease
+:sample-kotlin:compileReleaseJavaWithJavac
+:sample-kotlin:compileReleaseNdk NO-SOURCE
+:sample-kotlin:compileReleaseSources
+:sample-kotlin:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/7ab8bdd7be15ad93a148d2ab35a2dd9e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/776fb04f9025348b5686ff2bb3192663/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:rxandroidble:mergeReleaseShaders UP-TO-DATE
+:rxandroidble:compileReleaseShaders UP-TO-DATE
+:rxandroidble:generateReleaseAssets UP-TO-DATE
+:rxandroidble:packageReleaseAssets UP-TO-DATE
+:sample-kotlin:mergeReleaseShaders
+:sample-kotlin:compileReleaseShaders
+:sample-kotlin:generateReleaseAssets
+:sample-kotlin:mergeReleaseAssets
+:sample-kotlin:transformClassesWithDexBuilderForRelease
+:sample-kotlin:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample-kotlin:transformDexArchiveWithDexMergerForRelease
+:rxandroidble:compileReleaseNdk NO-SOURCE
+:rxandroidble:mergeReleaseJniLibFolders UP-TO-DATE
+:rxandroidble:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:rxandroidble:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:rxandroidble:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample-kotlin:mergeReleaseJniLibFolders
+:sample-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:sample-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:sample-kotlin:checkReleaseLibraries
+:sample-kotlin:processReleaseJavaRes NO-SOURCE
+:sample-kotlin:transformResourcesWithMergeJavaResForRelease
+:sample-kotlin:packageRelease
+:sample-kotlin:assembleRelease
+:sample-kotlin:assemble
+:sample-kotlin:build
+
+BUILD SUCCESSFUL in 1m 1s
+95 actionable tasks: 59 executed, 36 up-to-date
+
+2019-01-20 19:56:40,403 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988850487-0/src/RxAndroidBle-master/sample-kotlin/build/outputs/apk/release/sample-kotlin-release-unsigned.apk

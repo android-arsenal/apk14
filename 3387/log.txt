@@ -1,0 +1,336 @@
+2019-01-02 19:32:08,769 INFO  DownloadService - Downloading "https://github.com/requery/sqlite-android/archive/master.zip", attempt 3
+2019-01-02 19:33:09,399 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-02 19:33:10,390 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-02 19:33:10,390 INFO  DownloadService - Downloading "https://github.com/requery/sqlite-android/archive/master.zip", attempt 3
+2019-01-02 19:34:12,014 DEBUG FullProcessService - Repository https://github.com/requery/sqlite-android available: true
+2019-01-02 19:34:12,014 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-02 19:34:12,014 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/requery/sqlite-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src]
+2019-01-02 19:34:15,262 INFO  SysUtils - 
+2019-01-02 19:34:15,295 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/.git": true
+2019-01-02 19:34:15,297 INFO  FullProcessService - Size of directory with sources: 754 KB
+2019-01-02 19:34:15,297 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src]
+2019-01-02 19:34:15,316 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/.git/
+
+2019-01-02 19:34:15,319 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/gradlew
+2019-01-02 19:34:15,321 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/build.gradle
+2019-01-02 19:34:15,324 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/settings.gradle
+2019-01-02 19:34:15,324 INFO  ProjectBuildService - Remote scripts: none
+2019-01-02 19:34:15,324 INFO  ProjectFixService - Fixing project...
+2019-01-02 19:34:15,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/local.properties
+2019-01-02 19:34:15,331 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-02 19:34:15,331 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-02 19:34:15,333 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/local.properties
+2019-01-02 19:34:15,333 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-02 19:34:15,333 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-02 19:34:15,335 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-02 19:34:15,335 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-02 19:34:15,335 INFO  ProjectFixService - Project was maybe fixed
+2019-01-02 19:34:15,335 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-02 19:34:15,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-02 19:34:33,166 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-02 19:34:33,166 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-02 19:34:33,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-02 19:39:33,594 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 143 (Exit value: 143)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-02 19:39:33,599 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download http://sqlite.org/2018/sqlite-amalgamation-3260000.zip
+> Task :sqlite-android:downloadSqlite
+> Task :sqlite-android:installSqlite
+> Task :sqlite-android:preBuild
+> Task :sqlite-android:preDebugBuild
+> Task :sqlite-android:compileDebugAidl NO-SOURCE
+> Task :sqlite-android:compileDebugRenderscript
+> Task :sqlite-android:checkDebugManifest
+> Task :sqlite-android:generateDebugBuildConfig
+> Task :sqlite-android:generateDebugResValues
+> Task :sqlite-android:generateDebugResources
+> Task :sqlite-android:packageDebugResources
+> Task :sqlite-android:processDebugManifest
+> Task :sqlite-android:generateDebugRFile
+> Task :sqlite-android:prepareLintJar
+> Task :sqlite-android:generateDebugSources
+> Task :sqlite-android:javaPreCompileDebug
+
+> Task :sqlite-android:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sqlite-android:extractDebugAnnotations
+> Task :sqlite-android:mergeDebugConsumerProguardFiles
+> Task :sqlite-android:mergeDebugShaders
+> Task :sqlite-android:compileDebugShaders
+> Task :sqlite-android:generateDebugAssets
+> Task :sqlite-android:packageDebugAssets
+> Task :sqlite-android:packageDebugRenderscript NO-SOURCE
+> Task :sqlite-android:processDebugJavaRes NO-SOURCE
+> Task :sqlite-android:transformResourcesWithMergeJavaResForDebug
+> Task :sqlite-android:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :sqlite-android:generateJsonModelDebug
+
+> Task :sqlite-android:externalNativeBuildDebug
+Build sqlite3x x86_64
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteCommon.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteConnection.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteFunction.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteGlobal.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteDebug.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_CursorWindow.cpp
+[x86_64] Compile++      : sqlite3x <= CursorWindow.cpp
+[x86_64] Compile++      : sqlite3x <= JNIHelp.cpp
+[x86_64] Compile++      : sqlite3x <= JNIString.cpp
+[x86_64] Compile        : sqlite3x <= sqlite3.c
+[x86_64] SharedLibrary  : libsqlite3x.so
+Build sqlite3x x86
+[x86] Compile++      : sqlite3x <= android_database_SQLiteCommon.cpp
+[x86] Compile++      : sqlite3x <= android_database_SQLiteConnection.cpp
+[x86] Compile++      : sqlite3x <= android_database_SQLiteFunction.cpp
+[x86] Compile++      : sqlite3x <= android_database_SQLiteGlobal.cpp
+[x86] Compile++      : sqlite3x <= android_database_SQLiteDebug.cpp
+[x86] Compile++      : sqlite3x <= android_database_CursorWindow.cpp
+[x86] Compile++      : sqlite3x <= CursorWindow.cpp
+[x86] Compile++      : sqlite3x <= JNIHelp.cpp
+[x86] Compile++      : sqlite3x <= JNIString.cpp
+[x86] Compile        : sqlite3x <= sqlite3.c
+[x86] SharedLibrary  : libsqlite3x.so
+Build sqlite3x arm64-v8a
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteCommon.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteConnection.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteFunction.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteGlobal.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteDebug.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_CursorWindow.cpp
+[arm64-v8a] Compile++      : sqlite3x <= CursorWindow.cpp
+[arm64-v8a] Compile++      : sqlite3x <= JNIHelp.cpp
+[arm64-v8a] Compile++      : sqlite3x <= JNIString.cpp
+[arm64-v8a] Compile        : sqlite3x <= sqlite3.c
+[arm64-v8a] SharedLibrary  : libsqlite3x.so
+Build sqlite3x armeabi-v7a
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteCommon.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteConnection.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteFunction.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteGlobal.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteDebug.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_CursorWindow.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= CursorWindow.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= JNIHelp.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= JNIString.cpp
+[armeabi-v7a] Compile thumb  : sqlite3x <= sqlite3.c
+[armeabi-v7a] SharedLibrary  : libsqlite3x.so
+
+> Task :sqlite-android:mergeDebugJniLibFolders
+> Task :sqlite-android:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sqlite-android:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sqlite-android:transformNativeLibsWithSyncJniLibsForDebug
+> Task :sqlite-android:bundleDebugAar
+> Task :sqlite-android:compileDebugSources
+> Task :sqlite-android:assembleDebug
+> Task :sqlite-android:preReleaseBuild
+> Task :sqlite-android:compileReleaseAidl NO-SOURCE
+> Task :sqlite-android:compileReleaseRenderscript
+> Task :sqlite-android:checkReleaseManifest
+> Task :sqlite-android:generateReleaseBuildConfig
+> Task :sqlite-android:generateReleaseResValues
+> Task :sqlite-android:generateReleaseResources
+> Task :sqlite-android:packageReleaseResources
+> Task :sqlite-android:processReleaseManifest
+> Task :sqlite-android:generateReleaseRFile
+> Task :sqlite-android:generateReleaseSources
+> Task :sqlite-android:javaPreCompileRelease
+
+> Task :sqlite-android:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sqlite-android:extractReleaseAnnotations
+> Task :sqlite-android:mergeReleaseConsumerProguardFiles
+> Task :sqlite-android:mergeReleaseShaders
+> Task :sqlite-android:compileReleaseShaders
+> Task :sqlite-android:generateReleaseAssets
+> Task :sqlite-android:packageReleaseAssets
+> Task :sqlite-android:packageReleaseRenderscript NO-SOURCE
+> Task :sqlite-android:processReleaseJavaRes NO-SOURCE
+> Task :sqlite-android:transformResourcesWithMergeJavaResForRelease
+> Task :sqlite-android:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :sqlite-android:generateJsonModelRelease
+
+> Task :sqlite-android:externalNativeBuildRelease
+Build sqlite3x x86_64
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteCommon.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteConnection.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteFunction.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteGlobal.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_SQLiteDebug.cpp
+[x86_64] Compile++      : sqlite3x <= android_database_CursorWindow.cpp
+[x86_64] Compile++      : sqlite3x <= CursorWindow.cpp
+[x86_64] Compile++      : sqlite3x <= JNIHelp.cpp
+[x86_64] Compile++      : sqlite3x <= JNIString.cpp
+[x86_64] Compile        : sqlite3x <= sqlite3.c
+[x86_64] SharedLibrary  : libsqlite3x.so
+Build sqlite3x x86
+[x86] Compile++      : sqlite3x <= android_database_SQLiteCommon.cpp
+[x86] Compile++      : sqlite3x <= android_database_SQLiteConnection.cpp
+[x86] Compile++      : sqlite3x <= android_database_SQLiteFunction.cpp
+[x86] Compile++      : sqlite3x <= android_database_SQLiteGlobal.cpp
+[x86] Compile++      : sqlite3x <= android_database_SQLiteDebug.cpp
+[x86] Compile++      : sqlite3x <= android_database_CursorWindow.cpp
+[x86] Compile++      : sqlite3x <= CursorWindow.cpp
+[x86] Compile++      : sqlite3x <= JNIHelp.cpp
+[x86] Compile++      : sqlite3x <= JNIString.cpp
+[x86] Compile        : sqlite3x <= sqlite3.c
+[x86] SharedLibrary  : libsqlite3x.so
+Build sqlite3x arm64-v8a
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteCommon.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteConnection.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteFunction.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteGlobal.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_SQLiteDebug.cpp
+[arm64-v8a] Compile++      : sqlite3x <= android_database_CursorWindow.cpp
+[arm64-v8a] Compile++      : sqlite3x <= CursorWindow.cpp
+[arm64-v8a] Compile++      : sqlite3x <= JNIHelp.cpp
+[arm64-v8a] Compile++      : sqlite3x <= JNIString.cpp
+[arm64-v8a] Compile        : sqlite3x <= sqlite3.c
+
+2019-01-02 19:39:33,622 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-02 19:39:33,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-02 19:39:42,050 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-01-02 19:39:42,050 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-02 19:39:42,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-02 19:40:18,028 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download http://sqlite.org/2018/sqlite-amalgamation-3260000.zip
+> Task :sqlite-android:downloadSqlite
+> Task :sqlite-android:installSqlite UP-TO-DATE
+> Task :sqlite-android:preBuild UP-TO-DATE
+> Task :sqlite-android:preDebugBuild UP-TO-DATE
+> Task :sqlite-android:compileDebugAidl NO-SOURCE
+> Task :sqlite-android:compileDebugRenderscript UP-TO-DATE
+> Task :sqlite-android:checkDebugManifest UP-TO-DATE
+> Task :sqlite-android:generateDebugBuildConfig UP-TO-DATE
+> Task :sqlite-android:generateDebugResValues UP-TO-DATE
+> Task :sqlite-android:generateDebugResources UP-TO-DATE
+> Task :sqlite-android:packageDebugResources UP-TO-DATE
+> Task :sqlite-android:processDebugManifest UP-TO-DATE
+> Task :sqlite-android:generateDebugRFile UP-TO-DATE
+> Task :sqlite-android:prepareLintJar UP-TO-DATE
+> Task :sqlite-android:generateDebugSources UP-TO-DATE
+> Task :sqlite-android:javaPreCompileDebug UP-TO-DATE
+> Task :sqlite-android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sqlite-android:extractDebugAnnotations UP-TO-DATE
+> Task :sqlite-android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :sqlite-android:mergeDebugShaders UP-TO-DATE
+> Task :sqlite-android:compileDebugShaders UP-TO-DATE
+> Task :sqlite-android:generateDebugAssets UP-TO-DATE
+> Task :sqlite-android:packageDebugAssets UP-TO-DATE
+> Task :sqlite-android:packageDebugRenderscript NO-SOURCE
+> Task :sqlite-android:processDebugJavaRes NO-SOURCE
+> Task :sqlite-android:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :sqlite-android:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :sqlite-android:generateJsonModelDebug UP-TO-DATE
+
+> Task :sqlite-android:externalNativeBuildDebug
+Build sqlite3x x86_64
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/x86_64/libsqlite3x.so' is up to date.
+Build sqlite3x x86
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/x86/libsqlite3x.so' is up to date.
+Build sqlite3x arm64-v8a
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libsqlite3x.so' is up to date.
+Build sqlite3x armeabi-v7a
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libsqlite3x.so' is up to date.
+
+> Task :sqlite-android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sqlite-android:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :sqlite-android:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :sqlite-android:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :sqlite-android:bundleDebugAar UP-TO-DATE
+> Task :sqlite-android:compileDebugSources
+> Task :sqlite-android:assembleDebug
+> Task :sqlite-android:preReleaseBuild UP-TO-DATE
+> Task :sqlite-android:compileReleaseAidl NO-SOURCE
+> Task :sqlite-android:compileReleaseRenderscript UP-TO-DATE
+> Task :sqlite-android:checkReleaseManifest UP-TO-DATE
+> Task :sqlite-android:generateReleaseBuildConfig UP-TO-DATE
+> Task :sqlite-android:generateReleaseResValues UP-TO-DATE
+> Task :sqlite-android:generateReleaseResources UP-TO-DATE
+> Task :sqlite-android:packageReleaseResources UP-TO-DATE
+> Task :sqlite-android:processReleaseManifest UP-TO-DATE
+> Task :sqlite-android:generateReleaseRFile UP-TO-DATE
+> Task :sqlite-android:generateReleaseSources UP-TO-DATE
+> Task :sqlite-android:javaPreCompileRelease UP-TO-DATE
+> Task :sqlite-android:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :sqlite-android:extractReleaseAnnotations UP-TO-DATE
+> Task :sqlite-android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :sqlite-android:mergeReleaseShaders UP-TO-DATE
+> Task :sqlite-android:compileReleaseShaders UP-TO-DATE
+> Task :sqlite-android:generateReleaseAssets UP-TO-DATE
+> Task :sqlite-android:packageReleaseAssets UP-TO-DATE
+> Task :sqlite-android:packageReleaseRenderscript NO-SOURCE
+> Task :sqlite-android:processReleaseJavaRes NO-SOURCE
+> Task :sqlite-android:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :sqlite-android:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :sqlite-android:generateJsonModelRelease UP-TO-DATE
+
+> Task :sqlite-android:externalNativeBuildRelease
+Build sqlite3x x86_64
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build/intermediates/ndkBuild/release/obj/local/x86_64/libsqlite3x.so' is up to date.
+Build sqlite3x x86
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546432328766-0/src/sqlite-android/build/intermediates/ndkBuild/release/obj/local/x86/libsqlite3x.so' is up to date.
+Build sqlite3x arm64-v8a
+[arm64-v8a] SharedLibrary  : libsqlite3x.so
+Build sqlite3x armeabi-v7a
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteCommon.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteConnection.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteFunction.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteGlobal.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_SQLiteDebug.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= android_database_CursorWindow.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= CursorWindow.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= JNIHelp.cpp
+[armeabi-v7a] Compile++ thumb: sqlite3x <= JNIString.cpp
+[armeabi-v7a] Compile thumb  : sqlite3x <= sqlite3.c
+[armeabi-v7a] SharedLibrary  : libsqlite3x.so
+
+> Task :sqlite-android:mergeReleaseJniLibFolders
+> Task :sqlite-android:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sqlite-android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sqlite-android:transformNativeLibsWithSyncJniLibsForRelease
+> Task :sqlite-android:bundleReleaseAar
+> Task :sqlite-android:compileReleaseSources
+> Task :sqlite-android:mergeReleaseResources
+> Task :sqlite-android:verifyReleaseResources
+> Task :sqlite-android:assembleRelease
+> Task :sqlite-android:assemble
+> Task :sqlite-android:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 35s
+51 actionable tasks: 10 executed, 41 up-to-date
+
+2019-01-02 19:40:18,059 ERROR FullProcessService - Project build has not produced APK file
+2019-01-02 19:40:18,089 ERROR FullProcessService - Could not find generated or existed APK file

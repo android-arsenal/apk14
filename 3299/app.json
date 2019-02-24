@@ -1,0 +1,37 @@
+{
+  "meta" : {
+    "packageName" : "com.github.stkent.bugshaker",
+    "label" : "BugShaker",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.4.1",
+    "versionCode" : 6,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_NETWORK_STATE", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1258,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6\" android:versionName=\"1.4.1\" package=\"com.github.stkent.bugshaker\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"BugShaker\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.example.bugshaker.CustomApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.example.bugshaker.UnsecuredActivity\" android:launchMode=\"singleTop\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.example.bugshaker.SecuredActivity\" android:launchMode=\"singleTop\" />\n\t\t<activity android:name=\"com.example.bugshaker.MapViewActivity\" android:launchMode=\"singleTop\" />\n\t\t<activity android:name=\"com.example.bugshaker.MapFragmentActivity\" android:launchMode=\"singleTop\" />\n\t\t<activity android:name=\"com.example.bugshaker.SurfaceViewActivity\" android:launchMode=\"singleTop\" />\n\t\t<meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\"AIzaSyCT0Me0Yy9EyZRYye77e0y7QjtlBMENyTo\" />\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.github.stkent.bugshaker.fileprovider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/example_file_paths.xml\" />\n\t\t</provider>\n\t\t<provider android:name=\"com.github.stkent.bugshaker.flow.email.screenshot.BugShakerFileProvider\" android:exported=\"false\" android:authorities=\"com.github.stkent.bugshaker.bugshaker.fileprovider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/library_file_paths.xml\" />\n\t\t</provider>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"11400000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1221446,
+  "crc32" : 99251901,
+  "sha256" : "972d58bf54c30ace9a1132bae0e020da3686a438ee928598767663d0b6904aea",
+  "buildTime" : 1522286469000
+}

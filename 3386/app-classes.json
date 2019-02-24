@@ -1,0 +1,5 @@
+{
+  "com.github.mmin18.flexlayout" : [ "BuildConfig", "R", "R$attr", "R$styleable" ],
+  "com.github.mmin18.flexlayout.sample" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$color", "R$dimen", "R$id", "R$layout", "R$mipmap", "R$string", "R$styleable" ],
+  "com.github.mmin18.widget" : [ "FlexLayout", "FlexLayout$1", "FlexLayout$10", "FlexLayout$11", "FlexLayout$12", "FlexLayout$13", "FlexLayout$14", "FlexLayout$15", "FlexLayout$16", "FlexLayout$17", "FlexLayout$18", "FlexLayout$19", "FlexLayout$2", "FlexLayout$20", "FlexLayout$21", "FlexLayout$22", "FlexLayout$23", "FlexLayout$24", "FlexLayout$25", "FlexLayout$26", "FlexLayout$27", "FlexLayout$28", "FlexLayout$29", "FlexLayout$3", "FlexLayout$30", "FlexLayout$31", "FlexLayout$32", "FlexLayout$33", "FlexLayout$34", "FlexLayout$35", "FlexLayout$36", "FlexLayout$37", "FlexLayout$4", "FlexLayout$5", "FlexLayout$6", "FlexLayout$7", "FlexLayout$8", "FlexLayout$9", "FlexLayout$LayoutParams", "FlexLayout$Operator", "FlexLayout$RPN", "FlexLayout$Ref", "FlexLayout$TokenReader" ]
+}

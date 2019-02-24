@@ -1,0 +1,528 @@
+2019-01-20 19:51:38,575 INFO  DownloadService - Downloading "https://github.com/sephiroth74/Material-BottomNavigation/archive/master.zip", attempt 3
+2019-01-20 19:51:48,727 INFO  DownloadService - Downloaded https://github.com/sephiroth74/Material-BottomNavigation/archive/master.zip, attempt 3
+2019-01-20 19:51:48,728 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/master.zip": 28 MB
+2019-01-20 19:51:48,728 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 19:51:48,729 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/master.zip: true
+2019-01-20 19:51:48,729 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src'.
+2019-01-20 19:51:49,022 INFO  FullProcessService - Size of directory with sources: 29 MB
+2019-01-20 19:51:49,022 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src]
+2019-01-20 19:51:49,041 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/.git/
+
+2019-01-20 19:51:49,047 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/gradlew
+2019-01-20 19:51:49,054 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/build.gradle
+2019-01-20 19:51:49,060 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/settings.gradle
+2019-01-20 19:51:49,066 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-01-20 19:51:49,848 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-01-20 19:51:49,849 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/sephiroth74/gradle-mvn-push/master/gradle-mvn-push.gradle
+2019-01-20 19:51:49,850 INFO  ProjectFixService - Fixing project...
+2019-01-20 19:51:49,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/local.properties
+2019-01-20 19:51:49,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-20 19:51:49,875 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 19:51:49,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/local.properties
+2019-01-20 19:51:49,879 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-20 19:51:49,879 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 19:51:49,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/local.properties
+2019-01-20 19:51:49,882 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1-milestone-1-all.zip
+2019-01-20 19:51:49,883 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1-bin.zip)
+2019-01-20 19:51:49,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-20 19:51:49,887 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 19:51:49,888 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 19:51:49,888 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 19:51:49,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 19:52:00,696 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-01-20 19:52:00,696 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 19:52:00,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 19:52:08,530 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-20 19:52:08,531 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 7s
+
+2019-01-20 19:52:08,531 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-01-20 19:52:08,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-20 19:53:49,593 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :bottom-navigation
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :bottom-navigation:preBuild UP-TO-DATE
+> Task :bottom-navigation:preDebugBuild UP-TO-DATE
+> Task :bottom-navigation:checkDebugManifest
+> Task :bottom-navigation:processDebugManifest
+> Task :bottom-navigation:packageDebugRenderscript NO-SOURCE
+> Task :bottom-navigation:generateDebugResValues
+> Task :bottom-navigation:generateDebugBuildConfig
+> Task :bottom-navigation:prepareLintJar
+> Task :app:prepareLintJar
+> Task :bottom-navigation:mergeDebugShaders
+> Task :bottom-navigation:compileDebugShaders
+> Task :app:preDebugBuild
+> Task :bottom-navigation:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :bottom-navigation:compileDebugRenderscript NO-SOURCE
+> Task :bottom-navigation:generateDebugResources
+> Task :bottom-navigation:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :bottom-navigation:generateDebugRFile
+> Task :app:processDebugResources
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/src/main/java/it/sephiroth/android/library/bottomnavigation/BottomNavigation.kt: (247, 37): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/src/main/java/it/sephiroth/android/library/bottomnavigation/BottomNavigation.kt: (884, 84): Unchecked cast: Class<*>! to Class<BadgeProvider>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/src/main/java/it/sephiroth/android/library/bottomnavigation/BottomNavigationShiftingItemView.kt: (95, 17): Name shadowed: size
+> Task :bottom-navigation:compileDebugKotlin
+> Task :bottom-navigation:generateDebugSources
+> Task :bottom-navigation:javaPreCompileDebug
+> Task :bottom-navigation:compileDebugJavaWithJavac
+> Task :bottom-navigation:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :bottom-navigation:generateDebugAssets
+> Task :bottom-navigation:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :bottom-navigation:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/cc4e34c554f0f707c5cd9eb8098843e8/jetified-okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :bottom-navigation:processDebugJavaRes NO-SOURCE
+> Task :bottom-navigation:bundleLibResDebug
+> Task :bottom-navigation:mergeDebugJniLibFolders
+> Task :bottom-navigation:transformNativeLibsWithMergeJniLibsForDebug
+> Task :bottom-navigation:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :bottom-navigation:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :bottom-navigation:preReleaseBuild UP-TO-DATE
+> Task :bottom-navigation:checkReleaseManifest
+> Task :bottom-navigation:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :bottom-navigation:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :bottom-navigation:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :bottom-navigation:compileReleaseRenderscript NO-SOURCE
+> Task :bottom-navigation:generateReleaseResValues
+> Task :bottom-navigation:generateReleaseResources
+> Task :bottom-navigation:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :bottom-navigation:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :bottom-navigation:generateReleaseBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/src/main/java/it/sephiroth/android/library/bottomnavigation/BottomNavigation.kt: (247, 37): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/src/main/java/it/sephiroth/android/library/bottomnavigation/BottomNavigation.kt: (884, 84): Unchecked cast: Class<*>! to Class<BadgeProvider>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/bottom-navigation/src/main/java/it/sephiroth/android/library/bottomnavigation/BottomNavigationShiftingItemView.kt: (95, 17): Name shadowed: size
+> Task :bottom-navigation:compileReleaseKotlin
+> Task :bottom-navigation:generateReleaseSources
+> Task :bottom-navigation:javaPreCompileRelease
+> Task :bottom-navigation:compileReleaseJavaWithJavac
+> Task :bottom-navigation:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseSources
+> Task :bottom-navigation:prepareLintJarForPublish
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :bottom-navigation:mergeReleaseShaders
+> Task :bottom-navigation:compileReleaseShaders
+> Task :bottom-navigation:generateReleaseAssets
+> Task :bottom-navigation:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :bottom-navigation:bundleLibRuntimeRelease
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/cc4e34c554f0f707c5cd9eb8098843e8/jetified-okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :bottom-navigation:processReleaseJavaRes NO-SOURCE
+> Task :bottom-navigation:bundleLibResRelease
+> Task :bottom-navigation:mergeReleaseJniLibFolders
+> Task :bottom-navigation:transformNativeLibsWithMergeJniLibsForRelease
+> Task :bottom-navigation:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :bottom-navigation:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+
+> Task :app:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b0b105f410961757ba849f14219aafa2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 16 issues found
+Ran lint on variant debug: 17 issues found
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d8e9e3014f04eb924322f4aaa35c67fc/jars/lint.jar: Warning: Lint found an issue registry (timber.lint.TimberIssueRegistry) which is older than the current API level; these checks may not work correctly.
+
+Recompile the checks against the latest version. Custom check API version is 1 (3.1), current lint API level is 4 (3.4+) [ObsoleteLintCustomCheck]
+Applies to variants: debug
+
+   Explanation for issues of type "ObsoleteLintCustomCheck":
+   Lint can be extended with "custom checks": additional checks implemented by
+   developers and libraries to for example enforce specific API usages
+   required by a library or a company coding style guideline.
+
+   The Lint APIs are not yet stable, so these checks may either cause a
+   performance degradation, or stop working, or provide wrong results.
+
+   This warning flags custom lint checks that are found to be using obsolete
+   APIs and will need to be updated to run in the current lint environment.
+
+   It may also flag issues found to be using a newer version of the API,
+   meaning that you need to use a newer version of lint (or Android Studio or
+   Gradle plugin etc) to work with these checks.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle:45: Warning: A newer version of com.google.android.material:material than 1.1.0-alpha01 is available: 1.1.0-alpha02 [GradleDependency]
+    implementation 'com.google.android.material:material:1.1.0-alpha01'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle:61: Warning: A newer version of androidx.annotation:annotation than 1.0.0 is available: 1.0.1 [GradleDependency]
+    androidTestImplementation 'androidx.annotation:annotation:1.0.0'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle:62: Warning: A newer version of androidx.test:rules than 1.1.0 is available: 1.1.1 [GradleDependency]
+    androidTestImplementation 'androidx.test:rules:1.1.0'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle:63: Warning: A newer version of androidx.test:runner than 1.1.0 is available: 1.1.1 [GradleDependency]
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build.gradle:64: Warning: A newer version of androidx.test.espresso:espresso-core than 3.1.0 is available: 3.1.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/java/it/sephiroth/android/library/bottomnavigation/app/CustomBehavior.java:65: Warning: Using 'Log' instead of 'Timber' [LogNotTimber]
+            Log.w(TAG, "onStopNestedScroll");
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "LogNotTimber":
+   Since Timber is included in the project, it is likely that calls to Log
+   should instead be going to Timber.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/java/it/sephiroth/android/library/bottomnavigation/app/behaviors/FloatingActionMenuBehavior.java:21: Warning: This Handler class should be static or leaks might occur (anonymous android.os.Handler) [HandlerLeak]
+    private final Handler handler = new Handler() {
+                                    ^
+
+   Explanation for issues of type "HandlerLeak":
+   Since this Handler is declared as an inner class, it may prevent the outer
+   class from being garbage collected. If the Handler is using a Looper or
+   MessageQueue for a thread other than the main thread, then there is no
+   issue. If the Handler is using the Looper or MessageQueue of the main
+   thread, you need to fix your Handler declaration, as follows: Declare the
+   Handler as a static class; In the outer class, instantiate a WeakReference
+   to the outer class and pass this object to your Handler when you
+   instantiate the Handler; Make all references to members of the outer class
+   using the WeakReference object.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/java/it/sephiroth/android/library/bottomnavigation/app/providers/CustomBadgeProvider.java:18: Warning: Use new SparseIntArray(...) instead for better performance [UseSparseArrays]
+    private final HashMap<Integer, Integer> countMap = new HashMap<>();
+                                                       ~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseSparseArrays":
+   For maps where the keys are of type integer, it's typically more efficient
+   to use the Android SparseArray API. This check identifies scenarios where
+   you might want to consider using SparseArray instead of HashMap for better
+   performance.
+
+   This is particularly useful when the value types are primitives like ints,
+   where you can use SparseIntArray and avoid auto-boxing the values from int
+   to Integer.
+
+   If you need to construct a HashMap because you need to call an API outside
+   of your control which requires a Map, you can suppress this warning using
+   for example the @SuppressLint annotation.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/res/values/dimens.xml:10: Warning: The resource R.bool.is_tablet appears to be unused [UnusedResources]
+    <bool name="is_tablet">false</bool>
+          ~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests=true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests=true.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/res/layout/activity_main.xml:32: Warning: This namespace declaration is redundant [RedundantNamespace]
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/res/layout/activity_main.xml:33: Warning: This namespace declaration is redundant [RedundantNamespace]
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RedundantNamespace":
+   In Android XML documents, only specify the namespace on the root/document
+   element. Namespace declarations elsewhere in the document are typically
+   accidental leftovers from copy/pasting XML from other files or
+   documentation.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/res/layout/activity_main_tablet_collapsing.xml:28: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, just suppress the lint
+   warning with a tools:ignore="ContentDescription" attribute.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint. See
+   http://developer.android.com/guide/topics/ui/accessibility/checklist.html#s
+   pecial-cases.
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/res/layout/activity_main_tablet.xml:36: Warning: Consider adding android:layout_marginEnd="@dimen/fab_margin_right" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="@dimen/fab_margin_right"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/res/layout/activity_main_tablet_collapsing.xml:55: Warning: Consider adding android:layout_marginEnd="@dimen/fab_margin_right" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="@dimen/fab_margin_right"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/res/layout-sw600dp/floating_action_button_main.xml:11: Warning: Consider adding android:layout_marginEnd="@dimen/fab_margin_right" to better support right-to-left layouts [RtlHardcoded]
+    android:layout_marginRight="@dimen/fab_margin_right"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/src/main/res/layout/floating_action_button_main.xml:11: Warning: Consider adding android:layout_marginEnd="@dimen/fab_margin_right" to better support right-to-left layouts [RtlHardcoded]
+    android:layout_marginRight="@dimen/fab_margin_right"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlHardcoded":
+   Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is
+   rendered in locales where text flows from right to left. Use Gravity#START
+   and Gravity#END instead. Similarly, in XML gravity and layout_gravity
+   attributes, use start rather than left.
+
+   For XML attributes such as paddingLeft and layout_marginLeft, use
+   paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less
+   than 17, you should add both the older left/right attributes as well as the
+   new start/end attributes. On older platforms, where RTL is not supported
+   and the start/end attributes are unknown and therefore ignored, you need
+   the older left/right attributes. There is a separate lint check which
+   catches that type of error.
+
+   (Note: For Gravity#LEFT and Gravity#START, you can use these constants even
+   when targeting older platforms, because the start bitmask is a superset of
+   the left bitmask. Therefore, you can use gravity="start" rather than
+   gravity="left|start".)
+
+0 errors, 17 warnings
+
+> Task :app:generateDebugUnitTestSources
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:generateReleaseUnitTestSources
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac
+> Task :app:testDebugUnitTest
+> Task :app:compileReleaseUnitTestKotlin
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:compileReleaseUnitTestJavaWithJavac
+> Task :app:testReleaseUnitTest
+> Task :app:test
+> Task :app:check
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 40s
+101 actionable tasks: 101 executed
+
+2019-01-20 19:53:49,735 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988698571-0/src/Material-BottomNavigation-master/app/build/outputs/apk/debug/app-debug.apk

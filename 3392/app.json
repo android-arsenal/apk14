@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "in.nashapp.androidsummernotedemo",
+    "label" : "AndroidSummernoteDemo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1795,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"in.nashapp.androidsummernotedemo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f090083\" android:label=\"AndroidSummernoteDemo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f090030\" android:label=\"AndroidSummernoteDemo\" android:name=\"in.nashapp.androidsummernotedemo.TestActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1537534,
+  "crc32" : 4003376642,
+  "sha256" : "167d696c6894c8bf728b9a850c5daf24eaa2bbafbf499ff7733c0ad6f035076d",
+  "buildTime" : 1496784525000
+}

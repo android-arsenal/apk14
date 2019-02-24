@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.ramotion.foldingcell.examples.listview",
+    "label" : "Folding Cell ListView Example",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAC40lEQVRo3u2aTUhUURTHf+e+53NGJ2fK0dSRdJqyL0sKRVoELaIIoggj0pb5AS1atAraDLRrX0QI7QxEatGmglq0qhQhKijQdIKyDKPAUsc3c1ukUoQ55JT3Qv/Ve9zLfef37rnnnHvfE35QMqnV1TfDx7Na2oBGNOWgHVZUkkEYBwaU6J7OWKI3mZTsQuv8RU37aDyN36c1uzBYIgx6uMdS3bUjCwA17aPxtPYfaSjDAgl88MRtTnXXjqhkUqs0fp8txgNoKEvj9yWTWklVx9CJbJbrWCilaFVzC9ZKZbW0KaARe9WovodKS6UpVysf55dF4Cgsl/UA7nIH2FcfQOtFJlgLU+ksE5NZXo3P4mcNBDjfUsrL19NL9pvxNfefT3P76RQzs9ocF4pFC6iKFizZr9AVDjYEOXcoTGlImbUGtseDuDnGssqIw5kDJQQ9ZQ5AwFNsqQnm3H9ticORnUGzolC8wiMSyj2l7NkcIFQo5gCICA2J3N+qo2BbtWdWHoiEXNZX5m5URdgxCwBg87ogAS8313AcMQ+gwBXq47m50tgn38xSIhb1KI8snSPffsyYWwvtSARRvxl99INPasI3F6A44LCpOrBoe1//V/Or0Q2xQkLBXx9xo/8LQ+9nzQdQSmhIFC3cp33NtQeT3H02nbdnuPxlRcMupWGXy3c+83A4zVQ6vzX1P9nQNNYV8eLdbN6N/2cAAU9xpWOt3VvKpo0BjjYV2wsgIlxojeIVWAoAUFricvFkmb0AAC27V1GfhzJ6xQBcR7jUUW4vAEBdrJDT+8P2AgCcPbyG1Xk4nVh2Jr735CuRPzRk79Yibj6eXF50qzg1pLFY/w93DQCQjL3mS0bNfUS21H7GFTBgsQcNKCW6x1r/F92jOmOJXhEGrfMeYbAzlui1/1cDgFR37YgnbrMNMyHC4LzxP+WBVHftSFd1okkpWhG5hciYGSFWMoiMIXJLKVq7qhNN88YDfAPl1sjkd4W2xQAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1598,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" package=\"com.ramotion.foldingcell.examples.listview\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Folding Cell ListView Example\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.ramotion.foldingcell.examples.listview.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 18282062,
+  "crc32" : 2516469713,
+  "sha256" : "b3d5ab70c9c5e450979943e1233ac0788f67be7626d377c778646b25c62655e5",
+  "buildTime" : 1524165210000
+}

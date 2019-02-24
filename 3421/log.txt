@@ -1,0 +1,36 @@
+2016-08-01 21:01:09,182 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/pakoito/RxCurrying/archive/master.zip", attempt 3
+2016-08-01 21:01:12,309 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/pakoito/RxCurrying/archive/master.zip, attempt 3
+2016-08-01 21:01:12,763 DEBUG o.z.z.ZipUtil - Extracting '/tmp/rdisk/3421/master.zip' into '/tmp/rdisk/3421/src'.
+2016-08-01 21:01:12,787 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 100 KB
+2016-08-01 21:01:12,791 INFO  c.g.v.a.u.SysUtils - Execute command: [git, init, /tmp/rdisk/3421/src]
+2016-08-01 21:01:12,871 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/3421/src/RxCurrying-master/gradlew
+2016-08-01 21:01:12,878 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /tmp/rdisk/3421/src/RxCurrying-master/build.gradle /tmp/rdisk/3421/src/RxCurrying-master/rxcurrying/build.gradle
+2016-08-01 21:01:12,884 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /tmp/rdisk/3421/src/RxCurrying-master/build.gradle /tmp/rdisk/3421/src/RxCurrying-master/rxcurrying/build.gradle /tmp/rdisk/3421/src/RxCurrying-master/settings.gradle
+2016-08-01 21:01:12,891 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-08-01 21:01:12,893 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-08-01 21:01:12,954 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-08-01 21:01:12,954 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-08-01 21:01:12,957 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-01 21:01:12,960 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-01 21:01:12,964 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-08-01 21:01:12,966 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-08-01 21:01:12,968 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/3421/src/RxCurrying-master/local.properties
+2016-08-01 21:01:12,975 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: false (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2016-08-01 21:01:12,991 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/3421/src/RxCurrying-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-08-01 21:01:13,009 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/tmp/rdisk/3421/src/RxCurrying-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-08-01 21:01:13,014 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/3421/src/RxCurrying-master/rxcurrying/local.properties
+2016-08-01 21:01:13,023 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/3421/src/RxCurrying-master/rxcurrying/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-08-01 21:01:13,024 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/tmp/rdisk/3421/src/RxCurrying-master/rxcurrying/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-08-01 21:01:13,027 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-08-01 21:01:13,034 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-01 21:01:13,035 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3421/src/RxCurrying-master/gradlew, -b, /tmp/rdisk/3421/src/RxCurrying-master/build.gradle, tasks]
+2016-08-01 21:01:18,875 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 39
+2016-08-01 21:01:18,875 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-08-01 21:01:18,876 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3421/src/RxCurrying-master/gradlew, -b, /tmp/rdisk/3421/src/RxCurrying-master/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-08-01 21:01:25,561 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-01 21:01:25,561 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3421/src/RxCurrying-master/gradlew, -b, /tmp/rdisk/3421/src/RxCurrying-master/rxcurrying/build.gradle, tasks]
+2016-08-01 21:01:30,490 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 39
+2016-08-01 21:01:30,491 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-08-01 21:01:30,491 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/3421/src/RxCurrying-master/gradlew, -b, /tmp/rdisk/3421/src/RxCurrying-master/rxcurrying/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-08-01 21:01:35,793 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-08-01 21:01:35,801 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

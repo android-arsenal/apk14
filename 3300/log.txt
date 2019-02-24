@@ -1,0 +1,1905 @@
+2019-01-15 16:17:50,255 INFO  DownloadService - Downloading "https://github.com/MasayukiSuda/EasingInterpolator/archive/master.zip", attempt 3
+2019-01-15 16:17:54,218 INFO  DownloadService - Downloaded https://github.com/MasayukiSuda/EasingInterpolator/archive/master.zip, attempt 3
+2019-01-15 16:17:54,219 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/master.zip": 462 KB
+2019-01-15 16:17:54,219 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-15 16:17:54,224 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/master.zip: true
+2019-01-15 16:17:54,225 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src'.
+2019-01-15 16:17:54,245 INFO  FullProcessService - Size of directory with sources: 499 KB
+2019-01-15 16:17:54,245 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src]
+2019-01-15 16:17:54,271 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/.git/
+
+2019-01-15 16:17:54,273 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/gradlew
+2019-01-15 16:17:54,276 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/ei/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/build.gradle
+2019-01-15 16:17:54,278 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/ei/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/settings.gradle
+2019-01-15 16:17:54,279 INFO  ProjectBuildService - Remote scripts: none
+2019-01-15 16:17:54,279 INFO  ProjectFixService - Fixing project...
+2019-01-15 16:17:54,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/ei/local.properties
+2019-01-15 16:17:54,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/ei/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-15 16:17:54,286 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/ei/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-15 16:17:54,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/sample/local.properties
+2019-01-15 16:17:54,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-15 16:17:54,289 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-15 16:17:54,290 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/local.properties
+2019-01-15 16:17:54,290 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2019-01-15 16:17:54,290 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2019-01-15 16:17:54,292 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-15 16:17:54,292 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-15 16:17:54,292 INFO  ProjectFixService - Project was maybe fixed
+2019-01-15 16:17:54,292 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-15 16:17:54,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/ei/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-15 16:18:03,060 INFO  ProjectTaskService - Detected possible tasks: 82
+2019-01-15 16:18:03,060 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-15 16:18:03,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/ei/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-15 16:18:16,055 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Task :ei:preBuild UP-TO-DATE
+> Task :ei:preDebugBuild UP-TO-DATE
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-common-2.0.0.jar with IdentityTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform annotation-1.0.0.jar with IdentityTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform core-common-2.0.0.jar with IdentityTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-alpha01) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform collection-1.1.0-alpha01.jar with IdentityTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Task :ei:checkDebugManifest
+> Task :ei:generateDebugBuildConfig
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with LibrarySymbolTableTransform
+> Transform 596d31a835a922454b810808b3d70de5 with LibrarySymbolTableTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with LibrarySymbolTableTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with LibrarySymbolTableTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform 73092b421be69a52822ee0d092551fff with LibrarySymbolTableTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with LibrarySymbolTableTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with LibrarySymbolTableTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with LibrarySymbolTableTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with LibrarySymbolTableTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with LibrarySymbolTableTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with LibrarySymbolTableTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with LibrarySymbolTableTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with LibrarySymbolTableTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with LibrarySymbolTableTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with LibrarySymbolTableTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Task :ei:generateDebugResValues
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with LibrarySymbolTableTransform
+> Task :ei:processDebugManifest
+> Task :ei:compileDebugAidl NO-SOURCE
+> Task :ei:compileDebugRenderscript
+> Task :ei:generateDebugResources
+> Task :ei:packageDebugResources
+> Task :ei:generateDebugRFile
+> Task :ei:prepareLintJar
+> Task :ei:generateDebugSources
+> Task :ei:javaPreCompileDebug
+> Task :ei:compileDebugJavaWithJavac
+> Task :ei:extractDebugAnnotations
+> Task :ei:mergeDebugConsumerProguardFiles
+> Task :ei:mergeDebugShaders
+> Task :ei:compileDebugShaders
+> Task :ei:generateDebugAssets
+> Task :ei:packageDebugAssets
+> Task :ei:packageDebugRenderscript NO-SOURCE
+> Task :ei:processDebugJavaRes NO-SOURCE
+> Task :ei:transformResourcesWithMergeJavaResForDebug
+> Task :ei:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :ei:compileDebugNdk NO-SOURCE
+> Task :ei:mergeDebugJniLibFolders
+> Task :ei:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ei:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ei:transformNativeLibsWithSyncJniLibsForDebug
+> Task :ei:bundleDebugAar
+> Task :ei:compileDebugSources
+> Task :ei:assembleDebug
+> Task :ei:preReleaseBuild UP-TO-DATE
+> Task :ei:compileReleaseAidl NO-SOURCE
+> Task :ei:compileReleaseRenderscript
+> Task :ei:checkReleaseManifest
+> Task :ei:generateReleaseBuildConfig
+> Task :ei:generateReleaseResValues
+> Task :ei:generateReleaseResources
+> Task :ei:packageReleaseResources
+> Task :ei:processReleaseManifest
+> Task :ei:generateReleaseRFile
+> Task :ei:generateReleaseSources
+> Task :ei:javaPreCompileRelease
+> Task :ei:compileReleaseJavaWithJavac
+> Task :ei:extractReleaseAnnotations
+> Task :ei:mergeReleaseConsumerProguardFiles
+> Task :ei:mergeReleaseShaders
+> Task :ei:compileReleaseShaders
+> Task :ei:generateReleaseAssets
+> Task :ei:packageReleaseAssets
+> Task :ei:packageReleaseRenderscript NO-SOURCE
+> Task :ei:processReleaseJavaRes NO-SOURCE
+> Task :ei:transformResourcesWithMergeJavaResForRelease
+> Task :ei:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :ei:compileReleaseNdk NO-SOURCE
+> Task :ei:mergeReleaseJniLibFolders
+> Task :ei:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ei:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ei:transformNativeLibsWithSyncJniLibsForRelease
+> Task :ei:bundleReleaseAar
+> Task :ei:compileReleaseSources
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Task :ei:mergeReleaseResources
+> Task :ei:verifyReleaseResources
+> Task :ei:assembleRelease
+> Task :ei:assemble
+> Task :ei:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 12s
+45 actionable tasks: 45 executed
+
+2019-01-15 16:18:16,110 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-15 16:18:16,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-15 16:18:22,201 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-15 16:18:22,202 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-15 16:18:22,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-15 16:18:47,019 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform core-common-2.0.0.jar with IdentityTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-common-2.0.0.jar with IdentityTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform annotation-1.0.0.jar with IdentityTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-alpha01) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform collection-1.1.0-alpha01.jar with IdentityTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform annotation-1.0.0.jar with IdentityTransform
+> Transform lifecycle-common-2.0.0.jar with IdentityTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform core-common-2.0.0.jar with IdentityTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-alpha01) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform collection-1.1.0-alpha01.jar with IdentityTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Task :ei:preBuild UP-TO-DATE
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Task :ei:preDebugBuild UP-TO-DATE
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Task :ei:compileDebugAidl NO-SOURCE
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Task :ei:checkDebugManifest UP-TO-DATE
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Task :ei:generateDebugBuildConfig UP-TO-DATE
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Task :ei:compileDebugRenderscript UP-TO-DATE
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with LibrarySymbolTableTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with LibrarySymbolTableTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with LibrarySymbolTableTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with LibrarySymbolTableTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with LibrarySymbolTableTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with LibrarySymbolTableTransform
+> Transform 73092b421be69a52822ee0d092551fff with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with LibrarySymbolTableTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with LibrarySymbolTableTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with LibrarySymbolTableTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with LibrarySymbolTableTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with LibrarySymbolTableTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with LibrarySymbolTableTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with LibrarySymbolTableTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with LibrarySymbolTableTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with LibrarySymbolTableTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Task :ei:generateDebugResValues UP-TO-DATE
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with LibrarySymbolTableTransform
+> Task :ei:generateDebugResources UP-TO-DATE
+> Task :ei:packageDebugResources UP-TO-DATE
+> Task :ei:processDebugManifest UP-TO-DATE
+> Task :ei:generateDebugRFile UP-TO-DATE
+> Task :ei:prepareLintJar UP-TO-DATE
+> Task :ei:generateDebugSources UP-TO-DATE
+> Task :ei:javaPreCompileDebug UP-TO-DATE
+> Task :ei:compileDebugJavaWithJavac UP-TO-DATE
+> Task :ei:processDebugJavaRes NO-SOURCE
+> Task :ei:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Task :sample:checkDebugClasspath
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Task :sample:preBuild UP-TO-DATE
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Task :ei:packageDebugRenderscript NO-SOURCE
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with LibrarySymbolTableTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with LibrarySymbolTableTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with LibrarySymbolTableTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with LibrarySymbolTableTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with LibrarySymbolTableTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with LibrarySymbolTableTransform
+> Transform 596d31a835a922454b810808b3d70de5 with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with LibrarySymbolTableTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 73092b421be69a52822ee0d092551fff with LibrarySymbolTableTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with LibrarySymbolTableTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with LibrarySymbolTableTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with LibrarySymbolTableTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform c148a49ecc1b126e184802e9d011571a with LibrarySymbolTableTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with LibrarySymbolTableTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with LibrarySymbolTableTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with LibrarySymbolTableTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with LibrarySymbolTableTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with LibrarySymbolTableTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Task :sample:mainApkListPersistenceDebug
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with LibrarySymbolTableTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Task :sample:generateDebugResValues
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Task :ei:mergeDebugShaders UP-TO-DATE
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Task :ei:compileDebugShaders UP-TO-DATE
+> Task :ei:generateDebugAssets UP-TO-DATE
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Task :ei:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform annotation-1.0.0.jar with IdentityTransform
+> Transform lifecycle-common-2.0.0.jar with IdentityTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform core-common-2.0.0.jar with IdentityTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-alpha01) with JetifyTransform
+> Transform collection-1.1.0-alpha01.jar with IdentityTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Task :ei:compileDebugNdk NO-SOURCE
+> Task :ei:mergeDebugJniLibFolders UP-TO-DATE
+> Task :ei:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :ei:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :ei:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:checkDebugLibraries
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :ei:preReleaseBuild UP-TO-DATE
+> Task :ei:compileReleaseAidl NO-SOURCE
+> Task :ei:compileReleaseRenderscript UP-TO-DATE
+> Task :ei:checkReleaseManifest UP-TO-DATE
+> Task :ei:generateReleaseBuildConfig UP-TO-DATE
+> Task :ei:generateReleaseResValues UP-TO-DATE
+> Task :ei:generateReleaseResources UP-TO-DATE
+> Task :ei:packageReleaseResources UP-TO-DATE
+> Task :ei:processReleaseManifest UP-TO-DATE
+> Task :ei:generateReleaseRFile UP-TO-DATE
+> Task :ei:generateReleaseSources UP-TO-DATE
+> Task :ei:javaPreCompileRelease UP-TO-DATE
+> Task :ei:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :ei:processReleaseJavaRes NO-SOURCE
+> Task :ei:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:checkReleaseClasspath
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :ei:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform print-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform localbroadcastmanager-1.0.0.aar with ExtractAarTransform
+> Transform documentfile-1.0.0.aar with ExtractAarTransform
+> Transform lifecycle-runtime-2.0.0.aar with ExtractAarTransform
+> Transform core-runtime-2.0.0.aar with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core-2.0.0.aar with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-2.0.0.aar with ExtractAarTransform
+> Transform interpolator-1.0.0.aar with ExtractAarTransform
+> Transform 2d4ba4d3569fd996be8f1e5fb9a25022 with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel-2.0.0.aar with ExtractAarTransform
+> Transform 56618fd77f30619c55ccffa8af73b324 with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform c7618773cbdbf47047c9b8d946f0fbcf with AarTransform
+> Transform cursoradapter-1.0.0.aar with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
+> Transform versionedparcelable-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 4f82eb39cf1c60ca8a22c096606df99e with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha01) with JetifyTransform
+> Transform core-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform 596d31a835a922454b810808b3d70de5 with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater-1.0.0.aar with ExtractAarTransform
+> Transform 5fe94b47638d207e82a54b805d87e644 with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout-1.0.0.aar with ExtractAarTransform
+> Transform a2c9235a6c483fdb1a8de94bbd22906f with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform customview-1.0.0.aar with ExtractAarTransform
+> Transform 3ca8e76976a937087980cf051ff54a78 with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout-1.0.0.aar with ExtractAarTransform
+> Transform 79c51db0b9be6fe24ea9f64285ae3992 with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform 443ddf71a2c54bc66910c12f074c08d3 with AarTransform
+> Transform 73092b421be69a52822ee0d092551fff with AarTransform
+> Transform coordinatorlayout-1.0.0.aar with ExtractAarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha02) with JetifyTransform
+> Transform activity-1.0.0-alpha02.aar with ExtractAarTransform
+> Transform b14fb80e2f1dab82c9ed0d621a7767de with AarTransform
+> Transform 43c7b4b3baeb9e7389f129683189f112 with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils-1.0.0.aar with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform viewpager-1.0.0.aar with ExtractAarTransform
+> Transform loader-1.0.0.aar with ExtractAarTransform
+> Transform 3282afa38c8c8bfee66025b4b3e1b7df with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout-1.0.0.aar with ExtractAarTransform
+> Transform c148a49ecc1b126e184802e9d011571a with AarTransform
+> Transform 5e9172f187bc566c9025f7fb57b091b8 with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui-1.0.0.aar with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform vectordrawable-1.0.1.aar with ExtractAarTransform
+> Transform 4a8d1abd313b34af22e3ae662ecb41f5 with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated-1.0.0.aar with ExtractAarTransform
+> Transform f7d9d17d89f037c37af880d19445b1be with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha02) with JetifyTransform
+> Transform fragment-1.1.0-alpha02.aar with ExtractAarTransform
+> Transform 8b2cc4075de921d8a38fb59956b69a7e with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha01) with JetifyTransform
+> Transform appcompat-1.1.0-alpha01.aar with ExtractAarTransform
+> Transform a7b77acb10f37f1e511701c942092c1a with AarTransform
+> Transform c3c3c679cb88808007cda175aa99d387 with AarTransform
+> Transform 2dfac786a1e277b748fce81fd705d93b with AarTransform
+> Transform 6db62dce6bba9a3e2fb1df90137bd12a with AarTransform
+> Transform a5682c9ea6d74b407af693f343f5bd6e with AarTransform
+> Transform 1458781a907a37cce973d46c1183b8ce with AarTransform
+> Transform 8b627a85d0b5444eb7b9ef8a42fe59f9 with AarTransform
+> Transform 10dc4cba190aae2786e4ed8a2164ab5b with AarTransform
+> Task :ei:mergeReleaseShaders UP-TO-DATE
+> Task :sample:lintVitalRelease
+> Task :ei:compileReleaseShaders UP-TO-DATE
+> Task :ei:generateReleaseAssets UP-TO-DATE
+> Task :ei:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :ei:compileReleaseNdk NO-SOURCE
+> Task :ei:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :ei:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :ei:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :ei:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:checkReleaseLibraries
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.9/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 24s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2019-01-15 16:18:47,143 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547543870250-0/src/EasingInterpolator-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

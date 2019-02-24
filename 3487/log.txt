@@ -1,0 +1,380 @@
+2018-12-17 21:31:25,727 INFO  DownloadService - Downloading "https://github.com/ArthurHub/Android-Image-Cropper/archive/master.zip", attempt 3
+2018-12-17 21:32:26,363 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-17 21:32:27,281 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-17 21:32:27,281 INFO  DownloadService - Downloading "https://github.com/ArthurHub/Android-Image-Cropper/archive/master.zip", attempt 3
+2018-12-17 21:33:29,361 DEBUG FullProcessService - Repository https://github.com/ArthurHub/Android-Image-Cropper available: true
+2018-12-17 21:33:29,362 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-17 21:33:29,362 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ArthurHub/Android-Image-Cropper, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src]
+2018-12-17 21:33:35,384 INFO  SysUtils - 
+2018-12-17 21:33:35,394 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/.git": true
+2018-12-17 21:33:35,401 INFO  FullProcessService - Size of directory with sources: 11 MB
+2018-12-17 21:33:35,401 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src]
+2018-12-17 21:33:35,418 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/.git/
+
+2018-12-17 21:33:35,424 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/gradle/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/gradlew
+2018-12-17 21:33:35,429 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/cropper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/build.gradle
+2018-12-17 21:33:35,435 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/cropper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/settings.gradle
+2018-12-17 21:33:35,435 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2018-12-17 21:33:36,165 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2018-12-17 21:33:36,165 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2018-12-17 21:33:36,165 INFO  ProjectFixService - Fixing project...
+2018-12-17 21:33:36,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/cropper/local.properties
+2018-12-17 21:33:36,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/cropper/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-17 21:33:36,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/local.properties
+2018-12-17 21:33:36,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-17 21:33:36,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/sample/local.properties
+2018-12-17 21:33:36,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-17 21:33:36,188 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/test/local.properties
+2018-12-17 21:33:36,189 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/test/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-17 21:33:36,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/local.properties
+2018-12-17 21:33:36,190 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-17 21:33:36,190 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-17 21:33:36,191 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-17 21:33:36,191 INFO  ProjectFixService - Project was maybe fixed
+2018-12-17 21:33:36,191 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-17 21:33:36,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/cropper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-17 21:33:44,332 INFO  ProjectTaskService - Detected possible tasks: 78
+2018-12-17 21:33:44,333 INFO  ProjectTaskService - Excluded tasks (18): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-17 21:33:44,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/cropper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-17 21:34:00,401 INFO  SysUtils - Configuration on demand is an incubating feature.
+:cropper:preBuild UP-TO-DATE
+:cropper:preDebugBuild UP-TO-DATE
+:cropper:compileDebugAidl NO-SOURCE
+:cropper:compileDebugRenderscript
+:cropper:checkDebugManifest
+:cropper:generateDebugBuildConfig
+:cropper:generateDebugResValues
+:cropper:generateDebugResources
+:cropper:packageDebugResources
+:cropper:processDebugManifest
+:cropper:generateDebugRFile
+:cropper:prepareLintJar
+:cropper:generateDebugSources
+:cropper:javaPreCompileDebug
+:cropper:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:cropper:extractDebugAnnotations
+:cropper:mergeDebugConsumerProguardFiles
+:cropper:mergeDebugShaders
+:cropper:compileDebugShaders
+:cropper:generateDebugAssets
+:cropper:packageDebugAssets
+:cropper:packageDebugRenderscript NO-SOURCE
+:cropper:processDebugJavaRes NO-SOURCE
+:cropper:transformResourcesWithMergeJavaResForDebug
+:cropper:transformClassesAndResourcesWithSyncLibJarsForDebug
+:cropper:compileDebugNdk NO-SOURCE
+:cropper:mergeDebugJniLibFolders
+:cropper:transformNativeLibsWithMergeJniLibsForDebug
+:cropper:transformNativeLibsWithStripDebugSymbolForDebug
+:cropper:transformNativeLibsWithSyncJniLibsForDebug
+:cropper:bundleDebugAar
+:cropper:compileDebugSources
+:cropper:assembleDebug
+:cropper:preReleaseBuild UP-TO-DATE
+:cropper:compileReleaseAidl NO-SOURCE
+:cropper:compileReleaseRenderscript
+:cropper:checkReleaseManifest
+:cropper:generateReleaseBuildConfig
+:cropper:generateReleaseResValues
+:cropper:generateReleaseResources
+:cropper:packageReleaseResources
+:cropper:processReleaseManifest
+:cropper:generateReleaseRFile
+:cropper:generateReleaseSources
+:cropper:javaPreCompileRelease
+:cropper:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:cropper:extractReleaseAnnotations
+:cropper:mergeReleaseConsumerProguardFiles
+:cropper:mergeReleaseShaders
+:cropper:compileReleaseShaders
+:cropper:generateReleaseAssets
+:cropper:packageReleaseAssets
+:cropper:packageReleaseRenderscript NO-SOURCE
+:cropper:processReleaseJavaRes NO-SOURCE
+:cropper:transformResourcesWithMergeJavaResForRelease
+:cropper:transformClassesAndResourcesWithSyncLibJarsForRelease
+:cropper:compileReleaseNdk NO-SOURCE
+:cropper:mergeReleaseJniLibFolders
+:cropper:transformNativeLibsWithMergeJniLibsForRelease
+:cropper:transformNativeLibsWithStripDebugSymbolForRelease
+:cropper:transformNativeLibsWithSyncJniLibsForRelease
+:cropper:bundleReleaseAar
+:cropper:compileReleaseSources
+:cropper:mergeReleaseResources
+:cropper:verifyReleaseResources
+:cropper:assembleRelease
+:cropper:assemble
+:cropper:build
+
+BUILD SUCCESSFUL in 15s
+45 actionable tasks: 45 executed
+
+2018-12-17 21:34:00,464 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-17 21:34:00,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-17 21:34:06,138 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-12-17 21:34:06,138 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-17 21:34:06,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-17 21:34:11,388 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-17 21:34:11,388 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':quick-start'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':quick-start'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2018-12-17 21:34:11,388 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-12-17 21:34:11,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-17 21:34:35,922 INFO  SysUtils - Configuration on demand is an incubating feature.
+:cropper:preBuild UP-TO-DATE
+:cropper:preDebugBuild UP-TO-DATE
+:cropper:compileDebugAidl NO-SOURCE
+:cropper:compileDebugRenderscript UP-TO-DATE
+:cropper:checkDebugManifest UP-TO-DATE
+:cropper:generateDebugBuildConfig UP-TO-DATE
+:cropper:generateDebugResValues UP-TO-DATE
+:cropper:generateDebugResources UP-TO-DATE
+:cropper:packageDebugResources UP-TO-DATE
+:cropper:processDebugManifest UP-TO-DATE
+:cropper:generateDebugRFile UP-TO-DATE
+:cropper:prepareLintJar UP-TO-DATE
+:cropper:generateDebugSources UP-TO-DATE
+:cropper:javaPreCompileDebug UP-TO-DATE
+:cropper:compileDebugJavaWithJavac UP-TO-DATE
+:cropper:processDebugJavaRes NO-SOURCE
+:cropper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:quick-start:checkDebugClasspath
+:quick-start:preBuild UP-TO-DATE
+:quick-start:preDebugBuild
+:quick-start:compileDebugAidl NO-SOURCE
+:cropper:packageDebugRenderscript NO-SOURCE
+:quick-start:compileDebugRenderscript
+:quick-start:checkDebugManifest
+:quick-start:generateDebugBuildConfig
+:quick-start:prepareLintJar
+:quick-start:mainApkListPersistenceDebug
+:quick-start:generateDebugResValues
+:quick-start:generateDebugResources
+:quick-start:mergeDebugResources
+:quick-start:createDebugCompatibleScreenManifests
+:quick-start:processDebugManifest
+:quick-start:splitsDiscoveryTaskDebug
+:quick-start:processDebugResources
+:quick-start:generateDebugSources
+:quick-start:javaPreCompileDebug
+:quick-start:compileDebugJavaWithJavac
+:quick-start:compileDebugNdk NO-SOURCE
+:quick-start:compileDebugSources
+:cropper:mergeDebugShaders UP-TO-DATE
+:cropper:compileDebugShaders UP-TO-DATE
+:cropper:generateDebugAssets UP-TO-DATE
+:cropper:packageDebugAssets UP-TO-DATE
+:quick-start:mergeDebugShaders
+:quick-start:compileDebugShaders
+:quick-start:generateDebugAssets
+:quick-start:mergeDebugAssets
+:quick-start:transformClassesWithDexBuilderForDebug
+:quick-start:transformDexArchiveWithExternalLibsDexMergerForDebug
+:quick-start:transformDexArchiveWithDexMergerForDebug
+:cropper:compileDebugNdk NO-SOURCE
+:cropper:mergeDebugJniLibFolders UP-TO-DATE
+:cropper:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:cropper:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:cropper:transformNativeLibsWithIntermediateJniLibsForDebug
+:quick-start:mergeDebugJniLibFolders
+:quick-start:transformNativeLibsWithMergeJniLibsForDebug
+:quick-start:transformNativeLibsWithStripDebugSymbolForDebug
+:quick-start:checkDebugLibraries
+:quick-start:processDebugJavaRes NO-SOURCE
+:quick-start:transformResourcesWithMergeJavaResForDebug
+:quick-start:validateSigningDebug
+:quick-start:packageDebug
+:quick-start:assembleDebug
+:cropper:preReleaseBuild UP-TO-DATE
+:cropper:compileReleaseAidl NO-SOURCE
+:cropper:compileReleaseRenderscript UP-TO-DATE
+:cropper:checkReleaseManifest UP-TO-DATE
+:cropper:generateReleaseBuildConfig UP-TO-DATE
+:cropper:generateReleaseResValues UP-TO-DATE
+:cropper:generateReleaseResources UP-TO-DATE
+:cropper:packageReleaseResources UP-TO-DATE
+:cropper:processReleaseManifest UP-TO-DATE
+:cropper:generateReleaseRFile UP-TO-DATE
+:cropper:generateReleaseSources UP-TO-DATE
+:cropper:javaPreCompileRelease UP-TO-DATE
+:cropper:compileReleaseJavaWithJavac UP-TO-DATE
+:cropper:processReleaseJavaRes NO-SOURCE
+:cropper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:quick-start:checkReleaseClasspath
+:quick-start:preReleaseBuild
+:quick-start:compileReleaseAidl NO-SOURCE
+:cropper:packageReleaseRenderscript NO-SOURCE
+:quick-start:compileReleaseRenderscript
+:quick-start:checkReleaseManifest
+:quick-start:generateReleaseBuildConfig
+:quick-start:mainApkListPersistenceRelease
+:quick-start:generateReleaseResValues
+:quick-start:generateReleaseResources
+:quick-start:mergeReleaseResources
+:quick-start:createReleaseCompatibleScreenManifests
+:quick-start:processReleaseManifest
+:quick-start:splitsDiscoveryTaskRelease
+:quick-start:processReleaseResources
+:quick-start:generateReleaseSources
+:quick-start:javaPreCompileRelease
+:quick-start:compileReleaseJavaWithJavac
+:quick-start:compileReleaseNdk NO-SOURCE
+:quick-start:compileReleaseSources
+:quick-start:lintVitalRelease SKIPPED
+:cropper:mergeReleaseShaders UP-TO-DATE
+:cropper:compileReleaseShaders UP-TO-DATE
+:cropper:generateReleaseAssets UP-TO-DATE
+:cropper:packageReleaseAssets UP-TO-DATE
+:quick-start:mergeReleaseShaders
+:quick-start:compileReleaseShaders
+:quick-start:generateReleaseAssets
+:quick-start:mergeReleaseAssets
+:quick-start:transformClassesWithDexBuilderForRelease
+:quick-start:transformDexArchiveWithExternalLibsDexMergerForRelease
+:quick-start:transformDexArchiveWithDexMergerForRelease
+:cropper:compileReleaseNdk NO-SOURCE
+:cropper:mergeReleaseJniLibFolders UP-TO-DATE
+:cropper:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:cropper:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:cropper:transformNativeLibsWithIntermediateJniLibsForRelease
+:quick-start:mergeReleaseJniLibFolders
+:quick-start:transformNativeLibsWithMergeJniLibsForRelease
+:quick-start:transformNativeLibsWithStripDebugSymbolForRelease
+:quick-start:checkReleaseLibraries
+:quick-start:processReleaseJavaRes NO-SOURCE
+:quick-start:transformResourcesWithMergeJavaResForRelease
+:quick-start:packageRelease
+:quick-start:assembleRelease
+:quick-start:assemble
+:quick-start:lint
+Ran lint on variant release: 6 issues found
+Ran lint on variant debug: 6 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build/reports/lint-results.xml
+:quick-start:generateDebugUnitTestSources
+:quick-start:preDebugUnitTestBuild UP-TO-DATE
+:quick-start:javaPreCompileDebugUnitTest
+:quick-start:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:quick-start:processDebugUnitTestJavaRes NO-SOURCE
+:quick-start:testDebugUnitTest NO-SOURCE
+:quick-start:generateReleaseUnitTestSources
+:quick-start:preReleaseUnitTestBuild UP-TO-DATE
+:quick-start:javaPreCompileReleaseUnitTest
+:quick-start:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:quick-start:processReleaseUnitTestJavaRes NO-SOURCE
+:quick-start:testReleaseUnitTest NO-SOURCE
+:quick-start:test UP-TO-DATE
+:quick-start:check
+:quick-start:build
+
+BUILD SUCCESSFUL in 23s
+92 actionable tasks: 61 executed, 31 up-to-date
+
+2018-12-17 21:34:36,043 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057085725-0/src/quick-start/build/outputs/apk/release/quick-start-release-unsigned.apk

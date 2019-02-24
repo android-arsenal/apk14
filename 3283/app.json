@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "net.mediavrog.samples.irr.debug",
+    "label" : "Integrated Rating Request Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.2|D",
+    "versionCode" : 2016081101,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAADAFBMVEX////8/f7U2O/P1O3Q1O3Q1O3O0uzw8fnz9PtKXLk2SbI6TLM6TLMwRLC/xefz9PtOYLs6TbQ+ULU1SLLAxufz9PtPYLs7TrQ/UbU2SbLAxudPYLs8TrQ9T7TAxudDVbdLXLpKW7pIWbh8iM3v8Pnu7/jt7/jBx+c6TbM+UbU1SLGDjtD////Q1e45TLOBjc/N0uz+///X8v3t+f74/f/8/v+CjtD9//9y0vfA7PyF1/jJ7/zP1O1/jM75+f34+Pzz9/x20/e95/r5+Pz09/xz0fe75/rIzeo6TLNHWLhXZr5VZL1XacBsyfNgk9ZUYLtWZb5WZb1WZr5QYLw9ULU5S7I8UbVqx/JQhdA3Ra86TLI+T7RBVbdTh9E8SrE/ULQ1R7A3TLRpx/JNgs8yQa07SbFCVLZ2g8p+is18ic19iMx8i85uy/R2p998hcp9ic16h8xGWLg0R7I6R7BIWbny8/p40/jK8f1XZr8xRLBHWbjr7fft+v7V8v120veq5Prc9P35+fxVZb7q7Pfr+f550/dozvZkzPbA6/zT8f1gy/aZ3vmT3Pnc9P5IWrjz9PtWZr87SLBFV7i5wOTJzurDyehPYLwyRbE5S7M4S7I4S7M2SLI1RrE4TbROgs9AUrU/ULU7TbSVn9e/xee8w+a9wuW6w+Zzz/abyO2+weVzgMlAUrY9S7I3SbLJzut51PjN8v6TnNYzR7FEXbxisudisOZjs+hbnt1BV7jCx+ji9v6m4vpy0feM2vi/6vyOmNQ0R7E+TrRGY79owu9GZsBEYL1epeBfqeI+TbON2vljzPZrz/fb9P1mvOxAVrg8SrJBVrhowO9GZL9pzvaz5vtBWLlmu+xJbcOy5vvq+f4+UbY6Q65Ia8JCWblryvNVjtVWkNVShtHKzutCWLlTidJXktdKcMU9TLNxf8mKldKIk9FdbcE8SbE4SrI7TbNPYLtNXrq/xuf09ftVZb1BVLdFV7hFV7g9T7XCyOj+/v/q7Pfn6vbo6vbo6vbn6fb4+PxajR3mAAABAHRSTlMAAAAcKyYAAABk8f77qgcC2f///zcE3P///0Ha//8//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////93SMQBJ2OrliQIAAAYQDQAAFsxeyAAAAkVJREFUSMdjYKA9YGRiZiEOsLKxgzRwcHJxEwd4ePlAGvgFBIWIBMIiIA2iYuISRAJJKbAGaagGIRkcQBauQQ5Zg5C8goIiNqCghF2DpLKKqho2oKKuoYlNg5a2Dg6gq4ddgz4uDQYDqcHQyBhNsYkpbg1mOjrmFpao6g2trHV0bHBosLWzd3B0crZHBi6ubs527h5YNQh5enn7+Pr5ByCBQJBAULAQ1oiTCPEIDQuPiNRAAlEgAQ9x7DENBNEx4bFxyKktHlUAhwZJLThISExKToFxhIWwakhNS8/IhIGs7JzcPCg7v6CwCJuG4pJS5HAtK0ewKyqxaqiqRiipqa2rbzCEchqbcGhoRmhoaW1r74Bx7InQoNPZ1a1Dkgadnl4SNbSYEtTQ148rmU/AqmHipMlT3LGBKVOnTcce0zNmYgezhAinJfSCjHwNMyRng8CcueHzUmYjAUnx+UB1CxYsQNWw0GPR4iUgsHTZ8hUrlyCBxatmgTSsllgTjaJh7TpYyK3fgBqSGzdJRG/esnXb9h3RKBp2QqR37d6zd58hsob9ByQOHjp85Oix4yewaTA5eer0GR0MDWfPnb9w8dJBLBp0Wi5f0cGi4erBBdeun8CmQefGTSwart26fefw3WisGkx1sGi4d//B4YdrUPzwCFd6A4bSgsdPnj599hwl4mRevHyFFbx8vRAYDXFv3jxHjen5bw/gAO/mY0ka70msRfk/6MkSCQ58BGn49PnLV+LAt+8/QBp+/vr9hzjw999/MtoyACGPGjVtVAHtAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 1544,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2016081101\" android:versionName=\"1.1.2|D\" package=\"net.mediavrog.samples.irr.debug\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090081\" android:label=\"Integrated Rating Request Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"Integrated Rating Request Demo\" android:name=\"net.mediavrog.samples.irr.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Default Rule Engine\" android:name=\"net.mediavrog.samples.irr.DefaultEngineActivity\" android:parentActivityName=\"net.mediavrog.samples.irr.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Snackbar Design\" android:name=\"net.mediavrog.samples.irr.DefaultEngineSnackBarActivity\" android:parentActivityName=\"net.mediavrog.samples.irr.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Custom Rule Engine\" android:name=\"net.mediavrog.samples.irr.CustomEngineActivity\" android:parentActivityName=\"net.mediavrog.samples.irr.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Decorate ListAdapters\" android:name=\"net.mediavrog.samples.irr.DefaultEngineListActivity\" android:parentActivityName=\"net.mediavrog.samples.irr.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Decorate async lists\" android:name=\"net.mediavrog.samples.irr.DefaultEngineAsyncListActivity\" android:parentActivityName=\"net.mediavrog.samples.irr.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"About\" android:name=\"net.mediavrog.samples.irr.MetaActivity\" android:parentActivityName=\"net.mediavrog.samples.irr.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1311652,
+  "crc32" : 292432114,
+  "sha256" : "a6e2bb2e13c60476d2cdd56488c1d181df08138822deb83f3a551a0a8dca8869",
+  "buildTime" : 1546955533000
+}

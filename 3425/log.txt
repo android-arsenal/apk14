@@ -1,0 +1,73 @@
+2019-01-28 11:20:05,092 INFO  DownloadService - Downloading "https://github.com/facebook/redex/archive/master.zip", attempt 3
+2019-01-28 11:21:05,608 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-28 11:21:06,669 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-28 11:21:06,669 INFO  DownloadService - Downloading "https://github.com/facebook/redex/archive/master.zip", attempt 3
+2019-01-28 11:22:08,090 DEBUG FullProcessService - Repository https://github.com/facebook/redex available: true
+2019-01-28 11:22:08,090 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-28 11:22:08,090 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/facebook/redex, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src]
+2019-01-28 11:22:24,435 INFO  SysUtils - 
+2019-01-28 11:22:24,454 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/.git": true
+2019-01-28 11:22:24,485 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-01-28 11:22:24,486 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src]
+2019-01-28 11:22:24,502 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/.git/
+
+2019-01-28 11:22:24,523 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-01-28 11:22:24,523 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-01-28 11:22:24,542 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/ProguardExample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/synth-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/build.gradle
+2019-01-28 11:22:24,560 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/synth-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/ProguardExample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/ProguardExample/settings.gradle
+2019-01-28 11:22:24,560 INFO  ProjectBuildService - Remote scripts: none
+2019-01-28 11:22:24,560 INFO  ProjectFixService - Fixing project...
+2019-01-28 11:22:24,602 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/ProguardExample/app/local.properties
+2019-01-28 11:22:24,602 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/ProguardExample/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-28 11:22:24,602 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/synth-example/local.properties
+2019-01-28 11:22:24,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/synth-example/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-28 11:22:24,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/local.properties
+2019-01-28 11:22:24,603 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-01-28 11:22:24,604 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-01-28 11:22:24,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/Synth/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-28 11:22:24,604 INFO  ProjectFixService - Project was maybe fixed
+2019-01-28 11:22:24,605 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-28 11:22:24,605 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/ProguardExample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-28 11:22:24,610 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-01-28 11:22:24,610 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-28 11:22:24,610 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-28 11:22:24,610 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/docs/examples/ProguardExample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-28 11:22:24,614 ERROR SysUtils - Could not process external command
+java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at org.apache.commons.exec.launcher.Java13CommandLauncher.exec(Java13CommandLauncher.java:61)
+	at org.apache.commons.exec.DefaultExecutor.launch(DefaultExecutor.java:279)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:336)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 28 common frames omitted
+2019-01-28 11:22:24,614 INFO  SysUtils - 
+2019-01-28 11:22:24,632 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548649205088-0/src/test/instr/redex-test.apk

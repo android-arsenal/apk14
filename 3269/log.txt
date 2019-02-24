@@ -1,0 +1,189 @@
+2019-01-20 18:13:51,474 INFO  DownloadService - Downloading "https://github.com/lipangit/jiecaovideoplayer/archive/master.zip", attempt 3
+2019-01-20 18:13:52,773 INFO  DownloadService - Downloaded https://github.com/lipangit/jiecaovideoplayer/archive/master.zip, attempt 3
+2019-01-20 18:13:52,774 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/master.zip": 604 KB
+2019-01-20 18:13:52,774 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-20 18:13:52,776 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/master.zip: true
+2019-01-20 18:13:52,776 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src'.
+2019-01-20 18:13:52,870 INFO  FullProcessService - Size of directory with sources: 831 KB
+2019-01-20 18:13:52,870 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src]
+2019-01-20 18:13:52,901 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/.git/
+
+2019-01-20 18:13:52,911 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/gradlew
+2019-01-20 18:13:52,921 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/jiaozivideoplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/build.gradle
+2019-01-20 18:13:52,930 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/jiaozivideoplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/gradle/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/settings.gradle
+2019-01-20 18:13:52,931 INFO  ProjectBuildService - Remote scripts: none
+2019-01-20 18:13:52,931 INFO  ProjectFixService - Fixing project...
+2019-01-20 18:13:52,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/local.properties
+2019-01-20 18:13:52,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:13:52,954 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:13:52,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/jiaozivideoplayer/local.properties
+2019-01-20 18:13:52,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/jiaozivideoplayer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:13:52,958 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/jiaozivideoplayer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:13:52,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/local.properties
+2019-01-20 18:13:52,960 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-20 18:13:52,961 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-20 18:13:52,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:13:52,963 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-20 18:13:52,964 INFO  ProjectFixService - Project was maybe fixed
+2019-01-20 18:13:52,964 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-20 18:13:52,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-20 18:14:01,449 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-20 18:14:01,449 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-20 18:14:01,449 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-20 18:14:39,514 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:checkDebugClasspath
+> Task :app:preBuild UP-TO-DATE
+> Task :jiaozivideoplayer:preBuild UP-TO-DATE
+> Task :jiaozivideoplayer:preDebugBuild UP-TO-DATE
+> Task :jiaozivideoplayer:checkDebugManifest
+> Task :jiaozivideoplayer:processDebugManifest
+> Task :app:preDebugBuild
+> Task :jiaozivideoplayer:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :jiaozivideoplayer:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :jiaozivideoplayer:compileDebugRenderscript
+> Task :jiaozivideoplayer:generateDebugResValues
+> Task :jiaozivideoplayer:generateDebugResources
+> Task :jiaozivideoplayer:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:splitsDiscoveryTaskDebug
+> Task :jiaozivideoplayer:generateDebugRFile
+> Task :app:processDebugResources
+> Task :app:generateDebugSources
+> Task :jiaozivideoplayer:generateDebugBuildConfig
+> Task :jiaozivideoplayer:prepareLintJar
+> Task :jiaozivideoplayer:generateDebugSources
+> Task :jiaozivideoplayer:javaPreCompileDebug
+
+> Task :jiaozivideoplayer:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :jiaozivideoplayer:processDebugJavaRes NO-SOURCE
+> Task :jiaozivideoplayer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/src/main/java/cn/jzvd/demo/ActivityApi.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :jiaozivideoplayer:mergeDebugShaders
+> Task :jiaozivideoplayer:compileDebugShaders
+> Task :jiaozivideoplayer:generateDebugAssets
+> Task :jiaozivideoplayer:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :jiaozivideoplayer:compileDebugNdk NO-SOURCE
+> Task :jiaozivideoplayer:mergeDebugJniLibFolders
+> Task :jiaozivideoplayer:transformNativeLibsWithMergeJniLibsForDebug
+> Task :jiaozivideoplayer:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :jiaozivideoplayer:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:checkReleaseClasspath
+> Task :jiaozivideoplayer:preReleaseBuild UP-TO-DATE
+> Task :jiaozivideoplayer:checkReleaseManifest
+> Task :jiaozivideoplayer:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :jiaozivideoplayer:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :jiaozivideoplayer:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :jiaozivideoplayer:compileReleaseRenderscript
+> Task :jiaozivideoplayer:generateReleaseResValues
+> Task :jiaozivideoplayer:generateReleaseResources
+> Task :jiaozivideoplayer:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :jiaozivideoplayer:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :app:generateReleaseSources
+> Task :jiaozivideoplayer:generateReleaseBuildConfig
+> Task :jiaozivideoplayer:generateReleaseSources
+> Task :jiaozivideoplayer:javaPreCompileRelease
+
+> Task :jiaozivideoplayer:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :jiaozivideoplayer:processReleaseJavaRes NO-SOURCE
+> Task :jiaozivideoplayer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/src/main/java/cn/jzvd/demo/ActivityApi.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :jiaozivideoplayer:mergeReleaseShaders
+> Task :jiaozivideoplayer:compileReleaseShaders
+> Task :jiaozivideoplayer:generateReleaseAssets
+> Task :jiaozivideoplayer:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :jiaozivideoplayer:compileReleaseNdk NO-SOURCE
+> Task :jiaozivideoplayer:mergeReleaseJniLibFolders
+> Task :jiaozivideoplayer:transformNativeLibsWithMergeJniLibsForRelease
+> Task :jiaozivideoplayer:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :jiaozivideoplayer:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:checkReleaseLibraries
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:validateSigningRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 37s
+91 actionable tasks: 91 executed
+
+2019-01-20 18:14:39,621 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547982831471-0/src/JiaoZiVideoPlayer-master/app/build/outputs/apk/debug/app-debug.apk

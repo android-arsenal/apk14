@@ -1,0 +1,172 @@
+2019-01-02 18:34:56,647 INFO  DownloadService - Downloading "https://github.com/opacapp/multiline-collapsingtoolbar/archive/master.zip", attempt 3
+2019-01-02 18:35:57,231 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-02 18:35:58,203 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-02 18:35:58,209 INFO  DownloadService - Downloading "https://github.com/opacapp/multiline-collapsingtoolbar/archive/master.zip", attempt 3
+2019-01-02 18:36:59,619 DEBUG FullProcessService - Repository https://github.com/opacapp/multiline-collapsingtoolbar available: true
+2019-01-02 18:36:59,619 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-02 18:36:59,619 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/opacapp/multiline-collapsingtoolbar, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src]
+2019-01-02 18:37:03,821 INFO  SysUtils - 
+2019-01-02 18:37:03,848 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/.git": true
+2019-01-02 18:37:03,850 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-01-02 18:37:03,850 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src]
+2019-01-02 18:37:03,867 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/.git/
+
+2019-01-02 18:37:03,869 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/gradlew
+2019-01-02 18:37:03,872 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/multiline-collapsingtoolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/build.gradle
+2019-01-02 18:37:03,874 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/multiline-collapsingtoolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/settings.gradle
+2019-01-02 18:37:03,874 INFO  ProjectBuildService - Remote scripts: none
+2019-01-02 18:37:03,874 INFO  ProjectFixService - Fixing project...
+2019-01-02 18:37:03,879 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/demo/local.properties
+2019-01-02 18:37:03,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-02 18:37:03,881 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-02 18:37:03,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/multiline-collapsingtoolbar/local.properties
+2019-01-02 18:37:03,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/multiline-collapsingtoolbar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-02 18:37:03,882 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/multiline-collapsingtoolbar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-02 18:37:03,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/local.properties
+2019-01-02 18:37:03,883 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-02 18:37:03,884 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-02 18:37:03,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-02 18:37:03,885 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-02 18:37:03,885 INFO  ProjectFixService - Project was maybe fixed
+2019-01-02 18:37:03,885 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-02 18:37:03,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-02 18:37:10,997 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-02 18:37:10,997 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-02 18:37:10,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-02 18:37:42,815 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:demo:preBuild UP-TO-DATE
+:multiline-collapsingtoolbar:preBuild UP-TO-DATE
+:multiline-collapsingtoolbar:preDebugBuild UP-TO-DATE
+:multiline-collapsingtoolbar:checkDebugManifest
+:multiline-collapsingtoolbar:processDebugManifest
+:demo:preDebugBuild
+:multiline-collapsingtoolbar:compileDebugAidl
+:demo:compileDebugAidl
+:multiline-collapsingtoolbar:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:multiline-collapsingtoolbar:compileDebugRenderscript
+:multiline-collapsingtoolbar:generateDebugResValues
+:multiline-collapsingtoolbar:generateDebugResources
+:multiline-collapsingtoolbar:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:multiline-collapsingtoolbar:platformAttrExtractor
+:multiline-collapsingtoolbar:generateDebugBuildConfig
+:multiline-collapsingtoolbar:prepareLintJar
+:multiline-collapsingtoolbar:javaPreCompileDebug
+:multiline-collapsingtoolbar:processDebugJavaRes NO-SOURCE
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:multiline-collapsingtoolbar:mergeDebugShaders
+:multiline-collapsingtoolbar:compileDebugShaders
+:multiline-collapsingtoolbar:generateDebugAssets
+:multiline-collapsingtoolbar:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:mergeDebugJniLibFolders
+:multiline-collapsingtoolbar:compileDebugNdk NO-SOURCE
+:multiline-collapsingtoolbar:mergeDebugJniLibFolders
+:multiline-collapsingtoolbar:transformNativeLibsWithMergeJniLibsForDebug
+:multiline-collapsingtoolbar:transformNativeLibsWithStripDebugSymbolForDebug
+:multiline-collapsingtoolbar:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:validateSigningDebug
+:multiline-collapsingtoolbar:preReleaseBuild UP-TO-DATE
+:multiline-collapsingtoolbar:checkReleaseManifest
+:multiline-collapsingtoolbar:processReleaseManifest
+:demo:preReleaseBuild
+:multiline-collapsingtoolbar:compileReleaseAidl
+:demo:compileReleaseAidl
+:multiline-collapsingtoolbar:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:multiline-collapsingtoolbar:compileReleaseRenderscript
+:multiline-collapsingtoolbar:generateReleaseResValues
+:multiline-collapsingtoolbar:generateReleaseResources
+:multiline-collapsingtoolbar:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:multiline-collapsingtoolbar:generateReleaseBuildConfig
+:multiline-collapsingtoolbar:javaPreCompileRelease
+:multiline-collapsingtoolbar:processReleaseJavaRes NO-SOURCE
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:multiline-collapsingtoolbar:mergeReleaseShaders
+:multiline-collapsingtoolbar:compileReleaseShaders
+:multiline-collapsingtoolbar:generateReleaseAssets
+:multiline-collapsingtoolbar:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:mergeReleaseJniLibFolders
+:multiline-collapsingtoolbar:compileReleaseNdk NO-SOURCE
+:multiline-collapsingtoolbar:mergeReleaseJniLibFolders
+:multiline-collapsingtoolbar:transformNativeLibsWithMergeJniLibsForRelease
+:multiline-collapsingtoolbar:transformNativeLibsWithStripDebugSymbolForRelease
+:multiline-collapsingtoolbar:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:multiline-collapsingtoolbar:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:multiline-collapsingtoolbar:generateDebugSources
+:multiline-collapsingtoolbar:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/multiline-collapsingtoolbar/src/main/java/net/opacapp/multilinecollapsingtoolbar/CollapsingToolbarLayout.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:multiline-collapsingtoolbar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugSources
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:packageDebug
+:demo:assembleDebug
+:multiline-collapsingtoolbar:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:multiline-collapsingtoolbar:generateReleaseSources
+:multiline-collapsingtoolbar:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/multiline-collapsingtoolbar/src/main/java/net/opacapp/multilinecollapsingtoolbar/CollapsingToolbarLayout.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:multiline-collapsingtoolbar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 31s
+91 actionable tasks: 91 executed
+
+2019-01-02 18:37:42,891 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428896644-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

@@ -1,0 +1,10 @@
+{
+  "com.legend.demo" : [ "App", "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$2", "MainActivity$3", "MainActivity$4", "MainActivity$5", "R", "R$attr", "R$color", "R$dimen", "R$id", "R$layout", "R$mipmap", "R$string" ],
+  "com.lody.legend" : [ "BuildConfig", "Hook", "HookManager", "HookManager$NULL", "Platform", "Platform$Platform32Bit", "Platform$Platform64Bit", "R", "R$string" ],
+  "com.lody.legend.art" : [ "ArtMethod", "ArtMethodStructV19", "ArtMethodStructV22", "ArtMethodStructV22_64Bit", "ArtMethodStructV23", "ArtMethodStructV23_64Bit" ],
+  "com.lody.legend.dalvik" : [ "DalvikConstants", "DalvikHelper", "DalvikMethodStruct" ],
+  "com.lody.legend.interfaces" : [ "Restoreable" ],
+  "com.lody.legend.utility" : [ "LegendNative", "Logger", "Memory", "Runtime", "Struct", "StructMapping", "StructMember" ],
+  "libcore.io" : [ "Memory", "SizeOf" ],
+  "sun.misc" : [ "Unsafe" ]
+}

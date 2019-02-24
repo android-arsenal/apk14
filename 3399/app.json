@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.paolorotolo.gitty_reporter_example",
+    "label" : "Gitty Reporter Example",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2089,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.1.0\" package=\"com.github.paolorotolo.gitty_reporter_example\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f08002e\" android:label=\"Gitty Reporter Example\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Gitty Reporter Example\" android:name=\"com.github.paolorotolo.gitty_reporter_example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Gitty Reporter Example\" android:name=\"com.github.paolorotolo.gitty_reporter_example.GittyReporterExample\" />\n\t\t<activity android:label=\"Gitty Reporter Example\" android:name=\"com.github.paolorotolo.gitty_reporter_example.GittyReporterNoGuestExample\" />\n\t\t<activity android:label=\"Gitty Reporter Example\" android:name=\"com.github.paolorotolo.gitty_reporter_example.GittyReporterNoLoginExample\" />\n\t\t<activity android:label=\"RecyclerViewTestActivity\" android:name=\"android.support.v7.widget.TestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1606460,
+  "crc32" : 1595238407,
+  "sha256" : "853bc016b75312925dd23aa8cadec2723032a333ff6f3f91de2d10cd78f4b912",
+  "buildTime" : 1546428134000
+}
