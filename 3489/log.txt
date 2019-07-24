@@ -1,38 +1,38 @@
-2018-12-17 21:26:57,484 INFO  DownloadService - Downloading "https://github.com/meituan/Firefly/archive/master.zip", attempt 3
-2018-12-17 21:27:58,205 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 21:27:59,690 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-17 21:27:59,690 INFO  DownloadService - Downloading "https://github.com/meituan/Firefly/archive/master.zip", attempt 3
-2018-12-17 21:29:01,195 DEBUG FullProcessService - Repository https://github.com/meituan/Firefly available: true
-2018-12-17 21:29:01,195 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 21:29:01,196 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/meituan/Firefly, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src]
-2018-12-17 21:29:04,991 INFO  SysUtils - 
-2018-12-17 21:29:04,999 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/.git": true
-2018-12-17 21:29:05,004 INFO  FullProcessService - Size of directory with sources: 493 KB
-2018-12-17 21:29:05,004 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src]
-2018-12-17 21:29:05,021 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/.git/
+2019-07-24 13:54:19,239 INFO  DownloadService - Downloading "https://github.com/meituan/Firefly/archive/master.zip", attempt 3
+2019-07-24 13:55:19,884 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-24 13:55:20,704 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-24 13:55:20,704 INFO  DownloadService - Downloading "https://github.com/meituan/Firefly/archive/master.zip", attempt 3
+2019-07-24 13:56:22,451 DEBUG FullProcessService - Repository https://github.com/meituan/Firefly available: true
+2019-07-24 13:56:22,451 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-24 13:56:22,451 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/meituan/Firefly, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src]
+2019-07-24 13:56:24,504 INFO  SysUtils - 
+2019-07-24 13:56:24,511 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/.git": true
+2019-07-24 13:56:24,515 INFO  FullProcessService - Size of directory with sources: 493 KB
+2019-07-24 13:56:24,515 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src]
+2019-07-24 13:56:24,531 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/.git/
 
-2018-12-17 21:29:05,025 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/gradlew
-2018-12-17 21:29:05,030 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle
-2018-12-17 21:29:05,034 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/settings.gradle
-2018-12-17 21:29:05,034 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 21:29:05,034 INFO  ProjectFixService - Fixing project...
-2018-12-17 21:29:05,038 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/generator/project/META-INF/MANIFEST.MF
-2018-12-17 21:29:05,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/local.properties
-2018-12-17 21:29:05,046 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-12-17 21:29:05,046 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-12-17 21:29:05,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
-2018-12-17 21:29:05,047 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=28]
-2018-12-17 21:29:05,048 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/local.properties
-2018-12-17 21:29:05,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
-2018-12-17 21:29:05,049 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=28]
-2018-12-17 21:29:05,049 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 21:29:05,049 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 21:29:05,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 21:29:10,288 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 21:29:10,288 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 21:29:10,288 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 21:29:10,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 21:29:13,649 ERROR SysUtils - Could not process external command
+2019-07-24 13:56:24,535 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/gradlew
+2019-07-24 13:56:24,538 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle
+2019-07-24 13:56:24,542 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/settings.gradle
+2019-07-24 13:56:24,542 INFO  ProjectBuildService - Remote scripts: none
+2019-07-24 13:56:24,542 INFO  ProjectFixService - Fixing project...
+2019-07-24 13:56:24,545 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/generator/project/META-INF/MANIFEST.MF
+2019-07-24 13:56:24,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/local.properties
+2019-07-24 13:56:24,551 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-07-24 13:56:24,551 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-07-24 13:56:24,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
+2019-07-24 13:56:24,552 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=29]
+2019-07-24 13:56:24,553 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/local.properties
+2019-07-24 13:56:24,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
+2019-07-24 13:56:24,554 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=29]
+2019-07-24 13:56:24,554 INFO  ProjectFixService - Project was maybe fixed
+2019-07-24 13:56:24,554 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:56:24,555 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:56:29,526 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:56:29,526 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:56:29,526 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:56:29,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:56:33,008 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,8 +45,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,12 +59,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 21:29:13,649 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:56:33,009 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle' line: 58
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle' line: 58
 
 * What went wrong:
 A problem occurred evaluating root project 'lib-android'.
@@ -128,7 +127,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: groovy.lang.MissingPropertyException: No such property: mavenReleaseRepo for class: org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer
-	at build_dl3cqp0kgniqp0y7o32wx83t1$_run_closure4$_closure13$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle:58)
+	at build_8auikquw0yrvrltwzvg8511yx$_run_closure4$_closure13$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle:58)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.artifacts.DefaultArtifactRepositoryContainer.addRepository(DefaultArtifactRepositoryContainer.java:87)
 	at org.gradle.api.publication.maven.internal.DefaultMavenRepositoryHandlerConvention.mavenDeployer(DefaultMavenRepositoryHandlerConvention.java:43)
@@ -138,7 +137,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: mavenReleaseR
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at build_dl3cqp0kgniqp0y7o32wx83t1$_run_closure4$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle:57)
+	at build_8auikquw0yrvrltwzvg8511yx$_run_closure4$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle:57)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -148,7 +147,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: mavenReleaseR
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:91)
 	at org.gradle.api.tasks.Upload.repositories(Upload.java:118)
-	at build_dl3cqp0kgniqp0y7o32wx83t1$_run_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle:56)
+	at build_8auikquw0yrvrltwzvg8511yx$_run_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle:56)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:130)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:110)
@@ -160,22 +159,22 @@ Caused by: groovy.lang.MissingPropertyException: No such property: mavenReleaseR
 	at org.gradle.api.internal.DefaultNamedDomainObjectCollection$ContainerElementsDynamicObject.invokeMethod(DefaultNamedDomainObjectCollection.java:341)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_dl3cqp0kgniqp0y7o32wx83t1.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/build.gradle:55)
+	at build_8auikquw0yrvrltwzvg8511yx.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/build.gradle:55)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 50 more
 
 
 BUILD FAILED
 
-Total time: 2.875 secs
+Total time: 2.948 secs
 
-2018-12-17 21:29:13,655 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 21:29:13,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 21:29:16,991 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 21:29:16,991 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 21:29:16,991 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 21:29:16,991 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/lib-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 21:29:19,886 ERROR SysUtils - Could not process external command
+2019-07-24 13:56:33,014 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-24 13:56:33,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-24 13:56:36,359 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-24 13:56:36,360 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-24 13:56:36,360 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-24 13:56:36,360 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/lib-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-24 13:56:39,260 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -188,8 +187,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -203,12 +201,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 21:29:19,887 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-24 13:56:39,260 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle' line: 72
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle' line: 72
 
 * What went wrong:
 A problem occurred evaluating root project 'gradle-plugin'.
@@ -275,21 +273,21 @@ Caused by: groovy.lang.MissingPropertyException: Could not find property 'bintra
 	at org.gradle.api.internal.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:35)
 	at org.gradle.api.internal.CompositeDynamicObject.getProperty(CompositeDynamicObject.java:97)
 	at com.jfrog.bintray.gradle.BintrayExtension_Decorated.getProperty(Unknown Source)
-	at build_8790x8awi2c21mpx8by2plkz$_run_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle:72)
+	at build_6jl93bx08qgnrg7j0jr1owz6c$_run_closure6.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle:72)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:67)
 	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
 	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
 	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:207)
 	at org.gradle.api.internal.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:150)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:79)
-	at build_8790x8awi2c21mpx8by2plkz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545056817480-0/src/gradle_plugin/build.gradle:71)
+	at build_6jl93bx08qgnrg7j0jr1owz6c.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563951259236-0/src/gradle_plugin/build.gradle:71)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 50 more
 
 
 BUILD FAILED
 
-Total time: 2.414 secs
+Total time: 2.364 secs
 
-2018-12-17 21:29:19,893 ERROR FullProcessService - Project build has not produced APK file
-2018-12-17 21:29:19,898 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-24 13:56:39,265 ERROR FullProcessService - Project build has not produced APK file
+2019-07-24 13:56:39,269 ERROR FullProcessService - Could not find generated or existed APK file
