@@ -1,39 +1,39 @@
-2019-01-08 18:33:55,160 INFO  DownloadService - Downloading "https://github.com/nisrulz/qreader/archive/master.zip", attempt 3
-2019-01-08 18:33:57,135 INFO  DownloadService - Downloaded https://github.com/nisrulz/qreader/archive/master.zip, attempt 3
-2019-01-08 18:33:57,135 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/master.zip": 238 KB
-2019-01-08 18:33:57,135 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-08 18:33:57,141 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/master.zip: true
-2019-01-08 18:33:57,141 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src'.
-2019-01-08 18:33:57,160 INFO  FullProcessService - Size of directory with sources: 264 KB
-2019-01-08 18:33:57,161 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src]
-2019-01-08 18:33:57,179 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/.git/
+2019-07-30 16:49:04,056 INFO  DownloadService - Downloading "https://github.com/nisrulz/qreader/archive/master.zip", attempt 3
+2019-07-30 16:49:04,768 INFO  DownloadService - Downloaded https://github.com/nisrulz/qreader/archive/master.zip, attempt 3
+2019-07-30 16:49:04,768 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/master.zip": 238 KB
+2019-07-30 16:49:04,768 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-30 16:49:04,769 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/master.zip: true
+2019-07-30 16:49:04,769 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src'.
+2019-07-30 16:49:04,785 INFO  FullProcessService - Size of directory with sources: 264 KB
+2019-07-30 16:49:04,785 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src]
+2019-07-30 16:49:04,806 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/.git/
 
-2019-01-08 18:33:57,182 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/gradlew
-2019-01-08 18:33:57,185 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/qreader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/build.gradle
-2019-01-08 18:33:57,189 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/qreader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/settings.gradle
-2019-01-08 18:33:57,194 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle", attempt 3
-2019-01-08 18:33:58,052 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle, attempt 3
-2019-01-08 18:33:58,052 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle
-2019-01-08 18:33:58,052 INFO  ProjectFixService - Fixing project...
-2019-01-08 18:33:58,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/app/local.properties
-2019-01-08 18:33:58,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/app/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
-2019-01-08 18:33:58,062 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/app/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-01-08 18:33:58,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/qreader/local.properties
-2019-01-08 18:33:58,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/qreader/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
-2019-01-08 18:33:58,065 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/qreader/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-01-08 18:33:58,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/local.properties
-2019-01-08 18:33:58,066 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-01-08 18:33:58,066 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-01-08 18:33:58,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
-2019-01-08 18:33:58,067 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
-2019-01-08 18:33:58,067 INFO  ProjectFixService - Project was maybe fixed
-2019-01-08 18:33:58,067 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 18:33:58,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 18:34:04,981 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 18:34:04,982 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 18:34:04,982 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 18:34:04,982 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 18:34:11,298 ERROR SysUtils - Could not process external command
+2019-07-30 16:49:04,809 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/gradlew
+2019-07-30 16:49:04,811 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/qreader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/build.gradle
+2019-07-30 16:49:04,813 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/qreader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/settings.gradle
+2019-07-30 16:49:04,814 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle", attempt 3
+2019-07-30 16:49:05,155 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle, attempt 3
+2019-07-30 16:49:05,155 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/nishant-config.gradle
+2019-07-30 16:49:05,155 INFO  ProjectFixService - Fixing project...
+2019-07-30 16:49:05,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/app/local.properties
+2019-07-30 16:49:05,164 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/app/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2019-07-30 16:49:05,164 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/app/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
+2019-07-30 16:49:05,165 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/qreader/local.properties
+2019-07-30 16:49:05,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/qreader/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2019-07-30 16:49:05,168 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/qreader/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
+2019-07-30 16:49:05,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/local.properties
+2019-07-30 16:49:05,169 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-30 16:49:05,169 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-30 16:49:05,170 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2019-07-30 16:49:05,170 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=27]
+2019-07-30 16:49:05,170 INFO  ProjectFixService - Project was maybe fixed
+2019-07-30 16:49:05,170 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-30 16:49:05,170 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-30 16:49:11,422 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-30 16:49:11,422 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-30 16:49:11,422 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-30 16:49:11,422 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-30 16:49:17,632 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 18:34:11,298 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-30 16:49:17,632 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -189,22 +189,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-01-08 18:34:11,303 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 18:34:11,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/qreader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 18:34:17,908 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 18:34:17,908 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 18:34:17,909 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 18:34:17,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/qreader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 18:34:24,381 ERROR SysUtils - Could not process external command
+2019-07-30 16:49:17,637 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-30 16:49:17,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/qreader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-30 16:49:24,463 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-30 16:49:24,463 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-30 16:49:24,463 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-30 16:49:24,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/qreader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-30 16:49:31,742 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -231,7 +231,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 18:34:24,381 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-30 16:49:31,742 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -360,22 +360,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 7s
 
-2019-01-08 18:34:24,386 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 18:34:24,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 18:34:30,425 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 18:34:30,425 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 18:34:30,425 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 18:34:30,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546947235156-0/src/qreader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 18:34:36,562 ERROR SysUtils - Could not process external command
+2019-07-30 16:49:31,746 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-30 16:49:31,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-30 16:49:37,267 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-30 16:49:37,267 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-30 16:49:37,267 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-30 16:49:37,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480144053-0/src/qreader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-30 16:49:43,657 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -402,7 +402,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 18:34:36,562 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-30 16:49:43,657 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -538,7 +538,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-01-08 18:34:36,567 ERROR FullProcessService - Project build has not produced APK file
-2019-01-08 18:34:36,571 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-30 16:49:43,661 ERROR FullProcessService - Project build has not produced APK file
+2019-07-30 16:49:43,665 ERROR FullProcessService - Could not find generated or existed APK file

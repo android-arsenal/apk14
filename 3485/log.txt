@@ -1,39 +1,36 @@
-2018-12-17 21:37:28,504 INFO  DownloadService - Downloading "https://github.com/DmitryMalkovich/circular-with-floating-action-button/archive/master.zip", attempt 3
-2018-12-17 21:38:29,113 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 21:38:30,179 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-17 21:38:30,180 INFO  DownloadService - Downloading "https://github.com/DmitryMalkovich/circular-with-floating-action-button/archive/master.zip", attempt 3
-2018-12-17 21:39:31,935 DEBUG FullProcessService - Repository https://github.com/DmitryMalkovich/circular-with-floating-action-button available: true
-2018-12-17 21:39:31,935 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 21:39:31,935 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DmitryMalkovich/circular-with-floating-action-button, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src]
-2018-12-17 21:39:33,978 INFO  SysUtils - 
-2018-12-17 21:39:34,024 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/.git": true
-2018-12-17 21:39:34,028 INFO  FullProcessService - Size of directory with sources: 176 KB
-2018-12-17 21:39:34,028 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src]
-2018-12-17 21:39:34,050 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/.git/
+2019-07-30 16:45:39,674 INFO  DownloadService - Downloading "https://github.com/DmitryMalkovich/circular-with-floating-action-button/archive/master.zip", attempt 3
+2019-07-30 16:45:40,291 INFO  DownloadService - Downloaded https://github.com/DmitryMalkovich/circular-with-floating-action-button/archive/master.zip, attempt 3
+2019-07-30 16:45:40,291 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/master.zip": 160 KB
+2019-07-30 16:45:40,291 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-30 16:45:40,296 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/master.zip: true
+2019-07-30 16:45:40,297 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src'.
+2019-07-30 16:45:40,315 INFO  FullProcessService - Size of directory with sources: 176 KB
+2019-07-30 16:45:40,315 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src]
+2019-07-30 16:45:40,334 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/.git/
 
-2018-12-17 21:39:34,054 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/gradlew
-2018-12-17 21:39:34,059 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/build.gradle
-2018-12-17 21:39:34,063 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/settings.gradle
-2018-12-17 21:39:34,063 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 21:39:34,063 INFO  ProjectFixService - Fixing project...
-2018-12-17 21:39:34,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/local.properties
-2018-12-17 21:39:34,075 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
-2018-12-17 21:39:34,076 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
-2018-12-17 21:39:34,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 21:39:34,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/sample/local.properties
-2018-12-17 21:39:34,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 21:39:34,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/local.properties
-2018-12-17 21:39:34,078 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-17 21:39:34,079 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-17 21:39:34,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 21:39:34,080 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 21:39:34,080 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 21:39:34,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 21:39:52,898 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 21:39:52,898 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 21:39:52,898 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 21:39:52,898 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 21:39:56,498 ERROR SysUtils - Could not process external command
+2019-07-30 16:45:40,337 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/gradlew
+2019-07-30 16:45:40,340 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/build.gradle
+2019-07-30 16:45:40,342 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/settings.gradle
+2019-07-30 16:45:40,342 INFO  ProjectBuildService - Remote scripts: none
+2019-07-30 16:45:40,342 INFO  ProjectFixService - Fixing project...
+2019-07-30 16:45:40,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/local.properties
+2019-07-30 16:45:40,349 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-07-30 16:45:40,349 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-07-30 16:45:40,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-30 16:45:40,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/sample/local.properties
+2019-07-30 16:45:40,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-30 16:45:40,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/local.properties
+2019-07-30 16:45:40,351 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-30 16:45:40,351 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-30 16:45:40,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-30 16:45:40,352 INFO  ProjectFixService - Project was maybe fixed
+2019-07-30 16:45:40,352 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-30 16:45:40,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-30 16:45:44,771 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-30 16:45:44,771 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-30 16:45:44,771 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-30 16:45:44,771 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-30 16:45:47,227 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,7 +43,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,12 +58,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 21:39:56,498 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-30 16:45:47,228 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/build.gradle' line: 19
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/build.gradle' line: 19
 
 * What went wrong:
 A problem occurred evaluating root project 'progress-fab'.
@@ -122,7 +120,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.Project$apply$0.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_5vh7jwrkxge34vyjfllfvprqs.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/progress-fab/build.gradle:19)
+	at build_eavrsp3tu40py5fzb2lqgiqmv.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/progress-fab/build.gradle:19)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:52)
 	... 35 more
 Caused by: org.gradle.api.GradleException: Gradle version 2.10 is required. Current version is 2.2.1. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-2.10-all.zip
@@ -147,14 +145,14 @@ Caused by: org.gradle.api.GradleException: Gradle version 2.10 is required. Curr
 
 BUILD FAILED
 
-Total time: 3.086 secs
+Total time: 1.995 secs
 
-2018-12-17 21:39:56,502 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 21:39:56,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 21:40:04,863 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-17 21:40:04,863 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-17 21:40:04,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-17 21:40:27,349 ERROR SysUtils - Could not process external command
+2019-07-30 16:45:47,232 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-30 16:45:47,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-30 16:45:54,340 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-30 16:45:54,341 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-30 16:45:54,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-30 16:46:11,305 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -167,7 +165,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -181,7 +180,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 21:40:27,351 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-30 16:46:11,305 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :progress-fab:preBuild UP-TO-DATE
 :progress-fab:preReleaseBuild UP-TO-DATE
@@ -231,13 +230,13 @@ Incremental java compilation is an incubating feature.
 :sample:preDebugBuild UP-TO-DATE
 :sample:checkDebugManifest
 :sample:preReleaseBuild UP-TO-DATE
+:sample:prepareCircularWithFloatingActionButtonMasterProgressFabUnspecifiedLibrary
 :sample:prepareComAndroidSupportAnimatedVectorDrawable2330Library
 :sample:prepareComAndroidSupportAppcompatV72330Library
 :sample:prepareComAndroidSupportDesign2330Library
 :sample:prepareComAndroidSupportRecyclerviewV72330Library
 :sample:prepareComAndroidSupportSupportV42330Library
 :sample:prepareComAndroidSupportSupportVectorDrawable2330Library
-:sample:prepareSrcProgressFabUnspecifiedLibrary
 :sample:prepareDebugDependencies
 :sample:compileDebugAidl
 :sample:compileDebugRenderscript
@@ -259,15 +258,15 @@ Incremental java compilation is an incubating feature.
 :sample:compileDebugSources
 :sample:prePackageMarkerForDebug
 :sample:transformClassesWithDexForDebug
-Merged dex #1 (5 defs/15.3KiB)
-Merged dex #2 (329 defs/536.4KiB)
-Merged dex #3 (182 defs/255.7KiB)
-Merged dex #4 (134 defs/303.8KiB)
-Merged dex #5 (770 defs/937.2KiB)
-Merged dex #6 (17 defs/48.5KiB)
-Merged dex #7 (60 defs/147.8KiB)
-Merged dex #8 (333 defs/262.4KiB)
-Merged dex #9 (3 defs/4.7KiB)
+Merged dex #1 (3 defs/4.7KiB)
+Merged dex #2 (5 defs/15.3KiB)
+Merged dex #3 (329 defs/536.4KiB)
+Merged dex #4 (182 defs/255.7KiB)
+Merged dex #5 (134 defs/303.8KiB)
+Merged dex #6 (770 defs/937.2KiB)
+Merged dex #7 (17 defs/48.5KiB)
+Merged dex #8 (60 defs/147.8KiB)
+Merged dex #9 (333 defs/262.4KiB)
 Merged dex #10 (41 defs/6.5KiB)
 Result is 1874 defs/3059.6KiB. Took 0.3s
 :sample:mergeDebugJniLibFolders
@@ -394,6 +393,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 21.837 secs
+Total time: 16.42 secs
 
-2018-12-17 21:40:27,471 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545057448500-0/src/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-30 16:46:11,391 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564479939671-0/src/circular-with-floating-action-button-master/sample/build/outputs/apk/sample-debug-unaligned.apk

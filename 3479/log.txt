@@ -1,40 +1,37 @@
-2018-12-17 23:02:14,508 INFO  DownloadService - Downloading "https://github.com/francescocervone/RxDrive/archive/master.zip", attempt 3
-2018-12-17 23:03:15,093 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 23:03:16,150 INFO  GithubDownloadService - Default branch of this repository: develop
-2018-12-17 23:03:16,150 INFO  DownloadService - Downloading "https://github.com/francescocervone/RxDrive/archive/develop.zip", attempt 3
-2018-12-17 23:04:17,450 DEBUG FullProcessService - Repository https://github.com/francescocervone/RxDrive available: true
-2018-12-17 23:04:17,450 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 23:04:17,450 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/francescocervone/RxDrive, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src]
-2018-12-17 23:04:19,425 INFO  SysUtils - 
-2018-12-17 23:04:19,461 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/.git": true
-2018-12-17 23:04:19,464 INFO  FullProcessService - Size of directory with sources: 151 KB
-2018-12-17 23:04:19,464 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src]
-2018-12-17 23:04:19,483 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/.git/
+2019-07-30 16:48:47,646 INFO  DownloadService - Downloading "https://github.com/francescocervone/RxDrive/archive/master.zip", attempt 3
+2019-07-30 16:48:48,192 INFO  DownloadService - Downloaded https://github.com/francescocervone/RxDrive/archive/master.zip, attempt 3
+2019-07-30 16:48:48,192 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/master.zip": 114 KB
+2019-07-30 16:48:48,192 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-30 16:48:48,194 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/master.zip: true
+2019-07-30 16:48:48,194 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src'.
+2019-07-30 16:48:48,210 INFO  FullProcessService - Size of directory with sources: 151 KB
+2019-07-30 16:48:48,210 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src]
+2019-07-30 16:48:48,226 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/.git/
 
-2018-12-17 23:04:19,486 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/gradlew
-2018-12-17 23:04:19,491 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/rxdrive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/build.gradle
-2018-12-17 23:04:19,494 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/rxdrive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/settings.gradle
-2018-12-17 23:04:19,495 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 23:04:19,495 INFO  ProjectFixService - Fixing project...
-2018-12-17 23:04:19,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/app/local.properties
-2018-12-17 23:04:19,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 23:04:19,508 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 23:04:19,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/rxdrive/local.properties
-2018-12-17 23:04:19,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/rxdrive/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 23:04:19,514 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/rxdrive/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 23:04:19,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/local.properties
-2018-12-17 23:04:19,515 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-12-17 23:04:19,516 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-12-17 23:04:19,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 23:04:19,517 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2018-12-17 23:04:19,517 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 23:04:19,517 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 23:04:19,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 23:04:23,256 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 23:04:23,256 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 23:04:23,256 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 23:04:23,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 23:04:25,819 ERROR SysUtils - Could not process external command
+2019-07-30 16:48:48,229 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/gradlew
+2019-07-30 16:48:48,231 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/rxdrive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/build.gradle
+2019-07-30 16:48:48,234 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/rxdrive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/settings.gradle
+2019-07-30 16:48:48,234 INFO  ProjectBuildService - Remote scripts: none
+2019-07-30 16:48:48,234 INFO  ProjectFixService - Fixing project...
+2019-07-30 16:48:48,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/app/local.properties
+2019-07-30 16:48:48,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
+2019-07-30 16:48:48,243 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=26]
+2019-07-30 16:48:48,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/rxdrive/local.properties
+2019-07-30 16:48:48,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/rxdrive/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
+2019-07-30 16:48:48,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/rxdrive/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=26]
+2019-07-30 16:48:48,246 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/local.properties
+2019-07-30 16:48:48,247 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-30 16:48:48,247 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-30 16:48:48,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=26]
+2019-07-30 16:48:48,248 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=26]
+2019-07-30 16:48:48,248 INFO  ProjectFixService - Project was maybe fixed
+2019-07-30 16:48:48,248 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-30 16:48:48,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-30 16:48:51,678 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-30 16:48:51,678 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-30 16:48:51,678 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-30 16:48:51,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-30 16:48:54,161 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,8 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,12 +58,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 23:04:25,819 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-30 16:48:54,161 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'src'.
+A problem occurred configuring root project 'RxDrive-master'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.0.0-rc2).
      Searched in the following locations:
@@ -86,7 +82,7 @@ A problem occurred configuring root project 'src'.
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'RxDrive-master'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
@@ -214,13 +210,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2018-12-17 23:04:25,824 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 23:04:25,824 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/rxdrive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 23:04:28,463 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 23:04:28,463 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 23:04:28,463 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 23:04:28,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/rxdrive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 23:04:31,460 ERROR SysUtils - Could not process external command
+2019-07-30 16:48:54,166 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-30 16:48:54,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/rxdrive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-30 16:48:56,470 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-30 16:48:56,470 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-30 16:48:56,471 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-30 16:48:56,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/rxdrive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-30 16:48:58,879 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -233,8 +229,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -248,12 +243,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 23:04:31,460 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-30 16:48:58,879 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'src'.
+A problem occurred configuring root project 'RxDrive-master'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.0.0-rc2).
      Searched in the following locations:
@@ -272,7 +267,7 @@ A problem occurred configuring root project 'src'.
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'RxDrive-master'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
@@ -400,13 +395,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2018-12-17 23:04:31,464 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 23:04:31,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 23:04:34,189 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 23:04:34,189 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-17 23:04:34,189 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-17 23:04:34,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062534504-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-17 23:04:36,770 ERROR SysUtils - Could not process external command
+2019-07-30 16:48:58,883 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-30 16:48:58,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-30 16:49:01,430 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-30 16:49:01,431 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-30 16:49:01,431 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-30 16:49:01,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564480127643-0/src/RxDrive-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-30 16:49:04,021 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -419,8 +414,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -434,12 +428,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 23:04:36,770 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-30 16:49:04,022 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'src'.
+A problem occurred configuring root project 'RxDrive-master'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.0.0-rc2).
      Searched in the following locations:
@@ -458,7 +452,7 @@ A problem occurred configuring root project 'src'.
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'RxDrive-master'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
@@ -586,5 +580,5 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2018-12-17 23:04:36,775 ERROR FullProcessService - Project build has not produced APK file
-2018-12-17 23:04:36,779 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-30 16:49:04,026 ERROR FullProcessService - Project build has not produced APK file
+2019-07-30 16:49:04,029 ERROR FullProcessService - Could not find generated or existed APK file
