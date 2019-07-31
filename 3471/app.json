@@ -7,8 +7,12 @@
     "versionCode" : 1,
     "installLocation" : null,
     "minSdkVersion" : "14",
-    "targetSdkVersion" : "27",
+    "targetSdkVersion" : "28",
     "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "28",
+    "platformBuildVersionName" : "9",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -20,14 +24,15 @@
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
-    "density" : 0,
-    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACSklEQVR42mNgGAWDGISGrmJ2cNjPMpAY5AbSXd7QwATGgwWQ5B4khc6B64RtQjfL2fnvlB0IDLIb5AZsbsPreGPfzVz2QVum2QdseWEbuPXtQGKQG+yDNk0DuYmwJ6CSdoGbZtgHbvkP1DxosLXvytlApzHi9AAsszj4LhOxC9z8CqTJNmDTTyD7r23gpgHBYLuBbgAFpo3v2tfGtq2SyG5FAaAcD6LNXWeo2gVseg/2ANCQgQ55sBvAHljzQdu2UgvZrVg9oG/Tq2bnv+kdTLORfd9/fdt2umNr75UYHtAyLdcmzgNIMcDFI/MfKEx3DPIEugc0TUp0Rj0w6gF6e0BFP/2/vEYk3bG521zqeGAwFaMj0wN2fhv+61k3/dcyr6QL1jav/m/hvpB6HpBU9KB7BmZl5/9v5bWMSqUQ78CUQga2HaPF6KgHRj0w6oFRD4x6YLQi+yup4Eb/pgQb738rz6XUa8zpWNb/1zQtowvWMiv/b+E2f7Q5PXw8MOS7lKP1wKgHRqQHhvLgrrFDj8ZgLUY1LAt1cXoANmmgZ14mYxew8Q1I0+CZ4Nj639pn5Vs13SgliAcaWPBNMXGYuc5eZee/8T9II3iqCUwPBIbYDXKLkcOEdUC3cRIzR8bMI6SlbeTYv9HSe/k7a59VH618V34A0fTEMDutgG4wdOjZxC2oAUo+zMTOVHICsaKwuJ6zlKKbr7ic04BgkN3C4rouILcQDn10T2hrswFZ3EDMN8CYG+wWcibeQZnF2Hgm60Bi3Bl2FAwOAAAtr6XJWxEJZAAAAABJRU5ErkJggg=="
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACSklEQVR42mNgGAWDGISGrmJ2cNjPMpAY5AbSXd7QwATGgwWQ5B4khc6B64RtQjfL2fnvlB0IDLIb5AZsbsPreGPfzVz2QVum2QdseWEbuPXtQGKQG+yDNk0DuYmwJ6CSdoGbZtgHbvkP1DxosLXvytlApzHi9AAsszj4LhOxC9z8CqTJNmDTTyD7r23gpgHBYLuBbgAFpo3v2tfGtq2SyG5FAaAcD6LNXWeo2gVseg/2ANCQgQ55sBvAHljzQdu2UgvZrVg9oG/Tq2bnv+kdTLORfd9/fdt2umNr75UYHtAyLdcmzgNIMcDFI/MfKEx3DPIEugc0TUp0Rj0w6gF6e0BFP/2/vEYk3bG521zqeGAwFaMj0wN2fhv+61k3/dcyr6QL1jav/m/hvpB6HpBU9KB7BmZl5/9v5bWMSqUQ78CUQga2HaPF6KgHRj0w6oFRD4x6YLQi+yup4Eb/pgQb738rz6XUa8zpWNb/1zQtowvWMiv/b+E2f7Q5PXw8MOS7lKP1wKgHRqQHhvLgrrFDj8ZgLUY1LAt1cXoANmmgZ14mYxew8Q1I0+CZ4Nj639pn5Vs13SgliAcaWPBNMXGYuc5eZee/8T9II3iqCUwPBIbYDXKLkcOEdUC3cRIzR8bMI6SlbeTYv9HSe/k7a59VH618V34A0fTEMDutgG4wdOjZxC2oAUo+zMTOVHICsaKwuJ6zlKKbr7ic04BgkN3C4rouILcQDn10T2hrswFZ3EDMN8CYG+wWcibeQZnF2Hgm60Bi3Bl2FAwOAAAtr6XJWxEJZAAAAABJRU5ErkJggg==",
+    "file" : true
   },
-  "dexClasses" : 2184,
-  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"io.github.luizgrp.sectionedrecyclerviewadapter.demo\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0f0008\" android:label=\"SectionedRecyclerViewAdapter Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"io.github.luizgrp.sectionedrecyclerviewadapter.demo.HomeActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2081446,
-  "crc32" : 2593772111,
-  "sha256" : "86d6c877b5af0cd7db1438d271ccddb7824593c09ecb048b7cccd639b3312f8b",
-  "buildTime" : 1522254516000
+  "dexClasses" : 2725,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"io.github.luizgrp.sectionedrecyclerviewadapter.demo\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f110008\" android:label=\"SectionedRecyclerViewAdapter Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"io.github.luizgrp.sectionedrecyclerviewadapter.demo.HomeActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2562517,
+  "crc32" : 3022819892,
+  "sha256" : "f30c85cbde601de3ef4900967e21bb73d08f150e59a90cfa69b04a1e6122add2",
+  "buildTime" : 1564550348000
 }

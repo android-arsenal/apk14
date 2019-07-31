@@ -1,41 +1,38 @@
-2018-12-17 23:07:25,961 INFO  DownloadService - Downloading "https://github.com/chthai64/SwipeRevealLayout/archive/master.zip", attempt 3
-2018-12-17 23:08:26,606 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 23:08:27,701 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-17 23:08:27,701 INFO  DownloadService - Downloading "https://github.com/chthai64/SwipeRevealLayout/archive/master.zip", attempt 3
-2018-12-17 23:09:29,767 DEBUG FullProcessService - Repository https://github.com/chthai64/SwipeRevealLayout available: true
-2018-12-17 23:09:29,767 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 23:09:29,767 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/chthai64/SwipeRevealLayout, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src]
-2018-12-17 23:09:32,918 INFO  SysUtils - 
-2018-12-17 23:09:32,925 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/.git": true
-2018-12-17 23:09:32,929 INFO  FullProcessService - Size of directory with sources: 4 MB
-2018-12-17 23:09:32,929 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src]
-2018-12-17 23:09:32,946 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/.git/
+2019-07-31 12:14:50,011 INFO  DownloadService - Downloading "https://github.com/chthai64/SwipeRevealLayout/archive/master.zip", attempt 3
+2019-07-31 12:14:56,360 INFO  DownloadService - Downloaded https://github.com/chthai64/SwipeRevealLayout/archive/master.zip, attempt 3
+2019-07-31 12:14:56,361 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/master.zip": 4 MB
+2019-07-31 12:14:56,361 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-31 12:14:56,367 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/master.zip: true
+2019-07-31 12:14:56,368 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src'.
+2019-07-31 12:14:56,412 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-07-31 12:14:56,412 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src]
+2019-07-31 12:14:56,436 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/.git/
 
-2018-12-17 23:09:32,950 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/gradlew
-2018-12-17 23:09:32,953 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/swipe-reveal-layout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/build.gradle
-2018-12-17 23:09:32,956 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/swipe-reveal-layout/build.gradle
-2018-12-17 23:09:32,957 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-17 23:09:33,153 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-17 23:09:33,153 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-17 23:09:33,256 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-17 23:09:33,256 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-17 23:09:33,256 INFO  ProjectFixService - Fixing project...
-2018-12-17 23:09:33,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/demo/local.properties
-2018-12-17 23:09:33,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/demo/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-12-17 23:09:33,268 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/swipe-reveal-layout/local.properties
-2018-12-17 23:09:33,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/swipe-reveal-layout/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
-2018-12-17 23:09:33,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/local.properties
-2018-12-17 23:09:33,273 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-12-17 23:09:33,274 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-12-17 23:09:33,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-12-17 23:09:33,275 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 23:09:33,275 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 23:09:33,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 23:09:43,434 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 23:09:43,434 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-12-17 23:09:43,434 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-12-17 23:09:43,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-12-17 23:09:51,182 ERROR SysUtils - Could not process external command
+2019-07-31 12:14:56,439 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/gradlew
+2019-07-31 12:14:56,442 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/swipe-reveal-layout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/build.gradle
+2019-07-31 12:14:56,444 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/swipe-reveal-layout/build.gradle
+2019-07-31 12:14:56,445 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-31 12:14:56,514 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-31 12:14:56,514 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-31 12:14:56,582 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-31 12:14:56,582 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-31 12:14:56,582 INFO  ProjectFixService - Fixing project...
+2019-07-31 12:14:56,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/demo/local.properties
+2019-07-31 12:14:56,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/demo/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-31 12:14:56,592 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/swipe-reveal-layout/local.properties
+2019-07-31 12:14:56,593 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/swipe-reveal-layout/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=9,targetSdkVersion=24]
+2019-07-31 12:14:56,593 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/local.properties
+2019-07-31 12:14:56,594 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-31 12:14:56,594 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-31 12:14:56,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-31 12:14:56,595 INFO  ProjectFixService - Project was maybe fixed
+2019-07-31 12:14:56,595 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:14:56,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:15:05,536 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-31 12:15:05,537 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-31 12:15:05,537 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-31 12:15:05,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-31 12:15:10,995 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,7 +45,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 23:09:51,182 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:15:10,995 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -242,15 +240,15 @@ Searched in the following locations:
 
 BUILD FAILED
 
-Total time: 7.219 secs
+Total time: 4.982 secs
 
-2018-12-17 23:09:51,189 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 23:09:51,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/swipe-reveal-layout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 23:09:58,229 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 23:09:58,229 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-12-17 23:09:58,229 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-12-17 23:09:58,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/swipe-reveal-layout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-12-17 23:10:05,146 ERROR SysUtils - Could not process external command
+2019-07-31 12:15:11,000 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:15:11,000 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/swipe-reveal-layout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:15:16,434 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-31 12:15:16,434 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-31 12:15:16,434 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-31 12:15:16,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/swipe-reveal-layout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-31 12:15:21,904 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -263,7 +261,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -277,7 +276,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 23:10:05,146 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:15:21,904 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -412,15 +411,15 @@ Searched in the following locations:
 
 BUILD FAILED
 
-Total time: 6.379 secs
+Total time: 4.999 secs
 
-2018-12-17 23:10:05,150 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 23:10:05,151 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 23:10:12,471 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-17 23:10:12,471 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-12-17 23:10:12,471 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-12-17 23:10:12,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545062845958-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-12-17 23:10:19,094 ERROR SysUtils - Could not process external command
+2019-07-31 12:15:21,908 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:15:21,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:15:27,608 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-31 12:15:27,609 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-31 12:15:27,609 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-31 12:15:27,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550090008-0/src/SwipeRevealLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-31 12:15:33,070 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -433,7 +432,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -447,7 +447,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 23:10:19,094 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:15:33,070 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -554,7 +554,7 @@ Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred conf
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 48 more
 Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:24.2.0).
@@ -621,14 +621,14 @@ Searched in the following locations:
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 88 more
 
 
 BUILD FAILED
 
-Total time: 6.105 secs
+Total time: 4.982 secs
 
-2018-12-17 23:10:19,099 ERROR FullProcessService - Project build has not produced APK file
-2018-12-17 23:10:19,103 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-31 12:15:33,073 ERROR FullProcessService - Project build has not produced APK file
+2019-07-31 12:15:33,076 ERROR FullProcessService - Could not find generated or existed APK file

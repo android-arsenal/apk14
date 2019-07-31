@@ -32,7 +32,7 @@
   "locales" : [ "" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.emmasuzuki.segmentedcontrolview\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"20\" />\n\t<application android:theme=\"resourceId:0x7f050000\" android:label=\"SegmentedControlView\" android:icon=\"res/drawable-xxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SegmentedControlView\" android:name=\"com.emmasuzuki.segmentedcontrolview.MyActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
   "fileSize" : 58162,
-  "crc32" : 3919297801,
-  "sha256" : "ee96d668b48cde3911836848c604dcaa1675d8d87da958b4126ca8ca1842bf58",
-  "buildTime" : 1545063339000
+  "crc32" : 1172647801,
+  "sha256" : "a9b549fe5fff5134a6f4b34b44d9f23cf098a88ec65f3e357a754c7c34af374e",
+  "buildTime" : 1564550162000
 }

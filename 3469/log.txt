@@ -1,38 +1,38 @@
-2019-01-22 16:39:00,933 INFO  DownloadService - Downloading "https://github.com/Mauker1/MaterialSearchView/archive/master.zip", attempt 3
-2019-01-22 16:39:01,643 INFO  DownloadService - Downloaded https://github.com/Mauker1/MaterialSearchView/archive/master.zip, attempt 3
-2019-01-22 16:39:01,643 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/master.zip": 120 KB
-2019-01-22 16:39:01,643 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-22 16:39:01,649 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/master.zip: true
-2019-01-22 16:39:01,649 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src'.
-2019-01-22 16:39:01,670 INFO  FullProcessService - Size of directory with sources: 187 KB
-2019-01-22 16:39:01,670 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src]
-2019-01-22 16:39:01,687 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/.git/
+2019-07-31 12:20:17,439 INFO  DownloadService - Downloading "https://github.com/Mauker1/MaterialSearchView/archive/master.zip", attempt 3
+2019-07-31 12:20:18,099 INFO  DownloadService - Downloaded https://github.com/Mauker1/MaterialSearchView/archive/master.zip, attempt 3
+2019-07-31 12:20:18,099 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/master.zip": 120 KB
+2019-07-31 12:20:18,099 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-31 12:20:18,099 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/master.zip: true
+2019-07-31 12:20:18,099 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src'.
+2019-07-31 12:20:18,115 INFO  FullProcessService - Size of directory with sources: 188 KB
+2019-07-31 12:20:18,115 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src]
+2019-07-31 12:20:18,131 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/.git/
 
-2019-01-22 16:39:01,691 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/gradlew
-2019-01-22 16:39:01,694 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/build.gradle
-2019-01-22 16:39:01,697 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/settings.gradle
-2019-01-22 16:39:01,698 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-01-22 16:39:01,801 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-01-22 16:39:01,801 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2019-01-22 16:39:01,801 INFO  ProjectFixService - Fixing project...
-2019-01-22 16:39:01,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/local.properties
-2019-01-22 16:39:01,811 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-22 16:39:01,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-22 16:39:01,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/local.properties
-2019-01-22 16:39:01,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-22 16:39:01,816 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-22 16:39:01,817 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/local.properties
-2019-01-22 16:39:01,817 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-22 16:39:01,817 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-22 16:39:01,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-22 16:39:01,819 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-22 16:39:01,820 INFO  ProjectFixService - Project was maybe fixed
-2019-01-22 16:39:01,820 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 16:39:01,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 16:39:07,719 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-01-22 16:39:07,720 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-22 16:39:07,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-22 16:39:13,298 ERROR SysUtils - Could not process external command
+2019-07-31 12:20:18,134 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/gradlew
+2019-07-31 12:20:18,137 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/build.gradle
+2019-07-31 12:20:18,139 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/settings.gradle
+2019-07-31 12:20:18,140 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-07-31 12:20:18,679 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-07-31 12:20:18,679 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-07-31 12:20:18,679 INFO  ProjectFixService - Fixing project...
+2019-07-31 12:20:18,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/local.properties
+2019-07-31 12:20:18,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-31 12:20:18,689 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-31 12:20:18,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/local.properties
+2019-07-31 12:20:18,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-31 12:20:18,694 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-31 12:20:18,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/local.properties
+2019-07-31 12:20:18,696 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-31 12:20:18,697 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-31 12:20:18,698 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-31 12:20:18,699 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-31 12:20:18,700 INFO  ProjectFixService - Project was maybe fixed
+2019-07-31 12:20:18,700 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:20:18,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:20:27,351 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-07-31 12:20:27,352 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-31 12:20:27,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-31 12:20:34,573 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,7 +45,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -59,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-22 16:39:13,298 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:20:34,573 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -137,11 +138,12 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 7s
 
-2019-01-22 16:39:13,298 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-01-22 16:39:13,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-22 16:39:57,035 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:20:34,573 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-31 12:20:34,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-31 12:21:34,155 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
 :app:checkDebugClasspath
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -170,12 +172,12 @@ BUILD FAILED in 5s
 :app:processDebugResources
 :library:generateDebugBuildConfig
 :library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/utils/AnimationUtils.kt: (105, 22): 'setter for isDrawingCacheEnabled: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/utils/AnimationUtils.kt: (111, 22): 'setter for isDrawingCacheEnabled: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/utils/AnimationUtils.kt: (105, 22): 'setter for isDrawingCacheEnabled: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/utils/AnimationUtils.kt: (111, 22): 'setter for isDrawingCacheEnabled: Boolean' is deprecated. Deprecated in Java
 :library:prepareLintJar
 :library:generateDebugSources
 :library:javaPreCompileDebug
-:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/MaterialSearchView.java uses or overrides a deprecated API.
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/MaterialSearchView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :library:processDebugJavaRes NO-SOURCE
@@ -196,6 +198,17 @@ Note: Recompile with -Xlint:deprecation for details.
 :library:packageDebugAssets
 :app:mergeDebugAssets
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
@@ -238,11 +251,11 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:processReleaseResources
 :library:generateReleaseBuildConfig
 :library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/utils/AnimationUtils.kt: (105, 22): 'setter for isDrawingCacheEnabled: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/utils/AnimationUtils.kt: (111, 22): 'setter for isDrawingCacheEnabled: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/utils/AnimationUtils.kt: (105, 22): 'setter for isDrawingCacheEnabled: Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/utils/AnimationUtils.kt: (111, 22): 'setter for isDrawingCacheEnabled: Boolean' is deprecated. Deprecated in Java
 :library:generateReleaseSources
 :library:javaPreCompileRelease
-:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/MaterialSearchView.java uses or overrides a deprecated API.
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/library/src/main/java/br/com/mauker/materialsearchview/MaterialSearchView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :library:processReleaseJavaRes NO-SOURCE
@@ -280,10 +293,11 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:assembleRelease
 :app:assemble
 :app:lint
-Ran lint on variant debug: 8 issues found
-Ran lint on variant release: 8 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build/reports/lint-results.xml
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b5ee72bc7352fb776f7d23f2ea7f24f1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant release: 9 issues found
+Ran lint on variant debug: 9 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build/reports/lint-results.xml
 :app:compileDebugUnitTestKotlin NO-SOURCE
 :app:generateDebugUnitTestSources
 :app:preDebugUnitTestBuild UP-TO-DATE
@@ -302,7 +316,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 43s
+BUILD SUCCESSFUL in 58s
 96 actionable tasks: 96 executed
 
-2019-01-22 16:39:57,151 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548149940931-0/src/MaterialSearchView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-31 12:21:34,254 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550417431-0/src/MaterialSearchView-master/app/build/outputs/apk/debug/app-debug.apk

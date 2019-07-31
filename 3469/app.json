@@ -31,8 +31,8 @@
   "dexClasses" : 2925,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "hr", "ro", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"br.com.mauker.materialsearchview.app\" platformBuildVersionCode=\"3\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f10000e\" android:label=\"MaterialSearch\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"MaterialSearch\" android:name=\"br.com.mauker.materialsearchview.app.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"br.com.mauker.materialsearchview.db.HistoryProvider\" android:protectionLevel=\"0x2\" android:exported=\"false\" android:authorities=\"br.com.mauker.materialsearchview.searchhistorydatabase\" android:syncable=\"true\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2864904,
-  "crc32" : 2978690195,
-  "sha256" : "c0df91ab49767f9ea8b51fa9f516b478ecda87c52f4b867a22e618385723dba0",
-  "buildTime" : 1548149978000
+  "fileSize" : 2864974,
+  "crc32" : 1883894515,
+  "sha256" : "84311e42eb88e4c737cb35a1aca7fc184cdceef6e0ca9c5ad0a572fa90cdf07a",
+  "buildTime" : 1564550468000
 }

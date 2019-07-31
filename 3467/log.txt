@@ -1,34 +1,34 @@
-2018-12-18 01:44:30,757 INFO  DownloadService - Downloading "https://github.com/miteshpithadiya/MultiSelectWidget/archive/master.zip", attempt 3
-2018-12-18 01:44:32,938 INFO  DownloadService - Downloaded https://github.com/miteshpithadiya/MultiSelectWidget/archive/master.zip, attempt 3
-2018-12-18 01:44:32,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/master.zip": 302 KB
-2018-12-18 01:44:32,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-18 01:44:32,944 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/master.zip: true
-2018-12-18 01:44:32,944 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src'.
-2018-12-18 01:44:32,967 INFO  FullProcessService - Size of directory with sources: 322 KB
-2018-12-18 01:44:32,967 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src]
-2018-12-18 01:44:32,994 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/.git/
+2019-07-31 12:23:45,844 INFO  DownloadService - Downloading "https://github.com/miteshpithadiya/MultiSelectWidget/archive/master.zip", attempt 3
+2019-07-31 12:23:48,168 INFO  DownloadService - Downloaded https://github.com/miteshpithadiya/MultiSelectWidget/archive/master.zip, attempt 3
+2019-07-31 12:23:48,168 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/master.zip": 302 KB
+2019-07-31 12:23:48,168 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-31 12:23:48,174 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/master.zip: true
+2019-07-31 12:23:48,174 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src'.
+2019-07-31 12:23:48,191 INFO  FullProcessService - Size of directory with sources: 322 KB
+2019-07-31 12:23:48,192 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src]
+2019-07-31 12:23:48,216 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/.git/
 
-2018-12-18 01:44:32,997 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/gradlew
-2018-12-18 01:44:33,001 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/build.gradle
-2018-12-18 01:44:33,004 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/settings.gradle
-2018-12-18 01:44:33,004 INFO  ProjectBuildService - Remote scripts: none
-2018-12-18 01:44:33,004 INFO  ProjectFixService - Fixing project...
-2018-12-18 01:44:33,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/multiselectwidget/local.properties
-2018-12-18 01:44:33,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-18 01:44:33,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/local.properties
-2018-12-18 01:44:33,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-18 01:44:33,013 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/local.properties
-2018-12-18 01:44:33,013 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-18 01:44:33,014 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-18 01:44:33,015 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-18 01:44:33,015 INFO  ProjectFixService - Project was maybe fixed
-2018-12-18 01:44:33,015 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-18 01:44:33,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-18 01:44:41,244 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-18 01:44:41,244 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-18 01:44:41,244 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-18 01:44:41,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-18 01:44:49,333 ERROR SysUtils - Could not process external command
+2019-07-31 12:23:48,218 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/gradlew
+2019-07-31 12:23:48,221 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/build.gradle
+2019-07-31 12:23:48,224 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/settings.gradle
+2019-07-31 12:23:48,224 INFO  ProjectBuildService - Remote scripts: none
+2019-07-31 12:23:48,224 INFO  ProjectFixService - Fixing project...
+2019-07-31 12:23:48,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/multiselectwidget/local.properties
+2019-07-31 12:23:48,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-31 12:23:48,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/local.properties
+2019-07-31 12:23:48,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-31 12:23:48,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/local.properties
+2019-07-31 12:23:48,235 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-31 12:23:48,236 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-31 12:23:48,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-31 12:23:48,237 INFO  ProjectFixService - Project was maybe fixed
+2019-07-31 12:23:48,237 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:23:48,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:23:57,114 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-31 12:23:57,114 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-31 12:23:57,114 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-31 12:23:57,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/multiselectwidget/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-31 12:24:08,030 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-18 01:44:49,333 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:24:08,030 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :multiselectwidget:preBuild UP-TO-DATE
 :multiselectwidget:preDebugBuild UP-TO-DATE
@@ -228,14 +228,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.581 secs
+Total time: 10.408 secs
 
-2018-12-18 01:44:49,346 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-18 01:44:49,347 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-18 01:44:55,024 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-18 01:44:55,024 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-18 01:44:55,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-18 01:45:07,657 ERROR SysUtils - Could not process external command
+2019-07-31 12:24:08,038 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:24:08,039 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:24:15,153 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-31 12:24:15,153 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-31 12:24:15,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-31 12:24:29,137 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -263,7 +263,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-18 01:45:07,658 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:24:29,137 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :multiselectwidget:preBuild UP-TO-DATE
 :multiselectwidget:preReleaseBuild UP-TO-DATE
@@ -322,7 +322,7 @@ Incremental java compilation is an incubating feature.
 :sample:incrementalDebugJavaCompilationSafeguard
 :sample:compileDebugJavaWithJavac
 :sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/src/main/java/com/toptoche/sample/MainActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/src/main/java/com/toptoche/sample/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :sample:compileDebugNdk UP-TO-DATE
 :sample:compileDebugSources
@@ -336,7 +336,7 @@ Merged dex #5 (16 defs/14.9KiB)
 Merged dex #6 (37 defs/88.3KiB)
 Merged dex #7 (333 defs/261.0KiB)
 Merged dex #8 (41 defs/6.5KiB)
-Result is 1544 defs/2303.7KiB. Took 0.2s
+Result is 1544 defs/2303.7KiB. Took 0.3s
 :sample:mergeDebugJniLibFolders
 :sample:transformNative_libsWithMergeJniLibsForDebug
 :sample:processDebugJavaRes UP-TO-DATE
@@ -363,7 +363,7 @@ Result is 1544 defs/2303.7KiB. Took 0.2s
 :sample:incrementalReleaseJavaCompilationSafeguard
 :sample:compileReleaseJavaWithJavac
 :sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/src/main/java/com/toptoche/sample/MainActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/src/main/java/com/toptoche/sample/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :sample:compileReleaseNdk UP-TO-DATE
 :sample:compileReleaseSources
@@ -463,6 +463,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.071 secs
+Total time: 13.452 secs
 
-2018-12-18 01:45:07,717 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072270748-0/src/MultiSelectWidget-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-31 12:24:29,185 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550625842-0/src/MultiSelectWidget-master/sample/build/outputs/apk/sample-debug-unaligned.apk

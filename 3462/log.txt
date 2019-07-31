@@ -1,10 +1,10 @@
-2018-12-24 17:26:09,940 INFO  DownloadService - Downloading "https://github.com/JakeWharton/retrofit1-okhttp3-client/archive/master.zip", attempt 3
-2018-12-24 17:26:10,412 INFO  DownloadService - Downloaded https://github.com/JakeWharton/retrofit1-okhttp3-client/archive/master.zip, attempt 3
-2018-12-24 17:26:10,413 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647169932-0/master.zip": 14 KB
-2018-12-24 17:26:10,413 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-24 17:26:10,414 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647169932-0/master.zip: false
-2018-12-24 17:26:10,414 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-12-24 17:26:10,414 ERROR FullProcessService - Could not find directory with sources
-2018-12-24 17:26:10,414 ERROR FullProcessService - Project will not be processed
-2018-12-24 17:26:10,414 ERROR FullProcessService - Project build has not produced APK file
-2018-12-24 17:26:10,414 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-31 12:29:47,299 INFO  DownloadService - Downloading "https://github.com/JakeWharton/retrofit1-okhttp3-client/archive/master.zip", attempt 3
+2019-07-31 12:29:47,777 INFO  DownloadService - Downloaded https://github.com/JakeWharton/retrofit1-okhttp3-client/archive/master.zip, attempt 3
+2019-07-31 12:29:47,777 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550987297-0/master.zip": 14 KB
+2019-07-31 12:29:47,777 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-31 12:29:47,778 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550987297-0/master.zip: false
+2019-07-31 12:29:47,778 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-31 12:29:47,778 ERROR FullProcessService - Could not find directory with sources
+2019-07-31 12:29:47,778 ERROR FullProcessService - Project will not be processed
+2019-07-31 12:29:47,778 ERROR FullProcessService - Project build has not produced APK file
+2019-07-31 12:29:47,778 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,213 +1,237 @@
-2019-01-22 19:32:49,937 INFO  DownloadService - Downloading "https://github.com/andrzejchm/RESTMock/archive/master.zip", attempt 3
-2019-01-22 19:32:51,959 INFO  DownloadService - Downloaded https://github.com/andrzejchm/RESTMock/archive/master.zip, attempt 3
-2019-01-22 19:32:51,960 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/master.zip": 190 KB
-2019-01-22 19:32:51,960 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-22 19:32:51,965 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/master.zip: true
-2019-01-22 19:32:51,965 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src'.
-2019-01-22 19:32:52,002 INFO  FullProcessService - Size of directory with sources: 468 KB
-2019-01-22 19:32:52,002 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src]
-2019-01-22 19:32:52,020 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/.git/
+2019-07-31 12:21:48,122 INFO  DownloadService - Downloading "https://github.com/andrzejchm/RESTMock/archive/master.zip", attempt 3
+2019-07-31 12:21:50,298 INFO  DownloadService - Downloaded https://github.com/andrzejchm/RESTMock/archive/master.zip, attempt 3
+2019-07-31 12:21:50,298 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/master.zip": 190 KB
+2019-07-31 12:21:50,298 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-31 12:21:50,304 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/master.zip: true
+2019-07-31 12:21:50,304 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src'.
+2019-07-31 12:21:50,335 INFO  FullProcessService - Size of directory with sources: 468 KB
+2019-07-31 12:21:50,335 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src]
+2019-07-31 12:21:50,360 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/.git/
 
-2019-01-22 19:32:52,025 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/gradlew
-2019-01-22 19:32:52,030 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/androidsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/core/build.gradle
-2019-01-22 19:32:52,035 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/androidsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/quality_tools/lint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/config/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/settings.gradle
-2019-01-22 19:32:52,035 INFO  ProjectBuildService - Remote scripts: none
-2019-01-22 19:32:52,035 INFO  ProjectFixService - Fixing project...
-2019-01-22 19:32:52,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/android/local.properties
-2019-01-22 19:32:52,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:32:52,050 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:32:52,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/androidsample/local.properties
-2019-01-22 19:32:52,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/androidsample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:32:52,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/androidsample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:32:52,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/local.properties
-2019-01-22 19:32:52,054 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-22 19:32:52,055 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-22 19:32:52,056 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:32:52,056 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:32:52,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/core/local.properties
-2019-01-22 19:32:52,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:32:52,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:32:52,060 INFO  ProjectFixService - Project was maybe fixed
-2019-01-22 19:32:52,060 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 19:32:52,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 19:32:58,744 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-01-22 19:32:58,744 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-22 19:32:58,744 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-22 19:33:18,924 INFO  SysUtils - Configuration on demand is an incubating feature.
-:android:preBuild UP-TO-DATE
-:android:preDebugBuild UP-TO-DATE
-:android:compileDebugAidl NO-SOURCE
-:android:compileDebugRenderscript
-:android:checkDebugManifest
-:android:generateDebugBuildConfig
-:android:generateDebugResValues
-:android:generateDebugResources
-:android:packageDebugResources
-:android:processDebugManifest
-:android:generateDebugRFile
-:android:prepareLintJar
-:android:generateDebugSources
-:core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+2019-07-31 12:21:50,364 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/gradlew
+2019-07-31 12:21:50,367 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/core/build.gradle
+2019-07-31 12:21:50,372 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/quality_tools/lint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/settings.gradle
+2019-07-31 12:21:50,372 INFO  ProjectBuildService - Remote scripts: none
+2019-07-31 12:21:50,372 INFO  ProjectFixService - Fixing project...
+2019-07-31 12:21:50,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/android/local.properties
+2019-07-31 12:21:50,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/android/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=29]
+2019-07-31 12:21:50,386 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/android/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-31 12:21:50,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/local.properties
+2019-07-31 12:21:50,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=29]
+2019-07-31 12:21:50,397 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-31 12:21:50,398 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/local.properties
+2019-07-31 12:21:50,399 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-07-31 12:21:50,399 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-07-31 12:21:50,400 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=29]
+2019-07-31 12:21:50,400 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-31 12:21:50,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/core/local.properties
+2019-07-31 12:21:50,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/core/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=29]
+2019-07-31 12:21:50,404 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/core/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-07-31 12:21:50,405 INFO  ProjectFixService - Project was maybe fixed
+2019-07-31 12:21:50,405 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:21:50,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:22:06,423 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-31 12:22:06,424 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-31 12:22:06,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-31 12:22:35,460 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :android:preBuild UP-TO-DATE
+> Task :android:preDebugBuild UP-TO-DATE
+> Task :android:compileDebugAidl NO-SOURCE
+
+> Task :core:compileJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 
-:core:processResources NO-SOURCE
-:core:classes
-:core:compileTestJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/core/src/test/java/io/appflate/restmock/utils/RequestMatchersTest.java uses or overrides a deprecated API.
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+
+> Task :core:compileTestJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-:core:processTestResources NO-SOURCE
-:core:testClasses
-:core:test
-:core:jar
-:android:javaPreCompileDebug
-:android:compileDebugJavaWithJavac
-:android:extractDebugAnnotations
-:android:mergeDebugConsumerProguardFiles
-:android:mergeDebugShaders
-:android:compileDebugShaders
-:android:generateDebugAssets
-:android:packageDebugAssets
-:android:packageDebugRenderscript NO-SOURCE
-:android:processDebugJavaRes NO-SOURCE
-:android:transformResourcesWithMergeJavaResForDebug
-:android:transformClassesAndResourcesWithSyncLibJarsForDebug
-:android:compileDebugNdk NO-SOURCE
-:android:mergeDebugJniLibFolders
-:android:transformNativeLibsWithMergeJniLibsForDebug
-:android:transformNativeLibsWithStripDebugSymbolForDebug
-:android:transformNativeLibsWithSyncJniLibsForDebug
-:android:bundleDebugAar
-:android:compileDebugSources
-:android:assembleDebug
-:android:preReleaseBuild UP-TO-DATE
-:android:compileReleaseAidl NO-SOURCE
-:android:compileReleaseRenderscript
-:android:checkReleaseManifest
-:android:generateReleaseBuildConfig
-:android:generateReleaseResValues
-:android:generateReleaseResources
-:android:packageReleaseResources
-:android:processReleaseManifest
-:android:generateReleaseRFile
-:android:generateReleaseSources
-:android:javaPreCompileRelease
-:android:compileReleaseJavaWithJavac
-:android:extractReleaseAnnotations
-:android:mergeReleaseConsumerProguardFiles
-:android:mergeReleaseShaders
-:android:compileReleaseShaders
-:android:generateReleaseAssets
-:android:packageReleaseAssets
-:android:packageReleaseRenderscript NO-SOURCE
-:android:processReleaseJavaRes NO-SOURCE
-:android:transformResourcesWithMergeJavaResForRelease
-:android:transformClassesAndResourcesWithSyncLibJarsForRelease
-:android:compileReleaseNdk NO-SOURCE
-:android:mergeReleaseJniLibFolders
-:android:transformNativeLibsWithMergeJniLibsForRelease
-:android:transformNativeLibsWithStripDebugSymbolForRelease
-:android:transformNativeLibsWithSyncJniLibsForRelease
-:android:bundleReleaseAar
-:android:compileReleaseSources
-:android:mergeReleaseResources
-:android:verifyReleaseResources
-:android:assembleRelease
-:android:assemble
-:android:build
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses
+> Task :core:test
+> Task :core:jar
+> Task :android:compileDebugRenderscript NO-SOURCE
+> Task :android:checkDebugManifest
+> Task :android:generateDebugBuildConfig
+> Task :android:generateDebugResValues
+> Task :android:generateDebugResources
+> Task :android:packageDebugResources
+> Task :android:processDebugManifest
+> Task :android:generateDebugRFile
+> Task :android:prepareLintJar
+> Task :android:generateDebugSources
+> Task :android:javaPreCompileDebug
+> Task :android:compileDebugJavaWithJavac
+> Task :android:extractDebugAnnotations
+> Task :android:mergeDebugConsumerProguardFiles
+> Task :android:mergeDebugShaders
+> Task :android:compileDebugShaders
+> Task :android:generateDebugAssets
+> Task :android:packageDebugAssets
+> Task :android:packageDebugRenderscript NO-SOURCE
+> Task :android:prepareLintJarForPublish
+> Task :android:processDebugJavaRes NO-SOURCE
+> Task :android:transformResourcesWithMergeJavaResForDebug
+> Task :android:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :android:mergeDebugJniLibFolders
+> Task :android:transformNativeLibsWithMergeJniLibsForDebug
+> Task :android:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :android:transformNativeLibsWithSyncJniLibsForDebug
+> Task :android:bundleDebugAar
+> Task :android:compileDebugSources
+> Task :android:assembleDebug
+> Task :android:preReleaseBuild UP-TO-DATE
+> Task :android:compileReleaseAidl NO-SOURCE
+> Task :android:compileReleaseRenderscript NO-SOURCE
+> Task :android:checkReleaseManifest
+> Task :android:generateReleaseBuildConfig
+> Task :android:generateReleaseResValues
+> Task :android:generateReleaseResources
+> Task :android:packageReleaseResources
+> Task :android:processReleaseManifest
+> Task :android:generateReleaseRFile
+> Task :android:generateReleaseSources
+> Task :android:javaPreCompileRelease
+> Task :android:compileReleaseJavaWithJavac
+> Task :android:extractReleaseAnnotations
+> Task :android:mergeReleaseConsumerProguardFiles
+> Task :android:mergeReleaseShaders
+> Task :android:compileReleaseShaders
+> Task :android:generateReleaseAssets
+> Task :android:packageReleaseAssets
+> Task :android:packageReleaseRenderscript NO-SOURCE
+> Task :android:processReleaseJavaRes NO-SOURCE
+> Task :android:transformResourcesWithMergeJavaResForRelease
+> Task :android:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :android:mergeReleaseJniLibFolders
+> Task :android:transformNativeLibsWithMergeJniLibsForRelease
+> Task :android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :android:transformNativeLibsWithSyncJniLibsForRelease
+> Task :android:bundleReleaseAar
+> Task :android:compileReleaseSources
+> Task :android:mergeReleaseResources
+> Task :android:verifyReleaseResources
+> Task :android:assembleRelease
+> Task :android:assemble
+> Task :android:build
 
-BUILD SUCCESSFUL in 20s
-49 actionable tasks: 49 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-01-22 19:33:18,940 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 19:33:18,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/androidsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 19:33:24,693 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-22 19:33:24,693 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-22 19:33:24,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/androidsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-22 19:33:59,592 INFO  SysUtils - Configuration on demand is an incubating feature.
-:androidsample:checkDebugClasspath
-:androidsample:preBuild UP-TO-DATE
-:androidsample:preDebugBuild
-:androidsample:compileDebugAidl NO-SOURCE
-:androidsample:compileDebugRenderscript
-:androidsample:checkDebugManifest
-:androidsample:generateDebugBuildConfig
-:androidsample:prepareLintJar
-:androidsample:mainApkListPersistenceDebug
-:androidsample:generateDebugResValues
-:androidsample:generateDebugResources
-:androidsample:mergeDebugResources
-:androidsample:createDebugCompatibleScreenManifests
-:androidsample:processDebugManifest
-:androidsample:splitsDiscoveryTaskDebug
-:androidsample:processDebugResources
-:androidsample:generateDebugSources
-:androidsample:javaPreCompileDebug
-:androidsample:compileDebugJavaWithJavac
-:androidsample:compileDebugNdk NO-SOURCE
-:androidsample:compileDebugSources
-:androidsample:mergeDebugShaders
-:androidsample:compileDebugShaders
-:androidsample:generateDebugAssets
-:androidsample:mergeDebugAssets
-:androidsample:transformClassesWithDexBuilderForDebug
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/713ce36037bf24a76a3974c05cb85c3f754b1cc3/retrofit-2.5.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.-KotlinExtensions.create(retrofit2.Retrofit)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.1/dc6d02e4e68514eff5631963e28ca7742ac69efe/okhttp-3.12.1.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
-:androidsample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:androidsample:transformDexArchiveWithDexMergerForDebug
-:androidsample:mergeDebugJniLibFolders
-:androidsample:transformNativeLibsWithMergeJniLibsForDebug
-:androidsample:transformNativeLibsWithStripDebugSymbolForDebug
-:androidsample:checkDebugLibraries
-:androidsample:processDebugJavaRes NO-SOURCE
-:androidsample:transformResourcesWithMergeJavaResForDebug
-:androidsample:validateSigningDebug
-:androidsample:packageDebug
-:androidsample:assembleDebug
-:androidsample:checkReleaseClasspath
-:androidsample:preReleaseBuild
-:androidsample:compileReleaseAidl NO-SOURCE
-:androidsample:compileReleaseRenderscript
-:androidsample:checkReleaseManifest
-:androidsample:generateReleaseBuildConfig
-:androidsample:mainApkListPersistenceRelease
-:androidsample:generateReleaseResValues
-:androidsample:generateReleaseResources
-:androidsample:mergeReleaseResources
-:androidsample:createReleaseCompatibleScreenManifests
-:androidsample:processReleaseManifest
-:androidsample:splitsDiscoveryTaskRelease
-:androidsample:processReleaseResources
-:androidsample:generateReleaseSources
-:androidsample:javaPreCompileRelease
-:androidsample:compileReleaseJavaWithJavac
-:androidsample:compileReleaseNdk NO-SOURCE
-:androidsample:compileReleaseSources
-:androidsample:lintVitalRelease
-:androidsample:mergeReleaseShaders
-:androidsample:compileReleaseShaders
-:androidsample:generateReleaseAssets
-:androidsample:mergeReleaseAssets
-:androidsample:transformClassesWithDexBuilderForRelease
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.5.0/713ce36037bf24a76a3974c05cb85c3f754b1cc3/retrofit-2.5.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `java.lang.Object retrofit2.-KotlinExtensions.create(retrofit2.Retrofit)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.1/dc6d02e4e68514eff5631963e28ca7742ac69efe/okhttp-3.12.1.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
-:androidsample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:androidsample:transformDexArchiveWithDexMergerForRelease
-:androidsample:mergeReleaseJniLibFolders
-:androidsample:transformNativeLibsWithMergeJniLibsForRelease
-:androidsample:transformNativeLibsWithStripDebugSymbolForRelease
-:androidsample:checkReleaseLibraries
-:androidsample:processReleaseJavaRes NO-SOURCE
-:androidsample:transformResourcesWithMergeJavaResForRelease
-:androidsample:packageRelease
-:androidsample:assembleRelease
-:androidsample:assemble
-:androidsample:build
+BUILD SUCCESSFUL in 28s
+48 actionable tasks: 48 executed
 
-BUILD SUCCESSFUL in 34s
-55 actionable tasks: 55 executed
+2019-07-31 12:22:35,475 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:22:35,475 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:22:42,120 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-31 12:22:42,120 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-31 12:22:42,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-31 12:23:31,957 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :androidsample:preBuild UP-TO-DATE
+> Task :androidsample:preDebugBuild
+> Task :androidsample:compileDebugAidl NO-SOURCE
+> Task :androidsample:compileDebugRenderscript NO-SOURCE
+> Task :androidsample:checkDebugManifest
+> Task :androidsample:generateDebugBuildConfig
+> Task :androidsample:prepareLintJar
+> Task :androidsample:generateDebugSources
+> Task :androidsample:javaPreCompileDebug
+> Task :androidsample:mainApkListPersistenceDebug
+> Task :androidsample:generateDebugResValues
+> Task :androidsample:generateDebugResources
+> Task :androidsample:mergeDebugResources
+> Task :androidsample:createDebugCompatibleScreenManifests
+> Task :androidsample:processDebugManifest
+> Task :androidsample:processDebugResources
 
-2019-01-22 19:33:59,708 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160369929-0/src/RESTMock-master/androidsample/build/outputs/apk/release/androidsample-release-unsigned.apk
+> Task :androidsample:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-10.1.0.jar (com.jakewharton:butterknife-compiler:10.1.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/src/main/java/io/appflate/restmock/androidsample/di/AppModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :androidsample:compileDebugSources
+> Task :androidsample:mergeDebugShaders
+> Task :androidsample:compileDebugShaders
+> Task :androidsample:generateDebugAssets
+> Task :androidsample:mergeDebugAssets
+> Task :androidsample:validateSigningDebug
+> Task :androidsample:signingConfigWriterDebug
+> Task :androidsample:checkDebugDuplicateClasses
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.0.1/4e606430c80c69b744d19c6ca1b269b68e297040/okhttp-4.0.1.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.0.1/4e606430c80c69b744d19c6ca1b269b68e297040/okhttp-4.0.1.jar: D8: Interface `org.conscrypt.ConscryptHostnameVerifier` not found. It's needed to make sure desugaring of `okhttp3.internal.platform.ConscryptPlatform$configureTrustManager$1` is correct. Desugaring will assume that this interface has no default method.
+D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
+> Task :androidsample:transformClassesWithDexBuilderForDebug
+> Task :androidsample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :androidsample:transformDexArchiveWithDexMergerForDebug
+> Task :androidsample:mergeDebugJniLibFolders
+> Task :androidsample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :androidsample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :androidsample:processDebugJavaRes NO-SOURCE
+> Task :androidsample:transformResourcesWithMergeJavaResForDebug
+> Task :androidsample:packageDebug
+> Task :androidsample:assembleDebug
+> Task :androidsample:preReleaseBuild
+> Task :androidsample:compileReleaseAidl NO-SOURCE
+> Task :androidsample:compileReleaseRenderscript NO-SOURCE
+> Task :androidsample:checkReleaseManifest
+> Task :androidsample:generateReleaseBuildConfig
+> Task :androidsample:generateReleaseSources
+> Task :androidsample:javaPreCompileRelease
+> Task :androidsample:mainApkListPersistenceRelease
+> Task :androidsample:generateReleaseResValues
+> Task :androidsample:generateReleaseResources
+> Task :androidsample:mergeReleaseResources
+> Task :androidsample:createReleaseCompatibleScreenManifests
+> Task :androidsample:processReleaseManifest
+> Task :androidsample:processReleaseResources
+
+> Task :androidsample:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-10.1.0.jar (com.jakewharton:butterknife-compiler:10.1.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/src/main/java/io/appflate/restmock/androidsample/di/AppModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :androidsample:compileReleaseSources
+
+> Task :androidsample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5d115cd73118a8c01e03ad09e8a54aa9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :androidsample:mergeReleaseShaders
+> Task :androidsample:compileReleaseShaders
+> Task :androidsample:generateReleaseAssets
+> Task :androidsample:mergeReleaseAssets
+> Task :androidsample:signingConfigWriterRelease
+> Task :androidsample:checkReleaseDuplicateClasses
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.0.1/4e606430c80c69b744d19c6ca1b269b68e297040/okhttp-4.0.1.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.0.1/4e606430c80c69b744d19c6ca1b269b68e297040/okhttp-4.0.1.jar: D8: Interface `org.conscrypt.ConscryptHostnameVerifier` not found. It's needed to make sure desugaring of `okhttp3.internal.platform.ConscryptPlatform$configureTrustManager$1` is correct. Desugaring will assume that this interface has no default method.
+D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
+> Task :androidsample:transformClassesWithDexBuilderForRelease
+> Task :androidsample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :androidsample:transformDexArchiveWithDexMergerForRelease
+> Task :androidsample:mergeReleaseJniLibFolders
+> Task :androidsample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :androidsample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :androidsample:processReleaseJavaRes NO-SOURCE
+> Task :androidsample:transformResourcesWithMergeJavaResForRelease
+> Task :androidsample:packageRelease
+> Task :androidsample:assembleRelease
+> Task :androidsample:assemble
+> Task :androidsample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 49s
+51 actionable tasks: 51 executed
+
+2019-07-31 12:23:32,029 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550508114-0/src/RESTMock-master/androidsample/build/outputs/apk/release/androidsample-release-unsigned.apk

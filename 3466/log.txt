@@ -1,36 +1,37 @@
-2018-12-18 01:45:14,210 INFO  DownloadService - Downloading "https://github.com/MLSDev/RxImagePicker/archive/master.zip", attempt 3
-2018-12-18 01:45:14,943 INFO  DownloadService - Downloaded https://github.com/MLSDev/RxImagePicker/archive/master.zip, attempt 3
-2018-12-18 01:45:14,943 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/master.zip": 118 KB
-2018-12-18 01:45:14,943 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-18 01:45:14,945 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/master.zip: true
-2018-12-18 01:45:14,945 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src'.
-2018-12-18 01:45:14,964 INFO  FullProcessService - Size of directory with sources: 337 KB
-2018-12-18 01:45:14,964 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src]
-2018-12-18 01:45:14,983 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/.git/
+2019-07-31 12:24:35,564 INFO  DownloadService - Downloading "https://github.com/MLSDev/RxImagePicker/archive/master.zip", attempt 3
+2019-07-31 12:24:36,107 INFO  DownloadService - Downloaded https://github.com/MLSDev/RxImagePicker/archive/master.zip, attempt 3
+2019-07-31 12:24:36,107 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/master.zip": 118 KB
+2019-07-31 12:24:36,107 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-31 12:24:36,108 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/master.zip: true
+2019-07-31 12:24:36,108 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src'.
+2019-07-31 12:24:36,123 INFO  FullProcessService - Size of directory with sources: 337 KB
+2019-07-31 12:24:36,124 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src]
+2019-07-31 12:24:36,141 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/.git/
 
-2018-12-18 01:45:14,986 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/gradlew
-2018-12-18 01:45:14,989 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/build.gradle
-2018-12-18 01:45:14,992 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/settings.gradle
-2018-12-18 01:45:14,993 INFO  ProjectBuildService - Remote scripts: none
-2018-12-18 01:45:14,993 INFO  ProjectFixService - Fixing project...
-2018-12-18 01:45:15,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/local.properties
-2018-12-18 01:45:15,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-18 01:45:15,001 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-18 01:45:15,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/sample/local.properties
-2018-12-18 01:45:15,003 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-18 01:45:15,003 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-18 01:45:15,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/local.properties
-2018-12-18 01:45:15,004 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-18 01:45:15,005 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-18 01:45:15,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-18 01:45:15,006 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-18 01:45:15,007 INFO  ProjectFixService - Project was maybe fixed
-2018-12-18 01:45:15,007 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-18 01:45:15,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-18 01:45:32,036 INFO  ProjectTaskService - Detected possible tasks: 74
-2018-12-18 01:45:32,036 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-18 01:45:32,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-18 01:46:27,307 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:24:36,143 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/gradlew
+2019-07-31 12:24:36,146 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/build.gradle
+2019-07-31 12:24:36,148 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/settings.gradle
+2019-07-31 12:24:36,149 INFO  ProjectBuildService - Remote scripts: none
+2019-07-31 12:24:36,149 INFO  ProjectFixService - Fixing project...
+2019-07-31 12:24:36,154 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/local.properties
+2019-07-31 12:24:36,155 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-31 12:24:36,155 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-31 12:24:36,156 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/sample/local.properties
+2019-07-31 12:24:36,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-31 12:24:36,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-31 12:24:36,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/local.properties
+2019-07-31 12:24:36,159 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-31 12:24:36,160 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-31 12:24:36,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-31 12:24:36,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-31 12:24:36,161 INFO  ProjectFixService - Project was maybe fixed
+2019-07-31 12:24:36,161 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:24:36,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:24:45,122 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-07-31 12:24:45,122 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-31 12:24:45,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-31 12:25:39,739 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.0/kotlin-stdlib-jdk7-1.3.0.jar
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl NO-SOURCE
@@ -45,7 +46,7 @@
 :library:kaptGenerateStubsDebugKotlin
 :library:kaptDebugKotlin
 :library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/src/main/java/com/mlsdev/rximagepicker/RxImagePicker.kt: (115, 31): Type mismatch: inferred type is Uri? but Uri was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/src/main/java/com/mlsdev/rximagepicker/RxImagePicker.kt: (115, 31): Type mismatch: inferred type is Uri? but Uri was expected
 :library:prepareLintJar
 :library:generateDebugSources
 :library:javaPreCompileDebug
@@ -81,7 +82,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/
 :library:kaptGenerateStubsReleaseKotlin
 :library:kaptReleaseKotlin
 :library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/library/src/main/java/com/mlsdev/rximagepicker/RxImagePicker.kt: (115, 31): Type mismatch: inferred type is Uri? but Uri was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/library/src/main/java/com/mlsdev/rximagepicker/RxImagePicker.kt: (115, 31): Type mismatch: inferred type is Uri? but Uri was expected
 :library:generateReleaseSources
 :library:javaPreCompileRelease
 :library:compileReleaseJavaWithJavac
@@ -106,7 +107,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/
 :library:verifyReleaseResources
 :library:assembleRelease
 :library:dokka
-Download https://dl.bintray.com/kotlin/kotlin-eap/org/jetbrains/dokka/dokka-fatjar/0.9.16-eap-3/dokka-fatjar-0.9.16-eap-3.pom
 Download https://dl.bintray.com/kotlin/kotlin-eap/org/jetbrains/dokka/dokka-fatjar/0.9.16-eap-3/dokka-fatjar-0.9.16-eap-3.jar
 No documentation for com.mlsdev.rximagepicker.RxImageConverters (RxImageConverters.kt:17)
 No documentation for com.mlsdev.rximagepicker.RxImageConverters$uriToFile(android.content.Context, android.net.Uri, java.io.File) (RxImageConverters.kt:19)
@@ -138,12 +138,12 @@ See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:comman
 BUILD SUCCESSFUL in 54s
 54 actionable tasks: 54 executed
 
-2018-12-18 01:46:27,330 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-18 01:46:27,330 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-18 01:46:33,443 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-18 01:46:33,443 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-18 01:46:33,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-18 01:47:18,924 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-31 12:25:39,756 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-31 12:25:39,756 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-31 12:25:45,556 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-31 12:25:45,556 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-31 12:25:45,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-31 12:26:32,057 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugAidl NO-SOURCE
@@ -198,6 +198,17 @@ BUILD SUCCESSFUL in 54s
 :sample:generateDebugAssets
 :sample:mergeDebugAssets
 :sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.0/a134b0cfe9bb44f98b0b3e889cda07923eea9428/kotlin-stdlib-1.3.0.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.0/a134b0cfe9bb44f98b0b3e889cda07923eea9428/kotlin-stdlib-1.3.0.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.0/a134b0cfe9bb44f98b0b3e889cda07923eea9428/kotlin-stdlib-1.3.0.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
 :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 :sample:transformDexArchiveWithDexMergerForDebug
 :library:compileDebugNdk NO-SOURCE
@@ -287,7 +298,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 44s
+BUILD SUCCESSFUL in 45s
 102 actionable tasks: 65 executed, 37 up-to-date
 
-2018-12-18 01:47:19,025 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545072314206-0/src/RxImagePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-31 12:26:32,138 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550675556-0/src/RxImagePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
