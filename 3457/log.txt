@@ -1,34 +1,34 @@
-2018-12-24 17:26:24,233 INFO  DownloadService - Downloading "https://github.com/asLody/legend/archive/master.zip", attempt 3
-2018-12-24 17:26:24,877 INFO  DownloadService - Downloaded https://github.com/asLody/legend/archive/master.zip, attempt 3
-2018-12-24 17:26:24,878 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/master.zip": 213 KB
-2018-12-24 17:26:24,878 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-24 17:26:24,879 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/master.zip: true
-2018-12-24 17:26:24,880 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src'.
-2018-12-24 17:26:24,911 INFO  FullProcessService - Size of directory with sources: 423 KB
-2018-12-24 17:26:24,911 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src]
-2018-12-24 17:26:24,929 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/.git/
+2019-08-01 11:38:29,243 INFO  DownloadService - Downloading "https://github.com/asLody/legend/archive/master.zip", attempt 3
+2019-08-01 11:38:31,368 INFO  DownloadService - Downloaded https://github.com/asLody/legend/archive/master.zip, attempt 3
+2019-08-01 11:38:31,368 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/master.zip": 213 KB
+2019-08-01 11:38:31,368 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-01 11:38:31,370 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/master.zip: true
+2019-08-01 11:38:31,370 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src'.
+2019-08-01 11:38:31,402 INFO  FullProcessService - Size of directory with sources: 423 KB
+2019-08-01 11:38:31,402 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src]
+2019-08-01 11:38:31,435 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/.git/
 
-2018-12-24 17:26:24,933 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/gradlew
-2018-12-24 17:26:24,938 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/legendCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/build.gradle
-2018-12-24 17:26:24,943 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/legendCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/settings.gradle
-2018-12-24 17:26:24,943 INFO  ProjectBuildService - Remote scripts: none
-2018-12-24 17:26:24,943 INFO  ProjectFixService - Fixing project...
-2018-12-24 17:26:24,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/legendCore/local.properties
-2018-12-24 17:26:24,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/legendCore/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-24 17:26:24,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/sample/local.properties
-2018-12-24 17:26:24,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-24 17:26:24,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/local.properties
-2018-12-24 17:26:24,955 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-24 17:26:24,955 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-24 17:26:24,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-24 17:26:24,956 INFO  ProjectFixService - Project was maybe fixed
-2018-12-24 17:26:24,956 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 17:26:24,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/legendCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 17:26:38,801 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-24 17:26:38,801 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-24 17:26:38,801 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-24 17:26:38,802 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/legendCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-24 17:26:52,530 ERROR SysUtils - Could not process external command
+2019-08-01 11:38:31,439 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/gradlew
+2019-08-01 11:38:31,443 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/legendCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/build.gradle
+2019-08-01 11:38:31,447 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/legendCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/settings.gradle
+2019-08-01 11:38:31,447 INFO  ProjectBuildService - Remote scripts: none
+2019-08-01 11:38:31,447 INFO  ProjectFixService - Fixing project...
+2019-08-01 11:38:31,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/legendCore/local.properties
+2019-08-01 11:38:31,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/legendCore/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-01 11:38:31,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/sample/local.properties
+2019-08-01 11:38:31,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-01 11:38:31,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/local.properties
+2019-08-01 11:38:31,457 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-01 11:38:31,458 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-01 11:38:31,458 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-01 11:38:31,458 INFO  ProjectFixService - Project was maybe fixed
+2019-08-01 11:38:31,458 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:38:31,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/legendCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:39:06,413 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-01 11:39:06,413 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-01 11:39:06,413 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-01 11:39:06,413 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/legendCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-01 11:39:19,322 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-24 17:26:52,531 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-01 11:39:19,322 INFO  SysUtils - Configuration on demand is an incubating feature.
 Premature end of file.:
 org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
@@ -1616,7 +1616,7 @@ Incremental java compilation is an incubating feature.
 :legendCore:generateDebugSources
 :legendCore:compileDebugJavaWithJavac
 :legendCore:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/legendCore/src/main/java/com/lody/legend/HookManager.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/legendCore/src/main/java/com/lody/legend/HookManager.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :legendCore:processDebugJavaRes UP-TO-DATE
 :legendCore:transformResourcesWithMergeJavaResForDebug
@@ -1647,7 +1647,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :legendCore:generateReleaseSources
 :legendCore:compileReleaseJavaWithJavac
 :legendCore:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/legendCore/src/main/java/com/lody/legend/HookManager.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/legendCore/src/main/java/com/lody/legend/HookManager.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :legendCore:processReleaseJavaRes UP-TO-DATE
 :legendCore:transformResourcesWithMergeJavaResForRelease
@@ -1755,14 +1755,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 13.231 secs
+Total time: 12.388 secs
 
-2018-12-24 17:26:52,550 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 17:26:52,550 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 17:27:04,860 INFO  ProjectTaskService - Detected possible tasks: 79
-2018-12-24 17:27:04,860 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-24 17:27:04,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-24 17:27:19,954 ERROR SysUtils - Could not process external command
+2019-08-01 11:39:19,337 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:39:19,337 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:39:29,831 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-08-01 11:39:29,832 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-01 11:39:29,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-01 11:39:42,730 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1790,7 +1790,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-24 17:27:19,954 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-01 11:39:42,730 INFO  SysUtils - Configuration on demand is an incubating feature.
 Premature end of file.:
 org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
@@ -1842,7 +1842,7 @@ org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of 
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -1964,7 +1964,7 @@ org.xml.sax.SAXParseException; lineNumber: 0; columnNumber: 0; cvc-pattern-valid
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -2060,7 +2060,7 @@ javax.xml.bind.MarshalException
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -2199,7 +2199,7 @@ org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of 
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -2321,7 +2321,7 @@ org.xml.sax.SAXParseException; lineNumber: 0; columnNumber: 0; cvc-pattern-valid
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -2417,7 +2417,7 @@ javax.xml.bind.MarshalException
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -2554,7 +2554,7 @@ org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of 
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -2674,7 +2674,7 @@ org.xml.sax.SAXParseException; lineNumber: 0; columnNumber: 0; cvc-pattern-valid
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -2768,7 +2768,7 @@ javax.xml.bind.MarshalException
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -2905,7 +2905,7 @@ org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of 
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -3025,7 +3025,7 @@ org.xml.sax.SAXParseException; lineNumber: 0; columnNumber: 0; cvc-pattern-valid
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -3119,7 +3119,7 @@ javax.xml.bind.MarshalException
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
@@ -3389,6 +3389,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.562 secs
+Total time: 12.399 secs
 
-2018-12-24 17:27:19,983 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647184230-0/src/legend-master/Legend/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-08-01 11:39:42,753 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634309240-0/src/legend-master/Legend/sample/build/outputs/apk/sample-debug-unaligned.apk

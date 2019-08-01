@@ -32,7 +32,7 @@
   "locales" : [ "" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.legend.demo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />\n\t<application android:label=\"Legend\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.legend.demo.App\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.legend.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
   "fileSize" : 68447,
-  "crc32" : 1524372274,
-  "sha256" : "6cfc9fe592bc0ddac427744a9afbe9f49585a202ebb152becef135b89d6162e6",
-  "buildTime" : 1545647238000
+  "crc32" : 1606074634,
+  "sha256" : "0fd0ea623848e896e46228587187c2ce4e0772c314c6cbc3adbd669f2f68ac89",
+  "buildTime" : 1564634381000
 }

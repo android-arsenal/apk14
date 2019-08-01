@@ -1,41 +1,41 @@
-2018-12-24 17:28:34,939 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 3
-2018-12-24 17:28:40,822 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 2
-2018-12-24 17:28:46,876 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 1
-2018-12-24 17:29:47,121 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-24 17:29:48,312 INFO  GithubDownloadService - Default branch of this repository: 2.x
-2018-12-24 17:29:48,312 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/2.x.zip", attempt 3
-2018-12-24 17:30:49,813 DEBUG FullProcessService - Repository https://github.com/trello/navi available: true
-2018-12-24 17:30:49,813 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-24 17:30:49,813 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/trello/navi, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src]
-2018-12-24 17:30:51,749 INFO  SysUtils - 
-2018-12-24 17:30:51,787 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/.git": true
-2018-12-24 17:30:51,790 INFO  FullProcessService - Size of directory with sources: 242 KB
-2018-12-24 17:30:51,790 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src]
-2018-12-24 17:30:51,809 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/.git/
+2019-08-01 11:40:44,942 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 3
+2019-08-01 11:40:50,454 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 2
+2019-08-01 11:40:56,536 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/master.zip", attempt 1
+2019-08-01 11:41:56,815 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-01 11:41:57,885 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2019-08-01 11:41:57,886 INFO  DownloadService - Downloading "https://github.com/trello/navi/archive/2.x.zip", attempt 3
+2019-08-01 11:42:59,675 DEBUG FullProcessService - Repository https://github.com/trello/navi available: true
+2019-08-01 11:42:59,675 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-01 11:42:59,675 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/trello/navi, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src]
+2019-08-01 11:43:02,111 INFO  SysUtils - 
+2019-08-01 11:43:02,141 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/.git": true
+2019-08-01 11:43:02,143 INFO  FullProcessService - Size of directory with sources: 242 KB
+2019-08-01 11:43:02,143 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src]
+2019-08-01 11:43:02,166 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/.git/
 
-2018-12-24 17:30:51,811 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew
-2018-12-24 17:30:51,815 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/build.gradle
-2018-12-24 17:30:51,818 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradle/artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/settings.gradle
-2018-12-24 17:30:51,818 INFO  ProjectBuildService - Remote scripts: none
-2018-12-24 17:30:51,818 INFO  ProjectFixService - Fixing project...
-2018-12-24 17:30:51,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/local.properties
-2018-12-24 17:30:51,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-24 17:30:51,832 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-24 17:30:51,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/local.properties
-2018-12-24 17:30:51,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-24 17:30:51,836 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-24 17:30:51,837 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/local.properties
-2018-12-24 17:30:51,838 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2018-12-24 17:30:51,838 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2018-12-24 17:30:51,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-24 17:30:51,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-24 17:30:51,841 INFO  ProjectFixService - Project was maybe fixed
-2018-12-24 17:30:51,841 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 17:30:51,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 17:31:00,007 INFO  ProjectTaskService - Detected possible tasks: 80
-2018-12-24 17:31:00,007 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-24 17:31:00,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-24 17:31:14,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-01 11:43:02,172 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/gradlew
+2019-08-01 11:43:02,179 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/build.gradle
+2019-08-01 11:43:02,182 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/gradle/artifacts.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/settings.gradle
+2019-08-01 11:43:02,183 INFO  ProjectBuildService - Remote scripts: none
+2019-08-01 11:43:02,183 INFO  ProjectFixService - Fixing project...
+2019-08-01 11:43:02,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/local.properties
+2019-08-01 11:43:02,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-01 11:43:02,204 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-08-01 11:43:02,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/sample/local.properties
+2019-08-01 11:43:02,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-01 11:43:02,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-08-01 11:43:02,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/local.properties
+2019-08-01 11:43:02,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-08-01 11:43:02,215 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-08-01 11:43:02,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-01 11:43:02,218 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-08-01 11:43:02,219 INFO  ProjectFixService - Project was maybe fixed
+2019-08-01 11:43:02,219 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:43:02,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:43:09,709 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-08-01 11:43:09,709 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-01 11:43:09,709 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-01 11:43:31,872 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :navi:preBuild UP-TO-DATE
 > Task :navi:preDebugBuild UP-TO-DATE
 > Task :navi:compileDebugAidl NO-SOURCE
@@ -54,7 +54,7 @@
 > Task :navi:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/src/main/java/com/trello/navi2/internal/NaviEmitter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/src/main/java/com/trello/navi2/internal/NaviEmitter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :navi:extractDebugAnnotations
@@ -91,7 +91,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :navi:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/navi/src/main/java/com/trello/navi2/internal/NaviEmitter.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/navi/src/main/java/com/trello/navi2/internal/NaviEmitter.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :navi:extractReleaseAnnotations
@@ -125,15 +125,15 @@ javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/re
 > Task :navi:assemble
 > Task :navi:build
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 21s
 46 actionable tasks: 46 executed
 
-2018-12-24 17:31:14,173 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 17:31:14,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 17:31:19,959 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-24 17:31:19,959 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-24 17:31:19,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-24 17:31:42,474 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-01 11:43:31,888 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:43:31,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:43:37,215 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-01 11:43:37,215 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-01 11:43:37,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-01 11:44:04,660 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :navi:preBuild UP-TO-DATE
 > Task :navi:preDebugBuild UP-TO-DATE
 > Task :navi:compileDebugAidl NO-SOURCE
@@ -233,7 +233,10 @@ BUILD SUCCESSFUL in 13s
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
+
 > Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/71d58410e775ac2076c18bf771a10441/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :navi:mergeReleaseShaders UP-TO-DATE
 > Task :navi:compileReleaseShaders UP-TO-DATE
 > Task :navi:generateReleaseAssets UP-TO-DATE
@@ -261,7 +264,7 @@ BUILD SUCCESSFUL in 13s
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 22s
+BUILD SUCCESSFUL in 27s
 88 actionable tasks: 59 executed, 29 up-to-date
 
-2018-12-24 17:31:42,555 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647314934-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-08-01 11:44:04,720 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634444934-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

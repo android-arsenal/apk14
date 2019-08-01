@@ -1,39 +1,39 @@
-2018-12-24 17:31:51,060 INFO  DownloadService - Downloading "https://github.com/SpartanJ/restafari/archive/master.zip", attempt 3
-2018-12-24 17:32:51,758 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-24 17:32:52,621 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-24 17:32:52,621 INFO  DownloadService - Downloading "https://github.com/SpartanJ/restafari/archive/master.zip", attempt 3
-2018-12-24 17:33:54,061 DEBUG FullProcessService - Repository https://github.com/SpartanJ/restafari available: true
-2018-12-24 17:33:54,061 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-24 17:33:54,061 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SpartanJ/restafari, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src]
-2018-12-24 17:33:56,376 INFO  SysUtils - 
-2018-12-24 17:33:56,385 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/.git": true
-2018-12-24 17:33:56,389 INFO  FullProcessService - Size of directory with sources: 219 KB
-2018-12-24 17:33:56,389 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src]
-2018-12-24 17:33:56,409 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/.git/
+2019-08-01 11:44:13,383 INFO  DownloadService - Downloading "https://github.com/SpartanJ/restafari/archive/master.zip", attempt 3
+2019-08-01 11:45:14,012 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-01 11:45:15,045 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-01 11:45:15,045 INFO  DownloadService - Downloading "https://github.com/SpartanJ/restafari/archive/master.zip", attempt 3
+2019-08-01 11:46:16,531 DEBUG FullProcessService - Repository https://github.com/SpartanJ/restafari available: true
+2019-08-01 11:46:16,532 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-01 11:46:16,532 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SpartanJ/restafari, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src]
+2019-08-01 11:46:18,628 INFO  SysUtils - 
+2019-08-01 11:46:18,635 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/.git": true
+2019-08-01 11:46:18,638 INFO  FullProcessService - Size of directory with sources: 220 KB
+2019-08-01 11:46:18,638 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src]
+2019-08-01 11:46:18,654 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/.git/
 
-2018-12-24 17:33:56,413 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/gradlew
-2018-12-24 17:33:56,417 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/app-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/restafari/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/build.gradle
-2018-12-24 17:33:56,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/restafari/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/app-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/settings.gradle
-2018-12-24 17:33:56,422 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-24 17:33:56,522 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-24 17:33:56,522 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-24 17:33:56,622 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-24 17:33:56,622 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-24 17:33:56,622 INFO  ProjectFixService - Fixing project...
-2018-12-24 17:33:56,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/app-test/local.properties
-2018-12-24 17:33:56,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/app-test/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-24 17:33:56,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/restafari/local.properties
-2018-12-24 17:33:56,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/restafari/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-24 17:33:56,635 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/local.properties
-2018-12-24 17:33:56,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-24 17:33:56,637 INFO  ProjectFixService - Project was maybe fixed
-2018-12-24 17:33:56,637 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 17:33:56,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/app-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 17:33:56,793 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-24 17:33:56,793 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-12-24 17:33:56,793 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-12-24 17:33:56,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/app-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-12-24 17:33:56,970 ERROR SysUtils - Could not process external command
+2019-08-01 11:46:18,657 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/gradlew
+2019-08-01 11:46:18,659 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/app-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/restafari/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/build.gradle
+2019-08-01 11:46:18,662 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/restafari/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/app-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/settings.gradle
+2019-08-01 11:46:18,662 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-01 11:46:18,848 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-01 11:46:18,848 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-08-01 11:46:19,028 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-08-01 11:46:19,029 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-08-01 11:46:19,029 INFO  ProjectFixService - Fixing project...
+2019-08-01 11:46:19,038 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/app-test/local.properties
+2019-08-01 11:46:19,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/app-test/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-01 11:46:19,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/restafari/local.properties
+2019-08-01 11:46:19,040 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/restafari/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-01 11:46:19,040 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/local.properties
+2019-08-01 11:46:19,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-01 11:46:19,041 INFO  ProjectFixService - Project was maybe fixed
+2019-08-01 11:46:19,041 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:46:19,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/app-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:46:19,174 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-01 11:46:19,174 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-01 11:46:19,174 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-01 11:46:19,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/app-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-01 11:46:19,300 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,15 +60,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-24 17:33:56,970 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-08-01 11:46:19,300 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-12-24 17:33:56,976 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 17:33:56,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/restafari/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 17:33:57,125 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-24 17:33:57,125 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-12-24 17:33:57,125 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-12-24 17:33:57,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/restafari/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-12-24 17:33:57,262 ERROR SysUtils - Could not process external command
+2019-08-01 11:46:19,303 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:46:19,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/restafari/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:46:19,419 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-01 11:46:19,419 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-01 11:46:19,419 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-01 11:46:19,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/restafari/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-01 11:46:19,544 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -95,15 +95,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-24 17:33:57,263 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-08-01 11:46:19,544 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-12-24 17:33:57,267 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-24 17:33:57,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-24 17:33:57,393 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-24 17:33:57,394 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-12-24 17:33:57,394 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-12-24 17:33:57,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545647511052-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-12-24 17:33:57,535 ERROR SysUtils - Could not process external command
+2019-08-01 11:46:19,548 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-01 11:46:19,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-01 11:46:19,679 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-01 11:46:19,679 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-01 11:46:19,679 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-01 11:46:19,679 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564634653376-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-01 11:46:19,807 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -130,7 +130,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-24 17:33:57,535 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-08-01 11:46:19,807 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-12-24 17:33:57,540 ERROR FullProcessService - Project build has not produced APK file
-2018-12-24 17:33:57,545 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-01 11:46:19,811 ERROR FullProcessService - Project build has not produced APK file
+2019-08-01 11:46:19,814 ERROR FullProcessService - Could not find generated or existed APK file
