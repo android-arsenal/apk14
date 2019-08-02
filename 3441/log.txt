@@ -1,10 +1,10 @@
-2018-12-25 11:36:27,108 INFO  DownloadService - Downloading "https://github.com/bmoliveira/snake-yaml/archive/master.zip", attempt 3
-2018-12-25 11:36:28,427 INFO  DownloadService - Downloaded https://github.com/bmoliveira/snake-yaml/archive/master.zip, attempt 3
-2018-12-25 11:36:28,428 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712587105-0/master.zip": 939 KB
-2018-12-25 11:36:28,428 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-25 11:36:28,431 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712587105-0/master.zip: false
-2018-12-25 11:36:28,431 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-12-25 11:36:28,432 ERROR FullProcessService - Could not find directory with sources
-2018-12-25 11:36:28,432 ERROR FullProcessService - Project will not be processed
-2018-12-25 11:36:28,432 ERROR FullProcessService - Project build has not produced APK file
-2018-12-25 11:36:28,432 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 12:27:16,308 INFO  DownloadService - Downloading "https://github.com/bmoliveira/snake-yaml/archive/master.zip", attempt 3
+2019-08-02 12:27:17,251 INFO  DownloadService - Downloaded https://github.com/bmoliveira/snake-yaml/archive/master.zip, attempt 3
+2019-08-02 12:27:17,251 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723636305-0/master.zip": 939 KB
+2019-08-02 12:27:17,251 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 12:27:17,258 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723636305-0/master.zip: false
+2019-08-02 12:27:17,258 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-08-02 12:27:17,258 ERROR FullProcessService - Could not find directory with sources
+2019-08-02 12:27:17,258 ERROR FullProcessService - Project will not be processed
+2019-08-02 12:27:17,258 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 12:27:17,258 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,56 +1,56 @@
-2018-12-25 11:26:04,291 INFO  DownloadService - Downloading "https://github.com/google/agera/archive/master.zip", attempt 3
-2018-12-25 11:26:05,721 INFO  DownloadService - Downloaded https://github.com/google/agera/archive/master.zip, attempt 3
-2018-12-25 11:26:05,721 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/master.zip": 915 KB
-2018-12-25 11:26:05,722 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-25 11:26:05,727 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/master.zip: true
-2018-12-25 11:26:05,728 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src'.
-2018-12-25 11:26:05,811 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-12-25 11:26:05,811 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src]
-2018-12-25 11:26:05,829 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/.git/
+2019-08-02 12:17:39,474 INFO  DownloadService - Downloading "https://github.com/google/agera/archive/master.zip", attempt 3
+2019-08-02 12:17:42,283 INFO  DownloadService - Downloaded https://github.com/google/agera/archive/master.zip, attempt 3
+2019-08-02 12:17:42,284 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/master.zip": 915 KB
+2019-08-02 12:17:42,284 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 12:17:42,290 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/master.zip: true
+2019-08-02 12:17:42,290 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src'.
+2019-08-02 12:17:42,366 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-02 12:17:42,366 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src]
+2019-08-02 12:17:42,382 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/.git/
 
-2018-12-25 11:26:05,840 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew
-2018-12-25 11:26:05,852 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/build.gradle
-2018-12-25 11:26:05,862 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/settings.gradle
-2018-12-25 11:26:05,864 INFO  ProjectBuildService - Remote scripts: none
-2018-12-25 11:26:05,864 INFO  ProjectFixService - Fixing project...
-2018-12-25 11:26:05,890 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/local.properties
-2018-12-25 11:26:05,894 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,895 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/local.properties
-2018-12-25 11:26:05,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,899 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/local.properties
-2018-12-25 11:26:05,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,903 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/local.properties
-2018-12-25 11:26:05,906 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/local.properties
-2018-12-25 11:26:05,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/local.properties
-2018-12-25 11:26:05,915 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/app/local.properties
-2018-12-25 11:26:05,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-25 11:26:05,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/app/local.properties
-2018-12-25 11:26:05,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-25 11:26:05,917 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/testapp/local.properties
-2018-12-25 11:26:05,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/testapp/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/local.properties
-2018-12-25 11:26:05,921 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-12-25 11:26:05,922 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-12-25 11:26:05,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,926 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/local.properties
-2018-12-25 11:26:05,927 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-25 11:26:05,927 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-25 11:26:05,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/local.properties
-2018-12-25 11:26:05,931 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-25 11:26:05,932 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-25 11:26:05,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSampleWithoutCallbacks/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-25 11:26:05,936 INFO  ProjectFixService - Project was maybe fixed
-2018-12-25 11:26:05,936 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:26:05,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:26:14,217 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:26:14,217 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:26:14,217 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:26:14,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:26:25,962 ERROR SysUtils - Could not process external command
+2019-08-02 12:17:42,391 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew
+2019-08-02 12:17:42,401 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/build.gradle
+2019-08-02 12:17:42,409 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/settings.gradle
+2019-08-02 12:17:42,410 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 12:17:42,410 INFO  ProjectFixService - Fixing project...
+2019-08-02 12:17:42,432 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/local.properties
+2019-08-02 12:17:42,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/local.properties
+2019-08-02 12:17:42,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,439 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/local.properties
+2019-08-02 12:17:42,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/local.properties
+2019-08-02 12:17:42,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/local.properties
+2019-08-02 12:17:42,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/local.properties
+2019-08-02 12:17:42,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/app/local.properties
+2019-08-02 12:17:42,453 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 12:17:42,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/app/local.properties
+2019-08-02 12:17:42,453 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 12:17:42,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/testapp/local.properties
+2019-08-02 12:17:42,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/testapp/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/local.properties
+2019-08-02 12:17:42,458 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-08-02 12:17:42,458 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-08-02 12:17:42,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/local.properties
+2019-08-02 12:17:42,462 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-02 12:17:42,462 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-02 12:17:42,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,466 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/local.properties
+2019-08-02 12:17:42,466 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-02 12:17:42,467 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-02 12:17:42,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSampleWithoutCallbacks/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 12:17:42,470 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 12:17:42,470 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:17:42,470 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:18:03,125 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:18:03,125 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:18:03,125 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:18:03,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:18:15,641 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -78,7 +78,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:26:25,962 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:18:15,641 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :agera:preBuild UP-TO-DATE
 :agera:preDebugBuild UP-TO-DATE
@@ -154,304 +154,304 @@ Note: Recompile with -Xlint:unchecked for details.
 :agera:bundleRelease
 :agera:compileReleaseSources
 :agera:assembleRelease
-:agera:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/ActivationHandler.java:37: warning: no @param for caller
+:agera:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/ActivationHandler.java:37: warning: no @param for caller
   void observableActivated(@NonNull UpdateDispatcher caller);
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/ActivationHandler.java:43: warning: no @param for caller
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/ActivationHandler.java:43: warning: no @param for caller
   void observableDeactivated(@NonNull UpdateDispatcher caller);
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observable.java:43: warning: no @param for updatable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observable.java:43: warning: no @param for updatable
   void addUpdatable(@NonNull Updatable updatable);
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observable.java:50: warning: no @param for updatable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observable.java:50: warning: no @param for updatable
   void removeUpdatable(@NonNull Updatable updatable);
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binder.java:28: warning: no @param for first
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binder.java:28: warning: no @param for first
   void bind(@NonNull TFirst first, @NonNull TSecond second);
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binder.java:28: warning: no @param for second
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binder.java:28: warning: no @param for second
   void bind(@NonNull TFirst first, @NonNull TSecond second);
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binders.java:32: warning: no @param for <TFirst>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binders.java:32: warning: no @param for <TFirst>
   public static <TFirst, TSecond> Binder<TFirst, TSecond> nullBinder() {
                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binders.java:32: warning: no @param for <TSecond>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binders.java:32: warning: no @param for <TSecond>
   public static <TFirst, TSecond> Binder<TFirst, TSecond> nullBinder() {
                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binders.java:32: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Binders.java:32: warning: no @return
   public static <TFirst, TSecond> Binder<TFirst, TSecond> nullBinder() {
                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Condition.java:28: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Condition.java:28: warning: no @return
   boolean applies();
           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:33: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:33: warning: no @return
   public static Condition trueCondition() {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:41: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:41: warning: no @return
   public static Condition falseCondition() {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:49: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:49: warning: no @param for value
   public static Condition staticCondition(final boolean value) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:49: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:49: warning: no @return
   public static Condition staticCondition(final boolean value) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:57: warning: no @param for condition
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:57: warning: no @param for condition
   public static Condition not(@NonNull final Condition condition) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:57: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:57: warning: no @return
   public static Condition not(@NonNull final Condition condition) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:76: warning: no @param for conditions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:76: warning: no @param for conditions
   public static Condition any(@NonNull final Condition... conditions) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:76: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:76: warning: no @return
   public static Condition any(@NonNull final Condition... conditions) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:86: warning: no @param for conditions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:86: warning: no @param for conditions
   public static Condition all(@NonNull final Condition... conditions) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:86: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:86: warning: no @return
   public static Condition all(@NonNull final Condition... conditions) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:99: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:99: warning: no @param for <T>
   public static <T> Condition predicateAsCondition(@NonNull final Predicate<T> predicate,
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:99: warning: no @param for predicate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:99: warning: no @param for predicate
   public static <T> Condition predicateAsCondition(@NonNull final Predicate<T> predicate,
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:99: warning: no @param for supplier
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:99: warning: no @param for supplier
   public static <T> Condition predicateAsCondition(@NonNull final Predicate<T> predicate,
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:99: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Conditions.java:99: warning: no @return
   public static <T> Condition predicateAsCondition(@NonNull final Predicate<T> predicate,
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Function.java:31: warning: no @param for input
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Function.java:31: warning: no @param for input
   TTo apply(@NonNull TFrom input);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Function.java:31: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Function.java:31: warning: no @return
   TTo apply(@NonNull TFrom input);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:39: warning: no @param for <TTo>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:39: warning: no @param for <TTo>
     <TTo> FItem<TTo, TFrom> apply(@NonNull Function<? super TPrev, TTo> function);
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:39: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:39: warning: no @return
     <TTo> FItem<TTo, TFrom> apply(@NonNull Function<? super TPrev, TTo> function);
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:47: warning: no @param for <TTo>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:47: warning: no @param for <TTo>
     <TTo> Function<TFrom, TTo> thenApply(@NonNull Function<? super TPrev, TTo> function);
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:47: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:47: warning: no @return
     <TTo> Function<TFrom, TTo> thenApply(@NonNull Function<? super TPrev, TTo> function);
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:61: warning: no @param for <TTo>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:61: warning: no @param for <TTo>
     <TTo> FList<TTo, List<TTo>, TFrom> unpack(@NonNull Function<? super TPrev, List<TTo>> function);
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:61: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:61: warning: no @return
     <TTo> FList<TTo, List<TTo>, TFrom> unpack(@NonNull Function<? super TPrev, List<TTo>> function);
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:81: warning: no @param for <TTo>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:81: warning: no @param for <TTo>
     <TTo> FList<TTo, List<TTo>, TFrom> morph(@NonNull Function<List<TPrev>, List<TTo>> function);
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:81: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:81: warning: no @return
     <TTo> FList<TTo, List<TTo>, TFrom> morph(@NonNull Function<List<TPrev>, List<TTo>> function);
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:89: warning: no @param for <TTo>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:89: warning: no @param for <TTo>
     <TTo> FList<TTo, List<TTo>, TFrom> map(@NonNull Function<TPrev, TTo> function);
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:89: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:89: warning: no @return
     <TTo> FList<TTo, List<TTo>, TFrom> map(@NonNull Function<TPrev, TTo> function);
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:97: warning: no @param for <TTo>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:97: warning: no @param for <TTo>
     <TTo> Function<TFrom, List<TTo>> thenMap(@NonNull Function<? super TPrev, TTo> function);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:97: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:97: warning: no @return
     <TTo> Function<TFrom, List<TTo>> thenMap(@NonNull Function<? super TPrev, TTo> function);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:105: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:105: warning: no @return
     FList<TPrev, TPrevList, TFrom> filter(@NonNull Predicate<? super TPrev> filter);
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:113: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:113: warning: no @return
     FList<TPrev, TPrevList, TFrom> limit(int limit);
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:121: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:121: warning: no @return
     FList<TPrev, TPrevList, TFrom> sort(@NonNull Comparator<TPrev> comparator);
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:129: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:129: warning: no @return
     Function<TFrom, TPrevList> thenFilter(@NonNull Predicate<? super TPrev> filter);
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:137: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:137: warning: no @return
     Function<TFrom, TPrevList> thenLimit(int limit);
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:145: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/FunctionCompilerStates.java:145: warning: no @return
     Function<TFrom, TPrevList> thenSort(@NonNull Comparator<TPrev> comparator);
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:51: warning: no @param for <F>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:51: warning: no @param for <F>
   public static <F, T> Function<F, T> staticFunction(@NonNull final T object) {
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:51: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:51: warning: no @param for <T>
   public static <F, T> Function<F, T> staticFunction(@NonNull final T object) {
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:51: warning: no @param for object
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:51: warning: no @param for object
   public static <F, T> Function<F, T> staticFunction(@NonNull final T object) {
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:51: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:51: warning: no @return
   public static <F, T> Function<F, T> staticFunction(@NonNull final T object) {
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:60: warning: no @param for <F>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:60: warning: no @param for <F>
   public static <F, T> Function<F, T> supplierAsFunction(
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:60: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:60: warning: no @param for <T>
   public static <F, T> Function<F, T> supplierAsFunction(
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:60: warning: no @param for supplier
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:60: warning: no @param for supplier
   public static <F, T> Function<F, T> supplierAsFunction(
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:60: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:60: warning: no @return
   public static <F, T> Function<F, T> supplierAsFunction(
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:69: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:69: warning: no @param for <T>
   public static <T> Function<T, T> identityFunction() {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:69: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:69: warning: no @return
   public static <T> Function<T, T> identityFunction() {
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:82: warning: no @param for <F>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:82: warning: no @param for <F>
   public static <F> FItem<F, F> functionFrom(@Nullable Class<F> from) {
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:82: warning: no @param for from
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:82: warning: no @param for from
   public static <F> FItem<F, F> functionFrom(@Nullable Class<F> from) {
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:93: warning: no @param for <F>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:93: warning: no @param for <F>
   public static <F> FList<F, List<F>, List<F>> functionFromListOf(
                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:93: warning: no @param for from
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:93: warning: no @param for from
   public static <F> FList<F, List<F>, List<F>> functionFromListOf(
                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:104: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:104: warning: no @param for <T>
   public static <T> Function<Throwable, Result<T>> failedResult() {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:104: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:104: warning: no @return
   public static <T> Function<Throwable, Result<T>> failedResult() {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:114: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:114: warning: no @param for <T>
   public static <T> Function<Result<T>, List<T>> resultAsList() {
                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:114: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:114: warning: no @return
   public static <T> Function<Result<T>, List<T>> resultAsList() {
                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:124: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:124: warning: no @param for <T>
   public static <T> Function<T, List<T>> itemAsList() {
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:124: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:124: warning: no @return
   public static <T> Function<T, List<T>> itemAsList() {
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:134: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:134: warning: no @param for <T>
   public static <T> Function<Result<List<T>>, List<T>> resultListAsList() {
                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:134: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Functions.java:134: warning: no @return
   public static <T> Function<Result<List<T>>, List<T>> resultListAsList() {
                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Merger.java:29: warning: no @param for first
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Merger.java:29: warning: no @param for first
   TTo merge(@NonNull TFirst first, @NonNull TSecond second);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Merger.java:29: warning: no @param for second
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Merger.java:29: warning: no @param for second
   TTo merge(@NonNull TFirst first, @NonNull TSecond second);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Merger.java:29: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Merger.java:29: warning: no @return
   TTo merge(@NonNull TFirst first, @NonNull TSecond second);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @param for <TFirst>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @param for <TFirst>
   public static <TFirst, TSecond, TTo> Merger<TFirst, TSecond, TTo> staticMerger(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @param for <TSecond>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @param for <TSecond>
   public static <TFirst, TSecond, TTo> Merger<TFirst, TSecond, TTo> staticMerger(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @param for <TTo>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @param for <TTo>
   public static <TFirst, TSecond, TTo> Merger<TFirst, TSecond, TTo> staticMerger(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @param for value
   public static <TFirst, TSecond, TTo> Merger<TFirst, TSecond, TTo> staticMerger(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:32: warning: no @return
   public static <TFirst, TSecond, TTo> Merger<TFirst, TSecond, TTo> staticMerger(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:42: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Mergers.java:42: warning: no @return
   public static Merger<Object, Object, Boolean> objectsUnequal() {
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Supplier.java:31: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Supplier.java:31: warning: no @return
   T get();
     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Receiver.java:28: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Receiver.java:28: warning: no @param for value
   void accept(@NonNull T value);
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:44: warning: no @param for observables
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:44: warning: no @param for observables
   public static Observable compositeObservable(@NonNull final Observable... observables) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:44: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:44: warning: no @return
   public static Observable compositeObservable(@NonNull final Observable... observables) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:90: warning: no @param for condition
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:90: warning: no @param for condition
   public static Observable conditionalObservable(
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:90: warning: no @param for observables
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:90: warning: no @param for observables
   public static Observable conditionalObservable(
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:90: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:90: warning: no @return
   public static Observable conditionalObservable(
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:101: warning: no @param for shortestUpdateWindowMillis
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:101: warning: no @param for shortestUpdateWindowMillis
   public static Observable perMillisecondObservable(
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:101: warning: no @param for observables
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:101: warning: no @param for observables
   public static Observable perMillisecondObservable(
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:101: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:101: warning: no @return
   public static Observable perMillisecondObservable(
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:111: warning: no @param for observables
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:111: warning: no @param for observables
   public static Observable perLoopObservable(@NonNull final Observable... observables) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:111: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:111: warning: no @return
   public static Observable perLoopObservable(@NonNull final Observable... observables) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:124: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:124: warning: no @return
   public static UpdateDispatcher updateDispatcher() {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:141: warning: no @param for activationHandler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:141: warning: no @param for activationHandler
   public static UpdateDispatcher updateDispatcher(
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:141: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Observables.java:141: warning: no @return
   public static UpdateDispatcher updateDispatcher(
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicate.java:30: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicate.java:30: warning: no @param for value
   boolean apply(@NonNull T value);
           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicate.java:30: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicate.java:30: warning: no @return
   boolean apply(@NonNull T value);
           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:37: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:37: warning: no @param for <T>
   public static <T> Predicate<T> conditionAsPredicate(@NonNull final Condition condition) {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:37: warning: no @param for condition
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:37: warning: no @param for condition
   public static <T> Predicate<T> conditionAsPredicate(@NonNull final Condition condition) {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:37: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:37: warning: no @return
   public static <T> Predicate<T> conditionAsPredicate(@NonNull final Condition condition) {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:52: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:52: warning: no @param for <T>
   public static <T> Predicate<T> truePredicate() {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:52: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:52: warning: no @return
   public static <T> Predicate<T> truePredicate() {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:61: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:61: warning: no @param for <T>
   public static <T> Predicate<T> falsePredicate() {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:61: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:61: warning: no @return
   public static <T> Predicate<T> falsePredicate() {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:70: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/agera/src/main/java/com/google/android/agera/Predicates.java:70: warning: no @param for <T>
   public static <T> Predicate<T> equalTo(@NonNull final T object) {
                                  ^
 
@@ -555,15 +555,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.176 secs
+Total time: 11.947 secs
 
-2018-12-25 11:26:25,989 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:26:25,989 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:26:33,979 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:26:33,979 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:26:33,979 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:26:33,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:26:43,245 ERROR SysUtils - Could not process external command
+2019-08-02 12:18:15,664 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:18:15,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:18:24,191 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:18:24,191 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:18:24,191 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:18:24,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:18:34,167 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -591,7 +591,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:26:43,245 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:18:34,168 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :extensions:content:preBuild UP-TO-DATE
 :extensions:content:preDebugBuild UP-TO-DATE
@@ -701,19 +701,19 @@ Incremental java compilation is an incubating feature.
 :extensions:content:bundleRelease
 :extensions:content:compileReleaseSources
 :extensions:content:assembleRelease
-:extensions:content:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:56: warning: no @param for actions
+:extensions:content:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:56: warning: no @param for actions
   public static Observable broadcastObservable(@NonNull final Context context,
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:56: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:56: warning: no @return
   public static Observable broadcastObservable(@NonNull final Context context,
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:66: warning: no @param for preferences
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:66: warning: no @param for preferences
   public static Observable sharedPreferencesObservable(@NonNull final SharedPreferences preferences,
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:66: warning: no @param for keys
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:66: warning: no @param for keys
   public static Observable sharedPreferencesObservable(@NonNull final SharedPreferences preferences,
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:66: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/content/src/main/java/com/google/android/agera/content/ContentObservables.java:66: warning: no @return
   public static Observable sharedPreferencesObservable(@NonNull final SharedPreferences preferences,
                            ^
 
@@ -817,15 +817,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.687 secs
+Total time: 9.42 secs
 
-2018-12-25 11:26:43,281 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:26:43,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:26:51,397 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:26:51,397 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:26:51,398 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:26:51,398 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:27:01,429 ERROR SysUtils - Could not process external command
+2019-08-02 12:18:34,197 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:18:34,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:18:43,341 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:18:43,341 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:18:43,341 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:18:43,342 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:18:53,896 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -853,7 +853,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:27:01,429 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:18:53,896 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :extensions:database:preBuild UP-TO-DATE
 :extensions:database:preDebugBuild UP-TO-DATE
@@ -963,175 +963,175 @@ Incremental java compilation is an incubating feature.
 :extensions:database:bundleRelease
 :extensions:database:compileReleaseSources
 :extensions:database:assembleRelease
-:extensions:database:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:43: warning: no @param for <T>
+:extensions:database:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:43: warning: no @param for <T>
   public static <T> Function<SqlRequest, Result<List<T>>> databaseQueryFunction(
                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:43: warning: no @param for database
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:43: warning: no @param for database
   public static <T> Function<SqlRequest, Result<List<T>>> databaseQueryFunction(
                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:43: warning: no @param for rowMap
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:43: warning: no @param for rowMap
   public static <T> Function<SqlRequest, Result<List<T>>> databaseQueryFunction(
                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:43: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:43: warning: no @return
   public static <T> Function<SqlRequest, Result<List<T>>> databaseQueryFunction(
                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:53: warning: no @param for database
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:53: warning: no @param for database
   public static Function<SqlInsertRequest, Result<Long>> databaseInsertFunction(
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:53: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:53: warning: no @return
   public static Function<SqlInsertRequest, Result<Long>> databaseInsertFunction(
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:62: warning: no @param for database
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:62: warning: no @param for database
   public static Function<SqlUpdateRequest, Result<Integer>> databaseUpdateFunction(
                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:62: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:62: warning: no @return
   public static Function<SqlUpdateRequest, Result<Integer>> databaseUpdateFunction(
                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:71: warning: no @param for database
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:71: warning: no @param for database
   public static Function<SqlDeleteRequest, Result<Integer>> databaseDeleteFunction(
                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:71: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseFunctions.java:71: warning: no @return
   public static Function<SqlDeleteRequest, Result<Integer>> databaseDeleteFunction(
                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseSupplier.java:41: warning: no @param for context
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseSupplier.java:41: warning: no @param for context
   public SqlDatabaseSupplier(@NonNull final Context context, @NonNull final String path,
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseSupplier.java:41: warning: no @param for path
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseSupplier.java:41: warning: no @param for path
   public SqlDatabaseSupplier(@NonNull final Context context, @NonNull final String path,
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseSupplier.java:41: warning: no @param for factory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseSupplier.java:41: warning: no @param for factory
   public SqlDatabaseSupplier(@NonNull final Context context, @NonNull final String path,
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseSupplier.java:41: warning: no @param for version
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlDatabaseSupplier.java:41: warning: no @param for version
   public SqlDatabaseSupplier(@NonNull final Context context, @NonNull final String path,
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:174: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:174: warning: no @return
     T compile();
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:148: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:148: warning: no @return
     T failOnConflict();
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:155: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:155: warning: no @return
     T ignoreOnConflict();
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:162: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:162: warning: no @return
     T replaceOnConflict();
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:79: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:79: warning: no @param for column
     T column(@NonNull String column, @Nullable String value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:79: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:79: warning: no @param for value
     T column(@NonNull String column, @Nullable String value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:79: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:79: warning: no @return
     T column(@NonNull String column, @Nullable String value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:85: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:85: warning: no @param for column
     T column(@NonNull String column, @Nullable Byte value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:85: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:85: warning: no @param for value
     T column(@NonNull String column, @Nullable Byte value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:85: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:85: warning: no @return
     T column(@NonNull String column, @Nullable Byte value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:91: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:91: warning: no @param for column
     T column(@NonNull String column, @Nullable Short value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:91: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:91: warning: no @param for value
     T column(@NonNull String column, @Nullable Short value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:91: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:91: warning: no @return
     T column(@NonNull String column, @Nullable Short value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:97: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:97: warning: no @param for column
     T column(@NonNull String column, @Nullable Integer value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:97: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:97: warning: no @param for value
     T column(@NonNull String column, @Nullable Integer value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:97: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:97: warning: no @return
     T column(@NonNull String column, @Nullable Integer value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:103: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:103: warning: no @param for column
     T column(@NonNull String column, @Nullable Long value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:103: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:103: warning: no @param for value
     T column(@NonNull String column, @Nullable Long value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:103: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:103: warning: no @return
     T column(@NonNull String column, @Nullable Long value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:109: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:109: warning: no @param for column
     T column(@NonNull String column, @Nullable Float value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:109: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:109: warning: no @param for value
     T column(@NonNull String column, @Nullable Float value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:109: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:109: warning: no @return
     T column(@NonNull String column, @Nullable Float value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:115: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:115: warning: no @param for column
     T column(@NonNull String column, @Nullable Double value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:115: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:115: warning: no @param for value
     T column(@NonNull String column, @Nullable Double value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:115: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:115: warning: no @return
     T column(@NonNull String column, @Nullable Double value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:121: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:121: warning: no @param for column
     T column(@NonNull String column, @Nullable Boolean value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:121: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:121: warning: no @param for value
     T column(@NonNull String column, @Nullable Boolean value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:121: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:121: warning: no @return
     T column(@NonNull String column, @Nullable Boolean value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:127: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:127: warning: no @param for column
     T column(@NonNull String column, @Nullable byte[] value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:127: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:127: warning: no @param for value
     T column(@NonNull String column, @Nullable byte[] value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:127: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:127: warning: no @return
     T column(@NonNull String column, @Nullable byte[] value);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:133: warning: no @param for column
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:133: warning: no @param for column
     T emptyColumn(@NonNull String column);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:133: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:133: warning: no @return
     T emptyColumn(@NonNull String column);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:59: warning: no @param for where
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:59: warning: no @param for where
     T where(@NonNull String where);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:59: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:59: warning: no @return
     T where(@NonNull String where);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:35: warning: no @param for sql
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:35: warning: no @param for sql
     T sql(@NonNull String sql);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:35: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:35: warning: no @return
     T sql(@NonNull String sql);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:47: warning: no @param for table
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:47: warning: no @param for table
     T table(@NonNull String table);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:47: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequestCompilerStates.java:47: warning: no @return
     T table(@NonNull String table);
       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequests.java:45: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequests.java:45: warning: no @return
       SqlRequest, DBArgumentCompile<SqlRequest, DBCompile<SqlRequest>>>> sqlRequest() {
                                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequests.java:55: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequests.java:55: warning: no @return
       SqlDeleteRequest, DBCompile<SqlDeleteRequest>>>> sqlDeleteRequest() {
                                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequests.java:64: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequests.java:64: warning: no @return
   public static DBTable<DBColumn<DBColumnConflictCompile<SqlInsertRequest, ?>>> sqlInsertRequest() {
                                                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequests.java:75: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/database/src/main/java/com/google/android/agera/database/SqlRequests.java:75: warning: no @return
   sqlUpdateRequest() {
   ^
 
@@ -1235,15 +1235,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.45 secs
+Total time: 10.007 secs
 
-2018-12-25 11:27:01,475 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:27:01,475 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:27:09,457 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:27:09,457 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:27:09,457 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:27:09,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:27:19,213 ERROR SysUtils - Could not process external command
+2019-08-02 12:18:53,932 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:18:53,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:19:02,849 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:19:02,849 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:19:02,849 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:19:02,849 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:19:14,971 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1271,7 +1271,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:27:19,213 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:19:14,971 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :extensions:net:preBuild UP-TO-DATE
 :extensions:net:preDebugBuild UP-TO-DATE
@@ -1381,100 +1381,100 @@ Incremental java compilation is an incubating feature.
 :extensions:net:bundleRelease
 :extensions:net:compileReleaseSources
 :extensions:net:assembleRelease
-:extensions:net:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpFunctions.java:38: warning: no @return
+:extensions:net:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpFunctions.java:38: warning: no @return
   public static Function<HttpRequest, Result<HttpResponse>> httpFunction() {
                                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:34: warning: no @param for body
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:34: warning: no @param for body
     HTHeaderFieldRedirectsCachesConnectionTimeoutReadTimeoutCompile body(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:34: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:34: warning: no @return
     HTHeaderFieldRedirectsCachesConnectionTimeoutReadTimeoutCompile body(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:60: warning: no @param for name
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:60: warning: no @param for name
     HTHeaderFieldRedirectsCachesConnectionTimeoutReadTimeoutCompile headerField(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:60: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:60: warning: no @param for value
     HTHeaderFieldRedirectsCachesConnectionTimeoutReadTimeoutCompile headerField(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:60: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:60: warning: no @return
     HTHeaderFieldRedirectsCachesConnectionTimeoutReadTimeoutCompile headerField(
                                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:68: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:68: warning: no @return
     HTCachesConnectionTimeoutReadTimeoutCompile noRedirects();
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:106: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:106: warning: no @return
     HTConnectionTimeoutReadTimeoutCompile noCaches();
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:92: warning: no @param for connectionTimeoutMs
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:92: warning: no @param for connectionTimeoutMs
     HTReadTimeoutCompile connectTimeoutMs(int connectionTimeoutMs);
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:92: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:92: warning: no @return
     HTReadTimeoutCompile connectTimeoutMs(int connectionTimeoutMs);
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:80: warning: no @param for readTimeoutMs
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:80: warning: no @param for readTimeoutMs
     HTCompile readTimeoutMs(int readTimeoutMs);
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:80: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:80: warning: no @return
     HTCompile readTimeoutMs(int readTimeoutMs);
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:47: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequestCompilerStates.java:47: warning: no @return
     HttpRequest compile();
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:33: warning: no @param for url
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:33: warning: no @param for url
   httpGetRequest(@NonNull final String url) {
   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:33: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:33: warning: no @return
   httpGetRequest(@NonNull final String url) {
   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:43: warning: no @param for url
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:43: warning: no @param for url
   httpPutRequest(@NonNull final String url) {
   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:43: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:43: warning: no @return
   httpPutRequest(@NonNull final String url) {
   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:53: warning: no @param for url
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:53: warning: no @param for url
   httpPostRequest(@NonNull final String url) {
   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:53: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:53: warning: no @return
   httpPostRequest(@NonNull final String url) {
   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:63: warning: no @param for url
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:63: warning: no @param for url
   httpDeleteRequest(@NonNull final String url) {
   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:63: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpRequests.java:63: warning: no @return
   httpDeleteRequest(@NonNull final String url) {
   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @param for responseCode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @param for responseCode
   public static HttpResponse httpResponse(final int responseCode,
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @param for responseMessage
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @param for responseMessage
   public static HttpResponse httpResponse(final int responseCode,
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @param for header
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @param for header
   public static HttpResponse httpResponse(final int responseCode,
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @param for body
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @param for body
   public static HttpResponse httpResponse(final int responseCode,
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:68: warning: no @return
   public static HttpResponse httpResponse(final int responseCode,
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:78: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:78: warning: no @return
   public byte[] getBody() {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:88: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:88: warning: no @return
   public Result<String> getBodyString() {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:101: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:101: warning: no @return
   public int getResponseCode() {
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:109: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:109: warning: no @return
   public String getResponseMessage() {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:118: warning: no @param for field
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:118: warning: no @param for field
   public Result<String> getHeaderFieldValue(@NonNull final String field) {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:118: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/net/src/main/java/com/google/android/agera/net/HttpResponse.java:118: warning: no @return
   public Result<String> getHeaderFieldValue(@NonNull final String field) {
                         ^
 
@@ -1578,15 +1578,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.183 secs
+Total time: 11.56 secs
 
-2018-12-25 11:27:19,268 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:27:19,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:27:27,202 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:27:27,202 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:27:27,202 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:27:27,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:27:37,812 ERROR SysUtils - Could not process external command
+2019-08-02 12:19:15,014 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:19:15,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:19:23,787 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:19:23,787 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:19:23,787 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:19:23,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:19:36,632 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1614,7 +1614,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:27:37,813 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:19:36,632 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :extensions:rvadapter:preBuild UP-TO-DATE
 :extensions:rvadapter:preDebugBuild UP-TO-DATE
@@ -1678,7 +1678,7 @@ Incremental java compilation is an incubating feature.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :extensions:rvadapter:extractDebugAnnotations
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java: The typedef annotation com.google.android.agera.rvadapter.RepositoryAdapter.ListUpdateAction should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java: The typedef annotation com.google.android.agera.rvadapter.RepositoryAdapter.ListUpdateAction should have @Retention(RetentionPolicy.SOURCE)
 :extensions:rvadapter:mergeDebugShaders
 :extensions:rvadapter:compileDebugShaders
 :extensions:rvadapter:generateDebugAssets
@@ -1716,7 +1716,7 @@ Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 :extensions:rvadapter:extractReleaseAnnotations
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java: The typedef annotation com.google.android.agera.rvadapter.RepositoryAdapter.ListUpdateAction should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java: The typedef annotation com.google.android.agera.rvadapter.RepositoryAdapter.ListUpdateAction should have @Retention(RetentionPolicy.SOURCE)
 :extensions:rvadapter:mergeReleaseShaders
 :extensions:rvadapter:compileReleaseShaders
 :extensions:rvadapter:generateReleaseAssets
@@ -1733,151 +1733,151 @@ Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-
 :extensions:rvadapter:bundleRelease
 :extensions:rvadapter:compileReleaseSources
 :extensions:rvadapter:assembleRelease
-:extensions:rvadapter:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenter.java:30: warning: no @return
+:extensions:rvadapter:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenter.java:30: warning: no @return
   public abstract int getLayoutResId();
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenters.java:35: warning: no @param for layoutId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenters.java:35: warning: no @param for layoutId
   public static Builder layoutPresenterFor(@LayoutRes int layoutId) {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenters.java:35: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenters.java:35: warning: no @return
   public static Builder layoutPresenterFor(@LayoutRes int layoutId) {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenters.java:44: warning: no @param for layoutId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenters.java:44: warning: no @param for layoutId
   public static LayoutPresenter layout(@LayoutRes int layoutId) {
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenters.java:44: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/LayoutPresenters.java:44: warning: no @return
   public static LayoutPresenter layout(@LayoutRes int layoutId) {
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:77: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:77: warning: no @return
   public static Builder repositoryAdapter() {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:109: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:109: warning: no @param for <T>
     public <T> Builder add(@NonNull final Repository<T> repository,
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:142: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:142: warning: no @param for <T>
     public <T> Builder addItem(@NonNull final T item,
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:201: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:201: warning: no @return
     public RepositoryAdapter build() {
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:215: warning: no @param for activity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:215: warning: no @param for activity
     public Adapter<ViewHolder> whileResumed(@NonNull final Activity activity) {
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:215: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:215: warning: no @return
     public Adapter<ViewHolder> whileResumed(@NonNull final Activity activity) {
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:232: warning: no @param for activity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:232: warning: no @param for activity
     public Adapter<ViewHolder> whileStarted(@NonNull final Activity activity) {
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:232: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryAdapter.java:232: warning: no @return
     public Adapter<ViewHolder> whileStarted(@NonNull final Activity activity) {
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:34: warning: no @param for data
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:34: warning: no @param for data
   public abstract int getItemCount(@NonNull T data);
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:34: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:34: warning: no @return
   public abstract int getItemCount(@NonNull T data);
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:46: warning: no @param for data
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:46: warning: no @param for data
   public long getItemId(@NonNull final T data, final int index) {
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:46: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:46: warning: no @return
   public long getItemId(@NonNull final T data, final int index) {
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:56: warning: no @param for data
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:56: warning: no @param for data
   public abstract @LayoutRes int getLayoutResId(@NonNull T data, int index);
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:56: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:56: warning: no @return
   public abstract @LayoutRes int getLayoutResId(@NonNull T data, int index);
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:70: warning: no @param for data
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenter.java:70: warning: no @param for data
   public abstract void bind(@NonNull T data, int index, @NonNull RecyclerView.ViewHolder holder);
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:86: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:86: warning: no @return
     TRet diffWith(@NonNull Function<? super TVal, ?> keyForItem, boolean detectMoves);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:110: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:110: warning: no @return
     RPItemCompile<TVal> diff();
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:117: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:117: warning: no @return
     RepositoryPresenter<TVal> forItem();
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:124: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:124: warning: no @return
     RepositoryPresenter<Result<TVal>> forResult();
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:48: warning: no @param for layoutId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:48: warning: no @param for layoutId
     TRet layout(@LayoutRes int layoutId);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:48: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:48: warning: no @return
     TRet layout(@LayoutRes int layoutId);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:55: warning: no @param for layoutForItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:55: warning: no @param for layoutForItem
     TRet layoutForItem(@NonNull Function<TVal, Integer> layoutForItem);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:55: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:55: warning: no @return
     TRet layoutForItem(@NonNull Function<TVal, Integer> layoutForItem);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:153: warning: no @param for viewBinder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:153: warning: no @param for viewBinder
     RPMain<T> bindWith(@NonNull Binder<T, View> viewBinder);
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:153: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:153: warning: no @return
     RPMain<T> bindWith(@NonNull Binder<T, View> viewBinder);
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:159: warning: no @param for recycler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:159: warning: no @param for recycler
     RPMain<T> recycleWith(@NonNull Receiver<View> recycler);
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:159: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:159: warning: no @return
     RPMain<T> recycleWith(@NonNull Receiver<View> recycler);
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:171: warning: no @param for stableIdForItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:171: warning: no @param for stableIdForItem
     RPMain<T> stableIdForItem(@NonNull Function<? super T, Long> stableIdForItem);
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:171: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:171: warning: no @return
     RPMain<T> stableIdForItem(@NonNull Function<? super T, Long> stableIdForItem);
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:182: warning: no @param for stableId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:182: warning: no @param for stableId
     RPItemCompile<T> stableId(long stableId);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:182: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:182: warning: no @return
     RPItemCompile<T> stableId(long stableId);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:192: warning: no @param for <TCol>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:192: warning: no @param for <TCol>
     <TCol> RPTypedCollectionCompile<T, TCol> bindCollectionWith(
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:192: warning: no @param for collectionBinder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:192: warning: no @param for collectionBinder
     <TCol> RPTypedCollectionCompile<T, TCol> bindCollectionWith(
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:192: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:192: warning: no @return
     <TCol> RPTypedCollectionCompile<T, TCol> bindCollectionWith(
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:200: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:200: warning: no @return
     RepositoryPresenter<List<T>> forList();
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:208: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:208: warning: no @return
     RepositoryPresenter<Result<List<T>>> forResultList();
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:215: warning: no @param for <TCol>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:215: warning: no @param for <TCol>
     <TCol> RepositoryPresenter<TCol> forCollection(@NonNull Function<TCol, List<T>> converter);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:215: warning: no @param for converter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:215: warning: no @param for converter
     <TCol> RepositoryPresenter<TCol> forCollection(@NonNull Function<TCol, List<T>> converter);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:215: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:215: warning: no @return
     <TCol> RepositoryPresenter<TCol> forCollection(@NonNull Function<TCol, List<T>> converter);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:138: warning: no @param for <TColE>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:138: warning: no @param for <TColE>
     <TColE extends TCol> RepositoryPresenter<TColE> forCollection(
                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:138: warning: no @param for converter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:138: warning: no @param for converter
     <TColE extends TCol> RepositoryPresenter<TColE> forCollection(
                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:138: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenterCompilerStates.java:138: warning: no @return
     <TColE extends TCol> RepositoryPresenter<TColE> forCollection(
                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenters.java:52: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenters.java:52: warning: no @param for <T>
   public static <T> RPLayout<T, RPMain<T>> repositoryPresenterOf(@Nullable final Class<T> type) {
                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenters.java:52: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvadapter/src/main/java/com/google/android/agera/rvadapter/RepositoryPresenters.java:52: warning: no @return
   public static <T> RPLayout<T, RPMain<T>> repositoryPresenterOf(@Nullable final Class<T> type) {
                                            ^
 
@@ -1981,15 +1981,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.04 secs
+Total time: 12.264 secs
 
-2018-12-25 11:27:37,874 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:27:37,874 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:27:46,376 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:27:46,376 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:27:46,376 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:27:46,376 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:28:01,535 ERROR SysUtils - Could not process external command
+2019-08-02 12:19:36,688 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:19:36,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:19:45,627 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:19:45,627 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:19:45,627 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:19:45,627 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:19:58,069 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2017,7 +2017,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:28:01,535 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:19:58,069 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :extensions:rvdatabinding:preBuild UP-TO-DATE
 :extensions:rvdatabinding:preDebugBuild UP-TO-DATE
@@ -2177,79 +2177,79 @@ Incremental java compilation is an incubating feature.
 :extensions:rvdatabinding:bundleRelease
 :extensions:rvdatabinding:compileReleaseSources
 :extensions:rvdatabinding:assembleRelease
-:extensions:rvdatabinding:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingLayoutPresenters.java:48: warning: no @param for layoutId
+:extensions:rvdatabinding:releaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingLayoutPresenters.java:48: warning: no @param for layoutId
   public static Builder dataBindingLayoutPresenterFor(@LayoutRes final int layoutId) {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingLayoutPresenters.java:48: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingLayoutPresenters.java:48: warning: no @return
   public static Builder dataBindingLayoutPresenterFor(@LayoutRes final int layoutId) {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:46: warning: no @param for itemId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:46: warning: no @param for itemId
     DBRPMain<T> itemId(int itemId);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:46: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:46: warning: no @return
     DBRPMain<T> itemId(int itemId);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:53: warning: no @param for itemIdForItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:53: warning: no @param for itemIdForItem
     DBRPMain<T> itemIdForItem(@NonNull Function<T, Integer> itemIdForItem);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:53: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:53: warning: no @return
     DBRPMain<T> itemIdForItem(@NonNull Function<T, Integer> itemIdForItem);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:60: warning: no @param for handlerId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:60: warning: no @param for handlerId
     DBRPMain<T> handler(int handlerId, @NonNull Object handler);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:60: warning: no @param for handler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:60: warning: no @param for handler
     DBRPMain<T> handler(int handlerId, @NonNull Object handler);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:60: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:60: warning: no @return
     DBRPMain<T> handler(int handlerId, @NonNull Object handler);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:67: warning: no @param for recycleConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:67: warning: no @param for recycleConfig
     DBRPMain<T> onRecycle(@RecycleConfig int recycleConfig);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:67: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:67: warning: no @return
     DBRPMain<T> onRecycle(@RecycleConfig int recycleConfig);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:74: warning: no @param for collectionId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:74: warning: no @param for collectionId
     DBRPMain<T> collectionId(int collectionId);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:74: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:74: warning: no @return
     DBRPMain<T> collectionId(int collectionId);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:86: warning: no @param for stableIdForItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:86: warning: no @param for stableIdForItem
     DBRPMain<T> stableIdForItem(@NonNull Function<? super T, Long> stableIdForItem);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:86: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:86: warning: no @return
     DBRPMain<T> stableIdForItem(@NonNull Function<? super T, Long> stableIdForItem);
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:97: warning: no @param for stableId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:97: warning: no @param for stableId
     RPItemCompile<T> stableId(long stableId);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:97: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:97: warning: no @return
     RPItemCompile<T> stableId(long stableId);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:104: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:104: warning: no @return
     RepositoryPresenter<List<T>> forList();
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:112: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:112: warning: no @return
     RepositoryPresenter<Result<List<T>>> forResultList();
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:119: warning: no @param for <TCol>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:119: warning: no @param for <TCol>
     <TCol> RepositoryPresenter<TCol> forCollection(@NonNull Function<TCol, List<T>> converter);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:119: warning: no @param for converter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:119: warning: no @param for converter
     <TCol> RepositoryPresenter<TCol> forCollection(@NonNull Function<TCol, List<T>> converter);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:119: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenterCompilerStates.java:119: warning: no @return
     <TCol> RepositoryPresenter<TCol> forCollection(@NonNull Function<TCol, List<T>> converter);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenters.java:80: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenters.java:80: warning: no @param for <T>
   public static <T> RPLayout<T, DBRPMain<T>> dataBindingRepositoryPresenterOf(
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenters.java:80: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenters.java:80: warning: no @param for type
   public static <T> RPLayout<T, DBRPMain<T>> dataBindingRepositoryPresenterOf(
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenters.java:80: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/extensions/rvdatabinding/src/main/java/com/google/android/agera/rvdatabinding/DataBindingRepositoryPresenters.java:80: warning: no @return
   public static <T> RPLayout<T, DBRPMain<T>> dataBindingRepositoryPresenterOf(
                                              ^
 
@@ -2353,14 +2353,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.525 secs
+Total time: 11.852 secs
 
-2018-12-25 11:28:01,663 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:28:01,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:28:13,186 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-12-25 11:28:13,186 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-25 11:28:13,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-25 11:28:27,017 ERROR SysUtils - Could not process external command
+2019-08-02 12:19:58,140 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:19:58,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:20:08,221 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-08-02 12:20:08,221 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 12:20:08,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 12:20:21,562 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2388,7 +2388,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:28:27,018 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:20:21,562 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -2555,6 +2555,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 13.269 secs
+Total time: 12.799 secs
 
-2018-12-25 11:28:27,154 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545711964288-0/src/agera-master/samples/BasicSample/app/build/outputs/apk/app-debug.apk
+2019-08-02 12:20:21,666 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723059471-0/src/agera-master/samples/BasicSample/app/build/outputs/apk/app-debug.apk

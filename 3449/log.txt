@@ -1,37 +1,37 @@
-2018-12-25 11:29:32,908 INFO  DownloadService - Downloading "https://github.com/thepacific/adapter/archive/master.zip", attempt 3
-2018-12-25 11:29:35,694 INFO  DownloadService - Downloaded https://github.com/thepacific/adapter/archive/master.zip, attempt 3
-2018-12-25 11:29:35,694 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/master.zip": 1 MB
-2018-12-25 11:29:35,694 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-25 11:29:35,700 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/master.zip: true
-2018-12-25 11:29:35,700 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src'.
-2018-12-25 11:29:35,741 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-12-25 11:29:35,741 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src]
-2018-12-25 11:29:35,763 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/.git/
+2019-08-02 12:21:07,144 INFO  DownloadService - Downloading "https://github.com/thepacific/adapter/archive/master.zip", attempt 3
+2019-08-02 12:21:10,087 INFO  DownloadService - Downloaded https://github.com/thepacific/adapter/archive/master.zip, attempt 3
+2019-08-02 12:21:10,087 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/master.zip": 1 MB
+2019-08-02 12:21:10,087 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 12:21:10,093 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/master.zip: true
+2019-08-02 12:21:10,093 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src'.
+2019-08-02 12:21:10,132 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-02 12:21:10,132 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src]
+2019-08-02 12:21:10,149 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/.git/
 
-2018-12-25 11:29:35,767 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/gradlew
-2018-12-25 11:29:35,771 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/adapter/build.gradle
-2018-12-25 11:29:35,774 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/config/doc_release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/config/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/config/app_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/config/bintray_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/config/lib_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/config/check_style.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/settings.gradle
-2018-12-25 11:29:35,775 INFO  ProjectBuildService - Remote scripts: none
-2018-12-25 11:29:35,775 INFO  ProjectFixService - Fixing project...
-2018-12-25 11:29:35,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/demo/local.properties
-2018-12-25 11:29:35,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/demo/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2018-12-25 11:29:35,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/demo/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-25 11:29:35,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/local.properties
-2018-12-25 11:29:35,793 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-12-25 11:29:35,794 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-12-25 11:29:35,798 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2018-12-25 11:29:35,798 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-25 11:29:35,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/adapter/local.properties
-2018-12-25 11:29:35,804 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/adapter/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2018-12-25 11:29:35,804 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/adapter/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-25 11:29:35,805 INFO  ProjectFixService - Project was maybe fixed
-2018-12-25 11:29:35,805 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:29:35,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:29:46,008 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:29:46,008 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:29:46,008 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:29:46,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:29:52,131 ERROR SysUtils - Could not process external command
+2019-08-02 12:21:10,151 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/gradlew
+2019-08-02 12:21:10,154 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/adapter/build.gradle
+2019-08-02 12:21:10,156 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/config/doc_release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/config/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/config/app_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/config/bintray_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/config/lib_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/config/check_style.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/settings.gradle
+2019-08-02 12:21:10,157 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 12:21:10,157 INFO  ProjectFixService - Fixing project...
+2019-08-02 12:21:10,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/demo/local.properties
+2019-08-02 12:21:10,170 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/demo/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-08-02 12:21:10,170 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/demo/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-02 12:21:10,171 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/local.properties
+2019-08-02 12:21:10,171 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-08-02 12:21:10,171 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-08-02 12:21:10,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-08-02 12:21:10,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-02 12:21:10,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/adapter/local.properties
+2019-08-02 12:21:10,179 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/adapter/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-08-02 12:21:10,179 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/adapter/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-02 12:21:10,180 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 12:21:10,180 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:21:10,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:21:27,503 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:21:27,503 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:21:27,503 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:21:27,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:21:34,029 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:29:52,132 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:21:34,029 INFO  SysUtils - Configuration on demand is an incubating feature.
 demo: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.google.auto.value:auto-value:1.5.1', 'com.google.dagger:dagger-compiler:2.12', 'com.google.dagger:dagger-android-processor:2.12', 'com.github.bumptech.glide:compiler:4.2.0', 'org.parceler:parceler:1.1.9', 'com.android.databinding:compiler:3.0.0'.
 
 FAILURE: Build failed with an exception.
@@ -189,22 +189,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2018-12-25 11:29:52,136 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:29:52,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:29:58,339 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:29:58,339 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:29:58,340 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:29:58,340 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:30:05,476 ERROR SysUtils - Could not process external command
+2019-08-02 12:21:34,033 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:21:34,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:21:40,644 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:21:40,644 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:21:40,644 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:21:40,644 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:21:46,567 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -232,7 +232,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:30:05,476 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:21:46,567 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -368,15 +368,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2018-12-25 11:30:05,480 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:30:05,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:30:13,293 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:30:13,293 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:30:13,293 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:30:13,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712172904-0/src/adapter-master/pacific-adapter/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:30:19,749 ERROR SysUtils - Could not process external command
+2019-08-02 12:21:46,571 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:21:46,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:21:52,712 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:21:52,712 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:21:52,712 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:21:52,712 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723267142-0/src/adapter-master/pacific-adapter/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:21:59,415 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -404,7 +404,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:30:19,749 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:21:59,415 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -542,5 +542,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 6s
 
-2018-12-25 11:30:19,754 ERROR FullProcessService - Project build has not produced APK file
-2018-12-25 11:30:19,758 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 12:21:59,419 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 12:21:59,423 ERROR FullProcessService - Could not find generated or existed APK file

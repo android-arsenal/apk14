@@ -1,33 +1,33 @@
-2018-12-25 11:28:34,252 INFO  DownloadService - Downloading "https://github.com/dinuscxj/LoadingDrawable/archive/master.zip", attempt 3
-2018-12-25 11:28:55,893 INFO  DownloadService - Downloaded https://github.com/dinuscxj/LoadingDrawable/archive/master.zip, attempt 3
-2018-12-25 11:28:55,893 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/master.zip": 8 MB
-2018-12-25 11:28:55,893 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-25 11:28:55,894 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/master.zip: true
-2018-12-25 11:28:55,894 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src'.
-2018-12-25 11:28:55,985 INFO  FullProcessService - Size of directory with sources: 9 MB
-2018-12-25 11:28:55,985 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src]
-2018-12-25 11:28:56,012 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/.git/
+2019-08-02 12:20:28,731 INFO  DownloadService - Downloading "https://github.com/dinuscxj/LoadingDrawable/archive/master.zip", attempt 3
+2019-08-02 12:20:37,712 INFO  DownloadService - Downloaded https://github.com/dinuscxj/LoadingDrawable/archive/master.zip, attempt 3
+2019-08-02 12:20:37,712 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/master.zip": 8 MB
+2019-08-02 12:20:37,712 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 12:20:37,714 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/master.zip: true
+2019-08-02 12:20:37,715 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src'.
+2019-08-02 12:20:37,783 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-08-02 12:20:37,783 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src]
+2019-08-02 12:20:37,803 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/.git/
 
-2018-12-25 11:28:56,019 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/gradlew
-2018-12-25 11:28:56,027 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/build.gradle
-2018-12-25 11:28:56,035 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/settings.gradle
-2018-12-25 11:28:56,036 INFO  ProjectBuildService - Remote scripts: none
-2018-12-25 11:28:56,036 INFO  ProjectFixService - Fixing project...
-2018-12-25 11:28:56,056 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/app/local.properties
-2018-12-25 11:28:56,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
-2018-12-25 11:28:56,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/library/local.properties
-2018-12-25 11:28:56,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
-2018-12-25 11:28:56,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/local.properties
-2018-12-25 11:28:56,062 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-25 11:28:56,063 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-25 11:28:56,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
-2018-12-25 11:28:56,065 INFO  ProjectFixService - Project was maybe fixed
-2018-12-25 11:28:56,065 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:28:56,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:29:02,973 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-25 11:29:02,973 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-25 11:29:02,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-25 11:29:25,402 ERROR SysUtils - Could not process external command
+2019-08-02 12:20:37,806 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/gradlew
+2019-08-02 12:20:37,809 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/build.gradle
+2019-08-02 12:20:37,811 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/settings.gradle
+2019-08-02 12:20:37,812 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 12:20:37,812 INFO  ProjectFixService - Fixing project...
+2019-08-02 12:20:37,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/app/local.properties
+2019-08-02 12:20:37,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
+2019-08-02 12:20:37,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/library/local.properties
+2019-08-02 12:20:37,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
+2019-08-02 12:20:37,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/local.properties
+2019-08-02 12:20:37,820 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-02 12:20:37,820 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-02 12:20:37,821 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=12,targetSdkVersion=23]
+2019-08-02 12:20:37,821 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 12:20:37,821 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:20:37,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:20:44,571 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-02 12:20:44,571 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 12:20:44,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 12:21:00,306 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:29:25,403 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:21:00,306 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -139,7 +139,7 @@ Merged dex #5 (17 defs/48.5KiB)
 Merged dex #6 (49 defs/108.1KiB)
 Merged dex #7 (333 defs/261.0KiB)
 Merged dex #8 (41 defs/6.5KiB)
-Result is 1608 defs/2446.5KiB. Took 0.3s
+Result is 1608 defs/2446.5KiB. Took 0.2s
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -264,6 +264,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 21.821 secs
+Total time: 15.197 secs
 
-2018-12-25 11:29:25,504 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712114249-0/src/LoadingDrawable-master/app/build/outputs/apk/app-debug.apk
+2019-08-02 12:21:00,376 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723228728-0/src/LoadingDrawable-master/app/build/outputs/apk/app-debug.apk

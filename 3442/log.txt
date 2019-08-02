@@ -1,33 +1,33 @@
-2018-12-25 11:35:46,653 INFO  DownloadService - Downloading "https://github.com/artjimlop/chernobyl/archive/master.zip", attempt 3
-2018-12-25 11:35:47,166 INFO  DownloadService - Downloaded https://github.com/artjimlop/chernobyl/archive/master.zip, attempt 3
-2018-12-25 11:35:47,166 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/master.zip": 105 KB
-2018-12-25 11:35:47,166 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-25 11:35:47,172 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/master.zip: true
-2018-12-25 11:35:47,172 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src'.
-2018-12-25 11:35:47,188 INFO  FullProcessService - Size of directory with sources: 167 KB
-2018-12-25 11:35:47,188 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src]
-2018-12-25 11:35:47,204 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/.git/
+2019-08-02 12:26:33,192 INFO  DownloadService - Downloading "https://github.com/artjimlop/chernobyl/archive/master.zip", attempt 3
+2019-08-02 12:26:33,748 INFO  DownloadService - Downloaded https://github.com/artjimlop/chernobyl/archive/master.zip, attempt 3
+2019-08-02 12:26:33,749 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/master.zip": 105 KB
+2019-08-02 12:26:33,749 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 12:26:33,754 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/master.zip: true
+2019-08-02 12:26:33,754 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src'.
+2019-08-02 12:26:33,768 INFO  FullProcessService - Size of directory with sources: 167 KB
+2019-08-02 12:26:33,769 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src]
+2019-08-02 12:26:33,786 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/.git/
 
-2018-12-25 11:35:47,207 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/gradlew
-2018-12-25 11:35:47,209 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/chernobyl/build.gradle
-2018-12-25 11:35:47,212 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/chernobyl/build.gradle
-2018-12-25 11:35:47,212 INFO  ProjectBuildService - Remote scripts: none
-2018-12-25 11:35:47,212 INFO  ProjectFixService - Fixing project...
-2018-12-25 11:35:47,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/app/local.properties
-2018-12-25 11:35:47,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
-2018-12-25 11:35:47,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/local.properties
-2018-12-25 11:35:47,220 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-25 11:35:47,220 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-25 11:35:47,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
-2018-12-25 11:35:47,221 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/chernobyl/local.properties
-2018-12-25 11:35:47,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/chernobyl/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
-2018-12-25 11:35:47,222 INFO  ProjectFixService - Project was maybe fixed
-2018-12-25 11:35:47,222 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:35:47,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:35:53,394 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-25 11:35:53,395 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-25 11:35:53,395 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-25 11:36:04,770 ERROR SysUtils - Could not process external command
+2019-08-02 12:26:33,788 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/gradlew
+2019-08-02 12:26:33,790 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/chernobyl/build.gradle
+2019-08-02 12:26:33,792 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/chernobyl/build.gradle
+2019-08-02 12:26:33,792 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 12:26:33,792 INFO  ProjectFixService - Fixing project...
+2019-08-02 12:26:33,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/app/local.properties
+2019-08-02 12:26:33,798 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
+2019-08-02 12:26:33,798 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/local.properties
+2019-08-02 12:26:33,798 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-02 12:26:33,799 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-02 12:26:33,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
+2019-08-02 12:26:33,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/chernobyl/local.properties
+2019-08-02 12:26:33,801 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/chernobyl/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=18,targetSdkVersion=23]
+2019-08-02 12:26:33,801 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 12:26:33,801 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:26:33,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:26:40,327 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-02 12:26:40,327 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 12:26:40,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 12:26:51,458 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,8 +40,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:36:04,770 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:26:51,458 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -233,14 +232,14 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 
 BUILD FAILED
 
-Total time: 10.728 secs
+Total time: 10.542 secs
 
-2018-12-25 11:36:04,807 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:36:04,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:36:10,244 INFO  ProjectTaskService - Detected possible tasks: 85
-2018-12-25 11:36:10,244 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-25 11:36:10,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-25 11:36:17,717 ERROR SysUtils - Could not process external command
+2019-08-02 12:26:51,492 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:26:51,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:26:58,401 INFO  ProjectTaskService - Detected possible tasks: 85
+2019-08-02 12:26:58,401 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 12:26:58,401 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 12:27:04,604 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -253,8 +252,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -268,7 +266,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:36:17,717 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:27:04,604 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -446,15 +444,15 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 
 BUILD FAILED
 
-Total time: 6.847 secs
+Total time: 5.653 secs
 
-2018-12-25 11:36:17,752 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:36:17,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/chernobyl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:36:23,447 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:36:23,448 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-25 11:36:23,448 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-25 11:36:23,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712546645-0/src/chernobyl-master/chernobyl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:36:26,862 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:27:04,647 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:27:04,647 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/chernobyl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:27:12,413 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:27:12,413 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 12:27:12,413 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 12:27:12,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723593185-0/src/chernobyl-master/chernobyl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:27:16,077 INFO  SysUtils - Configuration on demand is an incubating feature.
 :chernobyl:compileJava UP-TO-DATE
 :chernobyl:processResources UP-TO-DATE
 :chernobyl:classes UP-TO-DATE
@@ -469,7 +467,7 @@ Total time: 6.847 secs
 
 BUILD SUCCESSFUL
 
-Total time: 2.94 secs
+Total time: 3.191 secs
 
-2018-12-25 11:36:26,892 ERROR FullProcessService - Project build has not produced APK file
-2018-12-25 11:36:26,921 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 12:27:16,107 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 12:27:16,133 ERROR FullProcessService - Could not find generated or existed APK file

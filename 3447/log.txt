@@ -1,42 +1,42 @@
-2018-12-25 11:30:50,738 INFO  DownloadService - Downloading "https://github.com/maannajjar/lattekit/archive/master.zip", attempt 3
-2018-12-25 11:31:09,105 INFO  DownloadService - Downloaded https://github.com/maannajjar/lattekit/archive/master.zip, attempt 3
-2018-12-25 11:31:09,106 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/master.zip": 14 MB
-2018-12-25 11:31:09,106 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-25 11:31:09,114 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/master.zip: true
-2018-12-25 11:31:09,114 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src'.
-2018-12-25 11:31:09,313 INFO  FullProcessService - Size of directory with sources: 24 MB
-2018-12-25 11:31:09,313 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src]
-2018-12-25 11:31:09,331 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/.git/
+2019-08-02 12:22:32,976 INFO  DownloadService - Downloading "https://github.com/maannajjar/lattekit/archive/master.zip", attempt 3
+2019-08-02 12:22:47,936 INFO  DownloadService - Downloaded https://github.com/maannajjar/lattekit/archive/master.zip, attempt 3
+2019-08-02 12:22:47,936 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/master.zip": 14 MB
+2019-08-02 12:22:47,936 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 12:22:47,944 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/master.zip: true
+2019-08-02 12:22:47,945 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src'.
+2019-08-02 12:22:48,142 INFO  FullProcessService - Size of directory with sources: 24 MB
+2019-08-02 12:22:48,142 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src]
+2019-08-02 12:22:48,159 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/.git/
 
-2018-12-25 11:31:09,337 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/gradlew
-2018-12-25 11:31:09,343 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/gradle-plugin/build.gradle
-2018-12-25 11:31:09,347 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/settings.gradle
-2018-12-25 11:31:09,349 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-25 11:31:09,589 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-25 11:31:09,589 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-25 11:31:09,786 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-25 11:31:09,786 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-25 11:31:09,786 INFO  ProjectFixService - Fixing project...
-2018-12-25 11:31:09,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/local.properties
-2018-12-25 11:31:09,802 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-25 11:31:09,803 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-25 11:31:09,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-25 11:31:09,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/local.properties
-2018-12-25 11:31:09,804 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-25 11:31:09,805 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/local.properties
-2018-12-25 11:31:09,805 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-25 11:31:09,806 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-25 11:31:09,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-25 11:31:09,807 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/gradle-plugin/local.properties
-2018-12-25 11:31:09,808 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/gradle-plugin/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-25 11:31:09,809 INFO  ProjectFixService - Project was maybe fixed
-2018-12-25 11:31:09,809 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:31:09,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:31:32,033 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-25 11:31:32,034 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-12-25 11:31:32,034 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-12-25 11:31:32,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-12-25 11:31:37,130 ERROR SysUtils - Could not process external command
+2019-08-02 12:22:48,164 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/gradlew
+2019-08-02 12:22:48,169 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/gradle-plugin/build.gradle
+2019-08-02 12:22:48,173 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/settings.gradle
+2019-08-02 12:22:48,181 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-02 12:22:48,973 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-02 12:22:48,973 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-08-02 12:22:49,145 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-08-02 12:22:49,145 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-08-02 12:22:49,145 INFO  ProjectFixService - Fixing project...
+2019-08-02 12:22:49,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/local.properties
+2019-08-02 12:22:49,158 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-02 12:22:49,158 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-02 12:22:49,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 12:22:49,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/local.properties
+2019-08-02 12:22:49,159 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 12:22:49,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/local.properties
+2019-08-02 12:22:49,160 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-02 12:22:49,160 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-02 12:22:49,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 12:22:49,161 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/gradle-plugin/local.properties
+2019-08-02 12:22:49,162 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/gradle-plugin/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 12:22:49,162 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 12:22:49,163 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:22:49,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:22:55,044 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 12:22:55,045 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-02 12:22:55,045 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-02 12:22:55,046 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-02 12:23:00,172 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,8 +49,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -64,7 +63,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:31:37,130 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:23:00,172 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -93,7 +92,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_50qmdjhamxl06egiw3cdjgmnh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-core/build.gradle:81)
+	at build_9y6o8s22t2dml29kctokipvzs.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-core/build.gradle:81)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
@@ -172,14 +171,14 @@ Caused by: java.lang.ClassNotFoundException: org.gradle.internal.logging.Logging
 
 BUILD FAILED
 
-Total time: 4.599 secs
+Total time: 4.638 secs
 
-2018-12-25 11:31:37,137 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-25 11:31:37,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-25 11:31:45,786 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-12-25 11:31:45,786 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-25 11:31:45,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-25 11:31:50,943 ERROR SysUtils - Could not process external command
+2019-08-02 12:23:00,177 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:23:00,177 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:23:18,865 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-08-02 12:23:18,865 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 12:23:18,865 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 12:23:25,169 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -192,8 +191,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -207,7 +205,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:31:50,944 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:23:25,169 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 LOADING /Users/vbauer/Library/Android/sdk/platforms/android-23/android.jar
 
@@ -269,11 +267,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 4.64 secs
+Total time: 5.804 secs
 
-2018-12-25 11:31:50,944 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-25 11:31:50,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-25 11:32:33,063 ERROR SysUtils - Could not process external command
+2019-08-02 12:23:25,169 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-08-02 12:23:25,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 12:24:06,534 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -286,8 +284,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -301,7 +298,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-25 11:32:33,063 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:24:06,534 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 LOADING /Users/vbauer/Library/Android/sdk/platforms/android-23/android.jar
 :app:preBuild UP-TO-DATE
@@ -320,28 +317,28 @@ LOADING /Users/vbauer/Library/Android/sdk/platforms/android-23/android.jar
 :app:compileDebugRenderscript
 :app:generateDebugBuildConfig
 :app:generateDebugLatteSources
-Generating source dir [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java] to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/MainActivity.kt
-Complied /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/style/main.css to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/style/MainStylesheet.java
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/model/Person.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/ProfileView.kt
+Generating source dir [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java] to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/MainActivity.kt
+Complied /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/style/main.css to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/style/MainStylesheet.java
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/model/Person.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/ProfileView.kt
 Warning: couldn't recognize property data for ListView
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ListHeaderImpl.kt
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/PeopleDirectoryView.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ListHeaderImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/PeopleDirectoryView.kt
 Warning: couldn't recognize property onClick for RelativeLayout
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PeopleDirectoryViewImpl.kt
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PeopleListViewImpl.kt
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PeopleDirectoryViewImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PeopleListViewImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt
 :app:generateDebugAssets UP-TO-DATE
 :app:mergeDebugAssets
 :app:generateDebugLatteResources
-Generating source dir [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java] to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/MainActivity.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/model/Person.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/ProfileView.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/PeopleDirectoryView.kt
+Generating source dir [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java] to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/MainActivity.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/model/Person.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/ProfileView.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/PeopleDirectoryView.kt
 :app:generateDebugResValues
 :app:generateDebugResources
 :app:mergeDebugResources
@@ -349,49 +346,49 @@ Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/154571225073
 :app:processDebugResources
 :app:generateDebugSources
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ListHeaderImpl.kt: (31, 52): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ListHeaderImpl.kt: (36, 52): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (20, 17): Variable '__view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (24, 21): Variable '__propValue' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (44, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (46, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (52, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (65, 61): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (88, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (90, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (96, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (125, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (130, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (30, 57): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (58, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (60, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (66, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (93, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (95, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (101, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (114, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (119, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (143, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (148, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (20, 17): Variable '__view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (24, 21): Variable '__propValue' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (44, 54): Condition '__view.getDividerHeight() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (46, 65): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (52, 58): Condition '__view.getDividerHeight() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (63, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (65, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (71, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (84, 150): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (115, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (117, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (123, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (134, 54): Condition '__view.getOrientation() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (136, 63): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (142, 58): Condition '__view.getOrientation() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (159, 25): Variable '__view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (163, 29): Variable '__propValue' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (186, 60): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (191, 60): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ListHeaderImpl.kt: (31, 52): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ListHeaderImpl.kt: (36, 52): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (20, 17): Variable '__view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (24, 21): Variable '__propValue' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (44, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (46, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (52, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (65, 61): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (88, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (90, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (96, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (125, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonProfileCardImpl.kt: (130, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (30, 57): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (58, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (60, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (66, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (93, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (95, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (101, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (114, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (119, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (143, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/PersonRowViewImpl.kt: (148, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (20, 17): Variable '__view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (24, 21): Variable '__propValue' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (44, 54): Condition '__view.getDividerHeight() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (46, 65): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (52, 58): Condition '__view.getDividerHeight() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (63, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (65, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (71, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (84, 150): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (115, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (117, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (123, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (134, 54): Condition '__view.getOrientation() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (136, 63): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (142, 58): Condition '__view.getOrientation() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (159, 25): Variable '__view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (163, 29): Variable '__propValue' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (186, 60): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/debug/io/lattekit/samples/view/ProfileViewImpl.kt: (191, 60): No cast needed
 :app:compileDebugJavaWithJavac
 :app:compileDebugNdk UP-TO-DATE
 :app:compileDebugSources
@@ -411,28 +408,28 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/
 :app:compileReleaseRenderscript
 :app:generateReleaseBuildConfig
 :app:generateReleaseLatteSources
-Generating source dir [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java] to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/MainActivity.kt
-Complied /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/style/main.css to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/style/MainStylesheet.java
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/model/Person.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/ProfileView.kt
+Generating source dir [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java] to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/MainActivity.kt
+Complied /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/style/main.css to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/style/MainStylesheet.java
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/model/Person.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/ProfileView.kt
 Warning: couldn't recognize property data for ListView
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ListHeaderImpl.kt
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/PeopleDirectoryView.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ListHeaderImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/PeopleDirectoryView.kt
 Warning: couldn't recognize property onClick for RelativeLayout
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PeopleDirectoryViewImpl.kt
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PeopleListViewImpl.kt
-Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PeopleDirectoryViewImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PeopleListViewImpl.kt
+Wrote /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt
 :app:generateReleaseAssets UP-TO-DATE
 :app:mergeReleaseAssets
 :app:generateReleaseLatteResources
-Generating source dir [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java] to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/MainActivity.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/model/Person.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/ProfileView.kt
-Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/PeopleDirectoryView.kt
+Generating source dir [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java] to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/MainActivity.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/model/Person.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/ProfileView.kt
+Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/src/main/java/io/lattekit/samples/view/PeopleDirectoryView.kt
 :app:generateReleaseResValues
 :app:generateReleaseResources
 :app:mergeReleaseResources
@@ -440,49 +437,49 @@ Processing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/154571225073
 :app:processReleaseResources
 :app:generateReleaseSources
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ListHeaderImpl.kt: (31, 52): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ListHeaderImpl.kt: (36, 52): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (20, 17): Variable '__view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (24, 21): Variable '__propValue' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (44, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (46, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (52, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (65, 61): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (88, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (90, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (96, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (125, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (130, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (30, 57): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (58, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (60, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (66, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (93, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (95, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (101, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (114, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (119, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (143, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (148, 56): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (20, 17): Variable '__view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (24, 21): Variable '__propValue' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (44, 54): Condition '__view.getDividerHeight() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (46, 65): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (52, 58): Condition '__view.getDividerHeight() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (63, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (65, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (71, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (84, 150): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (115, 54): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (117, 54): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (123, 58): Condition '__view.getId() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (134, 54): Condition '__view.getOrientation() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (136, 63): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (142, 58): Condition '__view.getOrientation() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (159, 25): Variable '__view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (163, 29): Variable '__propValue' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (186, 60): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (191, 60): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ListHeaderImpl.kt: (31, 52): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ListHeaderImpl.kt: (36, 52): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (20, 17): Variable '__view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (24, 21): Variable '__propValue' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (44, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (46, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (52, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (65, 61): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (88, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (90, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (96, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (125, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonProfileCardImpl.kt: (130, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (30, 57): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (58, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (60, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (66, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (93, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (95, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (101, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (114, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (119, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (143, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/PersonRowViewImpl.kt: (148, 56): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (20, 17): Variable '__view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (24, 21): Variable '__propValue' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (44, 54): Condition '__view.getDividerHeight() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (46, 65): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (52, 58): Condition '__view.getDividerHeight() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (63, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (65, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (71, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (84, 150): This class shouldn't be used in Kotlin. Use kotlin.Any instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (115, 54): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (117, 54): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (123, 58): Condition '__view.getId() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (134, 54): Condition '__view.getOrientation() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (136, 63): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (142, 58): Condition '__view.getOrientation() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (159, 25): Variable '__view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (163, 29): Variable '__propValue' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (186, 60): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/generated/source/latte/release/io/lattekit/samples/view/ProfileViewImpl.kt: (191, 60): No cast needed
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseNdk UP-TO-DATE
 :app:compileReleaseSources
@@ -582,6 +579,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 41.418 secs
+Total time: 40.727 secs
 
-2018-12-25 11:32:33,138 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545712250735-0/src/lattekit-master/lattekit-samples/app/build/outputs/apk/app-debug.apk
+2019-08-02 12:24:06,596 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564723352973-0/src/lattekit-master/lattekit-samples/app/build/outputs/apk/app-debug.apk
