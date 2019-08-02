@@ -1,103 +1,37 @@
-2018-12-26 15:02:02,724 INFO  DownloadService - Downloading "https://github.com/GautamGupta/toolbar-button/archive/master.zip", attempt 3
-2018-12-26 15:02:09,995 INFO  DownloadService - Downloaded https://github.com/GautamGupta/toolbar-button/archive/master.zip, attempt 3
-2018-12-26 15:02:09,995 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/master.zip": 3 MB
-2018-12-26 15:02:09,996 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-26 15:02:10,002 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/master.zip: true
-2018-12-26 15:02:10,002 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src'.
-2018-12-26 15:02:10,053 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-12-26 15:02:10,054 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src]
-2018-12-26 15:02:10,071 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/.git/
+2019-08-02 13:44:16,114 INFO  DownloadService - Downloading "https://github.com/GautamGupta/toolbar-button/archive/master.zip", attempt 3
+2019-08-02 13:44:19,021 INFO  DownloadService - Downloaded https://github.com/GautamGupta/toolbar-button/archive/master.zip, attempt 3
+2019-08-02 13:44:19,022 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/master.zip": 3 MB
+2019-08-02 13:44:19,022 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 13:44:19,023 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/master.zip: true
+2019-08-02 13:44:19,023 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src'.
+2019-08-02 13:44:19,067 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-08-02 13:44:19,067 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src]
+2019-08-02 13:44:19,083 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/.git/
 
-2018-12-26 15:02:10,074 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/gradlew
-2018-12-26 15:02:10,078 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/toolbarbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/build.gradle
-2018-12-26 15:02:10,081 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/toolbarbutton/build.gradle
-2018-12-26 15:02:10,082 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/GautamGupta/JCenter/master/installv1.gradle", attempt 3
-2018-12-26 15:03:10,085 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/GautamGupta/JCenter/master/installv1.gradle"
-org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
-	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
-	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 15:03:10,085 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/GautamGupta/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-26 15:04:10,086 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/GautamGupta/JCenter/master/bintrayv1.gradle"
-org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
-	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
-	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 15:04:10,087 INFO  ProjectBuildService - Remote scripts: none
-2018-12-26 15:04:10,087 INFO  ProjectFixService - Fixing project...
-2018-12-26 15:04:10,098 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/app/local.properties
-2018-12-26 15:04:10,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-26 15:04:10,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/toolbarbutton/local.properties
-2018-12-26 15:04:10,100 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/toolbarbutton/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-26 15:04:10,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/local.properties
-2018-12-26 15:04:10,101 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-bin.zip
-2018-12-26 15:04:10,102 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-12-26 15:04:10,102 INFO  ProjectFixService - Project was maybe fixed
-2018-12-26 15:04:10,102 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 15:04:10,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 15:04:10,234 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 15:04:10,234 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 15:04:10,234 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 15:04:10,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 15:04:10,366 ERROR SysUtils - Could not process external command
+2019-08-02 13:44:19,085 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/gradlew
+2019-08-02 13:44:19,088 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/toolbarbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/build.gradle
+2019-08-02 13:44:19,091 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/toolbarbutton/build.gradle
+2019-08-02 13:44:19,091 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/GautamGupta/JCenter/master/installv1.gradle", attempt 3
+2019-08-02 13:44:19,378 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/GautamGupta/JCenter/master/installv1.gradle, attempt 3
+2019-08-02 13:44:19,378 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/GautamGupta/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-02 13:44:19,634 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/GautamGupta/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-02 13:44:19,634 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/GautamGupta/JCenter/master/installv1.gradle https://raw.githubusercontent.com/GautamGupta/JCenter/master/bintrayv1.gradle
+2019-08-02 13:44:19,634 INFO  ProjectFixService - Fixing project...
+2019-08-02 13:44:19,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/app/local.properties
+2019-08-02 13:44:19,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 13:44:19,643 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/toolbarbutton/local.properties
+2019-08-02 13:44:19,644 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/toolbarbutton/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 13:44:19,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/local.properties
+2019-08-02 13:44:19,645 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-bin.zip
+2019-08-02 13:44:19,646 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-02 13:44:19,646 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 13:44:19,646 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:44:19,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:44:19,807 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 13:44:19,807 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-02 13:44:19,807 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-02 13:44:19,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-02 13:44:19,935 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -110,7 +44,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -124,15 +59,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 15:04:10,366 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-08-02 13:44:19,935 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-12-26 15:04:10,371 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 15:04:10,371 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/toolbarbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 15:04:10,506 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 15:04:10,506 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 15:04:10,506 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 15:04:10,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/toolbarbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 15:04:10,637 ERROR SysUtils - Could not process external command
+2019-08-02 13:44:19,940 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:44:19,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/toolbarbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:44:20,099 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 13:44:20,099 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-02 13:44:20,099 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-02 13:44:20,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/toolbarbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-02 13:44:20,256 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -145,7 +80,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -159,15 +95,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 15:04:10,637 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-08-02 13:44:20,256 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-12-26 15:04:10,642 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 15:04:10,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 15:04:10,777 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 15:04:10,778 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 15:04:10,778 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 15:04:10,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811322721-0/src/toolbar-button-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 15:04:10,912 ERROR SysUtils - Could not process external command
+2019-08-02 13:44:20,260 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:44:20,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:44:20,391 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 13:44:20,391 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-02 13:44:20,391 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-02 13:44:20,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728256110-0/src/toolbar-button-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-02 13:44:20,516 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -180,7 +116,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -194,7 +131,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 15:04:10,912 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-08-02 13:44:20,516 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-12-26 15:04:10,916 ERROR FullProcessService - Project build has not produced APK file
-2018-12-26 15:04:10,920 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 13:44:20,519 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 13:44:20,522 ERROR FullProcessService - Could not find generated or existed APK file

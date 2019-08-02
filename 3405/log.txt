@@ -1,46 +1,46 @@
-2018-12-30 20:56:24,140 INFO  DownloadService - Downloading "https://github.com/nshmura/strictmode-notifier/archive/master.zip", attempt 3
-2018-12-30 20:56:28,350 INFO  DownloadService - Downloaded https://github.com/nshmura/strictmode-notifier/archive/master.zip, attempt 3
-2018-12-30 20:56:28,350 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/master.zip": 3 MB
-2018-12-30 20:56:28,350 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-30 20:56:28,352 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/master.zip: true
-2018-12-30 20:56:28,352 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src'.
-2018-12-30 20:56:28,411 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-12-30 20:56:28,411 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src]
-2018-12-30 20:56:28,429 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/.git/
+2019-08-02 14:02:26,725 INFO  DownloadService - Downloading "https://github.com/nshmura/strictmode-notifier/archive/master.zip", attempt 3
+2019-08-02 14:02:29,579 INFO  DownloadService - Downloaded https://github.com/nshmura/strictmode-notifier/archive/master.zip, attempt 3
+2019-08-02 14:02:29,580 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/master.zip": 3 MB
+2019-08-02 14:02:29,580 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 14:02:29,581 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/master.zip: true
+2019-08-02 14:02:29,581 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src'.
+2019-08-02 14:02:29,638 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-08-02 14:02:29,638 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src]
+2019-08-02 14:02:29,653 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/.git/
 
-2018-12-30 20:56:28,435 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/gradlew
-2018-12-30 20:56:28,442 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/build.gradle
-2018-12-30 20:56:28,448 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/settings.gradle
-2018-12-30 20:56:28,449 INFO  ProjectBuildService - Remote scripts: none
-2018-12-30 20:56:28,449 INFO  ProjectFixService - Fixing project...
-2018-12-30 20:56:28,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/demo/local.properties
-2018-12-30 20:56:28,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
-2018-12-30 20:56:28,464 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=28]
-2018-12-30 20:56:28,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-common/local.properties
-2018-12-30 20:56:28,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-common/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
-2018-12-30 20:56:28,470 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-common/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=28]
-2018-12-30 20:56:28,471 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-no-op/local.properties
-2018-12-30 20:56:28,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-no-op/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
-2018-12-30 20:56:28,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library-no-op/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=28]
-2018-12-30 20:56:28,473 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library/local.properties
-2018-12-30 20:56:28,475 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
-2018-12-30 20:56:28,475 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=28]
-2018-12-30 20:56:28,476 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/testapp/local.properties
-2018-12-30 20:56:28,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/testapp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
-2018-12-30 20:56:28,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/testapp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=28]
-2018-12-30 20:56:28,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/local.properties
-2018-12-30 20:56:28,479 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-30 20:56:28,479 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-30 20:56:28,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
-2018-12-30 20:56:28,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=28]
-2018-12-30 20:56:28,481 INFO  ProjectFixService - Project was maybe fixed
-2018-12-30 20:56:28,481 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-30 20:56:28,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-30 20:56:39,791 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-30 20:56:39,792 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-30 20:56:39,792 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-30 20:56:39,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-30 20:56:55,593 ERROR SysUtils - Could not process external command
+2019-08-02 14:02:29,658 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/gradlew
+2019-08-02 14:02:29,663 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/build.gradle
+2019-08-02 14:02:29,667 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-no-op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/settings.gradle
+2019-08-02 14:02:29,668 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 14:02:29,668 INFO  ProjectFixService - Fixing project...
+2019-08-02 14:02:29,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/demo/local.properties
+2019-08-02 14:02:29,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
+2019-08-02 14:02:29,680 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=29]
+2019-08-02 14:02:29,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-common/local.properties
+2019-08-02 14:02:29,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-common/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
+2019-08-02 14:02:29,683 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-common/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=29]
+2019-08-02 14:02:29,684 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-no-op/local.properties
+2019-08-02 14:02:29,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-no-op/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
+2019-08-02 14:02:29,685 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library-no-op/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=29]
+2019-08-02 14:02:29,686 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library/local.properties
+2019-08-02 14:02:29,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
+2019-08-02 14:02:29,687 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=29]
+2019-08-02 14:02:29,688 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/testapp/local.properties
+2019-08-02 14:02:29,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/testapp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
+2019-08-02 14:02:29,693 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/testapp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=29]
+2019-08-02 14:02:29,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/local.properties
+2019-08-02 14:02:29,694 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-02 14:02:29,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-02 14:02:29,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=<null>]
+2019-08-02 14:02:29,696 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=29]
+2019-08-02 14:02:29,696 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 14:02:29,696 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 14:02:29,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 14:02:39,876 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 14:02:39,876 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 14:02:39,876 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 14:02:39,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 14:02:53,352 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,7 +53,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -67,7 +67,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-30 20:56:55,593 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 14:02:53,352 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :demo:preBuild UP-TO-DATE
 :demo:preDebugBuild UP-TO-DATE
@@ -96,9 +96,9 @@ Incremental java compilation is an incubating feature.
 :library:processReleaseResources
 :library:generateReleaseSources
 :library:incrementalReleaseJavaCompilationSafeguard
-:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library/src/main/java/com/nshmura/strictmodenotifier/StrictModeNotifierInternals.java uses or overrides a deprecated API.
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library/src/main/java/com/nshmura/strictmodenotifier/StrictModeNotifierInternals.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/library/src/main/java/com/nshmura/strictmodenotifier/ViolationStore.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/library/src/main/java/com/nshmura/strictmodenotifier/ViolationStore.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :library:processReleaseJavaRes UP-TO-DATE
@@ -173,7 +173,7 @@ Merged dex #5 (43 defs/91.1KiB)
 Merged dex #6 (333 defs/261.0KiB)
 Merged dex #7 (34 defs/34.4KiB)
 Merged dex #8 (41 defs/6.5KiB)
-Result is 1568 defs/2329.3KiB. Took 0.3s
+Result is 1568 defs/2329.3KiB. Took 0.2s
 :demo:mergeDebugJniLibFolders
 :demo:transformNative_libsWithMergeJniLibsForDebug
 :demo:processDebugJavaRes UP-TO-DATE
@@ -299,6 +299,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 15.248 secs
+Total time: 12.938 secs
 
-2018-12-30 20:56:55,658 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546178184136-0/src/strictmode-notifier-master/demo/build/outputs/apk/demo-debug-unaligned.apk
+2019-08-02 14:02:53,400 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564729346721-0/src/strictmode-notifier-master/demo/build/outputs/apk/demo-debug-unaligned.apk

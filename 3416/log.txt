@@ -1,29 +1,29 @@
-2019-01-06 20:59:01,117 INFO  DownloadService - Downloading "https://github.com/ed-george/AndroidVimeoExtractor/archive/master.zip", attempt 3
-2019-01-06 20:59:01,719 INFO  DownloadService - Downloaded https://github.com/ed-george/AndroidVimeoExtractor/archive/master.zip, attempt 3
-2019-01-06 20:59:01,720 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/master.zip": 64 KB
-2019-01-06 20:59:01,720 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 20:59:01,720 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/master.zip: true
-2019-01-06 20:59:01,720 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src'.
-2019-01-06 20:59:01,729 INFO  FullProcessService - Size of directory with sources: 82 KB
-2019-01-06 20:59:01,729 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src]
-2019-01-06 20:59:01,755 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/.git/
+2019-08-02 13:45:45,698 INFO  DownloadService - Downloading "https://github.com/ed-george/AndroidVimeoExtractor/archive/master.zip", attempt 3
+2019-08-02 13:45:46,229 INFO  DownloadService - Downloaded https://github.com/ed-george/AndroidVimeoExtractor/archive/master.zip, attempt 3
+2019-08-02 13:45:46,230 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/master.zip": 64 KB
+2019-08-02 13:45:46,230 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 13:45:46,235 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/master.zip: true
+2019-08-02 13:45:46,235 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src'.
+2019-08-02 13:45:46,242 INFO  FullProcessService - Size of directory with sources: 82 KB
+2019-08-02 13:45:46,242 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src]
+2019-08-02 13:45:46,261 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/.git/
 
-2019-01-06 20:59:01,758 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/gradlew
-2019-01-06 20:59:01,761 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/build.gradle
-2019-01-06 20:59:01,763 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/settings.gradle
-2019-01-06 20:59:01,763 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 20:59:01,763 INFO  ProjectFixService - Fixing project...
-2019-01-06 20:59:01,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/local.properties
-2019-01-06 20:59:01,768 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-bin.zip
-2019-01-06 20:59:01,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-06 20:59:01,769 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-06 20:59:01,770 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 20:59:01,770 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 20:59:01,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 20:59:05,577 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-01-06 20:59:05,577 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-06 20:59:05,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783141113-0/src/AndroidVimeoExtractor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-06 20:59:09,312 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:45:46,262 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/gradlew
+2019-08-02 13:45:46,263 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/build.gradle
+2019-08-02 13:45:46,265 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/settings.gradle
+2019-08-02 13:45:46,265 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 13:45:46,265 INFO  ProjectFixService - Fixing project...
+2019-08-02 13:45:46,268 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/local.properties
+2019-08-02 13:45:46,268 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-bin.zip
+2019-08-02 13:45:46,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-02 13:45:46,269 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-02 13:45:46,269 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 13:45:46,269 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:45:46,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:45:50,142 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-08-02 13:45:50,143 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-08-02 13:45:50,143 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728345695-0/src/AndroidVimeoExtractor-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-08-02 13:45:53,556 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :compileJava
 > Task :processResources NO-SOURCE
 > Task :classes
@@ -34,5 +34,5 @@
 BUILD SUCCESSFUL in 3s
 2 actionable tasks: 2 executed
 
-2019-01-06 20:59:09,315 ERROR FullProcessService - Project build has not produced APK file
-2019-01-06 20:59:09,318 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 13:45:53,558 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 13:45:53,560 ERROR FullProcessService - Could not find generated or existed APK file

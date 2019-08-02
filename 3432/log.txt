@@ -1,33 +1,33 @@
-2018-12-26 12:24:23,016 INFO  DownloadService - Downloading "https://github.com/coomar2841/android-multipicker-library/archive/master.zip", attempt 3
-2018-12-26 12:24:24,124 INFO  DownloadService - Downloaded https://github.com/coomar2841/android-multipicker-library/archive/master.zip, attempt 3
-2018-12-26 12:24:24,124 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/master.zip": 311 KB
-2018-12-26 12:24:24,125 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-26 12:24:24,130 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/master.zip: true
-2018-12-26 12:24:24,131 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src'.
-2018-12-26 12:24:24,184 INFO  FullProcessService - Size of directory with sources: 502 KB
-2018-12-26 12:24:24,184 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src]
-2018-12-26 12:24:24,202 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/.git/
+2019-08-02 13:39:42,864 INFO  DownloadService - Downloading "https://github.com/coomar2841/android-multipicker-library/archive/master.zip", attempt 3
+2019-08-02 13:39:43,632 INFO  DownloadService - Downloaded https://github.com/coomar2841/android-multipicker-library/archive/master.zip, attempt 3
+2019-08-02 13:39:43,633 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/master.zip": 311 KB
+2019-08-02 13:39:43,633 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 13:39:43,634 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/master.zip: true
+2019-08-02 13:39:43,634 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src'.
+2019-08-02 13:39:43,683 INFO  FullProcessService - Size of directory with sources: 502 KB
+2019-08-02 13:39:43,683 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src]
+2019-08-02 13:39:43,699 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/.git/
 
-2018-12-26 12:24:24,207 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/gradlew
-2018-12-26 12:24:24,213 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/build.gradle
-2018-12-26 12:24:24,218 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/settings.gradle
-2018-12-26 12:24:24,218 INFO  ProjectBuildService - Remote scripts: none
-2018-12-26 12:24:24,218 INFO  ProjectFixService - Fixing project...
-2018-12-26 12:24:24,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/app/local.properties
-2018-12-26 12:24:24,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=25]
-2018-12-26 12:24:24,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/local.properties
-2018-12-26 12:24:24,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=25]
-2018-12-26 12:24:24,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/local.properties
-2018-12-26 12:24:24,233 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-12-26 12:24:24,233 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-12-26 12:24:24,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=25]
-2018-12-26 12:24:24,235 INFO  ProjectFixService - Project was maybe fixed
-2018-12-26 12:24:24,235 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 12:24:24,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 12:24:34,166 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-12-26 12:24:34,166 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-26 12:24:34,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-26 12:24:42,599 ERROR SysUtils - Could not process external command
+2019-08-02 13:39:43,704 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/gradlew
+2019-08-02 13:39:43,710 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/build.gradle
+2019-08-02 13:39:43,715 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/settings.gradle
+2019-08-02 13:39:43,716 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 13:39:43,716 INFO  ProjectFixService - Fixing project...
+2019-08-02 13:39:43,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/app/local.properties
+2019-08-02 13:39:43,728 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=25]
+2019-08-02 13:39:43,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/local.properties
+2019-08-02 13:39:43,729 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=25]
+2019-08-02 13:39:43,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/local.properties
+2019-08-02 13:39:43,730 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-08-02 13:39:43,731 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-08-02 13:39:43,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=25]
+2019-08-02 13:39:43,732 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 13:39:43,732 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:39:43,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:39:54,820 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-02 13:39:54,820 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 13:39:54,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 13:40:00,630 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,7 +40,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -54,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:24:42,600 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:40:00,630 INFO  SysUtils - Configuration on demand is an incubating feature.
 Signing...
 Project evaluation failed including an error in afterEvaluate {}.
 java.lang.IllegalStateException: compileSdkVersion is not specified.
@@ -194,7 +195,7 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle' line: 32
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle' line: 32
 
 * What went wrong:
 A problem occurred evaluating project ':multipicker'.
@@ -327,7 +328,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':mu
 Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 'sonatypeRepo' for object of type org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:86)
 	at org.gradle.internal.metaobject.ConfigureDelegate.getProperty(ConfigureDelegate.java:130)
-	at build_7gnphtvhbestw16qlfjgofr05$_run_closure2$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:32)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt$_run_closure2$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:32)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -342,7 +343,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at build_7gnphtvhbestw16qlfjgofr05$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:23)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:23)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
@@ -355,22 +356,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_7gnphtvhbestw16qlfjgofr05.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:21)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:21)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 118 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 5s
 
-2018-12-26 12:24:42,608 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 12:24:42,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 12:24:47,836 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 12:24:47,836 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 12:24:47,836 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 12:24:47,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 12:24:52,237 ERROR SysUtils - Could not process external command
+2019-08-02 13:40:00,636 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:40:00,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:40:04,407 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 13:40:04,407 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 13:40:04,407 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 13:40:04,407 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 13:40:08,261 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -383,7 +384,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -397,7 +399,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:24:52,237 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:40:08,261 INFO  SysUtils - Configuration on demand is an incubating feature.
 Signing...
 Project evaluation failed including an error in afterEvaluate {}.
 java.lang.IllegalStateException: compileSdkVersion is not specified.
@@ -516,7 +518,7 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle' line: 32
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle' line: 32
 
 * What went wrong:
 A problem occurred evaluating project ':multipicker'.
@@ -628,7 +630,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':mu
 Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 'sonatypeRepo' for object of type org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:86)
 	at org.gradle.internal.metaobject.ConfigureDelegate.getProperty(ConfigureDelegate.java:130)
-	at build_7gnphtvhbestw16qlfjgofr05$_run_closure2$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:32)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt$_run_closure2$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:32)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -643,7 +645,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at build_7gnphtvhbestw16qlfjgofr05$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:23)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:23)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
@@ -656,22 +658,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_7gnphtvhbestw16qlfjgofr05.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:21)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:21)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2018-12-26 12:24:52,245 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 12:24:52,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 12:24:59,631 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 12:24:59,631 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 12:24:59,631 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 12:24:59,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 12:25:07,592 ERROR SysUtils - Could not process external command
+2019-08-02 13:40:08,266 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:40:08,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:40:14,295 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 13:40:14,295 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 13:40:14,295 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 13:40:14,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 13:40:20,033 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -684,7 +686,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -698,7 +701,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:25:07,592 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:40:20,034 INFO  SysUtils - Configuration on demand is an incubating feature.
 Signing...
 Project evaluation failed including an error in afterEvaluate {}.
 java.lang.IllegalStateException: compileSdkVersion is not specified.
@@ -817,7 +820,7 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle' line: 32
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle' line: 32
 
 * What went wrong:
 A problem occurred evaluating project ':multipicker'.
@@ -929,7 +932,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':mu
 Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 'sonatypeRepo' for object of type org.gradle.api.publication.maven.internal.deployer.DefaultGroovyMavenDeployer.
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:86)
 	at org.gradle.internal.metaobject.ConfigureDelegate.getProperty(ConfigureDelegate.java:130)
-	at build_7gnphtvhbestw16qlfjgofr05$_run_closure2$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:32)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt$_run_closure2$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:32)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -944,7 +947,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.api.internal.artifacts.dsl.DefaultRepositoryHandler_Decorated.invokeMethod(Unknown Source)
-	at build_7gnphtvhbestw16qlfjgofr05$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:23)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:23)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
@@ -957,14 +960,14 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_7gnphtvhbestw16qlfjgofr05.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801863012-0/src/android-multipicker-library-master/multipicker/build.gradle:21)
+	at build_bsd6hi8etj5kwo3zbdwixr2rt.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727982860-0/src/android-multipicker-library-master/multipicker/build.gradle:21)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 5s
 
-2018-12-26 12:25:07,600 ERROR FullProcessService - Project build has not produced APK file
-2018-12-26 12:25:07,607 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 13:40:20,039 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 13:40:20,045 ERROR FullProcessService - Could not find generated or existed APK file

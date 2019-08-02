@@ -1,29 +1,29 @@
-2018-12-26 14:57:38,644 INFO  DownloadService - Downloading "https://github.com/mshockwave/PdfiumAndroid/archive/master.zip", attempt 3
-2018-12-26 14:58:26,559 INFO  DownloadService - Downloaded https://github.com/mshockwave/PdfiumAndroid/archive/master.zip, attempt 3
-2018-12-26 14:58:26,559 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/master.zip": 12 MB
-2018-12-26 14:58:26,559 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-26 14:58:26,566 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/master.zip: true
-2018-12-26 14:58:26,567 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src'.
-2018-12-26 14:58:26,803 INFO  FullProcessService - Size of directory with sources: 25 MB
-2018-12-26 14:58:26,803 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src]
-2018-12-26 14:58:26,825 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src/.git/
+2019-08-02 13:41:00,823 INFO  DownloadService - Downloading "https://github.com/mshockwave/PdfiumAndroid/archive/master.zip", attempt 3
+2019-08-02 13:41:09,547 INFO  DownloadService - Downloaded https://github.com/mshockwave/PdfiumAndroid/archive/master.zip, attempt 3
+2019-08-02 13:41:09,548 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/master.zip": 12 MB
+2019-08-02 13:41:09,548 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 13:41:09,549 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/master.zip: true
+2019-08-02 13:41:09,549 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src'.
+2019-08-02 13:41:09,782 INFO  FullProcessService - Size of directory with sources: 25 MB
+2019-08-02 13:41:09,782 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src]
+2019-08-02 13:41:09,799 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src/.git/
 
-2018-12-26 14:58:26,829 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-12-26 14:58:26,829 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-12-26 14:58:26,833 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src/PdfiumAndroid-master/build.gradle
-2018-12-26 14:58:26,837 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src/PdfiumAndroid-master/build.gradle
-2018-12-26 14:58:26,837 INFO  ProjectBuildService - Remote scripts: none
-2018-12-26 14:58:26,837 INFO  ProjectFixService - Fixing project...
-2018-12-26 14:58:26,845 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src/PdfiumAndroid-master/local.properties
-2018-12-26 14:58:26,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src/PdfiumAndroid-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
-2018-12-26 14:58:26,845 INFO  ProjectFixService - Project was maybe fixed
-2018-12-26 14:58:26,846 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 14:58:26,846 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src/PdfiumAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 14:58:26,855 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-12-26 14:58:26,855 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 14:58:26,855 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 14:58:26,855 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811058635-0/src/PdfiumAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 14:58:26,861 ERROR SysUtils - Could not process external command
+2019-08-02 13:41:09,802 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-08-02 13:41:09,802 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-08-02 13:41:09,805 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src/PdfiumAndroid-master/build.gradle
+2019-08-02 13:41:09,809 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src/PdfiumAndroid-master/build.gradle
+2019-08-02 13:41:09,809 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 13:41:09,809 INFO  ProjectFixService - Fixing project...
+2019-08-02 13:41:09,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src/PdfiumAndroid-master/local.properties
+2019-08-02 13:41:09,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src/PdfiumAndroid-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2019-08-02 13:41:09,816 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 13:41:09,818 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:41:09,818 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src/PdfiumAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:41:09,827 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-08-02 13:41:09,827 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 13:41:09,827 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 13:41:09,828 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728060813-0/src/PdfiumAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 13:41:09,832 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -61,6 +61,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-12-26 14:58:26,861 INFO  SysUtils - 
-2018-12-26 14:58:26,865 ERROR FullProcessService - Project build has not produced APK file
-2018-12-26 14:58:26,869 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 13:41:09,832 INFO  SysUtils - 
+2019-08-02 13:41:09,835 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 13:41:09,839 ERROR FullProcessService - Could not find generated or existed APK file

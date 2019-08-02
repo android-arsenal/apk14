@@ -1,31 +1,31 @@
-2018-12-26 15:05:17,021 INFO  DownloadService - Downloading "https://github.com/milosmns/circular-slider-android/archive/master.zip", attempt 3
-2018-12-26 15:05:20,372 INFO  DownloadService - Downloaded https://github.com/milosmns/circular-slider-android/archive/master.zip, attempt 3
-2018-12-26 15:05:20,372 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/master.zip": 869 KB
-2018-12-26 15:05:20,372 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-26 15:05:20,374 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/master.zip: true
-2018-12-26 15:05:20,375 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src'.
-2018-12-26 15:05:20,394 INFO  FullProcessService - Size of directory with sources: 976 KB
-2018-12-26 15:05:20,394 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src]
-2018-12-26 15:05:20,414 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/.git/
+2019-08-02 13:45:16,594 INFO  DownloadService - Downloading "https://github.com/milosmns/circular-slider-android/archive/master.zip", attempt 3
+2019-08-02 13:45:17,814 INFO  DownloadService - Downloaded https://github.com/milosmns/circular-slider-android/archive/master.zip, attempt 3
+2019-08-02 13:45:17,814 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/master.zip": 869 KB
+2019-08-02 13:45:17,814 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 13:45:17,820 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/master.zip: true
+2019-08-02 13:45:17,820 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src'.
+2019-08-02 13:45:17,839 INFO  FullProcessService - Size of directory with sources: 976 KB
+2019-08-02 13:45:17,839 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src]
+2019-08-02 13:45:17,859 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/.git/
 
-2018-12-26 15:05:20,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/gradlew
-2018-12-26 15:05:20,417 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/build.gradle
-2018-12-26 15:05:20,419 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/bintray_upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/pom_install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/settings.gradle
-2018-12-26 15:05:20,419 INFO  ProjectBuildService - Remote scripts: none
-2018-12-26 15:05:20,419 INFO  ProjectFixService - Fixing project...
-2018-12-26 15:05:20,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/slider/local.properties
-2018-12-26 15:05:20,425 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/slider/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=11,targetSdkVersion=22]
-2018-12-26 15:05:20,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/local.properties
-2018-12-26 15:05:20,426 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-12-26 15:05:20,426 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-12-26 15:05:20,428 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=11,targetSdkVersion=22]
-2018-12-26 15:05:20,428 INFO  ProjectFixService - Project was maybe fixed
-2018-12-26 15:05:20,428 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 15:05:20,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/slider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 15:05:28,718 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-26 15:05:28,718 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-26 15:05:28,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/slider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-26 15:05:34,994 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:45:17,860 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/gradlew
+2019-08-02 13:45:17,862 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/build.gradle
+2019-08-02 13:45:17,863 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/bintray_upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/pom_install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/settings.gradle
+2019-08-02 13:45:17,864 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 13:45:17,864 INFO  ProjectFixService - Fixing project...
+2019-08-02 13:45:17,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/slider/local.properties
+2019-08-02 13:45:17,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/slider/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=11,targetSdkVersion=22]
+2019-08-02 13:45:17,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/local.properties
+2019-08-02 13:45:17,870 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-08-02 13:45:17,870 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-08-02 13:45:17,873 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=11,targetSdkVersion=22]
+2019-08-02 13:45:17,873 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 13:45:17,873 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:45:17,873 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/slider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:45:24,617 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-08-02 13:45:24,617 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-02 13:45:24,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/slider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-02 13:45:33,652 INFO  SysUtils - Configuration on demand is an incubating feature.
 Creating Android javadoc!
 :slider:preBuild UP-TO-DATE
 :slider:preDebugBuild UP-TO-DATE
@@ -93,14 +93,14 @@ Creating Android javadoc!
 
 BUILD SUCCESSFUL
 
-Total time: 5.793 secs
+Total time: 8.566 secs
 
-2018-12-26 15:05:35,002 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 15:05:35,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 15:05:40,082 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-12-26 15:05:40,083 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-26 15:05:40,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811517018-0/src/circular-slider-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-26 15:05:45,149 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:45:33,658 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:45:33,658 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:45:41,161 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-08-02 13:45:41,162 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-02 13:45:41,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728316589-0/src/circular-slider-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-02 13:45:45,647 INFO  SysUtils - Configuration on demand is an incubating feature.
 Creating Android javadoc!
 :slider:preBuild UP-TO-DATE
 :slider:preDebugBuild UP-TO-DATE
@@ -168,7 +168,7 @@ Creating Android javadoc!
 
 BUILD SUCCESSFUL
 
-Total time: 4.571 secs
+Total time: 3.994 secs
 
-2018-12-26 15:05:45,157 ERROR FullProcessService - Project build has not produced APK file
-2018-12-26 15:05:45,165 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 13:45:45,653 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 13:45:45,659 ERROR FullProcessService - Could not find generated or existed APK file

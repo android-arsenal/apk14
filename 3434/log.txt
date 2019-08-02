@@ -1,37 +1,37 @@
-2018-12-26 12:23:13,254 INFO  DownloadService - Downloading "https://github.com/DisionCo/android-rtl-viewpager/archive/master.zip", attempt 3
-2018-12-26 12:23:13,909 INFO  DownloadService - Downloaded https://github.com/DisionCo/android-rtl-viewpager/archive/master.zip, attempt 3
-2018-12-26 12:23:13,909 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/master.zip": 105 KB
-2018-12-26 12:23:13,909 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-26 12:23:13,911 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/master.zip: true
-2018-12-26 12:23:13,911 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src'.
-2018-12-26 12:23:13,935 INFO  FullProcessService - Size of directory with sources: 120 KB
-2018-12-26 12:23:13,935 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src]
-2018-12-26 12:23:13,962 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/.git/
+2019-08-02 13:38:45,163 INFO  DownloadService - Downloading "https://github.com/DisionCo/android-rtl-viewpager/archive/master.zip", attempt 3
+2019-08-02 13:38:45,718 INFO  DownloadService - Downloaded https://github.com/DisionCo/android-rtl-viewpager/archive/master.zip, attempt 3
+2019-08-02 13:38:45,718 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/master.zip": 105 KB
+2019-08-02 13:38:45,718 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 13:38:45,723 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/master.zip: true
+2019-08-02 13:38:45,724 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src'.
+2019-08-02 13:38:45,744 INFO  FullProcessService - Size of directory with sources: 120 KB
+2019-08-02 13:38:45,744 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src]
+2019-08-02 13:38:45,763 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/.git/
 
-2018-12-26 12:23:13,967 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/gradlew
-2018-12-26 12:23:13,971 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/rtlviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/build.gradle
-2018-12-26 12:23:13,975 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/rtlviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/settings.gradle
-2018-12-26 12:23:13,975 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-26 12:23:14,193 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-26 12:23:14,193 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-26 12:23:14,405 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-26 12:23:14,405 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-26 12:23:14,405 INFO  ProjectFixService - Fixing project...
-2018-12-26 12:23:14,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/local.properties
-2018-12-26 12:23:14,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
-2018-12-26 12:23:14,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/rtlviewpager/local.properties
-2018-12-26 12:23:14,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/rtlviewpager/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
-2018-12-26 12:23:14,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/local.properties
-2018-12-26 12:23:14,419 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-12-26 12:23:14,419 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-12-26 12:23:14,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
-2018-12-26 12:23:14,421 INFO  ProjectFixService - Project was maybe fixed
-2018-12-26 12:23:14,421 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 12:23:14,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 12:23:30,545 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-12-26 12:23:30,545 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-26 12:23:30,546 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-26 12:23:37,017 ERROR SysUtils - Could not process external command
+2019-08-02 13:38:45,766 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/gradlew
+2019-08-02 13:38:45,770 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/rtlviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/build.gradle
+2019-08-02 13:38:45,773 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/rtlviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/settings.gradle
+2019-08-02 13:38:45,774 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-02 13:38:45,956 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-02 13:38:45,956 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-08-02 13:38:46,135 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-08-02 13:38:46,136 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-08-02 13:38:46,136 INFO  ProjectFixService - Fixing project...
+2019-08-02 13:38:46,147 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/local.properties
+2019-08-02 13:38:46,148 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
+2019-08-02 13:38:46,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/rtlviewpager/local.properties
+2019-08-02 13:38:46,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/rtlviewpager/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
+2019-08-02 13:38:46,150 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/local.properties
+2019-08-02 13:38:46,151 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-08-02 13:38:46,151 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-08-02 13:38:46,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
+2019-08-02 13:38:46,153 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 13:38:46,153 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:38:46,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:38:57,221 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-08-02 13:38:57,221 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 13:38:57,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 13:39:02,684 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:23:37,018 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:39:02,684 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -118,11 +119,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 5.969 secs
+Total time: 4.974 secs
 
-2018-12-26 12:23:37,018 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-26 12:23:37,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 12:24:11,743 ERROR SysUtils - Could not process external command
+2019-08-02 13:39:02,684 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-08-02 13:39:02,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 13:39:31,960 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -135,7 +136,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -149,7 +151,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:24:11,743 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:39:31,966 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -214,7 +216,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:processDebugManifest
 :app:processDebugResources
 :app:generateDebugSources
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/src/main/java/com/dision/android/rtlviewpagerexample/ui/DividerItemDecoration.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/src/main/java/com/dision/android/rtlviewpagerexample/ui/DividerItemDecoration.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileDebugNdk UP-TO-DATE
@@ -241,7 +243,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:processReleaseManifest
 :app:processReleaseResources
 :app:generateReleaseSources
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/src/main/java/com/dision/android/rtlviewpagerexample/ui/DividerItemDecoration.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/src/main/java/com/dision/android/rtlviewpagerexample/ui/DividerItemDecoration.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileReleaseNdk UP-TO-DATE
@@ -343,6 +345,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 34.166 secs
+Total time: 28.738 secs
 
-2018-12-26 12:24:11,843 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801793250-0/src/android-rtl-viewpager-master/app/build/outputs/apk/app-debug.apk
+2019-08-02 13:39:32,069 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564727925160-0/src/android-rtl-viewpager-master/app/build/outputs/apk/app-debug.apk

@@ -1,33 +1,33 @@
-2018-12-26 15:04:10,948 INFO  DownloadService - Downloading "https://github.com/carlospaulino/parrot/archive/master.zip", attempt 3
-2018-12-26 15:04:12,903 INFO  DownloadService - Downloaded https://github.com/carlospaulino/parrot/archive/master.zip, attempt 3
-2018-12-26 15:04:12,903 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/master.zip": 88 KB
-2018-12-26 15:04:12,903 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-26 15:04:12,906 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/master.zip: true
-2018-12-26 15:04:12,906 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src'.
-2018-12-26 15:04:12,928 INFO  FullProcessService - Size of directory with sources: 104 KB
-2018-12-26 15:04:12,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src]
-2018-12-26 15:04:12,951 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/.git/
+2019-08-02 13:44:20,556 INFO  DownloadService - Downloading "https://github.com/carlospaulino/parrot/archive/master.zip", attempt 3
+2019-08-02 13:44:21,054 INFO  DownloadService - Downloaded https://github.com/carlospaulino/parrot/archive/master.zip, attempt 3
+2019-08-02 13:44:21,054 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/master.zip": 88 KB
+2019-08-02 13:44:21,054 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 13:44:21,056 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/master.zip: true
+2019-08-02 13:44:21,056 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src'.
+2019-08-02 13:44:21,070 INFO  FullProcessService - Size of directory with sources: 104 KB
+2019-08-02 13:44:21,071 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src]
+2019-08-02 13:44:21,087 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/.git/
 
-2018-12-26 15:04:12,954 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/gradlew
-2018-12-26 15:04:12,958 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/parrot/build.gradle
-2018-12-26 15:04:12,962 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/parrot/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/settings.gradle
-2018-12-26 15:04:12,963 INFO  ProjectBuildService - Remote scripts: none
-2018-12-26 15:04:12,963 INFO  ProjectFixService - Fixing project...
-2018-12-26 15:04:12,971 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/sample/local.properties
-2018-12-26 15:04:12,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-26 15:04:12,972 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/local.properties
-2018-12-26 15:04:12,973 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-all.zip
-2018-12-26 15:04:12,973 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.12-bin.zip)
-2018-12-26 15:04:12,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-26 15:04:12,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/parrot/local.properties
-2018-12-26 15:04:12,976 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/parrot/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-26 15:04:12,976 INFO  ProjectFixService - Project was maybe fixed
-2018-12-26 15:04:12,976 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 15:04:12,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 15:04:37,542 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-12-26 15:04:37,542 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-26 15:04:37,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-26 15:04:44,281 ERROR SysUtils - Could not process external command
+2019-08-02 13:44:21,089 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/gradlew
+2019-08-02 13:44:21,092 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/parrot/build.gradle
+2019-08-02 13:44:21,094 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/parrot/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/settings.gradle
+2019-08-02 13:44:21,095 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 13:44:21,095 INFO  ProjectFixService - Fixing project...
+2019-08-02 13:44:21,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/sample/local.properties
+2019-08-02 13:44:21,100 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 13:44:21,101 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/local.properties
+2019-08-02 13:44:21,101 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-all.zip
+2019-08-02 13:44:21,102 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.12-bin.zip)
+2019-08-02 13:44:21,103 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 13:44:21,103 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/parrot/local.properties
+2019-08-02 13:44:21,104 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/parrot/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-02 13:44:21,104 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 13:44:21,104 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:44:21,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:44:38,000 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-08-02 13:44:38,000 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 13:44:38,000 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 13:44:44,317 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,7 +40,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -54,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 15:04:44,281 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:44:44,317 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild UP-TO-DATE
@@ -158,14 +159,14 @@ Caused by: java.lang.IllegalStateException: Missing Google Translate Api Key
 
 BUILD FAILED
 
-Total time: 6.245 secs
+Total time: 5.833 secs
 
-2018-12-26 15:04:44,301 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 15:04:44,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 15:04:51,094 INFO  ProjectTaskService - Detected possible tasks: 91
-2018-12-26 15:04:51,095 INFO  ProjectTaskService - Excluded tasks (21): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-26 15:04:51,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-26 15:05:00,121 ERROR SysUtils - Could not process external command
+2019-08-02 13:44:44,334 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:44:44,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:44:53,396 INFO  ProjectTaskService - Detected possible tasks: 91
+2019-08-02 13:44:53,396 INFO  ProjectTaskService - Excluded tasks (21): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 13:44:53,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 13:45:01,443 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -178,7 +179,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -192,7 +194,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 15:05:00,121 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:45:01,443 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :parrot:compileJava UP-TO-DATE
 :parrot:compileGroovy
@@ -304,15 +306,15 @@ Caused by: java.lang.IllegalStateException: Missing Google Translate Api Key
 
 BUILD FAILED
 
-Total time: 8.497 secs
+Total time: 7.489 secs
 
-2018-12-26 15:05:00,142 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 15:05:00,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/parrot/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 15:05:07,141 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-26 15:05:07,142 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-26 15:05:07,142 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-26 15:05:07,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545811450945-0/src/parrot-master/parrot/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 15:05:16,876 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 13:45:01,461 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 13:45:01,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/parrot/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 13:45:07,979 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-02 13:45:07,979 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-02 13:45:07,979 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-02 13:45:07,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728260552-0/src/parrot-master/parrot/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-02 13:45:16,456 INFO  SysUtils - Configuration on demand is an incubating feature.
 :parrot:compileJava UP-TO-DATE
 :parrot:compileGroovy UP-TO-DATE
 :parrot:processResources UP-TO-DATE
@@ -322,7 +324,6 @@ Total time: 8.497 secs
 :parrot:assemble UP-TO-DATE
 :parrot:compileTestJava UP-TO-DATE
 :parrot:compileTestGroovy
-Download https://jcenter.bintray.com/org/easytesting/fest-assert/1.4/fest-assert-1.4.pom
 Download https://jcenter.bintray.com/org/easytesting/fest-assert/1.4/fest-assert-1.4.jar
 :parrot:processTestResources
 :parrot:testClasses
@@ -332,7 +333,7 @@ Download https://jcenter.bintray.com/org/easytesting/fest-assert/1.4/fest-assert
 
 BUILD SUCCESSFUL
 
-Total time: 9.224 secs
+Total time: 7.972 secs
 
-2018-12-26 15:05:16,898 ERROR FullProcessService - Project build has not produced APK file
-2018-12-26 15:05:16,917 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-02 13:45:16,474 ERROR FullProcessService - Project build has not produced APK file
+2019-08-02 13:45:16,492 ERROR FullProcessService - Could not find generated or existed APK file
