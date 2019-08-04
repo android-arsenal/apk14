@@ -1,36 +1,33 @@
-2019-01-02 18:19:30,628 INFO  DownloadService - Downloading "https://github.com/paolorotolo/GittyReporter/archive/master.zip", attempt 3
-2019-01-02 18:20:31,234 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-02 18:20:32,282 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-02 18:20:32,282 INFO  DownloadService - Downloading "https://github.com/paolorotolo/GittyReporter/archive/master.zip", attempt 3
-2019-01-02 18:21:33,570 DEBUG FullProcessService - Repository https://github.com/paolorotolo/GittyReporter available: true
-2019-01-02 18:21:33,570 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-02 18:21:33,570 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/paolorotolo/GittyReporter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src]
-2019-01-02 18:21:35,905 INFO  SysUtils - 
-2019-01-02 18:21:35,913 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/.git": true
-2019-01-02 18:21:35,918 INFO  FullProcessService - Size of directory with sources: 737 KB
-2019-01-02 18:21:35,918 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src]
-2019-01-02 18:21:35,935 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/.git/
+2019-08-04 20:45:26,479 INFO  DownloadService - Downloading "https://github.com/paolorotolo/GittyReporter/archive/master.zip", attempt 3
+2019-08-04 20:45:27,746 INFO  DownloadService - Downloaded https://github.com/paolorotolo/GittyReporter/archive/master.zip, attempt 3
+2019-08-04 20:45:27,746 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/master.zip": 644 KB
+2019-08-04 20:45:27,746 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-04 20:45:27,747 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/master.zip: true
+2019-08-04 20:45:27,747 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src'.
+2019-08-04 20:45:27,779 INFO  FullProcessService - Size of directory with sources: 737 KB
+2019-08-04 20:45:27,779 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src]
+2019-08-04 20:45:27,799 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/.git/
 
-2019-01-02 18:21:35,939 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/gradlew
-2019-01-02 18:21:35,943 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/build.gradle
-2019-01-02 18:21:35,947 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/settings.gradle
-2019-01-02 18:21:35,948 INFO  ProjectBuildService - Remote scripts: none
-2019-01-02 18:21:35,948 INFO  ProjectFixService - Fixing project...
-2019-01-02 18:21:35,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/example/local.properties
-2019-01-02 18:21:35,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/example/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-02 18:21:35,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/library/local.properties
-2019-01-02 18:21:35,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/library/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-02 18:21:35,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/local.properties
-2019-01-02 18:21:35,960 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
-2019-01-02 18:21:35,960 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
-2019-01-02 18:21:35,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-02 18:21:35,961 INFO  ProjectFixService - Project was maybe fixed
-2019-01-02 18:21:35,962 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 18:21:35,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 18:21:54,281 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-01-02 18:21:54,281 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
-2019-01-02 18:21:54,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
-2019-01-02 18:22:19,442 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-04 20:45:27,802 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/gradlew
+2019-08-04 20:45:27,806 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/build.gradle
+2019-08-04 20:45:27,809 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/settings.gradle
+2019-08-04 20:45:27,809 INFO  ProjectBuildService - Remote scripts: none
+2019-08-04 20:45:27,809 INFO  ProjectFixService - Fixing project...
+2019-08-04 20:45:27,817 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/example/local.properties
+2019-08-04 20:45:27,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/example/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-04 20:45:27,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/library/local.properties
+2019-08-04 20:45:27,818 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/library/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-04 20:45:27,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/local.properties
+2019-08-04 20:45:27,819 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-08-04 20:45:27,819 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-08-04 20:45:27,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-04 20:45:27,820 INFO  ProjectFixService - Project was maybe fixed
+2019-08-04 20:45:27,820 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:45:27,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:45:39,364 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-08-04 20:45:39,364 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2019-08-04 20:45:39,364 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2019-08-04 20:46:03,992 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example:preBuild UP-TO-DATE
 :example:preDebugBuild UP-TO-DATE
 :example:checkDebugManifest
@@ -63,7 +60,7 @@
 :library:processReleaseResources
 :library:generateReleaseSources
 :library:processReleaseJavaRes UP-TO-DATE
-:library:compileReleaseJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/library/src/main/java/com/github/paolorotolo/gitty_reporter/GittyReporter.java uses or overrides a deprecated API.
+:library:compileReleaseJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/library/src/main/java/com/github/paolorotolo/gitty_reporter/GittyReporter.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :library:extractReleaseAnnotations
@@ -81,7 +78,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :example:prepareComAndroidSupportRecyclerviewV72103Library
 :example:prepareComAndroidSupportSupportV42301Library
 :example:prepareComMelnykovFloatingactionbutton130Library
-:example:prepareSrcLibraryUnspecifiedLibrary
+:example:prepareGittyReporterMasterLibraryUnspecifiedLibrary
 :example:prepareDebugDependencies
 :example:compileDebugAidl
 :example:compileDebugRenderscript
@@ -131,6 +128,6 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 24.621 secs
+Total time: 24.107 secs
 
-2019-01-02 18:22:19,520 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546427970625-0/src/example/build/outputs/apk/example-debug-unaligned.apk
+2019-08-04 20:46:04,058 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926326477-0/src/GittyReporter-master/example/build/outputs/apk/example-debug-unaligned.apk

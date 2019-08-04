@@ -1,33 +1,35 @@
-2019-01-02 18:31:26,872 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxJavaJoins/archive/master.zip", attempt 3
-2019-01-02 18:32:27,433 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-02 18:32:28,760 INFO  GithubDownloadService - Default branch of this repository: 0.x
-2019-01-02 18:32:28,760 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxJavaJoins/archive/0.x.zip", attempt 3
-2019-01-02 18:33:30,176 DEBUG FullProcessService - Repository https://github.com/ReactiveX/RxJavaJoins available: true
-2019-01-02 18:33:30,176 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-02 18:33:30,176 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ReactiveX/RxJavaJoins, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src]
-2019-01-02 18:33:32,242 INFO  SysUtils - 
-2019-01-02 18:33:32,267 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/.git": true
-2019-01-02 18:33:32,269 INFO  FullProcessService - Size of directory with sources: 222 KB
-2019-01-02 18:33:32,269 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src]
-2019-01-02 18:33:32,286 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/.git/
+2019-08-04 20:47:49,341 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxJavaJoins/archive/master.zip", attempt 3
+2019-08-04 20:47:54,859 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxJavaJoins/archive/master.zip", attempt 2
+2019-08-04 20:48:01,002 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxJavaJoins/archive/master.zip", attempt 1
+2019-08-04 20:49:01,276 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-04 20:49:02,601 INFO  GithubDownloadService - Default branch of this repository: 0.x
+2019-08-04 20:49:02,602 INFO  DownloadService - Downloading "https://github.com/ReactiveX/RxJavaJoins/archive/0.x.zip", attempt 3
+2019-08-04 20:50:03,973 DEBUG FullProcessService - Repository https://github.com/ReactiveX/RxJavaJoins available: true
+2019-08-04 20:50:03,974 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-04 20:50:03,974 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ReactiveX/RxJavaJoins, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src]
+2019-08-04 20:50:06,405 INFO  SysUtils - 
+2019-08-04 20:50:06,430 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/.git": true
+2019-08-04 20:50:06,431 INFO  FullProcessService - Size of directory with sources: 222 KB
+2019-08-04 20:50:06,431 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src]
+2019-08-04 20:50:06,449 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/.git/
 
-2019-01-02 18:33:32,288 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/gradlew
-2019-01-02 18:33:32,289 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/build.gradle
-2019-01-02 18:33:32,291 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/settings.gradle
-2019-01-02 18:33:32,291 INFO  ProjectBuildService - Remote scripts: none
-2019-01-02 18:33:32,291 INFO  ProjectFixService - Fixing project...
-2019-01-02 18:33:32,296 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/local.properties
-2019-01-02 18:33:32,296 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-bin.zip
-2019-01-02 18:33:32,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-02 18:33:32,297 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-02 18:33:32,297 INFO  ProjectFixService - Project was maybe fixed
-2019-01-02 18:33:32,297 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 18:33:32,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 18:34:52,137 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-02 18:34:52,138 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-02 18:34:52,138 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-02 18:34:52,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-02 18:34:56,612 ERROR SysUtils - Could not process external command
+2019-08-04 20:50:06,451 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/gradlew
+2019-08-04 20:50:06,452 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/build.gradle
+2019-08-04 20:50:06,453 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/settings.gradle
+2019-08-04 20:50:06,454 INFO  ProjectBuildService - Remote scripts: none
+2019-08-04 20:50:06,454 INFO  ProjectFixService - Fixing project...
+2019-08-04 20:50:06,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/local.properties
+2019-08-04 20:50:06,459 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-bin.zip
+2019-08-04 20:50:06,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-04 20:50:06,459 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-04 20:50:06,460 INFO  ProjectFixService - Project was maybe fixed
+2019-08-04 20:50:06,460 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:50:06,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:50:39,761 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:50:39,761 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:50:39,761 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:50:39,761 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:50:44,800 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,7 +42,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -54,13 +56,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-02 18:34:56,612 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-04 20:50:44,800 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 org.gradle.listener.ListenerNotificationException: Failed to notify project evaluation listener.
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:94)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -187,7 +189,7 @@ Cause 1: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -314,7 +316,7 @@ Cause 2: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -441,7 +443,7 @@ Cause 3: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -568,7 +570,7 @@ Cause 4: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -695,7 +697,7 @@ Cause 5: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -822,7 +824,7 @@ Cause 6: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -949,7 +951,7 @@ Cause 7: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -1076,7 +1078,7 @@ Cause 8: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -1203,7 +1205,7 @@ Cause 9: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:83)
 	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy13.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy12.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:79)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:65)
 	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:504)
@@ -1248,7 +1250,7 @@ Cause 9: org.ajoberstar.grgit.exception.GrgitException: No commit found for revi
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/build.gradle' line: 7
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/build.gradle' line: 7
 
 * What went wrong:
 A problem occurred evaluating root project 'rxjava-joins'.
@@ -1305,7 +1307,7 @@ Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to
 	at org.gradle.api.Project$apply$0.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_d1pessr3yady44tzk8ptblr8g.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428686869-0/src/build.gradle:7)
+	at build_31w6gmg7jiwlwco1ridqwk3ki.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926469338-0/src/build.gradle:7)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:52)
 	... 35 more
 Caused by: org.ajoberstar.grgit.exception.GrgitException: No commit found for revision string: HEAD
@@ -1356,7 +1358,7 @@ Caused by: org.ajoberstar.grgit.exception.GrgitException: No commit found for re
 
 BUILD FAILED
 
-Total time: 3.994 secs
+Total time: 4.523 secs
 
-2019-01-02 18:34:56,622 ERROR FullProcessService - Project build has not produced APK file
-2019-01-02 18:34:56,625 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-04 20:50:44,809 ERROR FullProcessService - Project build has not produced APK file
+2019-08-04 20:50:44,811 ERROR FullProcessService - Could not find generated or existed APK file

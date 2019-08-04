@@ -1,37 +1,34 @@
-2019-01-02 18:28:58,579 INFO  DownloadService - Downloading "https://github.com/Aspsine/FragmentNavigator/archive/master.zip", attempt 3
-2019-01-02 18:29:59,609 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-02 18:30:00,573 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-02 18:30:00,573 INFO  DownloadService - Downloading "https://github.com/Aspsine/FragmentNavigator/archive/master.zip", attempt 3
-2019-01-02 18:31:02,061 DEBUG FullProcessService - Repository https://github.com/Aspsine/FragmentNavigator available: true
-2019-01-02 18:31:02,061 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-02 18:31:02,061 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Aspsine/FragmentNavigator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src]
-2019-01-02 18:31:06,659 INFO  SysUtils - 
-2019-01-02 18:31:06,668 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/.git": true
-2019-01-02 18:31:06,672 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-01-02 18:31:06,672 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src]
-2019-01-02 18:31:06,689 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/.git/
+2019-08-04 20:47:27,448 INFO  DownloadService - Downloading "https://github.com/Aspsine/FragmentNavigator/archive/master.zip", attempt 3
+2019-08-04 20:47:29,757 INFO  DownloadService - Downloaded https://github.com/Aspsine/FragmentNavigator/archive/master.zip, attempt 3
+2019-08-04 20:47:29,757 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/master.zip": 1 MB
+2019-08-04 20:47:29,757 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-04 20:47:29,757 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/master.zip: true
+2019-08-04 20:47:29,758 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src'.
+2019-08-04 20:47:29,790 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-04 20:47:29,790 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src]
+2019-08-04 20:47:29,816 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/.git/
 
-2019-01-02 18:31:06,693 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/gradlew
-2019-01-02 18:31:06,696 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/build.gradle
-2019-01-02 18:31:06,700 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/settings.gradle
-2019-01-02 18:31:06,700 INFO  ProjectBuildService - Remote scripts: none
-2019-01-02 18:31:06,700 INFO  ProjectFixService - Fixing project...
-2019-01-02 18:31:06,708 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/app/local.properties
-2019-01-02 18:31:06,709 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
-2019-01-02 18:31:06,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/library/local.properties
-2019-01-02 18:31:06,709 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/library/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=24]
-2019-01-02 18:31:06,710 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/local.properties
-2019-01-02 18:31:06,710 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-01-02 18:31:06,710 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-01-02 18:31:06,711 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
-2019-01-02 18:31:06,711 INFO  ProjectFixService - Project was maybe fixed
-2019-01-02 18:31:06,711 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 18:31:06,711 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 18:31:15,087 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-02 18:31:15,087 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-02 18:31:15,087 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-02 18:31:15,088 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-02 18:31:19,419 ERROR SysUtils - Could not process external command
+2019-08-04 20:47:29,819 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/gradlew
+2019-08-04 20:47:29,823 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/build.gradle
+2019-08-04 20:47:29,826 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/settings.gradle
+2019-08-04 20:47:29,826 INFO  ProjectBuildService - Remote scripts: none
+2019-08-04 20:47:29,826 INFO  ProjectFixService - Fixing project...
+2019-08-04 20:47:29,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/app/local.properties
+2019-08-04 20:47:29,833 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
+2019-08-04 20:47:29,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/library/local.properties
+2019-08-04 20:47:29,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/library/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=10,targetSdkVersion=24]
+2019-08-04 20:47:29,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/local.properties
+2019-08-04 20:47:29,834 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-08-04 20:47:29,835 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-08-04 20:47:29,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
+2019-08-04 20:47:29,835 INFO  ProjectFixService - Project was maybe fixed
+2019-08-04 20:47:29,835 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-04 20:47:29,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-04 20:47:37,795 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-04 20:47:37,795 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-04 20:47:37,795 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-04 20:47:37,795 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-04 20:47:42,355 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-02 18:31:19,420 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-04 20:47:42,355 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -248,6 +245,6 @@ Searched in the following locations:
 
 BUILD FAILED
 
-Total time: 3.845 secs
+Total time: 4.086 secs
 
-2019-01-02 18:31:19,425 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546428538576-0/src/art/demo.apk
+2019-08-04 20:47:42,359 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564926447446-0/src/FragmentNavigator-master/art/demo.apk
