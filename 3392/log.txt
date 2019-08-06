@@ -1,41 +1,38 @@
-2019-01-02 19:17:04,962 INFO  DownloadService - Downloading "https://github.com/AvinashSKaranth/android-summernote/archive/master.zip", attempt 3
-2019-01-02 19:18:05,524 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-02 19:18:06,442 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-02 19:18:06,443 INFO  DownloadService - Downloading "https://github.com/AvinashSKaranth/android-summernote/archive/master.zip", attempt 3
-2019-01-02 19:19:08,114 DEBUG FullProcessService - Repository https://github.com/AvinashSKaranth/android-summernote available: true
-2019-01-02 19:19:08,114 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-02 19:19:08,114 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AvinashSKaranth/android-summernote, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src]
-2019-01-02 19:19:10,242 INFO  SysUtils - 
-2019-01-02 19:19:10,250 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/.git": true
-2019-01-02 19:19:10,253 INFO  FullProcessService - Size of directory with sources: 512 KB
-2019-01-02 19:19:10,253 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src]
-2019-01-02 19:19:10,271 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/.git/
+2019-08-06 12:48:38,125 INFO  DownloadService - Downloading "https://github.com/AvinashSKaranth/android-summernote/archive/master.zip", attempt 3
+2019-08-06 12:48:39,138 INFO  DownloadService - Downloaded https://github.com/AvinashSKaranth/android-summernote/archive/master.zip, attempt 3
+2019-08-06 12:48:39,138 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/master.zip": 244 KB
+2019-08-06 12:48:39,138 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-06 12:48:39,144 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/master.zip: true
+2019-08-06 12:48:39,144 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src'.
+2019-08-06 12:48:39,168 INFO  FullProcessService - Size of directory with sources: 512 KB
+2019-08-06 12:48:39,168 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src]
+2019-08-06 12:48:39,185 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/.git/
 
-2019-01-02 19:19:10,274 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/gradlew
-2019-01-02 19:19:10,278 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/build.gradle
-2019-01-02 19:19:10,281 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/build.gradle
-2019-01-02 19:19:10,282 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle", attempt 3
-2019-01-02 19:19:10,461 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle, attempt 3
-2019-01-02 19:19:10,461 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle", attempt 3
-2019-01-02 19:19:10,641 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle, attempt 3
-2019-01-02 19:19:10,642 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle
-2019-01-02 19:19:10,642 INFO  ProjectFixService - Fixing project...
-2019-01-02 19:19:10,653 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/local.properties
-2019-01-02 19:19:10,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2019-01-02 19:19:10,654 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/app/local.properties
-2019-01-02 19:19:10,654 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2019-01-02 19:19:10,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/local.properties
-2019-01-02 19:19:10,655 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2019-01-02 19:19:10,655 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2019-01-02 19:19:10,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2019-01-02 19:19:10,656 INFO  ProjectFixService - Project was maybe fixed
-2019-01-02 19:19:10,656 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 19:19:10,657 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 19:19:18,558 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-02 19:19:18,558 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-01-02 19:19:18,558 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-01-02 19:19:18,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-01-02 19:19:23,790 ERROR SysUtils - Could not process external command
+2019-08-06 12:48:39,188 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/gradlew
+2019-08-06 12:48:39,191 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/build.gradle
+2019-08-06 12:48:39,193 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/build.gradle
+2019-08-06 12:48:39,194 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle", attempt 3
+2019-08-06 12:48:39,535 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle, attempt 3
+2019-08-06 12:48:39,535 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle", attempt 3
+2019-08-06 12:48:39,765 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle, attempt 3
+2019-08-06 12:48:39,765 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle
+2019-08-06 12:48:39,765 INFO  ProjectFixService - Fixing project...
+2019-08-06 12:48:39,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/local.properties
+2019-08-06 12:48:39,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-08-06 12:48:39,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/app/local.properties
+2019-08-06 12:48:39,777 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-08-06 12:48:39,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/local.properties
+2019-08-06 12:48:39,778 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-08-06 12:48:39,778 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-08-06 12:48:39,779 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-08-06 12:48:39,779 INFO  ProjectFixService - Project was maybe fixed
+2019-08-06 12:48:39,779 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:48:39,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:48:51,712 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-06 12:48:51,713 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-06 12:48:51,713 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-06 12:48:51,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-06 12:48:56,695 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,8 +45,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -63,14 +59,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-02 19:19:23,790 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:48:56,695 INFO  SysUtils - Configuration on demand is an incubating feature.
 [Fatal Error] :5:5: Element type "application" must be followed by either attribute specifications, ">" or "/>".
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 A problem occurred configuring project ':androidsummernote'.
-> Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/src/main/AndroidManifest.xml
+> Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/src/main/AndroidManifest.xml
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -126,7 +122,7 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/src/main/AndroidManifest.xml
+Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/src/main/AndroidManifest.xml
 	at com.android.builder.core.VariantConfiguration.getPackageFromManifest(VariantConfiguration.java:998)
 	at com.android.build.gradle.internal.LibraryTaskManager$13.call(LibraryTaskManager.java:384)
 	at com.android.build.gradle.internal.LibraryTaskManager$13.call(LibraryTaskManager.java:333)
@@ -157,22 +153,22 @@ Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
 
 
 BUILD FAILED
 
-Total time: 4.736 secs
+Total time: 4.464 secs
 
-2019-01-02 19:19:23,794 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 19:19:23,795 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 19:19:29,735 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-02 19:19:29,735 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-01-02 19:19:29,735 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-01-02 19:19:29,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-01-02 19:19:35,170 ERROR SysUtils - Could not process external command
+2019-08-06 12:48:56,699 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:48:56,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:49:02,137 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-06 12:49:02,138 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-06 12:49:02,138 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-06 12:49:02,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-06 12:49:07,072 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -185,8 +181,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -200,7 +195,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-02 19:19:35,170 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:49:07,073 INFO  SysUtils - Configuration on demand is an incubating feature.
 [Fatal Error] :5:5: Element type "application" must be followed by either attribute specifications, ">" or "/>".
 
 FAILURE: Build failed with an exception.
@@ -208,7 +203,7 @@ FAILURE: Build failed with an exception.
 * What went wrong:
 A problem occurred configuring project ':app'.
 > A problem occurred configuring project ':androidsummernote'.
-   > Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/src/main/AndroidManifest.xml
+   > Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/src/main/AndroidManifest.xml
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -308,7 +303,7 @@ Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred conf
 	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
-Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/src/main/AndroidManifest.xml
+Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/src/main/AndroidManifest.xml
 	at com.android.builder.core.VariantConfiguration.getPackageFromManifest(VariantConfiguration.java:998)
 	at com.android.build.gradle.internal.LibraryTaskManager$13.call(LibraryTaskManager.java:384)
 	at com.android.build.gradle.internal.LibraryTaskManager$13.call(LibraryTaskManager.java:333)
@@ -346,15 +341,15 @@ Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var
 
 BUILD FAILED
 
-Total time: 4.94 secs
+Total time: 4.411 secs
 
-2019-01-02 19:19:35,175 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 19:19:35,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 19:19:40,756 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-02 19:19:40,757 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-01-02 19:19:40,757 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-01-02 19:19:40,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-01-02 19:19:46,454 ERROR SysUtils - Could not process external command
+2019-08-06 12:49:07,076 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:49:07,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:49:12,127 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-06 12:49:12,128 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-06 12:49:12,128 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-06 12:49:12,128 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-06 12:49:17,065 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -367,8 +362,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -382,14 +376,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-02 19:19:46,454 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:49:17,065 INFO  SysUtils - Configuration on demand is an incubating feature.
 [Fatal Error] :5:5: Element type "application" must be followed by either attribute specifications, ">" or "/>".
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 A problem occurred configuring project ':androidsummernote'.
-> Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/src/main/AndroidManifest.xml
+> Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/src/main/AndroidManifest.xml
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -446,7 +440,7 @@ org.gradle.api.ProjectConfigurationException: A problem occurred configuring pro
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431424959-0/src/androidsummernote/src/main/AndroidManifest.xml
+Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070518120-0/src/android-summernote-master/androidsummernote/src/main/AndroidManifest.xml
 	at com.android.builder.core.VariantConfiguration.getPackageFromManifest(VariantConfiguration.java:998)
 	at com.android.build.gradle.internal.LibraryTaskManager$13.call(LibraryTaskManager.java:384)
 	at com.android.build.gradle.internal.LibraryTaskManager$13.call(LibraryTaskManager.java:333)
@@ -477,14 +471,14 @@ Caused by: java.lang.RuntimeException: Cannot read packageName from /private/var
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 48 more
 
 
 BUILD FAILED
 
-Total time: 5.173 secs
+Total time: 4.415 secs
 
-2019-01-02 19:19:46,458 ERROR FullProcessService - Project build has not produced APK file
-2019-01-02 19:19:46,463 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-06 12:49:17,069 ERROR FullProcessService - Project build has not produced APK file
+2019-08-06 12:49:17,072 ERROR FullProcessService - Could not find generated or existed APK file

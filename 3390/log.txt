@@ -1,39 +1,36 @@
-2019-01-02 19:22:43,559 INFO  DownloadService - Downloading "https://github.com/android-cjj/JJSearchViewAnim/archive/master.zip", attempt 3
-2019-01-02 19:23:44,183 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-02 19:23:45,025 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-02 19:23:45,025 INFO  DownloadService - Downloading "https://github.com/android-cjj/JJSearchViewAnim/archive/master.zip", attempt 3
-2019-01-02 19:24:46,948 DEBUG FullProcessService - Repository https://github.com/android-cjj/JJSearchViewAnim available: true
-2019-01-02 19:24:46,949 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-02 19:24:46,949 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/android-cjj/JJSearchViewAnim, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src]
-2019-01-02 19:24:49,727 INFO  SysUtils - 
-2019-01-02 19:24:49,736 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/.git": true
-2019-01-02 19:24:49,740 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-01-02 19:24:49,740 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src]
-2019-01-02 19:24:49,758 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/.git/
+2019-08-06 12:49:17,103 INFO  DownloadService - Downloading "https://github.com/android-cjj/JJSearchViewAnim/archive/master.zip", attempt 3
+2019-08-06 12:49:19,070 INFO  DownloadService - Downloaded https://github.com/android-cjj/JJSearchViewAnim/archive/master.zip, attempt 3
+2019-08-06 12:49:19,071 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/master.zip": 1 MB
+2019-08-06 12:49:19,071 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-06 12:49:19,071 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/master.zip: true
+2019-08-06 12:49:19,071 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src'.
+2019-08-06 12:49:19,098 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-06 12:49:19,098 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src]
+2019-08-06 12:49:19,117 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/.git/
 
-2019-01-02 19:24:49,762 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/gradlew
-2019-01-02 19:24:49,765 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/build.gradle
-2019-01-02 19:24:49,768 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/settings.gradle
-2019-01-02 19:24:49,768 INFO  ProjectBuildService - Remote scripts: none
-2019-01-02 19:24:49,768 INFO  ProjectFixService - Fixing project...
-2019-01-02 19:24:49,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/app/local.properties
-2019-01-02 19:24:49,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/app/build.gradle": [buildToolsVersion=24.0.0 rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-02 19:24:49,776 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-02 19:24:49,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/library/local.properties
-2019-01-02 19:24:49,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/library/build.gradle": [buildToolsVersion=24.0.0 rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-02 19:24:49,778 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-02 19:24:49,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/local.properties
-2019-01-02 19:24:49,779 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-01-02 19:24:49,779 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-01-02 19:24:49,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-02 19:24:49,780 INFO  ProjectFixService - Project was maybe fixed
-2019-01-02 19:24:49,780 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 19:24:49,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 19:24:55,698 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-02 19:24:55,698 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-02 19:24:55,698 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-02 19:24:55,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-02 19:25:00,307 ERROR SysUtils - Could not process external command
+2019-08-06 12:49:19,120 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/gradlew
+2019-08-06 12:49:19,123 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/build.gradle
+2019-08-06 12:49:19,126 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/settings.gradle
+2019-08-06 12:49:19,126 INFO  ProjectBuildService - Remote scripts: none
+2019-08-06 12:49:19,126 INFO  ProjectFixService - Fixing project...
+2019-08-06 12:49:19,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/app/local.properties
+2019-08-06 12:49:19,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/app/build.gradle": [buildToolsVersion=24.0.0 rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-06 12:49:19,133 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-06 12:49:19,134 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/library/local.properties
+2019-08-06 12:49:19,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/library/build.gradle": [buildToolsVersion=24.0.0 rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-06 12:49:19,134 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-06 12:49:19,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/local.properties
+2019-08-06 12:49:19,135 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-06 12:49:19,136 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-06 12:49:19,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-06 12:49:19,136 INFO  ProjectFixService - Project was maybe fixed
+2019-08-06 12:49:19,136 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:49:19,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:49:24,626 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-06 12:49:24,626 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-06 12:49:24,626 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-06 12:49:24,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-06 12:49:28,732 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,8 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -61,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-02 19:25:00,307 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-06 12:49:28,732 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -150,13 +146,13 @@ Caused by: java.lang.IllegalStateException: failed to find Build Tools revision 
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 4.129 secs
+Total time: 3.571 secs
 
-2019-01-02 19:25:00,311 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546431763555-0/src/apk/app-debug.apk
+2019-08-06 12:49:28,735 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070557100-0/src/JJSearchViewAnim-master/apk/app-debug.apk

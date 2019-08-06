@@ -1,33 +1,33 @@
-2019-08-02 13:51:58,167 INFO  DownloadService - Downloading "https://github.com/gabrielittner/auto-value-with/archive/master.zip", attempt 3
-2019-08-02 13:52:00,288 INFO  DownloadService - Downloaded https://github.com/gabrielittner/auto-value-with/archive/master.zip, attempt 3
-2019-08-02 13:52:00,288 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/master.zip": 71 KB
-2019-08-02 13:52:00,288 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-02 13:52:00,293 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/master.zip: true
-2019-08-02 13:52:00,293 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src'.
-2019-08-02 13:52:00,302 INFO  FullProcessService - Size of directory with sources: 103 KB
-2019-08-02 13:52:00,302 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src]
-2019-08-02 13:52:00,324 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/.git/
+2019-08-06 12:47:07,570 INFO  DownloadService - Downloading "https://github.com/gabrielittner/auto-value-with/archive/master.zip", attempt 3
+2019-08-06 12:47:08,090 INFO  DownloadService - Downloaded https://github.com/gabrielittner/auto-value-with/archive/master.zip, attempt 3
+2019-08-06 12:47:08,090 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/master.zip": 71 KB
+2019-08-06 12:47:08,090 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-06 12:47:08,095 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/master.zip: true
+2019-08-06 12:47:08,095 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src'.
+2019-08-06 12:47:08,103 INFO  FullProcessService - Size of directory with sources: 103 KB
+2019-08-06 12:47:08,103 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src]
+2019-08-06 12:47:08,123 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/.git/
 
-2019-08-02 13:52:00,326 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/gradlew
-2019-08-02 13:52:00,328 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/auto-value-with/build.gradle
-2019-08-02 13:52:00,329 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/auto-value-with/build.gradle
-2019-08-02 13:52:00,329 INFO  ProjectBuildService - Remote scripts: none
-2019-08-02 13:52:00,329 INFO  ProjectFixService - Fixing project...
-2019-08-02 13:52:00,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/local.properties
-2019-08-02 13:52:00,335 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-08-02 13:52:00,335 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-08-02 13:52:00,336 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-02 13:52:00,337 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-02 13:52:00,338 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/auto-value-with/local.properties
-2019-08-02 13:52:00,339 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/auto-value-with/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-02 13:52:00,339 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/auto-value-with/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-02 13:52:00,340 INFO  ProjectFixService - Project was maybe fixed
-2019-08-02 13:52:00,340 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-02 13:52:00,340 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-02 13:52:16,385 INFO  ProjectTaskService - Detected possible tasks: 48
-2019-08-02 13:52:16,385 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-08-02 13:52:16,385 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-08-02 13:52:27,010 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2019-08-06 12:47:08,125 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/gradlew
+2019-08-06 12:47:08,126 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/auto-value-with/build.gradle
+2019-08-06 12:47:08,128 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/auto-value-with/build.gradle
+2019-08-06 12:47:08,128 INFO  ProjectBuildService - Remote scripts: none
+2019-08-06 12:47:08,128 INFO  ProjectFixService - Fixing project...
+2019-08-06 12:47:08,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/local.properties
+2019-08-06 12:47:08,134 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-08-06 12:47:08,134 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-08-06 12:47:08,135 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-06 12:47:08,135 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-06 12:47:08,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/auto-value-with/local.properties
+2019-08-06 12:47:08,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/auto-value-with/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-06 12:47:08,137 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/auto-value-with/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-06 12:47:08,137 INFO  ProjectFixService - Project was maybe fixed
+2019-08-06 12:47:08,138 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:47:08,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:47:14,412 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-08-06 12:47:14,412 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-08-06 12:47:14,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-08-06 12:47:20,843 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -44,15 +44,15 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 > Task :auto-value-with:assemble
 > Task :auto-value-with:build
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 5s
 5 actionable tasks: 5 executed
 
-2019-08-02 13:52:27,015 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-02 13:52:27,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/auto-value-with/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-02 13:52:32,191 INFO  ProjectTaskService - Detected possible tasks: 47
-2019-08-02 13:52:32,191 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-08-02 13:52:32,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564728718162-0/src/auto-value-with-master/auto-value-with/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-08-02 13:52:38,633 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2019-08-06 12:47:20,847 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-06 12:47:20,847 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/auto-value-with/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-06 12:47:25,848 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-08-06 12:47:25,848 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-08-06 12:47:25,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565070427565-0/src/auto-value-with-master/auto-value-with/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-08-06 12:47:31,396 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :auto-value-with:compileJava UP-TO-DATE
@@ -66,8 +66,8 @@ Configuration on demand is an incubating feature.
 > Task :auto-value-with:assemble
 > Task :auto-value-with:build
 
-BUILD SUCCESSFUL in 5s
+BUILD SUCCESSFUL in 4s
 5 actionable tasks: 2 executed, 3 up-to-date
 
-2019-08-02 13:52:38,637 ERROR FullProcessService - Project build has not produced APK file
-2019-08-02 13:52:38,640 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-06 12:47:31,400 ERROR FullProcessService - Project build has not produced APK file
+2019-08-06 12:47:31,404 ERROR FullProcessService - Could not find generated or existed APK file
