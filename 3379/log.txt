@@ -1,31 +1,31 @@
-2019-01-03 16:52:27,419 INFO  DownloadService - Downloading "https://github.com/eggheadgames/Siren/archive/master.zip", attempt 3
-2019-01-03 16:52:29,567 INFO  DownloadService - Downloaded https://github.com/eggheadgames/Siren/archive/master.zip, attempt 3
-2019-01-03 16:52:29,567 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/master.zip": 232 KB
-2019-01-03 16:52:29,567 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-03 16:52:29,569 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/master.zip: true
-2019-01-03 16:52:29,569 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src'.
-2019-01-03 16:52:29,590 INFO  FullProcessService - Size of directory with sources: 275 KB
-2019-01-03 16:52:29,590 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src]
-2019-01-03 16:52:29,608 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/.git/
+2019-08-09 13:03:32,661 INFO  DownloadService - Downloading "https://github.com/eggheadgames/Siren/archive/master.zip", attempt 3
+2019-08-09 13:03:33,339 INFO  DownloadService - Downloaded https://github.com/eggheadgames/Siren/archive/master.zip, attempt 3
+2019-08-09 13:03:33,340 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/master.zip": 232 KB
+2019-08-09 13:03:33,340 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-09 13:03:33,345 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/master.zip: true
+2019-08-09 13:03:33,345 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src'.
+2019-08-09 13:03:33,367 INFO  FullProcessService - Size of directory with sources: 275 KB
+2019-08-09 13:03:33,367 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src]
+2019-08-09 13:03:33,386 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/.git/
 
-2019-01-03 16:52:29,612 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/gradlew
-2019-01-03 16:52:29,615 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/build.gradle
-2019-01-03 16:52:29,618 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/settings.gradle
-2019-01-03 16:52:29,618 INFO  ProjectBuildService - Remote scripts: none
-2019-01-03 16:52:29,619 INFO  ProjectFixService - Fixing project...
-2019-01-03 16:52:29,625 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/local.properties
-2019-01-03 16:52:29,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-01-03 16:52:29,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/local.properties
-2019-01-03 16:52:29,627 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-01-03 16:52:29,627 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-01-03 16:52:29,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-01-03 16:52:29,628 INFO  ProjectFixService - Project was maybe fixed
-2019-01-03 16:52:29,628 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:52:29,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:52:52,099 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-01-03 16:52:52,099 INFO  ProjectTaskService - Excluded tasks (18): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-03 16:52:52,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-03 16:53:05,660 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:03:33,389 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/gradlew
+2019-08-09 13:03:33,391 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/build.gradle
+2019-08-09 13:03:33,393 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/settings.gradle
+2019-08-09 13:03:33,393 INFO  ProjectBuildService - Remote scripts: none
+2019-08-09 13:03:33,394 INFO  ProjectFixService - Fixing project...
+2019-08-09 13:03:33,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/local.properties
+2019-08-09 13:03:33,400 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-08-09 13:03:33,400 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/local.properties
+2019-08-09 13:03:33,400 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-09 13:03:33,401 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-09 13:03:33,401 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-08-09 13:03:33,402 INFO  ProjectFixService - Project was maybe fixed
+2019-08-09 13:03:33,402 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:03:33,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:03:46,544 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-08-09 13:03:46,545 INFO  ProjectTaskService - Excluded tasks (18): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-09 13:03:46,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-09 13:03:57,311 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -63,7 +63,7 @@ Incremental java compilation is an incubating feature.
 :library:incrementalDebugJavaCompilationSafeguard
 :library:compileDebugJavaWithJavac
 :library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/src/main/java/com/eggheadgames/siren/SirenHelper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/src/main/java/com/eggheadgames/siren/SirenHelper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :library:extractDebugAnnotations
 :library:mergeDebugProguardFiles
@@ -98,7 +98,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :library:incrementalReleaseJavaCompilationSafeguard
 :library:compileReleaseJavaWithJavac
 :library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/library/src/main/java/com/eggheadgames/siren/SirenHelper.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/library/src/main/java/com/eggheadgames/siren/SirenHelper.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :library:extractReleaseAnnotations
 :library:mergeReleaseProguardFiles
@@ -118,14 +118,14 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 13.051 secs
+Total time: 10.253 secs
 
-2019-01-03 16:53:05,757 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:53:05,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:53:12,669 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-01-03 16:53:12,669 INFO  ProjectTaskService - Excluded tasks (18): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-03 16:53:12,669 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509147414-0/src/Siren-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-03 16:53:19,317 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:03:57,359 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:03:57,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:04:02,997 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-08-09 13:04:02,998 INFO  ProjectTaskService - Excluded tasks (18): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-09 13:04:02,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330612656-0/src/Siren-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-09 13:04:08,951 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -212,7 +212,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 6.11 secs
+Total time: 5.45 secs
 
-2019-01-03 16:53:19,408 ERROR FullProcessService - Project build has not produced APK file
-2019-01-03 16:53:19,490 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-09 13:04:09,005 ERROR FullProcessService - Project build has not produced APK file
+2019-08-09 13:04:09,051 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,33 +1,33 @@
-2019-01-03 16:47:46,372 INFO  DownloadService - Downloading "https://github.com/prashantsolanki3/Synthesize/archive/master.zip", attempt 3
-2019-01-03 16:47:48,413 INFO  DownloadService - Downloaded https://github.com/prashantsolanki3/Synthesize/archive/master.zip, attempt 3
-2019-01-03 16:47:48,413 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/master.zip": 108 KB
-2019-01-03 16:47:48,413 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-03 16:47:48,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/master.zip: true
-2019-01-03 16:47:48,418 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src'.
-2019-01-03 16:47:48,438 INFO  FullProcessService - Size of directory with sources: 114 KB
-2019-01-03 16:47:48,439 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src]
-2019-01-03 16:47:48,457 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/.git/
+2019-08-09 12:59:34,825 INFO  DownloadService - Downloading "https://github.com/prashantsolanki3/Synthesize/archive/master.zip", attempt 3
+2019-08-09 12:59:35,454 INFO  DownloadService - Downloaded https://github.com/prashantsolanki3/Synthesize/archive/master.zip, attempt 3
+2019-08-09 12:59:35,454 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/master.zip": 108 KB
+2019-08-09 12:59:35,455 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-09 12:59:35,456 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/master.zip: true
+2019-08-09 12:59:35,457 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src'.
+2019-08-09 12:59:35,480 INFO  FullProcessService - Size of directory with sources: 114 KB
+2019-08-09 12:59:35,480 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src]
+2019-08-09 12:59:35,501 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/.git/
 
-2019-01-03 16:47:48,461 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/gradlew
-2019-01-03 16:47:48,465 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/synthesize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/build.gradle
-2019-01-03 16:47:48,468 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/synthesize/build.gradle
-2019-01-03 16:47:48,469 INFO  ProjectBuildService - Remote scripts: none
-2019-01-03 16:47:48,469 INFO  ProjectFixService - Fixing project...
-2019-01-03 16:47:48,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/local.properties
-2019-01-03 16:47:48,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2019-01-03 16:47:48,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/synthesize/local.properties
-2019-01-03 16:47:48,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/synthesize/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2019-01-03 16:47:48,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/local.properties
-2019-01-03 16:47:48,480 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2019-01-03 16:47:48,480 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2019-01-03 16:47:48,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2019-01-03 16:47:48,481 INFO  ProjectFixService - Project was maybe fixed
-2019-01-03 16:47:48,481 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:47:48,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:47:56,240 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-01-03 16:47:56,240 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-03 16:47:56,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-03 16:48:07,763 ERROR SysUtils - Could not process external command
+2019-08-09 12:59:35,504 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/gradlew
+2019-08-09 12:59:35,509 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/synthesize/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/build.gradle
+2019-08-09 12:59:35,512 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/synthesize/build.gradle
+2019-08-09 12:59:35,512 INFO  ProjectBuildService - Remote scripts: none
+2019-08-09 12:59:35,512 INFO  ProjectFixService - Fixing project...
+2019-08-09 12:59:35,521 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/local.properties
+2019-08-09 12:59:35,522 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-08-09 12:59:35,523 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/synthesize/local.properties
+2019-08-09 12:59:35,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/synthesize/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-08-09 12:59:35,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/local.properties
+2019-08-09 12:59:35,525 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-08-09 12:59:35,525 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-08-09 12:59:35,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-08-09 12:59:35,526 INFO  ProjectFixService - Project was maybe fixed
+2019-08-09 12:59:35,527 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:59:35,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:59:42,165 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-09 12:59:42,165 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-09 12:59:42,165 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-09 12:59:53,562 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:48:07,763 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 12:59:53,562 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -117,10 +117,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:processDebugManifest
 :app:processDebugResources
 :app:generateDebugSources
-:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/src/main/java/com/prashantsolanki/synthesizesample/MainActivity.java:37: error: <anonymous com.prashantsolanki.synthesizesample.MainActivity$2> is not abstract and does not override abstract method onSuccess(Bitmap,File) in OnSaveListener
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/src/main/java/com/prashantsolanki/synthesizesample/MainActivity.java:37: error: <anonymous com.prashantsolanki.synthesizesample.MainActivity$2> is not abstract and does not override abstract method onSuccess(Bitmap,File) in OnSaveListener
         commons.addOnSaveListener(new Synthesize.OnSaveListener() {
                                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/src/main/java/com/prashantsolanki/synthesizesample/MainActivity.java:38: error: method does not override or implement a method from a supertype
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/src/main/java/com/prashantsolanki/synthesizesample/MainActivity.java:38: error: method does not override or implement a method from a supertype
             @Override
             ^
 2 errors
@@ -221,15 +221,15 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 11.02 secs
+Total time: 10.859 secs
 
-2019-01-03 16:48:07,838 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:48:07,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/synthesize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:48:13,428 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-03 16:48:13,429 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-03 16:48:13,429 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-03 16:48:13,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/synthesize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-03 16:48:22,665 ERROR SysUtils - Could not process external command
+2019-08-09 12:59:53,629 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 12:59:53,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/synthesize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 12:59:58,670 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 12:59:58,670 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-09 12:59:58,670 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-09 12:59:58,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/synthesize/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-09 13:00:06,800 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -257,7 +257,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:48:22,665 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:00:06,801 INFO  SysUtils - Configuration on demand is an incubating feature.
 :synthesize:preBuild UP-TO-DATE
 :synthesize:preDebugBuild UP-TO-DATE
 :synthesize:compileDebugNdk UP-TO-DATE
@@ -425,14 +425,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.751 secs
+Total time: 7.632 secs
 
-2019-01-03 16:48:22,759 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:48:22,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:48:28,174 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-01-03 16:48:28,174 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-03 16:48:28,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-03 16:48:34,210 ERROR SysUtils - Could not process external command
+2019-08-09 13:00:06,871 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:00:06,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:00:12,463 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-08-09 13:00:12,464 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-09 13:00:12,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-09 13:00:18,238 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -460,7 +460,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:48:34,210 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:00:18,238 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -522,10 +522,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:processDebugManifest UP-TO-DATE
 :app:processDebugResources UP-TO-DATE
 :app:generateDebugSources UP-TO-DATE
-:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/src/main/java/com/prashantsolanki/synthesizesample/MainActivity.java:37: error: <anonymous com.prashantsolanki.synthesizesample.MainActivity$2> is not abstract and does not override abstract method onSuccess(Bitmap,File) in OnSaveListener
+:app:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/src/main/java/com/prashantsolanki/synthesizesample/MainActivity.java:37: error: <anonymous com.prashantsolanki.synthesizesample.MainActivity$2> is not abstract and does not override abstract method onSuccess(Bitmap,File) in OnSaveListener
         commons.addOnSaveListener(new Synthesize.OnSaveListener() {
                                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546508866369-0/src/Synthesize-master/app/src/main/java/com/prashantsolanki/synthesizesample/MainActivity.java:38: error: method does not override or implement a method from a supertype
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330374819-0/src/Synthesize-master/app/src/main/java/com/prashantsolanki/synthesizesample/MainActivity.java:38: error: method does not override or implement a method from a supertype
             @Override
             ^
 2 errors
@@ -626,7 +626,7 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 5.558 secs
+Total time: 5.282 secs
 
-2019-01-03 16:48:34,299 ERROR FullProcessService - Project build has not produced APK file
-2019-01-03 16:48:34,384 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-09 13:00:18,305 ERROR FullProcessService - Project build has not produced APK file
+2019-08-09 13:00:18,366 ERROR FullProcessService - Could not find generated or existed APK file

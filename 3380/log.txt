@@ -1,52 +1,46 @@
-2019-01-03 16:51:23,812 INFO  DownloadService - Downloading "https://github.com/eyedol/voto-java-sdk/archive/master.zip", attempt 3
-2019-01-03 16:51:25,758 INFO  DownloadService - Downloaded https://github.com/eyedol/voto-java-sdk/archive/master.zip, attempt 3
-2019-01-03 16:51:25,759 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/master.zip": 185 KB
-2019-01-03 16:51:25,759 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-03 16:51:25,764 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/master.zip: true
-2019-01-03 16:51:25,769 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src'.
-2019-01-03 16:51:25,851 INFO  FullProcessService - Size of directory with sources: 339 KB
-2019-01-03 16:51:25,851 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src]
-2019-01-03 16:51:25,873 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/.git/
+2019-08-09 13:02:38,485 INFO  DownloadService - Downloading "https://github.com/eyedol/voto-java-sdk/archive/master.zip", attempt 3
+2019-08-09 13:02:39,247 INFO  DownloadService - Downloaded https://github.com/eyedol/voto-java-sdk/archive/master.zip, attempt 3
+2019-08-09 13:02:39,248 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/master.zip": 185 KB
+2019-08-09 13:02:39,248 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-09 13:02:39,253 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/master.zip: true
+2019-08-09 13:02:39,254 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src'.
+2019-08-09 13:02:39,298 INFO  FullProcessService - Size of directory with sources: 339 KB
+2019-08-09 13:02:39,298 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src]
+2019-08-09 13:02:39,316 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/.git/
 
-2019-01-03 16:51:25,881 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew
-2019-01-03 16:51:25,890 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto/build.gradle
-2019-01-03 16:51:25,898 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradle-config/bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradle-config/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradle-config/jacoco-codecoverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradle-config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle
-2019-01-03 16:51:25,899 INFO  ProjectBuildService - Remote scripts: none
-2019-01-03 16:51:25,899 INFO  ProjectFixService - Fixing project...
-2019-01-03 16:51:25,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/local.properties
-2019-01-03 16:51:25,917 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-bin.zip
-2019-01-03 16:51:25,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-03 16:51:25,921 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-03 16:51:25,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/sample/local.properties
-2019-01-03 16:51:25,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-03 16:51:25,927 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-03 16:51:25,928 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/local.properties
-2019-01-03 16:51:25,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-03 16:51:25,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-03 16:51:25,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/local.properties
-2019-01-03 16:51:25,939 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-03 16:51:25,939 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-03 16:51:25,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/local.properties
-2019-01-03 16:51:25,944 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-03 16:51:25,944 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-03 16:51:25,944 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto/local.properties
-2019-01-03 16:51:25,950 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-03 16:51:25,950 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-03 16:51:25,951 INFO  ProjectFixService - Project was maybe fixed
-2019-01-03 16:51:25,951 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:51:25,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:51:37,455 INFO  ProjectTaskService - Detected possible tasks: 58
-2019-01-03 16:51:37,455 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-03 16:51:37,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-03 16:51:50,051 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:02:39,322 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew
+2019-08-09 13:02:39,328 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto/build.gradle
+2019-08-09 13:02:39,333 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradle-config/bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradle-config/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradle-config/jacoco-codecoverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradle-config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle
+2019-08-09 13:02:39,334 INFO  ProjectBuildService - Remote scripts: none
+2019-08-09 13:02:39,334 INFO  ProjectFixService - Fixing project...
+2019-08-09 13:02:39,348 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/local.properties
+2019-08-09 13:02:39,349 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-bin.zip
+2019-08-09 13:02:39,355 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-09 13:02:39,355 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-09 13:02:39,356 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/sample/local.properties
+2019-08-09 13:02:39,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-09 13:02:39,361 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-09 13:02:39,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/local.properties
+2019-08-09 13:02:39,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-09 13:02:39,367 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-09 13:02:39,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/local.properties
+2019-08-09 13:02:39,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-09 13:02:39,374 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-09 13:02:39,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/local.properties
+2019-08-09 13:02:39,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-09 13:02:39,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-09 13:02:39,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto/local.properties
+2019-08-09 13:02:39,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-09 13:02:39,386 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-09 13:02:39,386 INFO  ProjectFixService - Project was maybe fixed
+2019-08-09 13:02:39,386 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:02:39,387 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:02:48,972 INFO  ProjectTaskService - Detected possible tasks: 58
+2019-08-09 13:02:48,972 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-08-09 13:02:48,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-08-09 13:02:59,727 INFO  SysUtils - Configuration on demand is an incubating feature.
 [buildinfo] Not using buildInfo properties file for this build.
 :voto:compileJava
-Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.0.0/retrofit-2.0.0.pom
-Download https://jcenter.bintray.com/com/squareup/retrofit2/parent/2.0.0/parent-2.0.0.pom
-Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.0.0/converter-gson-2.0.0.pom
-Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-converters/2.0.0/retrofit-converters-2.0.0.pom
-Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp-urlconnection/3.2.0/okhttp-urlconnection-3.2.0.pom
-Download https://jcenter.bintray.com/com/squareup/okhttp3/parent/3.2.0/parent-3.2.0.pom
 Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.0.0/retrofit-2.0.0.jar
 Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.0.0/converter-gson-2.0.0.jar
 Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp-urlconnection/3.2.0/okhttp-urlconnection-3.2.0.jar
@@ -60,9 +54,6 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :voto-async:classes
 :voto-async:jar
 :voto-rxjava:compileJava
-Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava/2.0.0/adapter-rxjava-2.0.0.pom
-Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-adapters/2.0.0/retrofit-adapters-2.0.0.pom
-Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.pom
 Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava/2.0.0/adapter-rxjava-2.0.0.jar
 Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.jar
 :voto-rxjava:processResources UP-TO-DATE
@@ -98,15 +89,15 @@ Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.jar
 
 BUILD SUCCESSFUL
 
-Total time: 12.417 secs
+Total time: 10.568 secs
 
-2019-01-03 16:51:50,066 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:51:50,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:51:53,902 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-03 16:51:53,902 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-03 16:51:53,902 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-03 16:51:53,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-03 16:51:57,935 ERROR SysUtils - Could not process external command
+2019-08-09 13:02:59,740 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:02:59,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:03:03,355 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 13:03:03,355 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-09 13:03:03,355 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-09 13:03:03,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-09 13:03:06,960 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -134,12 +125,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:51:57,935 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:03:06,960 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle' line: 14
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle' line: 14
 
 * What went wrong:
 A problem occurred evaluating project ':voto-rxjava'.
@@ -226,7 +217,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_83o3l9p05ufjzot4xris0v7wq$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle:14)
+	at build_3w9k36u72wri2zprujzxwufab$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle:14)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -237,22 +228,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_83o3l9p05ufjzot4xris0v7wq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle:9)
+	at build_3w9k36u72wri2zprujzxwufab.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle:9)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 71 more
 
 
 BUILD FAILED
 
-Total time: 3.746 secs
+Total time: 3.455 secs
 
-2019-01-03 16:51:57,949 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:51:57,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:52:01,382 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-03 16:52:01,382 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-03 16:52:01,382 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-03 16:52:01,382 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-03 16:52:05,127 ERROR SysUtils - Could not process external command
+2019-08-09 13:03:06,973 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:03:06,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:03:10,297 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 13:03:10,297 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-09 13:03:10,297 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-09 13:03:10,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-09 13:03:13,640 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -280,12 +271,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:52:05,127 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:03:13,640 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle' line: 12
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating project ':voto-async'.
@@ -364,7 +355,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_4caqg8c7f6mqpn3a6bb3g3bzv$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle:12)
+	at build_3rq9xg5u8cfi9wxnvrr3uzio5$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle:12)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -375,22 +366,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_4caqg8c7f6mqpn3a6bb3g3bzv.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-async/build.gradle:10)
+	at build_3rq9xg5u8cfi9wxnvrr3uzio5.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-async/build.gradle:10)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.505 secs
+Total time: 3.13 secs
 
-2019-01-03 16:52:05,142 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:52:05,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:52:08,820 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-03 16:52:08,820 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-03 16:52:08,820 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-03 16:52:08,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-03 16:52:12,751 ERROR SysUtils - Could not process external command
+2019-08-09 13:03:13,650 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:03:13,650 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:03:16,789 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 13:03:16,790 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-09 13:03:16,790 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-09 13:03:16,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-09 13:03:19,934 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -418,12 +409,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:52:12,752 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:03:19,934 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle' line: 14
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle' line: 14
 
 * What went wrong:
 A problem occurred evaluating project ':voto-rxjava'.
@@ -502,7 +493,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_83o3l9p05ufjzot4xris0v7wq$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle:14)
+	at build_3w9k36u72wri2zprujzxwufab$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle:14)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -513,22 +504,22 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_83o3l9p05ufjzot4xris0v7wq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-rxjava/build.gradle:9)
+	at build_3w9k36u72wri2zprujzxwufab.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-rxjava/build.gradle:9)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.713 secs
+Total time: 2.944 secs
 
-2019-01-03 16:52:12,766 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:52:12,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:52:16,237 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-03 16:52:16,237 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-03 16:52:16,237 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-03 16:52:16,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-03 16:52:19,716 ERROR SysUtils - Could not process external command
+2019-08-09 13:03:19,945 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:03:19,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:03:23,010 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-09 13:03:23,010 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-09 13:03:23,010 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-09 13:03:23,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-09 13:03:25,927 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -556,12 +547,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:52:19,717 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:03:25,927 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle' line: 14
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle' line: 14
 
 * What went wrong:
 A problem occurred evaluating project ':voto-sync'.
@@ -640,7 +631,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:85)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:62)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_9jb1ea5xyhb2iwwy7w9uqnwsf$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle:14)
+	at build_3lwqwkf7qgtc7ykydhfywb3wq$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle:14)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -651,21 +642,21 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_9jb1ea5xyhb2iwwy7w9uqnwsf.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto-sync/build.gradle:9)
+	at build_3lwqwkf7qgtc7ykydhfywb3wq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto-sync/build.gradle:9)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 3.338 secs
+Total time: 2.778 secs
 
-2019-01-03 16:52:19,730 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:52:19,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:52:24,036 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-03 16:52:24,036 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-03 16:52:24,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509083810-0/src/voto-java-sdk-master/voto/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-03 16:52:27,311 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:03:25,936 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:03:25,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:03:29,538 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-08-09 13:03:29,538 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-08-09 13:03:29,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330558481-0/src/voto-java-sdk-master/voto/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-08-09 13:03:32,574 INFO  SysUtils - Configuration on demand is an incubating feature.
 :voto:compileJava UP-TO-DATE
 :voto:processResources UP-TO-DATE
 :voto:classes UP-TO-DATE
@@ -675,7 +666,7 @@ Total time: 3.338 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.102 secs
+Total time: 2.874 secs
 
-2019-01-03 16:52:27,326 ERROR FullProcessService - Project build has not produced APK file
-2019-01-03 16:52:27,340 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-09 13:03:32,590 ERROR FullProcessService - Project build has not produced APK file
+2019-08-09 13:03:32,600 ERROR FullProcessService - Could not find generated or existed APK file

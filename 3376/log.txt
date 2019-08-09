@@ -1,44 +1,44 @@
-2019-01-03 16:54:53,940 INFO  DownloadService - Downloading "https://github.com/Maddoc42/JaxRs2Retrofit/archive/master.zip", attempt 3
-2019-01-03 16:54:54,915 INFO  DownloadService - Downloaded https://github.com/Maddoc42/JaxRs2Retrofit/archive/master.zip, attempt 3
-2019-01-03 16:54:54,915 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/master.zip": 377 KB
-2019-01-03 16:54:54,915 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-03 16:54:54,921 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/master.zip: true
-2019-01-03 16:54:54,921 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src'.
-2019-01-03 16:54:54,958 INFO  FullProcessService - Size of directory with sources: 455 KB
-2019-01-03 16:54:54,958 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src]
-2019-01-03 16:54:54,976 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/.git/
+2019-08-09 13:05:09,108 INFO  DownloadService - Downloading "https://github.com/Maddoc42/JaxRs2Retrofit/archive/master.zip", attempt 3
+2019-08-09 13:05:10,024 INFO  DownloadService - Downloaded https://github.com/Maddoc42/JaxRs2Retrofit/archive/master.zip, attempt 3
+2019-08-09 13:05:10,025 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/master.zip": 377 KB
+2019-08-09 13:05:10,025 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-09 13:05:10,030 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/master.zip: true
+2019-08-09 13:05:10,031 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src'.
+2019-08-09 13:05:10,067 INFO  FullProcessService - Size of directory with sources: 455 KB
+2019-08-09 13:05:10,067 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src]
+2019-08-09 13:05:10,084 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/.git/
 
-2019-01-03 16:54:54,982 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/gradlew
-2019-01-03 16:54:54,988 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/build.gradle
-2019-01-03 16:54:54,992 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/build.gradle
-2019-01-03 16:54:54,993 INFO  ProjectBuildService - Remote scripts: none
-2019-01-03 16:54:54,993 INFO  ProjectFixService - Fixing project...
-2019-01-03 16:54:55,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/local.properties
-2019-01-03 16:54:55,006 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
-2019-01-03 16:54:55,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-01-03 16:54:55,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/local.properties
-2019-01-03 16:54:55,007 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-all.zip
-2019-01-03 16:54:55,007 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.3-bin.zip)
-2019-01-03 16:54:55,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-01-03 16:54:55,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/local.properties
-2019-01-03 16:54:55,010 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
-2019-01-03 16:54:55,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-01-03 16:54:55,013 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/local.properties
-2019-01-03 16:54:55,014 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
-2019-01-03 16:54:55,016 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-01-03 16:54:55,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/local.properties
-2019-01-03 16:54:55,017 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
-2019-01-03 16:54:55,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-01-03 16:54:55,019 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/local.properties
-2019-01-03 16:54:55,019 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
-2019-01-03 16:54:55,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2019-01-03 16:54:55,021 INFO  ProjectFixService - Project was maybe fixed
-2019-01-03 16:54:55,021 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:54:55,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:55:36,965 INFO  ProjectTaskService - Detected possible tasks: 62
-2019-01-03 16:55:36,966 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
-2019-01-03 16:55:36,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
-2019-01-03 16:55:43,729 ERROR SysUtils - Could not process external command
+2019-08-09 13:05:10,089 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/gradlew
+2019-08-09 13:05:10,093 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/build.gradle
+2019-08-09 13:05:10,097 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/build.gradle
+2019-08-09 13:05:10,098 INFO  ProjectBuildService - Remote scripts: none
+2019-08-09 13:05:10,098 INFO  ProjectFixService - Fixing project...
+2019-08-09 13:05:10,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/local.properties
+2019-08-09 13:05:10,107 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
+2019-08-09 13:05:10,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-08-09 13:05:10,108 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/local.properties
+2019-08-09 13:05:10,108 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-all.zip
+2019-08-09 13:05:10,108 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.3-bin.zip)
+2019-08-09 13:05:10,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-08-09 13:05:10,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/local.properties
+2019-08-09 13:05:10,111 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
+2019-08-09 13:05:10,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-08-09 13:05:10,114 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/local.properties
+2019-08-09 13:05:10,114 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
+2019-08-09 13:05:10,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-08-09 13:05:10,116 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/local.properties
+2019-08-09 13:05:10,117 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
+2019-08-09 13:05:10,118 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-08-09 13:05:10,119 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/local.properties
+2019-08-09 13:05:10,119 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.3-bin.zip
+2019-08-09 13:05:10,121 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-08-09 13:05:10,121 INFO  ProjectFixService - Project was maybe fixed
+2019-08-09 13:05:10,121 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:05:10,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:05:39,296 INFO  ProjectTaskService - Detected possible tasks: 62
+2019-08-09 13:05:39,296 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2019-08-09 13:05:39,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2019-08-09 13:05:45,212 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -51,7 +51,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -65,7 +66,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:55:43,729 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:05:45,212 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example-android:preBuild UP-TO-DATE
 :example-android:preDebugBuild UP-TO-DATE
 :example-android:compileDebugNdk UP-TO-DATE
@@ -189,7 +190,7 @@ Caused by: com.android.ide.common.process.ProcessException: org.gradle.process.i
 	at com.android.builder.core.AndroidBuilder.preDexLibrary(AndroidBuilder.java:1295)
 	at com.android.builder.internal.compiler.PreDexCache.preDexLibrary(PreDexCache.java:122)
 	at com.android.builder.core.AndroidBuilder.preDexLibrary(AndroidBuilder.java:1247)
-	at com.android.builder.core.AndroidBuilder$preDexLibrary$4.call(Unknown Source)
+	at com.android.builder.core.AndroidBuilder$preDexLibrary$5.call(Unknown Source)
 	at com.android.build.gradle.tasks.PreDex$PreDexTask.call(PreDex.groovy:150)
 	at com.android.build.gradle.tasks.PreDex$PreDexTask.call(PreDex.groovy)
 Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/java'' finished with non-zero exit value 1
@@ -200,14 +201,14 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 
 BUILD FAILED
 
-Total time: 6.262 secs
+Total time: 5.414 secs
 
-2019-01-03 16:55:43,738 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:55:43,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:55:52,494 INFO  ProjectTaskService - Detected possible tasks: 90
-2019-01-03 16:55:52,494 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck coveralls lint javadoc uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
-2019-01-03 16:55:52,494 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, coveralls, -x, lint, -x, javadoc, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
-2019-01-03 16:55:59,618 ERROR SysUtils - Could not process external command
+2019-08-09 13:05:45,219 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:05:45,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:05:51,905 INFO  ProjectTaskService - Detected possible tasks: 90
+2019-08-09 13:05:51,905 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck coveralls lint javadoc uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2019-08-09 13:05:51,906 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, coveralls, -x, lint, -x, javadoc, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2019-08-09 13:05:58,050 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -220,7 +221,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -234,7 +236,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-03 16:55:59,618 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:05:58,051 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example-android:preBuild UP-TO-DATE
 :example-android:preDebugBuild UP-TO-DATE
 :example-android:compileDebugNdk UP-TO-DATE
@@ -357,7 +359,7 @@ Caused by: com.android.ide.common.process.ProcessException: org.gradle.process.i
 	at com.android.builder.core.AndroidBuilder.preDexLibrary(AndroidBuilder.java:1295)
 	at com.android.builder.internal.compiler.PreDexCache.preDexLibrary(PreDexCache.java:122)
 	at com.android.builder.core.AndroidBuilder.preDexLibrary(AndroidBuilder.java:1247)
-	at com.android.builder.core.AndroidBuilder$preDexLibrary$0.call(Unknown Source)
+	at com.android.builder.core.AndroidBuilder$preDexLibrary$1.call(Unknown Source)
 	at com.android.build.gradle.tasks.PreDex$PreDexTask.call(PreDex.groovy:150)
 	at com.android.build.gradle.tasks.PreDex$PreDexTask.call(PreDex.groovy)
 Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/java'' finished with non-zero exit value 1
@@ -368,14 +370,14 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library
 
 BUILD FAILED
 
-Total time: 6.597 secs
+Total time: 5.629 secs
 
-2019-01-03 16:55:59,629 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:55:59,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:56:05,478 INFO  ProjectTaskService - Detected possible tasks: 38
-2019-01-03 16:56:05,478 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-03 16:56:05,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-03 16:56:08,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:05:58,059 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:05:58,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:06:03,765 INFO  ProjectTaskService - Detected possible tasks: 38
+2019-08-09 13:06:03,766 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-08-09 13:06:03,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-08-09 13:06:06,541 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example-common:compileJava UP-TO-DATE
 :example-common:processResources UP-TO-DATE
 :example-common:classes UP-TO-DATE
@@ -385,14 +387,14 @@ Total time: 6.597 secs
 
 BUILD SUCCESSFUL
 
-Total time: 2.747 secs
+Total time: 2.314 secs
 
-2019-01-03 16:56:08,703 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:56:08,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:56:15,520 INFO  ProjectTaskService - Detected possible tasks: 51
-2019-01-03 16:56:15,520 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-03 16:56:15,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-03 16:56:20,654 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:06:06,550 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:06:06,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:06:12,318 INFO  ProjectTaskService - Detected possible tasks: 51
+2019-08-09 13:06:12,318 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-08-09 13:06:12,318 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-08-09 13:06:16,842 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example-common:compileJava UP-TO-DATE
 :example-common:processResources UP-TO-DATE
 :example-common:classes UP-TO-DATE
@@ -411,75 +413,19 @@ MyHelloWorldResource
 
 BUILD SUCCESSFUL
 
-Total time: 4.663 secs
+Total time: 4.054 secs
 
-2019-01-03 16:56:20,665 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:56:20,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:56:27,566 INFO  ProjectTaskService - Detected possible tasks: 47
-2019-01-03 16:56:27,566 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-03 16:56:27,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/example-server/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-03 16:58:03,161 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:06:16,853 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:06:16,853 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:06:22,446 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-08-09 13:06:22,446 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-08-09 13:06:22,446 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/example-server/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-08-09 13:06:51,474 INFO  SysUtils - Configuration on demand is an incubating feature.
 :example-common:compileJava UP-TO-DATE
 :example-common:processResources UP-TO-DATE
 :example-common:classes UP-TO-DATE
 :example-common:jar UP-TO-DATE
 :example-server:compileJava
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-core/0.8.1/dropwizard-core-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-parent/0.8.1/dropwizard-parent-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-util/0.8.1/dropwizard-util-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-jackson/0.8.1/dropwizard-jackson-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-validation/0.8.1/dropwizard-validation-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-configuration/0.8.1/dropwizard-configuration-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-logging/0.8.1/dropwizard-logging-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-metrics/0.8.1/dropwizard-metrics-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-jersey/0.8.1/dropwizard-jersey-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-servlets/0.8.1/dropwizard-servlets-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-jetty/0.8.1/dropwizard-jetty-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/dropwizard-lifecycle/0.8.1/dropwizard-lifecycle-0.8.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.1.1/metrics-core-3.1.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-parent/3.1.1/metrics-parent-3.1.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-jvm/3.1.1/metrics-jvm-3.1.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-servlets/3.1.1/metrics-servlets-3.1.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-healthchecks/3.1.1/metrics-healthchecks-3.1.1.pom
-Download https://jcenter.bintray.com/net/sourceforge/argparse4j/argparse4j/0.4.4/argparse4j-0.4.4.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/toolchain/setuid/jetty-setuid-java/1.0.2/jetty-setuid-java-1.0.2.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/toolchain/setuid/jetty-setuid-parent/1.0.2/jetty-setuid-parent-1.0.2.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jdk7/2.5.1/jackson-datatype-jdk7-2.5.1.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.5.1/jackson-datatype-guava-2.5.1.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-afterburner/2.5.1/jackson-module-afterburner-2.5.1.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.5.1/jackson-datatype-joda-2.5.1.pom
-Download https://jcenter.bintray.com/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.pom
-Download https://jcenter.bintray.com/org/hibernate/hibernate-validator-parent/5.1.3.Final/hibernate-validator-parent-5.1.3.Final.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.5.1/jackson-dataformat-yaml-2.5.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-logback/3.1.1/metrics-logback-3.1.1.pom
-Download https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.pom
-Download https://jcenter.bintray.com/org/slf4j/log4j-over-slf4j/1.7.10/log4j-over-slf4j-1.7.10.pom
-Download https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/9.2.9.v20150224/jetty-util-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-project/9.2.9.v20150224/jetty-project-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-server/2.17/jersey-server-2.17.pom
-Download https://jcenter.bintray.com/org/glassfish/jersey/ext/jersey-metainf-services/2.17/jersey-metainf-services-2.17.pom
-Download https://jcenter.bintray.com/org/glassfish/jersey/ext/project/2.17/project-2.17.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-jersey2/3.1.1/metrics-jersey2-3.1.1.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.5.1/jackson-jaxrs-json-provider-2.5.1.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.5.1/jackson-jaxrs-providers-2.5.1.pom
-Download https://jcenter.bintray.com/org/glassfish/jersey/containers/jersey-container-servlet/2.17/jersey-container-servlet-2.17.pom
-Download https://jcenter.bintray.com/org/glassfish/jersey/containers/project/2.17/project-2.17.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-server/9.2.9.v20150224/jetty-server-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-webapp/9.2.9.v20150224/jetty-webapp-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-continuation/9.2.9.v20150224/jetty-continuation-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-annotation/3.1.1/metrics-annotation-3.1.1.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-jetty9/3.1.1/metrics-jetty9-3.1.1.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-servlet/9.2.9.v20150224/jetty-servlet-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-servlets/9.2.9.v20150224/jetty-servlets-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/9.2.9.v20150224/jetty-http-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/io/dropwizard/metrics/metrics-json/3.1.1/metrics-json-3.1.1.pom
-Download https://jcenter.bintray.com/org/yaml/snakeyaml/1.12/snakeyaml-1.12.pom
-Download https://jcenter.bintray.com/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.5.1/jackson-jaxrs-base-2.5.1.pom
-Download https://jcenter.bintray.com/org/glassfish/jersey/containers/jersey-container-servlet-core/2.17/jersey-container-servlet-core-2.17.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/9.2.9.v20150224/jetty-io-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-xml/9.2.9.v20150224/jetty-xml-9.2.9.v20150224.pom
-Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-security/9.2.9.v20150224/jetty-security-9.2.9.v20150224.pom
 Download https://jcenter.bintray.com/io/dropwizard/dropwizard-core/0.8.1/dropwizard-core-0.8.1.jar
 Download https://jcenter.bintray.com/io/dropwizard/dropwizard-util/0.8.1/dropwizard-util-0.8.1.jar
 Download https://jcenter.bintray.com/io/dropwizard/dropwizard-jackson/0.8.1/dropwizard-jackson-0.8.1.jar
@@ -539,14 +485,14 @@ Download https://jcenter.bintray.com/org/eclipse/jetty/jetty-security/9.2.9.v201
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 35.113 secs
+Total time: 28.573 secs
 
-2019-01-03 16:58:03,176 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-03 16:58:03,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-03 16:58:09,474 INFO  ProjectTaskService - Detected possible tasks: 50
-2019-01-03 16:58:09,474 INFO  ProjectTaskService - Excluded tasks (4): coveralls javadoc test check
-2019-01-03 16:58:09,474 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546509293937-0/src/JaxRs2Retrofit-master/plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, coveralls, -x, javadoc, -x, test, -x, check, build]
-2019-01-03 16:58:16,193 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:06:51,486 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:06:51,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:06:57,943 INFO  ProjectTaskService - Detected possible tasks: 50
+2019-08-09 13:06:57,944 INFO  ProjectTaskService - Excluded tasks (4): coveralls javadoc test check
+2019-08-09 13:06:57,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330709105-0/src/JaxRs2Retrofit-master/plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, coveralls, -x, javadoc, -x, test, -x, check, build]
+2019-08-09 13:07:05,827 INFO  SysUtils - Configuration on demand is an incubating feature.
 :plugin:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 
@@ -561,7 +507,7 @@ Total time: 1 mins 35.113 secs
 
 BUILD SUCCESSFUL
 
-Total time: 6.201 secs
+Total time: 7.354 secs
 
-2019-01-03 16:58:16,207 ERROR FullProcessService - Project build has not produced APK file
-2019-01-03 16:58:16,219 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-09 13:07:05,840 ERROR FullProcessService - Project build has not produced APK file
+2019-08-09 13:07:05,852 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,31 +1,31 @@
-2019-01-05 22:49:35,739 INFO  DownloadService - Downloading "https://github.com/Batterii/PagingRecycler/archive/master.zip", attempt 3
-2019-01-05 22:49:37,338 INFO  DownloadService - Downloaded https://github.com/Batterii/PagingRecycler/archive/master.zip, attempt 3
-2019-01-05 22:49:37,338 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/master.zip": 64 KB
-2019-01-05 22:49:37,338 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-05 22:49:37,344 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/master.zip: true
-2019-01-05 22:49:37,344 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src'.
-2019-01-05 22:49:37,354 INFO  FullProcessService - Size of directory with sources: 75 KB
-2019-01-05 22:49:37,355 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src]
-2019-01-05 22:49:37,372 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/.git/
+2019-08-09 13:08:54,877 INFO  DownloadService - Downloading "https://github.com/Batterii/PagingRecycler/archive/master.zip", attempt 3
+2019-08-09 13:08:55,412 INFO  DownloadService - Downloaded https://github.com/Batterii/PagingRecycler/archive/master.zip, attempt 3
+2019-08-09 13:08:55,413 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/master.zip": 64 KB
+2019-08-09 13:08:55,413 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-09 13:08:55,414 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/master.zip: true
+2019-08-09 13:08:55,415 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src'.
+2019-08-09 13:08:55,424 INFO  FullProcessService - Size of directory with sources: 75 KB
+2019-08-09 13:08:55,424 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src]
+2019-08-09 13:08:55,442 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/.git/
 
-2019-01-05 22:49:37,374 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/gradlew
-2019-01-05 22:49:37,376 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/build.gradle
-2019-01-05 22:49:37,378 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/settings.gradle
-2019-01-05 22:49:37,378 INFO  ProjectBuildService - Remote scripts: none
-2019-01-05 22:49:37,378 INFO  ProjectFixService - Fixing project...
-2019-01-05 22:49:37,382 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/library/local.properties
-2019-01-05 22:49:37,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-01-05 22:49:37,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/local.properties
-2019-01-05 22:49:37,384 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-01-05 22:49:37,384 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-01-05 22:49:37,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-01-05 22:49:37,385 INFO  ProjectFixService - Project was maybe fixed
-2019-01-05 22:49:37,385 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-05 22:49:37,385 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-05 22:50:00,085 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-01-05 22:50:00,085 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-05 22:50:00,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-05 22:50:09,663 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:08:55,444 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/gradlew
+2019-08-09 13:08:55,446 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/build.gradle
+2019-08-09 13:08:55,449 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/settings.gradle
+2019-08-09 13:08:55,449 INFO  ProjectBuildService - Remote scripts: none
+2019-08-09 13:08:55,449 INFO  ProjectFixService - Fixing project...
+2019-08-09 13:08:55,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/library/local.properties
+2019-08-09 13:08:55,454 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-08-09 13:08:55,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/local.properties
+2019-08-09 13:08:55,455 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-09 13:08:55,455 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-09 13:08:55,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-08-09 13:08:55,456 INFO  ProjectFixService - Project was maybe fixed
+2019-08-09 13:08:55,456 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:08:55,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:09:01,846 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-09 13:09:01,846 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-09 13:09:01,846 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-09 13:09:12,368 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugNdk UP-TO-DATE
@@ -106,14 +106,14 @@
 
 BUILD SUCCESSFUL
 
-Total time: 8.997 secs
+Total time: 9.992 secs
 
-2019-01-05 22:50:09,737 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-05 22:50:09,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-05 22:50:14,173 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-01-05 22:50:14,173 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-05 22:50:14,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546703375736-0/src/PagingRecycler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-05 22:50:18,930 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-09 13:09:12,421 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-09 13:09:12,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-09 13:09:17,644 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-09 13:09:17,644 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-09 13:09:17,644 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565330934873-0/src/PagingRecycler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-09 13:09:22,983 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:compileDebugNdk UP-TO-DATE
@@ -194,7 +194,7 @@ Total time: 8.997 secs
 
 BUILD SUCCESSFUL
 
-Total time: 4.239 secs
+Total time: 4.848 secs
 
-2019-01-05 22:50:18,986 ERROR FullProcessService - Project build has not produced APK file
-2019-01-05 22:50:19,035 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-09 13:09:23,031 ERROR FullProcessService - Project build has not produced APK file
+2019-08-09 13:09:23,075 ERROR FullProcessService - Could not find generated or existed APK file
