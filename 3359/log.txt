@@ -1,31 +1,31 @@
-2019-01-06 19:34:48,522 INFO  DownloadService - Downloading "https://github.com/shalskar/PeekAndPop/archive/master.zip", attempt 3
-2019-01-06 19:34:49,938 INFO  DownloadService - Downloaded https://github.com/shalskar/PeekAndPop/archive/master.zip, attempt 3
-2019-01-06 19:34:49,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/master.zip": 74 KB
-2019-01-06 19:34:49,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 19:34:49,944 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/master.zip: true
-2019-01-06 19:34:49,944 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src'.
-2019-01-06 19:34:49,958 INFO  FullProcessService - Size of directory with sources: 113 KB
-2019-01-06 19:34:49,958 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src]
-2019-01-06 19:34:49,979 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/.git/
+2019-08-10 20:35:16,699 INFO  DownloadService - Downloading "https://github.com/shalskar/PeekAndPop/archive/master.zip", attempt 3
+2019-08-10 20:35:18,443 INFO  DownloadService - Downloaded https://github.com/shalskar/PeekAndPop/archive/master.zip, attempt 3
+2019-08-10 20:35:18,443 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/master.zip": 74 KB
+2019-08-10 20:35:18,443 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-10 20:35:18,449 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/master.zip: true
+2019-08-10 20:35:18,449 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src'.
+2019-08-10 20:35:18,460 INFO  FullProcessService - Size of directory with sources: 113 KB
+2019-08-10 20:35:18,460 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src]
+2019-08-10 20:35:18,480 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/.git/
 
-2019-01-06 19:34:49,981 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/gradlew
-2019-01-06 19:34:49,984 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/build.gradle
-2019-01-06 19:34:49,986 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/settings.gradle
-2019-01-06 19:34:49,987 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 19:34:49,987 INFO  ProjectFixService - Fixing project...
-2019-01-06 19:34:49,993 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/local.properties
-2019-01-06 19:34:49,994 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-06 19:34:49,995 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/local.properties
-2019-01-06 19:34:49,995 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2019-01-06 19:34:49,996 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2019-01-06 19:34:49,997 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-06 19:34:49,998 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 19:34:49,998 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:34:49,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:34:56,018 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-01-06 19:34:56,018 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-06 19:34:56,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-06 19:35:04,956 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-10 20:35:18,483 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/gradlew
+2019-08-10 20:35:18,486 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/build.gradle
+2019-08-10 20:35:18,489 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/settings.gradle
+2019-08-10 20:35:18,489 INFO  ProjectBuildService - Remote scripts: none
+2019-08-10 20:35:18,489 INFO  ProjectFixService - Fixing project...
+2019-08-10 20:35:18,494 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/local.properties
+2019-08-10 20:35:18,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-10 20:35:18,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/local.properties
+2019-08-10 20:35:18,496 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-08-10 20:35:18,496 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-08-10 20:35:18,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-10 20:35:18,498 INFO  ProjectFixService - Project was maybe fixed
+2019-08-10 20:35:18,498 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-10 20:35:18,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-10 20:35:30,203 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-08-10 20:35:30,203 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-10 20:35:30,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-10 20:35:39,697 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyDebugLint UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -50,11 +50,11 @@
 :library:processDebugResources
 :library:generateDebugSources
 :library:processDebugJavaRes UP-TO-DATE
-:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/src/main/java/com/peekandpop/shalskar/peekandpop/PeekAndPop.java uses or overrides a deprecated API.
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/src/main/java/com/peekandpop/shalskar/peekandpop/PeekAndPop.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :library:extractDebugAnnotations
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/src/main/java/com/peekandpop/shalskar/peekandpop/PeekAndPop.java: The typedef annotation com.peekandpop.shalskar.peekandpop.PeekAndPop.FlingDirections should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/src/main/java/com/peekandpop/shalskar/peekandpop/PeekAndPop.java: The typedef annotation com.peekandpop.shalskar.peekandpop.PeekAndPop.FlingDirections should have @Retention(RetentionPolicy.SOURCE)
 :library:mergeDebugProguardFiles
 :library:packageDebugJar
 :library:compileDebugNdk UP-TO-DATE
@@ -80,11 +80,11 @@ Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-
 :library:processReleaseResources
 :library:generateReleaseSources
 :library:processReleaseJavaRes UP-TO-DATE
-:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/src/main/java/com/peekandpop/shalskar/peekandpop/PeekAndPop.java uses or overrides a deprecated API.
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/src/main/java/com/peekandpop/shalskar/peekandpop/PeekAndPop.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :library:extractReleaseAnnotations
-Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/library/src/main/java/com/peekandpop/shalskar/peekandpop/PeekAndPop.java: The typedef annotation com.peekandpop.shalskar.peekandpop.PeekAndPop.FlingDirections should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/library/src/main/java/com/peekandpop/shalskar/peekandpop/PeekAndPop.java: The typedef annotation com.peekandpop.shalskar.peekandpop.PeekAndPop.FlingDirections should have @Retention(RetentionPolicy.SOURCE)
 :library:mergeReleaseProguardFiles
 :library:packageReleaseJar
 :library:compileReleaseNdk UP-TO-DATE
@@ -100,14 +100,14 @@ Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-
 
 BUILD SUCCESSFUL
 
-Total time: 8.433 secs
+Total time: 9.004 secs
 
-2019-01-06 19:35:05,006 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:35:05,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:35:09,812 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-01-06 19:35:09,812 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-06 19:35:09,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778088518-0/src/PeekAndPop-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-06 19:35:14,925 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-10 20:35:39,739 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-10 20:35:39,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-10 20:35:45,014 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-08-10 20:35:45,015 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-10 20:35:45,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444116695-0/src/PeekAndPop-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-10 20:35:50,154 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyDebugLint UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -176,7 +176,7 @@ Total time: 8.433 secs
 
 BUILD SUCCESSFUL
 
-Total time: 4.601 secs
+Total time: 4.627 secs
 
-2019-01-06 19:35:14,972 ERROR FullProcessService - Project build has not produced APK file
-2019-01-06 19:35:15,015 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-10 20:35:50,194 ERROR FullProcessService - Project build has not produced APK file
+2019-08-10 20:35:50,231 ERROR FullProcessService - Could not find generated or existed APK file
