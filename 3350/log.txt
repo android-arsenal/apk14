@@ -1,34 +1,34 @@
-2019-01-06 19:42:44,379 INFO  DownloadService - Downloading "https://github.com/wandup/RxSensor/archive/master.zip", attempt 3
-2019-01-06 19:42:44,988 INFO  DownloadService - Downloaded https://github.com/wandup/RxSensor/archive/master.zip, attempt 3
-2019-01-06 19:42:44,988 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/master.zip": 107 KB
-2019-01-06 19:42:44,988 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 19:42:44,989 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/master.zip: true
-2019-01-06 19:42:44,989 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src'.
-2019-01-06 19:42:45,008 INFO  FullProcessService - Size of directory with sources: 127 KB
-2019-01-06 19:42:45,008 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src]
-2019-01-06 19:42:45,029 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/.git/
+2019-08-11 19:00:30,846 INFO  DownloadService - Downloading "https://github.com/wandup/RxSensor/archive/master.zip", attempt 3
+2019-08-11 19:00:31,603 INFO  DownloadService - Downloaded https://github.com/wandup/RxSensor/archive/master.zip, attempt 3
+2019-08-11 19:00:31,604 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/master.zip": 107 KB
+2019-08-11 19:00:31,604 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 19:00:31,605 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/master.zip: true
+2019-08-11 19:00:31,605 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src'.
+2019-08-11 19:00:31,620 INFO  FullProcessService - Size of directory with sources: 127 KB
+2019-08-11 19:00:31,620 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src]
+2019-08-11 19:00:31,636 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/.git/
 
-2019-01-06 19:42:45,033 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/gradlew
-2019-01-06 19:42:45,036 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/build.gradle
-2019-01-06 19:42:45,038 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/script/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/settings.gradle
-2019-01-06 19:42:45,039 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 19:42:45,039 INFO  ProjectFixService - Fixing project...
-2019-01-06 19:42:45,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/local.properties
-2019-01-06 19:42:45,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-06 19:42:45,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/sample/local.properties
-2019-01-06 19:42:45,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-06 19:42:45,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/local.properties
-2019-01-06 19:42:45,053 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-01-06 19:42:45,054 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-01-06 19:42:45,056 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-06 19:42:45,056 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 19:42:45,056 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:42:45,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:43:02,625 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 19:43:02,626 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 19:43:02,626 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 19:43:02,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 19:43:15,276 ERROR SysUtils - Could not process external command
+2019-08-11 19:00:31,638 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/gradlew
+2019-08-11 19:00:31,640 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/build.gradle
+2019-08-11 19:00:31,642 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/script/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/settings.gradle
+2019-08-11 19:00:31,642 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 19:00:31,642 INFO  ProjectFixService - Fixing project...
+2019-08-11 19:00:31,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/local.properties
+2019-08-11 19:00:31,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-11 19:00:31,652 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/sample/local.properties
+2019-08-11 19:00:31,652 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-11 19:00:31,653 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/local.properties
+2019-08-11 19:00:31,653 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-11 19:00:31,653 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-11 19:00:31,655 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-11 19:00:31,656 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 19:00:31,656 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 19:00:31,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 19:00:46,559 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-11 19:00:46,559 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-11 19:00:46,559 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-11 19:00:46,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-11 19:00:57,720 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,41 +56,41 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 19:43:15,276 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 19:00:57,720 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-:rxsensor:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:5: error: package rx does not exist
+:rxsensor:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:5: error: package rx does not exist
 import rx.Observable;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:6: error: package rx.Observable does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:6: error: package rx.Observable does not exist
 import rx.Observable.Transformer;
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:7: error: package rx.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:7: error: package rx.functions does not exist
 import rx.functions.Func1;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:17: error: cannot find symbol
 public class LowPassFilter implements Transformer<RxSensorEvent, RxSensorEvent> {
                                       ^
   symbol: class Transformer
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:26: error: cannot find symbol
     public Observable<RxSensorEvent> call(Observable<RxSensorEvent> source) {
                                           ^
   symbol:   class Observable
   location: class LowPassFilter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/transformer/LowPassFilter.java:26: error: cannot find symbol
     public Observable<RxSensorEvent> call(Observable<RxSensorEvent> source) {
            ^
   symbol:   class Observable
   location: class LowPassFilter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/RxSensor.java:11: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/RxSensor.java:11: error: package rx does not exist
 import rx.Observable;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/RxSensor.java:12: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/RxSensor.java:12: error: package rx does not exist
 import rx.Subscriber;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/RxSensor.java:13: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/RxSensor.java:13: error: package rx does not exist
 import rx.Subscription;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/RxSensor.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/rxsensor/src/main/java/com/getwandup/rxsensor/RxSensor.java:28: error: cannot find symbol
     public Observable<RxSensorEvent> observe(final int sensorType, final int samplingPeriodUs) {
            ^
   symbol:   class Observable
@@ -277,14 +277,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.13 secs
+Total time: 10.654 secs
 
-2019-01-06 19:43:15,336 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:43:15,336 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:43:21,826 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-06 19:43:21,826 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-06 19:43:21,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-06 19:43:37,100 ERROR SysUtils - Could not process external command
+2019-08-11 19:00:57,765 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 19:00:57,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 19:01:04,099 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-11 19:01:04,099 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 19:01:04,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 19:01:17,647 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -312,7 +312,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 19:43:37,100 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 19:01:17,647 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :rxsensor:preBuild UP-TO-DATE
 :rxsensor:preReleaseBuild UP-TO-DATE
@@ -397,7 +397,7 @@ Merged dex #7 (335 defs/262.9KiB)
 Merged dex #8 (10 defs/7.8KiB)
 Merged dex #9 (931 defs/763.4KiB)
 Merged dex #10 (41 defs/6.5KiB)
-Result is 2491 defs/3311.0KiB. Took 0.3s
+Result is 2491 defs/3311.0KiB. Took 0.2s
 :sample:mergeDebugJniLibFolders
 :sample:transformNative_libsWithMergeJniLibsForDebug
 :sample:processDebugJavaRes UP-TO-DATE
@@ -522,6 +522,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.694 secs
+Total time: 12.986 secs
 
-2019-01-06 19:43:37,216 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778564375-0/src/RxSensor-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-08-11 19:01:17,723 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524830843-0/src/RxSensor-master/sample/build/outputs/apk/sample-debug-unaligned.apk

@@ -1,41 +1,84 @@
-2019-01-06 19:43:46,325 INFO  DownloadService - Downloading "https://github.com/niorgai/StatusBarCompat/archive/master.zip", attempt 3
-2019-01-06 19:43:54,949 INFO  DownloadService - Downloaded https://github.com/niorgai/StatusBarCompat/archive/master.zip, attempt 3
-2019-01-06 19:43:54,949 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/master.zip": 4 MB
-2019-01-06 19:43:54,949 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 19:43:54,951 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/master.zip: true
-2019-01-06 19:43:54,951 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src'.
-2019-01-06 19:43:55,001 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-01-06 19:43:55,001 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src]
-2019-01-06 19:43:55,020 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/.git/
+2019-08-11 19:01:26,140 INFO  DownloadService - Downloading "https://github.com/niorgai/StatusBarCompat/archive/master.zip", attempt 3
+2019-08-11 19:01:30,658 INFO  DownloadService - Downloaded https://github.com/niorgai/StatusBarCompat/archive/master.zip, attempt 3
+2019-08-11 19:01:30,659 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/master.zip": 4 MB
+2019-08-11 19:01:30,659 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 19:01:30,661 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/master.zip: true
+2019-08-11 19:01:30,661 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src'.
+2019-08-11 19:01:30,709 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-08-11 19:01:30,709 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src]
+2019-08-11 19:01:30,725 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/.git/
 
-2019-01-06 19:43:55,024 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/gradlew
-2019-01-06 19:43:55,027 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/build.gradle
-2019-01-06 19:43:55,030 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/settings.gradle
-2019-01-06 19:43:55,031 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 19:43:55,031 INFO  ProjectFixService - Fixing project...
-2019-01-06 19:43:55,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/local.properties
-2019-01-06 19:43:55,041 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-06 19:43:55,041 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-06 19:43:55,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/library/local.properties
-2019-01-06 19:43:55,043 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-06 19:43:55,043 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-06 19:43:55,044 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/local.properties
-2019-01-06 19:43:55,045 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
-2019-01-06 19:43:55,045 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
-2019-01-06 19:43:55,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-06 19:43:55,047 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-06 19:43:55,048 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 19:43:55,048 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:43:55,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:44:02,725 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-06 19:44:02,725 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-06 19:44:02,725 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-06 19:44:39,468 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 19:01:30,727 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/gradlew
+2019-08-11 19:01:30,730 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/build.gradle
+2019-08-11 19:01:30,732 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/settings.gradle
+2019-08-11 19:01:30,732 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 19:01:30,732 INFO  ProjectFixService - Fixing project...
+2019-08-11 19:01:30,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/local.properties
+2019-08-11 19:01:30,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-11 19:01:30,740 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-11 19:01:30,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/library/local.properties
+2019-08-11 19:01:30,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-11 19:01:30,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-11 19:01:30,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/local.properties
+2019-08-11 19:01:30,742 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
+2019-08-11 19:01:30,743 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
+2019-08-11 19:01:30,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-08-11 19:01:30,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-11 19:01:30,745 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 19:01:30,745 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 19:01:30,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 19:02:06,797 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-08-11 19:02:06,797 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 19:02:06,797 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 19:02:48,665 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.1/lint-gradle-26.2.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.1/uast-26.2.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.1/intellij-core-26.2.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.1/lint-26.2.1.pom
+Download https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.pom
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.1/kotlin-compiler-26.2.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.1/lint-checks-26.2.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.1/lint-kotlin-26.2.1.pom
+Download https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.2.0/kotlin-stdlib-1.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.1/lint-api-26.2.1.pom
 Download https://dl.google.com/dl/android/maven2/com/google/android/material/material/1.0.0/material-1.0.0.pom
 Download https://dl.google.com/dl/android/maven2/androidx/cardview/cardview/1.0.0/cardview-1.0.0.pom
 Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-v4/1.0.0/legacy-support-v4-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.0.2/appcompat-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/androidx/cursoradapter/cursoradapter/1.0.0/cursoradapter-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.0.0/vectordrawable-animated-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/1.0.1/vectordrawable-1.0.1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-core-utils/1.0.0/legacy-support-core-utils-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.0.1/core-1.0.1.pom
+Download https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.0.0/collection-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.0.0/fragment-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.0.0/annotation-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/recyclerview/recyclerview/1.0.0/recyclerview-1.0.0.pom
 Download https://dl.google.com/dl/android/maven2/androidx/transition/transition/1.0.0/transition-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-core-ui/1.0.0/legacy-support-core-ui-1.0.0.pom
 Download https://dl.google.com/dl/android/maven2/androidx/media/media/1.0.0/media-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.0.0/versionedparcelable-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.0.0/lifecycle-runtime-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/documentfile/documentfile/1.0.0/documentfile-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/localbroadcastmanager/localbroadcastmanager/1.0.0/localbroadcastmanager-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/print/print/1.0.0/print-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/loader/loader/1.0.0/loader-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.0.0/lifecycle-viewmodel-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/customview/customview/1.0.0/customview-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/swiperefreshlayout/swiperefreshlayout/1.0.0/swiperefreshlayout-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/asynclayoutinflater/asynclayoutinflater/1.0.0/asynclayoutinflater-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/1.0.0/viewpager-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/coordinatorlayout/coordinatorlayout/1.0.0/coordinatorlayout-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/slidingpanelayout/slidingpanelayout/1.0.0/slidingpanelayout-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.0.0/core-common-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.0.0/lifecycle-common-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata/2.0.0/lifecycle-livedata-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.0.0/lifecycle-livedata-core-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.0.0/core-runtime-2.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.2.1-4818971/aapt2-3.2.1-4818971.pom
 > Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
@@ -78,7 +121,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:javaPreCompileDebug
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/src/main/java/qiu/statusbarcompat/activity/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/src/main/java/qiu/statusbarcompat/activity/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugNdk NO-SOURCE
@@ -146,14 +189,14 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/src/main/java/qiu/statusbarcompat/activity/MainActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/src/main/java/qiu/statusbarcompat/activity/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/458883d1c753ee5d4a7917c0965bf314/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/befb830a615307bdf14d797f5ccd356a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -182,7 +225,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 36s
+BUILD SUCCESSFUL in 41s
 90 actionable tasks: 90 executed
 
-2019-01-06 19:44:39,574 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546778626321-0/src/StatusBarCompat-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-11 19:02:48,743 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565524886136-0/src/StatusBarCompat-master/app/build/outputs/apk/debug/app-debug.apk
