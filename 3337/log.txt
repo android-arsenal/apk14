@@ -1,34 +1,34 @@
-2019-01-06 21:03:34,479 INFO  DownloadService - Downloading "https://github.com/armcha/LuseenBottomNavigation/archive/master.zip", attempt 3
-2019-01-06 21:03:35,176 INFO  DownloadService - Downloaded https://github.com/armcha/LuseenBottomNavigation/archive/master.zip, attempt 3
-2019-01-06 21:03:35,177 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/master.zip": 584 KB
-2019-01-06 21:03:35,177 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 21:03:35,183 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/master.zip: true
-2019-01-06 21:03:35,183 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src'.
-2019-01-06 21:03:35,211 INFO  FullProcessService - Size of directory with sources: 954 KB
-2019-01-06 21:03:35,211 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src]
-2019-01-06 21:03:35,229 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/.git/
+2019-08-13 16:17:37,155 INFO  DownloadService - Downloading "https://github.com/armcha/LuseenBottomNavigation/archive/master.zip", attempt 3
+2019-08-13 16:17:38,042 INFO  DownloadService - Downloaded https://github.com/armcha/LuseenBottomNavigation/archive/master.zip, attempt 3
+2019-08-13 16:17:38,042 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/master.zip": 584 KB
+2019-08-13 16:17:38,042 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-13 16:17:38,048 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/master.zip: true
+2019-08-13 16:17:38,048 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src'.
+2019-08-13 16:17:38,075 INFO  FullProcessService - Size of directory with sources: 954 KB
+2019-08-13 16:17:38,075 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src]
+2019-08-13 16:17:38,095 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/.git/
 
-2019-01-06 21:03:35,232 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/gradlew
-2019-01-06 21:03:35,236 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/build.gradle
-2019-01-06 21:03:35,239 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/settings.gradle
-2019-01-06 21:03:35,240 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 21:03:35,240 INFO  ProjectFixService - Fixing project...
-2019-01-06 21:03:35,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/local.properties
-2019-01-06 21:03:35,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-01-06 21:03:35,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/sample/local.properties
-2019-01-06 21:03:35,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/sample/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-01-06 21:03:35,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/local.properties
-2019-01-06 21:03:35,250 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-01-06 21:03:35,251 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-01-06 21:03:35,251 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2019-01-06 21:03:35,252 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 21:03:35,252 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 21:03:35,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 21:03:41,970 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-06 21:03:41,971 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-06 21:03:41,971 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-06 21:03:41,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-06 21:03:52,787 ERROR SysUtils - Could not process external command
+2019-08-13 16:17:38,098 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/gradlew
+2019-08-13 16:17:38,101 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/build.gradle
+2019-08-13 16:17:38,103 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/settings.gradle
+2019-08-13 16:17:38,103 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 16:17:38,104 INFO  ProjectFixService - Fixing project...
+2019-08-13 16:17:38,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/local.properties
+2019-08-13 16:17:38,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-08-13 16:17:38,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/sample/local.properties
+2019-08-13 16:17:38,112 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/sample/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-08-13 16:17:38,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/local.properties
+2019-08-13 16:17:38,112 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-13 16:17:38,113 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-13 16:17:38,114 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-08-13 16:17:38,114 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 16:17:38,114 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 16:17:38,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 16:17:44,603 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 16:17:44,603 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 16:17:44,603 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 16:17:44,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/BottomNavigationViewLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 16:17:54,362 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 21:03:52,787 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 16:17:54,362 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :BottomNavigationViewLibrary:preBuild UP-TO-DATE
 :BottomNavigationViewLibrary:preDebugBuild UP-TO-DATE
@@ -232,14 +232,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.306 secs
+Total time: 9.242 secs
 
-2019-01-06 21:03:52,847 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 21:03:52,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 21:04:01,345 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-06 21:04:01,345 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-06 21:04:01,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-06 21:04:17,058 ERROR SysUtils - Could not process external command
+2019-08-13 16:17:54,404 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 16:17:54,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 16:17:59,810 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-13 16:17:59,811 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 16:17:59,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 16:18:12,501 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -267,7 +267,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 21:04:17,058 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 16:18:12,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :BottomNavigationViewLibrary:preBuild UP-TO-DATE
 :BottomNavigationViewLibrary:preReleaseBuild UP-TO-DATE
@@ -473,6 +473,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 15.154 secs
+Total time: 12.138 secs
 
-2019-01-06 21:04:17,163 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783414476-0/src/LuseenBottomNavigation-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-08-13 16:18:12,577 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687857152-0/src/LuseenBottomNavigation-master/sample/build/outputs/apk/sample-debug-unaligned.apk

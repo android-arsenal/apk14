@@ -1,33 +1,33 @@
-2019-01-06 21:01:29,187 INFO  DownloadService - Downloading "https://github.com/ItsPriyesh/chroma/archive/master.zip", attempt 3
-2019-01-06 21:01:36,195 INFO  DownloadService - Downloaded https://github.com/ItsPriyesh/chroma/archive/master.zip, attempt 3
-2019-01-06 21:01:36,196 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/master.zip": 5 MB
-2019-01-06 21:01:36,196 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 21:01:36,202 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/master.zip: true
-2019-01-06 21:01:36,203 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src'.
-2019-01-06 21:01:36,250 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-01-06 21:01:36,251 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src]
-2019-01-06 21:01:36,272 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/.git/
+2019-08-13 16:15:34,944 INFO  DownloadService - Downloading "https://github.com/ItsPriyesh/chroma/archive/master.zip", attempt 3
+2019-08-13 16:15:41,172 INFO  DownloadService - Downloaded https://github.com/ItsPriyesh/chroma/archive/master.zip, attempt 3
+2019-08-13 16:15:41,173 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/master.zip": 5 MB
+2019-08-13 16:15:41,173 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-13 16:15:41,175 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/master.zip: true
+2019-08-13 16:15:41,175 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src'.
+2019-08-13 16:15:41,219 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-08-13 16:15:41,220 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src]
+2019-08-13 16:15:41,236 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/.git/
 
-2019-01-06 21:01:36,275 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/gradlew
-2019-01-06 21:01:36,278 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/build.gradle
-2019-01-06 21:01:36,281 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma-sample/build.gradle
-2019-01-06 21:01:36,282 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 21:01:36,282 INFO  ProjectFixService - Fixing project...
-2019-01-06 21:01:36,291 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma-sample/local.properties
-2019-01-06 21:01:36,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma-sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2019-01-06 21:01:36,292 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma/local.properties
-2019-01-06 21:01:36,292 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-06 21:01:36,293 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/local.properties
-2019-01-06 21:01:36,293 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2019-01-06 21:01:36,294 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2019-01-06 21:01:36,295 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2019-01-06 21:01:36,296 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 21:01:36,296 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 21:01:36,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 21:02:07,712 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-01-06 21:02:07,713 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-06 21:02:07,713 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-06 21:02:41,656 ERROR SysUtils - Could not process external command
+2019-08-13 16:15:41,238 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/gradlew
+2019-08-13 16:15:41,240 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/build.gradle
+2019-08-13 16:15:41,242 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma-sample/build.gradle
+2019-08-13 16:15:41,243 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 16:15:41,243 INFO  ProjectFixService - Fixing project...
+2019-08-13 16:15:41,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma-sample/local.properties
+2019-08-13 16:15:41,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma-sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-08-13 16:15:41,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma/local.properties
+2019-08-13 16:15:41,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-13 16:15:41,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/local.properties
+2019-08-13 16:15:41,250 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-08-13 16:15:41,250 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-08-13 16:15:41,252 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-08-13 16:15:41,252 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 16:15:41,252 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 16:15:41,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 16:16:02,595 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-08-13 16:16:02,596 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 16:16:02,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 16:16:31,349 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-06 21:02:41,656 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 16:16:31,349 INFO  SysUtils - Configuration on demand is an incubating feature.
 :chroma:preBuild UP-TO-DATE
 :chroma:preReleaseBuild UP-TO-DATE
 :chroma:compileReleaseNdk UP-TO-DATE
@@ -243,6 +243,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 32.922 secs
+Total time: 27.747 secs
 
-2019-01-06 21:02:41,754 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783289184-0/src/chroma-master/chroma-sample/build/outputs/apk/chroma-sample-debug-unaligned.apk
+2019-08-13 16:16:31,427 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687734941-0/src/chroma-master/chroma-sample/build/outputs/apk/chroma-sample-debug-unaligned.apk

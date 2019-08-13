@@ -1,35 +1,35 @@
-2019-01-06 21:01:27,085 INFO  DownloadService - Downloading "https://github.com/silvestrpredko/DotProgressBarExample/archive/master.zip", attempt 3
-2019-01-06 21:01:28,930 INFO  DownloadService - Downloaded https://github.com/silvestrpredko/DotProgressBarExample/archive/master.zip, attempt 3
-2019-01-06 21:01:28,930 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/master.zip": 52 KB
-2019-01-06 21:01:28,930 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 21:01:28,936 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/master.zip: true
-2019-01-06 21:01:28,936 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src'.
-2019-01-06 21:01:28,957 INFO  FullProcessService - Size of directory with sources: 80 KB
-2019-01-06 21:01:28,957 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src]
-2019-01-06 21:01:28,989 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/.git/
+2019-08-13 16:15:33,373 INFO  DownloadService - Downloading "https://github.com/silvestrpredko/DotProgressBarExample/archive/master.zip", attempt 3
+2019-08-13 16:15:33,988 INFO  DownloadService - Downloaded https://github.com/silvestrpredko/DotProgressBarExample/archive/master.zip, attempt 3
+2019-08-13 16:15:33,988 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/master.zip": 52 KB
+2019-08-13 16:15:33,988 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-13 16:15:33,993 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/master.zip: true
+2019-08-13 16:15:33,994 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src'.
+2019-08-13 16:15:34,009 INFO  FullProcessService - Size of directory with sources: 80 KB
+2019-08-13 16:15:34,009 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src]
+2019-08-13 16:15:34,026 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/.git/
 
-2019-01-06 21:01:28,992 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-01-06 21:01:28,992 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-01-06 21:01:28,996 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/build.gradle
-2019-01-06 21:01:29,000 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/settings.gradle
-2019-01-06 21:01:29,001 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-01-06 21:01:29,101 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-01-06 21:01:29,101 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2019-01-06 21:01:29,101 INFO  ProjectFixService - Fixing project...
-2019-01-06 21:01:29,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/app/local.properties
-2019-01-06 21:01:29,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-01-06 21:01:29,112 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/dot-progress-bar/local.properties
-2019-01-06 21:01:29,112 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-01-06 21:01:29,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/local.properties
-2019-01-06 21:01:29,114 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-01-06 21:01:29,114 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 21:01:29,115 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 21:01:29,115 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 21:01:29,123 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-01-06 21:01:29,123 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-01-06 21:01:29,123 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-01-06 21:01:29,123 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-01-06 21:01:29,129 ERROR SysUtils - Could not process external command
+2019-08-13 16:15:34,030 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-08-13 16:15:34,030 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-08-13 16:15:34,033 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/build.gradle
+2019-08-13 16:15:34,035 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/settings.gradle
+2019-08-13 16:15:34,039 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-08-13 16:15:34,871 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-08-13 16:15:34,871 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-08-13 16:15:34,871 INFO  ProjectFixService - Fixing project...
+2019-08-13 16:15:34,878 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/app/local.properties
+2019-08-13 16:15:34,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/app/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-08-13 16:15:34,879 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/dot-progress-bar/local.properties
+2019-08-13 16:15:34,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-08-13 16:15:34,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/local.properties
+2019-08-13 16:15:34,881 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-08-13 16:15:34,881 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 16:15:34,881 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 16:15:34,881 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 16:15:34,887 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-08-13 16:15:34,888 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-08-13 16:15:34,888 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-08-13 16:15:34,888 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-08-13 16:15:34,893 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -67,14 +67,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-01-06 21:01:29,129 INFO  SysUtils - 
-2019-01-06 21:01:29,133 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 21:01:29,133 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 21:01:29,139 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-01-06 21:01:29,139 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-01-06 21:01:29,139 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-01-06 21:01:29,140 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-01-06 21:01:29,145 ERROR SysUtils - Could not process external command
+2019-08-13 16:15:34,894 INFO  SysUtils - 
+2019-08-13 16:15:34,896 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 16:15:34,896 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 16:15:34,901 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-08-13 16:15:34,901 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-08-13 16:15:34,902 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-08-13 16:15:34,902 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/dot-progress-bar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-08-13 16:15:34,907 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -112,14 +112,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-01-06 21:01:29,145 INFO  SysUtils - 
-2019-01-06 21:01:29,148 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 21:01:29,148 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 21:01:29,152 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-01-06 21:01:29,153 INFO  ProjectTaskService - Detected possible tasks: 4
-2019-01-06 21:01:29,153 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2019-01-06 21:01:29,153 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546783287077-0/src/DotProgressBarExample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2019-01-06 21:01:29,158 ERROR SysUtils - Could not process external command
+2019-08-13 16:15:34,907 INFO  SysUtils - 
+2019-08-13 16:15:34,909 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 16:15:34,909 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 16:15:34,914 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-08-13 16:15:34,914 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-08-13 16:15:34,914 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-08-13 16:15:34,914 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687733369-0/src/DotProgressBarExample-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-08-13 16:15:34,919 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -157,6 +157,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-01-06 21:01:29,158 INFO  SysUtils - 
-2019-01-06 21:01:29,161 ERROR FullProcessService - Project build has not produced APK file
-2019-01-06 21:01:29,164 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-13 16:15:34,919 INFO  SysUtils - 
+2019-08-13 16:15:34,921 ERROR FullProcessService - Project build has not produced APK file
+2019-08-13 16:15:34,923 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,39 +1,39 @@
-2019-01-06 19:50:21,262 INFO  DownloadService - Downloading "https://github.com/Piasy/RxAndroidAudio/archive/master.zip", attempt 3
-2019-01-06 19:50:22,074 INFO  DownloadService - Downloaded https://github.com/Piasy/RxAndroidAudio/archive/master.zip, attempt 3
-2019-01-06 19:50:22,074 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/master.zip": 227 KB
-2019-01-06 19:50:22,074 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-06 19:50:22,079 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/master.zip: true
-2019-01-06 19:50:22,080 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src'.
-2019-01-06 19:50:22,103 INFO  FullProcessService - Size of directory with sources: 302 KB
-2019-01-06 19:50:22,103 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src]
-2019-01-06 19:50:22,121 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/.git/
+2019-08-13 16:12:15,557 INFO  DownloadService - Downloading "https://github.com/Piasy/RxAndroidAudio/archive/master.zip", attempt 3
+2019-08-13 16:12:16,386 INFO  DownloadService - Downloaded https://github.com/Piasy/RxAndroidAudio/archive/master.zip, attempt 3
+2019-08-13 16:12:16,387 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/master.zip": 227 KB
+2019-08-13 16:12:16,387 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-13 16:12:16,387 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/master.zip: true
+2019-08-13 16:12:16,387 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src'.
+2019-08-13 16:12:16,409 INFO  FullProcessService - Size of directory with sources: 302 KB
+2019-08-13 16:12:16,409 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src]
+2019-08-13 16:12:16,428 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/.git/
 
-2019-01-06 19:50:22,124 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/gradlew
-2019-01-06 19:50:22,128 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/rxandroidaudio/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/build.gradle
-2019-01-06 19:50:22,131 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/rxandroidaudio/build.gradle
-2019-01-06 19:50:22,132 INFO  ProjectBuildService - Remote scripts: none
-2019-01-06 19:50:22,132 INFO  ProjectFixService - Fixing project...
-2019-01-06 19:50:22,142 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/local.properties
-2019-01-06 19:50:22,145 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-06 19:50:22,145 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-06 19:50:22,146 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/local.properties
-2019-01-06 19:50:22,149 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-06 19:50:22,149 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-06 19:50:22,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/rxandroidaudio/local.properties
-2019-01-06 19:50:22,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/rxandroidaudio/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-06 19:50:22,153 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/rxandroidaudio/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-06 19:50:22,154 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/local.properties
-2019-01-06 19:50:22,155 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
-2019-01-06 19:50:22,155 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
-2019-01-06 19:50:22,159 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-06 19:50:22,160 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-06 19:50:22,160 INFO  ProjectFixService - Project was maybe fixed
-2019-01-06 19:50:22,160 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:50:22,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:50:30,986 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-01-06 19:50:30,987 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-06 19:50:30,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-06 19:50:52,782 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 16:12:16,431 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/gradlew
+2019-08-13 16:12:16,435 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/rxandroidaudio/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/build.gradle
+2019-08-13 16:12:16,439 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/gradle/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/rxandroidaudio/build.gradle
+2019-08-13 16:12:16,443 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 16:12:16,443 INFO  ProjectFixService - Fixing project...
+2019-08-13 16:12:16,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/local.properties
+2019-08-13 16:12:16,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-13 16:12:16,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-13 16:12:16,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/local.properties
+2019-08-13 16:12:16,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-13 16:12:16,472 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-13 16:12:16,473 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/rxandroidaudio/local.properties
+2019-08-13 16:12:16,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/rxandroidaudio/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-13 16:12:16,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/rxandroidaudio/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-13 16:12:16,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/local.properties
+2019-08-13 16:12:16,479 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2019-08-13 16:12:16,479 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2019-08-13 16:12:16,483 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-13 16:12:16,483 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-13 16:12:16,484 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 16:12:16,484 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 16:12:16,484 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 16:12:26,304 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-08-13 16:12:26,304 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-13 16:12:26,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-13 16:12:47,901 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :AudioProcessor:preBuild UP-TO-DATE
 > Task :AudioProcessor:preDebugBuild UP-TO-DATE
 > Task :AudioProcessor:compileDebugAidl NO-SOURCE
@@ -76,7 +76,7 @@ Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features
 Variant=debug ABI=armeabi-v7a :-- Detecting CXX compile features - done
 Variant=debug ABI=armeabi-v7a :-- Configuring done
 Variant=debug ABI=armeabi-v7a :-- Generating done
-Variant=debug ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/debug/armeabi-v7a
+Variant=debug ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/debug/armeabi-v7a
 Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=arm64-v8a :-- Detecting C compiler ABI info
@@ -91,7 +91,7 @@ Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features
 Variant=debug ABI=arm64-v8a :-- Detecting CXX compile features - done
 Variant=debug ABI=arm64-v8a :-- Configuring done
 Variant=debug ABI=arm64-v8a :-- Generating done
-Variant=debug ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/debug/arm64-v8a
+Variant=debug ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/debug/arm64-v8a
 Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=x86 :-- Detecting C compiler ABI info
@@ -106,7 +106,7 @@ Variant=debug ABI=x86 :-- Detecting CXX compile features
 Variant=debug ABI=x86 :-- Detecting CXX compile features - done
 Variant=debug ABI=x86 :-- Configuring done
 Variant=debug ABI=x86 :-- Generating done
-Variant=debug ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/debug/x86
+Variant=debug ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/debug/x86
 Variant=debug ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=debug ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=debug ABI=x86_64 :-- Detecting C compiler ABI info
@@ -121,21 +121,21 @@ Variant=debug ABI=x86_64 :-- Detecting CXX compile features
 Variant=debug ABI=x86_64 :-- Detecting CXX compile features - done
 Variant=debug ABI=x86_64 :-- Configuring done
 Variant=debug ABI=x86_64 :-- Generating done
-Variant=debug ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/debug/x86_64
+Variant=debug ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/debug/x86_64
 
 > Task :AudioProcessor:externalNativeBuildDebug
 Build audio-processor x86_64
 [1/2] Building C object CMakeFiles/audio-processor.dir/smbPitchShift.c.o
-[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/debug/obj/x86_64/libaudio-processor.so
+[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/debug/obj/x86_64/libaudio-processor.so
 Build audio-processor x86
 [1/2] Building C object CMakeFiles/audio-processor.dir/smbPitchShift.c.o
-[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/debug/obj/x86/libaudio-processor.so
+[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/debug/obj/x86/libaudio-processor.so
 Build audio-processor arm64-v8a
 [1/2] Building C object CMakeFiles/audio-processor.dir/smbPitchShift.c.o
-[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/debug/obj/arm64-v8a/libaudio-processor.so
+[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/debug/obj/arm64-v8a/libaudio-processor.so
 Build audio-processor armeabi-v7a
 [1/2] Building C object CMakeFiles/audio-processor.dir/smbPitchShift.c.o
-[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/debug/obj/armeabi-v7a/libaudio-processor.so
+[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/debug/obj/armeabi-v7a/libaudio-processor.so
 
 > Task :AudioProcessor:mergeDebugJniLibFolders
 > Task :AudioProcessor:transformNativeLibsWithMergeJniLibsForDebug
@@ -183,7 +183,7 @@ Variant=release ABI=armeabi-v7a :-- Detecting CXX compile features
 Variant=release ABI=armeabi-v7a :-- Detecting CXX compile features - done
 Variant=release ABI=armeabi-v7a :-- Configuring done
 Variant=release ABI=armeabi-v7a :-- Generating done
-Variant=release ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/release/armeabi-v7a
+Variant=release ABI=armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/release/armeabi-v7a
 Variant=release ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=release ABI=arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=release ABI=arm64-v8a :-- Detecting C compiler ABI info
@@ -198,7 +198,7 @@ Variant=release ABI=arm64-v8a :-- Detecting CXX compile features
 Variant=release ABI=arm64-v8a :-- Detecting CXX compile features - done
 Variant=release ABI=arm64-v8a :-- Configuring done
 Variant=release ABI=arm64-v8a :-- Generating done
-Variant=release ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/release/arm64-v8a
+Variant=release ABI=arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/release/arm64-v8a
 Variant=release ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=release ABI=x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=release ABI=x86 :-- Detecting C compiler ABI info
@@ -213,7 +213,7 @@ Variant=release ABI=x86 :-- Detecting CXX compile features
 Variant=release ABI=x86 :-- Detecting CXX compile features - done
 Variant=release ABI=x86 :-- Configuring done
 Variant=release ABI=x86 :-- Generating done
-Variant=release ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/release/x86
+Variant=release ABI=x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/release/x86
 Variant=release ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 Variant=release ABI=x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 Variant=release ABI=x86_64 :-- Detecting C compiler ABI info
@@ -228,21 +228,21 @@ Variant=release ABI=x86_64 :-- Detecting CXX compile features
 Variant=release ABI=x86_64 :-- Detecting CXX compile features - done
 Variant=release ABI=x86_64 :-- Configuring done
 Variant=release ABI=x86_64 :-- Generating done
-Variant=release ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/release/x86_64
+Variant=release ABI=x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/.externalNativeBuild/cmake/release/x86_64
 
 > Task :AudioProcessor:externalNativeBuildRelease
 Build audio-processor x86_64
 [1/2] Building C object CMakeFiles/audio-processor.dir/smbPitchShift.c.o
-[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/release/obj/x86_64/libaudio-processor.so
+[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/release/obj/x86_64/libaudio-processor.so
 Build audio-processor x86
 [1/2] Building C object CMakeFiles/audio-processor.dir/smbPitchShift.c.o
-[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/release/obj/x86/libaudio-processor.so
+[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/release/obj/x86/libaudio-processor.so
 Build audio-processor arm64-v8a
 [1/2] Building C object CMakeFiles/audio-processor.dir/smbPitchShift.c.o
-[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/release/obj/arm64-v8a/libaudio-processor.so
+[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/release/obj/arm64-v8a/libaudio-processor.so
 Build audio-processor armeabi-v7a
 [1/2] Building C object CMakeFiles/audio-processor.dir/smbPitchShift.c.o
-[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/release/obj/armeabi-v7a/libaudio-processor.so
+[2/2] Linking C shared library /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/build/intermediates/cmake/release/obj/armeabi-v7a/libaudio-processor.so
 
 > Task :AudioProcessor:mergeReleaseJniLibFolders
 > Task :AudioProcessor:transformNativeLibsWithMergeJniLibsForRelease
@@ -255,13 +255,13 @@ Build audio-processor armeabi-v7a
 > Task :AudioProcessor:assembleRelease
 
 > Task :AudioProcessor:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/src/main/java/com/github/piasy/audioprocessor/AudioProcessor.java:55: warning: no @param for input
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/src/main/java/com/github/piasy/audioprocessor/AudioProcessor.java:55: warning: no @param for input
     public synchronized byte[] process(float ratio, byte[] input, int sampleRate) {
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/src/main/java/com/github/piasy/audioprocessor/AudioProcessor.java:55: warning: no @param for sampleRate
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/src/main/java/com/github/piasy/audioprocessor/AudioProcessor.java:55: warning: no @param for sampleRate
     public synchronized byte[] process(float ratio, byte[] input, int sampleRate) {
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/AudioProcessor/src/main/java/com/github/piasy/audioprocessor/AudioProcessor.java:55: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/AudioProcessor/src/main/java/com/github/piasy/audioprocessor/AudioProcessor.java:55: warning: no @return
     public synchronized byte[] process(float ratio, byte[] input, int sampleRate) {
                                ^
 3 warnings
@@ -274,125 +274,193 @@ Build audio-processor armeabi-v7a
 BUILD SUCCESSFUL in 21s
 52 actionable tasks: 52 executed
 
-2019-01-06 19:50:52,807 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-06 19:50:52,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-06 19:50:59,678 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-06 19:50:59,678 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-06 19:50:59,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-06 19:51:41,690 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 16:12:47,926 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 16:12:47,927 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 16:12:53,785 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-13 16:12:53,785 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 16:12:53,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 16:13:31,384 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
 > Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with JetifyTransform
 > Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
 > Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.4) with JetifyTransform
+> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.4) with IdentityTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
 > Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
 > Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
-> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
-> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with ExtractAarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
+> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with JetifyTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.0.1) with ExtractAarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with ExtractAarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
-> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with JetifyTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with JetifyTransform
-> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with ExtractAarTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with ExtractAarTransform
-> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with JetifyTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with ExtractAarTransform
-> Transform butterknife-annotations.jar (com.jakewharton:butterknife-annotations:9.0.0-rc2) with JetifyTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
-> Transform butterknife-annotations.jar (com.jakewharton:butterknife-annotations:9.0.0-rc2) with IdentityTransform
-> Transform rxlifecycle.jar (com.trello.rxlifecycle2:rxlifecycle:2.1.0) with JetifyTransform
-> Transform rxlifecycle.jar (com.trello.rxlifecycle2:rxlifecycle:2.1.0) with IdentityTransform
+> Transform core.aar (androidx.core:core:1.0.1) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Transform animal-sniffer-annotations.jar (org.codehaus.mojo:animal-sniffer-annotations:1.14) with JetifyTransform
 > Transform j2objc-annotations.jar (com.google.j2objc:j2objc-annotations:1.1) with JetifyTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.0-rc01) with JetifyTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with JetifyTransform
-> Transform checker-compat-qual.jar (org.checkerframework:checker-compat-qual:2.0.0) with JetifyTransform
 
 > Transform error_prone_annotations.jar (com.google.errorprone:error_prone_annotations:2.1.3) with JetifyTransform
 ERROR: [TAG] Failed to resolve variable '${junit.version}'
 
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with ExtractAarTransform
+> Transform checker-compat-qual.jar (org.checkerframework:checker-compat-qual:2.0.0) with JetifyTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:1.3.9) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0-rc01) with JetifyTransform
+> Transform rxlifecycle.jar (com.trello.rxlifecycle2:rxlifecycle:2.1.0) with JetifyTransform
+> Transform rxlifecycle.jar (com.trello.rxlifecycle2:rxlifecycle:2.1.0) with IdentityTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with JetifyTransform
+> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with JetifyTransform
+> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with JetifyTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with ExtractAarTransform
+> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with ExtractAarTransform
+> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with ExtractAarTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with JetifyTransform
+> Transform butterknife-annotations.jar (com.jakewharton:butterknife-annotations:9.0.0-rc2) with JetifyTransform
 > Transform auto-common.jar (com.google.auto:auto-common:0.10) with JetifyTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
+> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
+> Transform butterknife-annotations.jar (com.jakewharton:butterknife-annotations:9.0.0-rc2) with IdentityTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
+> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
+> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
+> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
@@ -402,11 +470,8 @@ ERROR: [TAG] Failed to resolve variable '${junit.version}'
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with JetifyTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with ExtractAarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.1) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
@@ -422,195 +487,143 @@ ERROR: [TAG] Failed to resolve variable '${junit.version}'
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
 > Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
-> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
 > Transform javapoet.jar (com.squareup:javapoet:1.10.0) with JetifyTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
-> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
-> Transform butterknife-compiler.jar (com.jakewharton:butterknife-compiler:9.0.0-rc2) with JetifyTransform
-> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
 > Task :app:preBuild UP-TO-DATE
 > Task :AudioProcessor:preBuild UP-TO-DATE
 > Task :AudioProcessor:preDebugBuild UP-TO-DATE
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Task :AudioProcessor:checkDebugManifest UP-TO-DATE
-> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with JetifyTransform
 > Task :AudioProcessor:processDebugManifest UP-TO-DATE
 > Task :rxandroidaudio:preBuild UP-TO-DATE
 > Task :rxandroidaudio:preDebugBuild UP-TO-DATE
-> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with ExtractAarTransform
 > Task :rxandroidaudio:checkDebugManifest
-> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
-> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
-> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
-> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
+
+> Transform guava.jar (com.google.guava:guava:24.0-jre) with JetifyTransform
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+
+> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with JetifyTransform
 > Task :rxandroidaudio:processDebugManifest
 > Task :AudioProcessor:compileDebugAidl NO-SOURCE
+> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with ExtractAarTransform
 > Task :rxandroidaudio:compileDebugAidl NO-SOURCE
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
+> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
+> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
+> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Task :app:checkDebugClasspath
+> Transform butterknife-compiler.jar (com.jakewharton:butterknife-compiler:9.0.0-rc2) with JetifyTransform
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
 > Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Task :AudioProcessor:packageDebugRenderscript NO-SOURCE
 > Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
+> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
-> Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
-> Task :AudioProcessor:packageDebugRenderscript NO-SOURCE
 > Task :rxandroidaudio:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
 > Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
-> Transform core.aar (androidx.core:core:1.0.1) with LibrarySymbolTableTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
 > Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.0.1) with LibrarySymbolTableTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with LibrarySymbolTableTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with LibrarySymbolTableTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with LibrarySymbolTableTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with LibrarySymbolTableTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with LibrarySymbolTableTransform
+> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with LibrarySymbolTableTransform
 > Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
 > Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with LibrarySymbolTableTransform
 > Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
-> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with LibrarySymbolTableTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with LibrarySymbolTableTransform
+> Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with LibrarySymbolTableTransform
 > Task :app:mainApkListPersistenceDebug
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.1) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
 > Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
 > Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
 > Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
 > Task :app:generateDebugResValues
+> Task :app:generateDebugResources
 > Task :AudioProcessor:compileDebugRenderscript UP-TO-DATE
 > Task :AudioProcessor:generateDebugResValues UP-TO-DATE
 > Task :AudioProcessor:generateDebugResources UP-TO-DATE
@@ -618,22 +631,9 @@ ERROR: [TAG] Failed to resolve variable '${junit.version}'
 > Task :rxandroidaudio:compileDebugRenderscript
 > Task :rxandroidaudio:generateDebugResValues
 > Task :rxandroidaudio:generateDebugResources
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.4) with JetifyTransform
 > Task :rxandroidaudio:packageDebugResources
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.4) with IdentityTransform
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:checkDebugClasspath
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
-> Task :app:generateDebugResources
-
-> Transform guava.jar (com.google.guava:guava:24.0-jre) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
-
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:splitsDiscoveryTaskDebug
 > Task :AudioProcessor:generateDebugRFile UP-TO-DATE
@@ -661,26 +661,26 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:javaPreCompileDebug
 
 > Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/src/main/java/com/github/piasy/rxandroidaudio/example/FileActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/src/main/java/com/github/piasy/rxandroidaudio/example/FileActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
@@ -692,11 +692,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
-> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
+> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
 > Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -713,20 +713,20 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
@@ -734,20 +734,20 @@ Note: Recompile with -Xlint:deprecation for details.
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
 > Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
 > Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.4) with IdentityTransform
 > Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
 > Transform butterknife-annotations.jar (com.jakewharton:butterknife-annotations:9.0.0-rc2) with IdentityTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
 > Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
+> Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
 > Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
@@ -757,15 +757,15 @@ Note: Recompile with -Xlint:deprecation for details.
 > Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
@@ -775,15 +775,15 @@ Note: Recompile with -Xlint:deprecation for details.
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
 > Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
 > Transform rxlifecycle-components.aar (com.trello.rxlifecycle2:rxlifecycle-components:2.1.0) with AarTransform
 > Task :app:mergeDebugJniLibFolders
 > Task :AudioProcessor:generateJsonModelDebug UP-TO-DATE
@@ -870,20 +870,22 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseJavaWithJavac
 
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/src/main/java/com/github/piasy/rxandroidaudio/example/FileActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.0.1) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform butterknife-runtime.aar (com.jakewharton:butterknife-runtime:9.0.0-rc2) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
@@ -895,13 +897,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/src/main/java/com/github/piasy/rxandroidaudio/example/FileActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Transform rxpermissions.aar (com.tbruyelle.rxpermissions2:rxpermissions:0.9.4) with AarTransform
 > Transform rxlifecycle-android.aar (com.trello.rxlifecycle2:rxlifecycle-android:2.1.0) with AarTransform
 > Transform butterknife.aar (com.jakewharton:butterknife:9.0.0-rc2) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
@@ -957,7 +957,7 @@ ninja: no work to do.
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 41s
+BUILD SUCCESSFUL in 37s
 129 actionable tasks: 96 executed, 33 up-to-date
 
-2019-01-06 19:51:41,798 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546779021259-0/src/RxAndroidAudio-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-13 16:13:31,509 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565687535552-0/src/RxAndroidAudio-master/app/build/outputs/apk/debug/app-debug.apk
