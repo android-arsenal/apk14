@@ -1,33 +1,36 @@
-2019-01-08 02:41:09,100 INFO  DownloadService - Downloading "https://github.com/ashishbhandari/AndroidTabbedDialog/archive/master.zip", attempt 3
-2019-01-08 02:41:09,957 INFO  DownloadService - Downloaded https://github.com/ashishbhandari/AndroidTabbedDialog/archive/master.zip, attempt 3
-2019-01-08 02:41:09,957 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/master.zip": 804 KB
-2019-01-08 02:41:09,957 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-08 02:41:09,963 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/master.zip: true
-2019-01-08 02:41:09,963 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src'.
-2019-01-08 02:41:09,996 INFO  FullProcessService - Size of directory with sources: 972 KB
-2019-01-08 02:41:09,996 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src]
-2019-01-08 02:41:10,014 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/.git/
+2019-08-19 13:33:35,468 INFO  DownloadService - Downloading "https://github.com/ashishbhandari/AndroidTabbedDialog/archive/master.zip", attempt 3
+2019-08-19 13:34:36,451 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-19 13:34:37,681 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-19 13:34:37,682 INFO  DownloadService - Downloading "https://github.com/ashishbhandari/AndroidTabbedDialog/archive/master.zip", attempt 3
+2019-08-19 13:35:39,505 DEBUG FullProcessService - Repository https://github.com/ashishbhandari/AndroidTabbedDialog available: true
+2019-08-19 13:35:39,505 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-19 13:35:39,505 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ashishbhandari/AndroidTabbedDialog, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src]
+2019-08-19 13:35:41,820 INFO  SysUtils - 
+2019-08-19 13:35:41,828 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/.git": true
+2019-08-19 13:35:41,831 INFO  FullProcessService - Size of directory with sources: 972 KB
+2019-08-19 13:35:41,832 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src]
+2019-08-19 13:35:41,849 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/.git/
 
-2019-01-08 02:41:10,018 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/gradlew
-2019-01-08 02:41:10,022 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/build.gradle
-2019-01-08 02:41:10,026 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/settings.gradle
-2019-01-08 02:41:10,027 INFO  ProjectBuildService - Remote scripts: none
-2019-01-08 02:41:10,027 INFO  ProjectFixService - Fixing project...
-2019-01-08 02:41:10,036 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/app/local.properties
-2019-01-08 02:41:10,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2019-01-08 02:41:10,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/library/local.properties
-2019-01-08 02:41:10,038 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2019-01-08 02:41:10,038 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/local.properties
-2019-01-08 02:41:10,039 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2019-01-08 02:41:10,039 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2019-01-08 02:41:10,040 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2019-01-08 02:41:10,040 INFO  ProjectFixService - Project was maybe fixed
-2019-01-08 02:41:10,040 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 02:41:10,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 02:41:15,257 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-01-08 02:41:15,258 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-08 02:41:15,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-08 02:41:36,744 ERROR SysUtils - Could not process external command
+2019-08-19 13:35:41,852 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/gradlew
+2019-08-19 13:35:41,855 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/build.gradle
+2019-08-19 13:35:41,857 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/settings.gradle
+2019-08-19 13:35:41,858 INFO  ProjectBuildService - Remote scripts: none
+2019-08-19 13:35:41,858 INFO  ProjectFixService - Fixing project...
+2019-08-19 13:35:41,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/app/local.properties
+2019-08-19 13:35:41,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-08-19 13:35:41,865 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/library/local.properties
+2019-08-19 13:35:41,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-08-19 13:35:41,865 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/local.properties
+2019-08-19 13:35:41,866 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-08-19 13:35:41,866 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-08-19 13:35:41,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-08-19 13:35:41,866 INFO  ProjectFixService - Project was maybe fixed
+2019-08-19 13:35:41,867 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-19 13:35:41,867 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-19 13:35:47,031 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-19 13:35:47,031 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-19 13:35:47,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-19 13:36:10,871 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,22 +43,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 02:41:36,744 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-19 13:36:10,872 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -88,9 +90,9 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :library:processReleaseManifest
 :library:processReleaseResources
 :library:generateReleaseSources
-:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/library/src/main/java/com/androidifygeeks/library/core/BaseDialogFragment.java uses or overrides a deprecated API.
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/library/src/main/java/com/androidifygeeks/library/core/BaseDialogFragment.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/library/src/main/java/com/androidifygeeks/library/fragment/TabDialogFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/library/src/main/java/com/androidifygeeks/library/fragment/TabDialogFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :library:extractReleaseAnnotations
@@ -248,6 +250,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 20.955 secs
+Total time: 23.163 secs
 
-2019-01-08 02:41:36,841 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890069091-0/src/AndroidTabbedDialog-master/app/build/outputs/apk/app-debug.apk
+2019-08-19 13:36:10,974 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566196415460-0/src/app/build/outputs/apk/app-debug.apk
