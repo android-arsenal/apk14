@@ -1,37 +1,37 @@
-2019-01-08 02:44:57,108 INFO  DownloadService - Downloading "https://github.com/Nightonke/BlurLockView/archive/master.zip", attempt 3
-2019-01-08 02:45:07,755 INFO  DownloadService - Downloaded https://github.com/Nightonke/BlurLockView/archive/master.zip, attempt 3
-2019-01-08 02:45:07,755 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/master.zip": 18 MB
-2019-01-08 02:45:07,755 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-08 02:45:07,762 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/master.zip: true
-2019-01-08 02:45:07,762 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src'.
-2019-01-08 02:45:07,933 INFO  FullProcessService - Size of directory with sources: 19 MB
-2019-01-08 02:45:07,933 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src]
-2019-01-08 02:45:07,950 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/.git/
+2019-08-20 11:40:52,864 INFO  DownloadService - Downloading "https://github.com/Nightonke/BlurLockView/archive/master.zip", attempt 3
+2019-08-20 11:41:23,236 INFO  DownloadService - Downloaded https://github.com/Nightonke/BlurLockView/archive/master.zip, attempt 3
+2019-08-20 11:41:23,237 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/master.zip": 18 MB
+2019-08-20 11:41:23,237 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-20 11:41:23,238 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/master.zip: true
+2019-08-20 11:41:23,238 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src'.
+2019-08-20 11:41:23,499 INFO  FullProcessService - Size of directory with sources: 19 MB
+2019-08-20 11:41:23,499 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src]
+2019-08-20 11:41:23,520 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/.git/
 
-2019-01-08 02:45:07,956 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/gradlew
-2019-01-08 02:45:07,961 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/blurlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/build.gradle
-2019-01-08 02:45:07,965 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/blurlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/settings.gradle
-2019-01-08 02:45:07,966 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-01-08 02:45:08,160 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-01-08 02:45:08,160 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-01-08 02:45:08,360 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-01-08 02:45:08,361 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-01-08 02:45:08,361 INFO  ProjectFixService - Fixing project...
-2019-01-08 02:45:08,376 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/local.properties
-2019-01-08 02:45:08,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
-2019-01-08 02:45:08,377 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/blurlockview/local.properties
-2019-01-08 02:45:08,377 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/blurlockview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
-2019-01-08 02:45:08,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/local.properties
-2019-01-08 02:45:08,378 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-01-08 02:45:08,378 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-01-08 02:45:08,379 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
-2019-01-08 02:45:08,379 INFO  ProjectFixService - Project was maybe fixed
-2019-01-08 02:45:08,380 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 02:45:08,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 02:45:25,423 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-01-08 02:45:25,423 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-08 02:45:25,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-08 02:45:32,100 ERROR SysUtils - Could not process external command
+2019-08-20 11:41:23,523 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/gradlew
+2019-08-20 11:41:23,527 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/blurlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/build.gradle
+2019-08-20 11:41:23,530 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/blurlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/settings.gradle
+2019-08-20 11:41:23,531 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-20 11:41:23,717 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-20 11:41:23,718 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-08-20 11:41:23,899 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-08-20 11:41:23,900 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-08-20 11:41:23,900 INFO  ProjectFixService - Fixing project...
+2019-08-20 11:41:23,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/local.properties
+2019-08-20 11:41:23,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
+2019-08-20 11:41:23,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/blurlockview/local.properties
+2019-08-20 11:41:23,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/blurlockview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
+2019-08-20 11:41:23,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/local.properties
+2019-08-20 11:41:23,915 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-20 11:41:23,915 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-20 11:41:23,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
+2019-08-20 11:41:23,916 INFO  ProjectFixService - Project was maybe fixed
+2019-08-20 11:41:23,916 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-20 11:41:23,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-20 11:41:34,993 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-08-20 11:41:34,993 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-20 11:41:34,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-20 11:41:40,859 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -52,14 +52,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 02:45:32,100 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-20 11:41:40,859 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -120,11 +120,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 6.169 secs
+Total time: 5.333 secs
 
-2019-01-08 02:45:32,100 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-01-08 02:45:32,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 02:45:58,343 ERROR SysUtils - Could not process external command
+2019-08-20 11:41:40,859 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-08-20 11:41:40,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-20 11:42:05,739 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -145,14 +145,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 02:45:58,343 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-20 11:42:05,739 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -184,9 +184,9 @@ Incremental java compilation is an incubating feature.
 :blurlockview:processReleaseManifest
 :blurlockview:processReleaseResources
 :blurlockview:generateReleaseSources
-:blurlockview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/blurlockview/src/main/java/com/nightonke/blurlockview/BlurView.java uses or overrides a deprecated API.
+:blurlockview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/blurlockview/src/main/java/com/nightonke/blurlockview/BlurView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/blurlockview/src/main/java/com/nightonke/blurlockview/Eases/EaseType.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/blurlockview/src/main/java/com/nightonke/blurlockview/Eases/EaseType.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :blurlockview:extractReleaseAnnotations
@@ -228,20 +228,20 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:prePackageMarkerForDebug
 :app:transformClassesWithDexForDebug
 Allocated dexExecutorService of size 1
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar took 410
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar took 535
-Dexing /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar took 217
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.7/jars/classes.jar took 679
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/commons/0.8.5.7/jars/classes.jar took 618
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.nightonke/blurlockview/1.0.0/jars/classes.jar took 587
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar took 1143
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar took 946
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar took 1027
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/classes/debug took 572
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar took 1482
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar took 2170
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.5/jars/classes.jar took 427
-Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_ba043ac812c9ce42fc1cfe9b415edb03ef74c206.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_b5bb55a5005efd15db697764cf605a07932988cf.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_4ff11ab64b728f11156e60b99f83c2a4c75b616e.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_7a469c56e407ee46bd326cde9a35e756d402886a.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.github.afollestad.material-dialogs-core-0.8.5.7_d4be7fc0c7b39910c1bfdbbd261ec7acc7c815ca.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_8fb73125977fbfe50b5867ec704f54badc9aa278.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_cebba7857d222b7729866eded59d1c9ff45a68ca.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.github.afollestad.material-dialogs-commons-0.8.5.7_9ae3efffdb0bf5d17b8d001c2f3452699e52ea27.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.nightonke-blurlockview-1.0.0_7add4b22b5bdc6cf05b8c724bffcb4ca464d9d2a.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/me.zhanghai.android.materialprogressbar-library-1.1.5_151f9d3d78808b7b0eb0da0000c1bb0587226cdc.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_60a516fb88206de06e37864ae7661f874bf3b8eb.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_ecee4b3370e8f05b9996540f3a2ff92d431f0a87.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/debug_d5c8ef6a22f4c272152be0802ca5fea461e257fd.jar took 560
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.7/jars/classes.jar took 714
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/classes/debug took 600
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar took 452
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.nightonke/blurlockview/1.0.0/jars/classes.jar took 615
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/commons/0.8.5.7/jars/classes.jar took 589
+Dexing /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar took 206
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar took 941
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar took 1963
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar took 1672
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar took 877
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar took 522
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar took 1111
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.5/jars/classes.jar took 426
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.github.afollestad.material-dialogs-commons-0.8.5.7_6669c4b4f9a2a5c4f9515052922e471647b4f081.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_e7dfba24feeaa725e7ad584af41b893a69f88417.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_7b8face8704d03a7e6e0fd5c4df7600a89a156fe.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_77628e7ab8872c0cc2d108e53646beb1598d17cd.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.1_d2ece1cfa7c0b190e4ed55b2d7706d2194865b3b.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.nightonke-blurlockview-1.0.0_35f2f9fe144efdde4df9595abe6319e1d2799362.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_15542b5018936ea2845126e7a50e77d3f6a597e2.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.github.afollestad.material-dialogs-core-0.8.5.7_d3d53baa92d28d48468d102ad5a47e02f51a9c9a.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_8509a88dd0e437513343f97c27adfbf5aec01734.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/debug_701ed74fbf19a5315709ec4ff5d262c9702533c9.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/me.zhanghai.android.materialprogressbar-library-1.1.5_4b841518a8829eb46f11e914220caf881cf96ccd.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_0de72e92709c2d729241333e3970fb55740a4975.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_b5bb55a5005efd15db697764cf605a07932988cf.jar took 537
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -362,6 +362,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 25.696 secs
+Total time: 24.33 secs
 
-2019-01-08 02:45:58,440 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890297105-0/src/BlurLockView-master/app/build/outputs/apk/app-debug.apk
+2019-08-20 11:42:05,811 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276052855-0/src/BlurLockView-master/app/build/outputs/apk/app-debug.apk

@@ -1,34 +1,34 @@
-2019-01-08 02:46:10,237 INFO  DownloadService - Downloading "https://github.com/AzimoLabs/MaskFormatter/archive/master.zip", attempt 3
-2019-01-08 02:46:12,346 INFO  DownloadService - Downloaded https://github.com/AzimoLabs/MaskFormatter/archive/master.zip, attempt 3
-2019-01-08 02:46:12,346 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/master.zip": 360 KB
-2019-01-08 02:46:12,346 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-08 02:46:12,348 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/master.zip: true
-2019-01-08 02:46:12,348 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src'.
-2019-01-08 02:46:12,368 INFO  FullProcessService - Size of directory with sources: 428 KB
-2019-01-08 02:46:12,368 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src]
-2019-01-08 02:46:12,388 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/.git/
+2019-08-20 11:42:22,356 INFO  DownloadService - Downloading "https://github.com/AzimoLabs/MaskFormatter/archive/master.zip", attempt 3
+2019-08-20 11:42:24,697 INFO  DownloadService - Downloaded https://github.com/AzimoLabs/MaskFormatter/archive/master.zip, attempt 3
+2019-08-20 11:42:24,697 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/master.zip": 360 KB
+2019-08-20 11:42:24,697 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-20 11:42:24,703 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/master.zip: true
+2019-08-20 11:42:24,703 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src'.
+2019-08-20 11:42:24,718 INFO  FullProcessService - Size of directory with sources: 428 KB
+2019-08-20 11:42:24,718 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src]
+2019-08-20 11:42:24,740 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/.git/
 
-2019-01-08 02:46:12,390 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/gradlew
-2019-01-08 02:46:12,393 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/maskformatter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/build.gradle
-2019-01-08 02:46:12,395 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/gradle/gradle-bintray-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/maskformatter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/sampleapp/build.gradle
-2019-01-08 02:46:12,395 INFO  ProjectBuildService - Remote scripts: none
-2019-01-08 02:46:12,395 INFO  ProjectFixService - Fixing project...
-2019-01-08 02:46:12,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/maskformatter/local.properties
-2019-01-08 02:46:12,402 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/maskformatter/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2019-01-08 02:46:12,402 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/sampleapp/local.properties
-2019-01-08 02:46:12,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/sampleapp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2019-01-08 02:46:12,403 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/local.properties
-2019-01-08 02:46:12,403 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-01-08 02:46:12,404 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-01-08 02:46:12,405 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2019-01-08 02:46:12,405 INFO  ProjectFixService - Project was maybe fixed
-2019-01-08 02:46:12,405 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 02:46:12,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/maskformatter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 02:46:26,726 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 02:46:26,726 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 02:46:26,726 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 02:46:26,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/maskformatter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 02:46:34,567 ERROR SysUtils - Could not process external command
+2019-08-20 11:42:24,742 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/gradlew
+2019-08-20 11:42:24,744 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/maskformatter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/build.gradle
+2019-08-20 11:42:24,745 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/gradle/gradle-bintray-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/maskformatter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/sampleapp/build.gradle
+2019-08-20 11:42:24,745 INFO  ProjectBuildService - Remote scripts: none
+2019-08-20 11:42:24,745 INFO  ProjectFixService - Fixing project...
+2019-08-20 11:42:24,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/maskformatter/local.properties
+2019-08-20 11:42:24,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/maskformatter/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-08-20 11:42:24,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/sampleapp/local.properties
+2019-08-20 11:42:24,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/sampleapp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-08-20 11:42:24,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/local.properties
+2019-08-20 11:42:24,752 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-20 11:42:24,753 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-20 11:42:24,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-08-20 11:42:24,755 INFO  ProjectFixService - Project was maybe fixed
+2019-08-20 11:42:24,755 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-20 11:42:24,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/maskformatter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-20 11:42:40,144 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-20 11:42:40,144 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-20 11:42:40,144 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-20 11:42:40,145 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/maskformatter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-20 11:42:47,162 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,14 +49,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 02:46:34,567 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-20 11:42:47,162 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :maskformatter:preBuild UP-TO-DATE
 :maskformatter:preDebugBuild UP-TO-DATE
@@ -216,15 +216,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.327 secs
+Total time: 6.52 secs
 
-2019-01-08 02:46:34,576 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 02:46:34,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 02:46:40,453 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 02:46:40,453 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 02:46:40,453 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 02:46:40,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 02:46:46,337 ERROR SysUtils - Could not process external command
+2019-08-20 11:42:47,167 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-20 11:42:47,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-20 11:42:52,564 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-20 11:42:52,564 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-20 11:42:52,564 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-20 11:42:52,564 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-20 11:42:57,959 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -245,14 +245,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 02:46:46,337 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-20 11:42:57,959 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :sampleapp:preBuild UP-TO-DATE
 :sampleapp:preDebugBuild UP-TO-DATE
@@ -271,7 +271,7 @@ Incremental java compilation is an incubating feature.
 :sampleapp:processDebugManifest
 :sampleapp:processDebugResources
 :sampleapp:generateDebugSources
-:sampleapp:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/sampleapp/src/main/java/com/azimolabs/maskformatter/sampleapp/MainActivity.java:40: error: constructor MaskFormatter in class MaskFormatter cannot be applied to given types;
+:sampleapp:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/sampleapp/src/main/java/com/azimolabs/maskformatter/sampleapp/MainActivity.java:40: error: constructor MaskFormatter in class MaskFormatter cannot be applied to given types;
         field.addTextChangedListener(new MaskFormatter(mask, field, '-'));
                                      ^
   required: String,EditText
@@ -376,14 +376,14 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 5.402 secs
+Total time: 4.833 secs
 
-2019-01-08 02:46:46,349 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 02:46:46,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 02:46:52,197 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-01-08 02:46:52,197 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-08 02:46:52,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-08 02:46:58,595 ERROR SysUtils - Could not process external command
+2019-08-20 11:42:57,968 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-20 11:42:57,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-20 11:43:03,399 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-08-20 11:43:03,399 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-20 11:43:03,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-20 11:43:09,272 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -404,14 +404,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 02:46:58,595 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-20 11:43:09,272 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :maskformatter:preBuild UP-TO-DATE
 :maskformatter:preDebugBuild UP-TO-DATE
@@ -493,7 +493,7 @@ Incremental java compilation is an incubating feature.
 :sampleapp:processDebugManifest UP-TO-DATE
 :sampleapp:processDebugResources UP-TO-DATE
 :sampleapp:generateDebugSources UP-TO-DATE
-:sampleapp:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546890370229-0/src/MaskFormatter-master/sampleapp/src/main/java/com/azimolabs/maskformatter/sampleapp/MainActivity.java:40: error: constructor MaskFormatter in class MaskFormatter cannot be applied to given types;
+:sampleapp:compileDebugJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566276142354-0/src/MaskFormatter-master/sampleapp/src/main/java/com/azimolabs/maskformatter/sampleapp/MainActivity.java:40: error: constructor MaskFormatter in class MaskFormatter cannot be applied to given types;
         field.addTextChangedListener(new MaskFormatter(mask, field, '-'));
                                      ^
   required: String,EditText
@@ -598,7 +598,7 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 5.903 secs
+Total time: 5.335 secs
 
-2019-01-08 02:46:58,607 ERROR FullProcessService - Project build has not produced APK file
-2019-01-08 02:46:58,617 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-20 11:43:09,282 ERROR FullProcessService - Project build has not produced APK file
+2019-08-20 11:43:09,290 ERROR FullProcessService - Could not find generated or existed APK file
