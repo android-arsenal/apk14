@@ -1,34 +1,34 @@
-2019-01-08 19:54:51,405 INFO  DownloadService - Downloading "https://github.com/ugurcany/ACN-Android-Framework/archive/master.zip", attempt 3
-2019-01-08 19:54:54,964 INFO  DownloadService - Downloaded https://github.com/ugurcany/ACN-Android-Framework/archive/master.zip, attempt 3
-2019-01-08 19:54:54,964 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/master.zip": 4 MB
-2019-01-08 19:54:54,964 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-08 19:54:54,972 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/master.zip: true
-2019-01-08 19:54:54,972 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src'.
-2019-01-08 19:54:55,042 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-01-08 19:54:55,042 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src]
-2019-01-08 19:54:55,060 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/.git/
+2019-08-26 16:05:25,225 INFO  DownloadService - Downloading "https://github.com/ugurcany/ACN-Android-Framework/archive/master.zip", attempt 3
+2019-08-26 16:05:28,757 INFO  DownloadService - Downloaded https://github.com/ugurcany/ACN-Android-Framework/archive/master.zip, attempt 3
+2019-08-26 16:05:28,758 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/master.zip": 4 MB
+2019-08-26 16:05:28,758 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-26 16:05:28,765 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/master.zip: true
+2019-08-26 16:05:28,765 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src'.
+2019-08-26 16:05:28,827 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-08-26 16:05:28,827 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src]
+2019-08-26 16:05:28,844 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/.git/
 
-2019-01-08 19:54:55,064 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/gradlew
-2019-01-08 19:54:55,068 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/build.gradle
-2019-01-08 19:54:55,072 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/settings.gradle
-2019-01-08 19:54:55,073 INFO  ProjectBuildService - Remote scripts: none
-2019-01-08 19:54:55,073 INFO  ProjectFixService - Fixing project...
-2019-01-08 19:54:55,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/local.properties
-2019-01-08 19:54:55,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-08 19:54:55,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/test/local.properties
-2019-01-08 19:54:55,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/test/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-08 19:54:55,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/local.properties
-2019-01-08 19:54:55,084 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2019-01-08 19:54:55,084 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2019-01-08 19:54:55,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-08 19:54:55,085 INFO  ProjectFixService - Project was maybe fixed
-2019-01-08 19:54:55,085 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 19:54:55,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 19:55:35,712 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 19:55:35,712 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 19:55:35,712 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 19:55:35,712 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 19:55:48,480 ERROR SysUtils - Could not process external command
+2019-08-26 16:05:28,847 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/gradlew
+2019-08-26 16:05:28,850 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/build.gradle
+2019-08-26 16:05:28,852 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/settings.gradle
+2019-08-26 16:05:28,852 INFO  ProjectBuildService - Remote scripts: none
+2019-08-26 16:05:28,852 INFO  ProjectFixService - Fixing project...
+2019-08-26 16:05:28,859 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/local.properties
+2019-08-26 16:05:28,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-26 16:05:28,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/test/local.properties
+2019-08-26 16:05:28,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/test/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-26 16:05:28,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/local.properties
+2019-08-26 16:05:28,861 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-26 16:05:28,861 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-26 16:05:28,861 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-26 16:05:28,861 INFO  ProjectFixService - Project was maybe fixed
+2019-08-26 16:05:28,862 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-26 16:05:28,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-26 16:05:59,110 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-26 16:05:59,110 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-26 16:05:59,110 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-26 16:05:59,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-26 16:06:14,837 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,14 +48,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 19:55:48,481 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-26 16:06:14,837 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :acn-android-framework:preBuild UP-TO-DATE
 :acn-android-framework:preDebugBuild UP-TO-DATE
@@ -105,7 +105,7 @@ Incremental java compilation is an incubating feature.
 :acn-android-framework:incrementalDebugJavaCompilationSafeguard
 :acn-android-framework:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/src/main/java/acn/android/framework/view/AcnInfiniteListView.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/src/main/java/acn/android/framework/view/AcnInfiniteListView.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :acn-android-framework:extractDebugAnnotations
@@ -142,7 +142,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :acn-android-framework:incrementalReleaseJavaCompilationSafeguard
 :acn-android-framework:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/src/main/java/acn/android/framework/view/AcnInfiniteListView.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/src/main/java/acn/android/framework/view/AcnInfiniteListView.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :acn-android-framework:extractReleaseAnnotations
@@ -255,14 +255,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.242 secs
+Total time: 15.148 secs
 
-2019-01-08 19:55:48,553 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 19:55:48,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 19:55:54,880 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-08 19:55:54,880 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-08 19:55:54,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-08 19:56:15,150 ERROR SysUtils - Could not process external command
+2019-08-26 16:06:14,914 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-26 16:06:14,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-26 16:06:22,459 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-26 16:06:22,459 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-26 16:06:22,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-26 16:06:45,932 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -282,14 +282,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 19:56:15,151 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-26 16:06:45,932 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :acn-android-framework:preBuild UP-TO-DATE
 :acn-android-framework:preReleaseBuild UP-TO-DATE
@@ -339,7 +339,7 @@ Incremental java compilation is an incubating feature.
 :acn-android-framework:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
 :acn-android-framework:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/acn-android-framework/src/main/java/acn/android/framework/view/AcnInfiniteListView.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/acn-android-framework/src/main/java/acn/android/framework/view/AcnInfiniteListView.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :acn-android-framework:extractReleaseAnnotations UP-TO-DATE
@@ -401,7 +401,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :test:compileDebugSources
 :test:prePackageMarkerForDebug
 :test:transformClassesWithDexForDebug
-Result compacted from 5588.4KiB to 4178.7KiB to save 1409.6KiB
+Result compacted from 5588.4KiB to 4178.7KiB to save 1409.7KiB
 Merged dex #1 (40 defs/49.0KiB)
 Merged dex #2 (1 defs/0.8KiB)
 Merged dex #3 (28 defs/10.3KiB)
@@ -437,7 +437,7 @@ Merged dex #32 (821 defs/668.7KiB)
 Merged dex #33 (41 defs/6.5KiB)
 Merged dex #34 (18 defs/27.1KiB)
 Merged dex #35 (108 defs/142.0KiB)
-Result is 3726 defs/4178.7KiB. Took 0.5s
+Result is 3726 defs/4178.7KiB. Took 0.8s
 :test:mergeDebugJniLibFolders
 :test:transformNative_libsWithMergeJniLibsForDebug
 :test:processDebugJavaRes UP-TO-DATE
@@ -518,6 +518,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':test:li
 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+
 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
 	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
 	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
@@ -560,9 +561,8 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
 	... 60 more
 
-
 BUILD FAILED
 
-Total time: 19.661 secs
+Total time: 22.846 secs
 
-2019-01-08 19:56:15,290 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952091402-0/src/ACN-Android-Framework-master/test/build/outputs/apk/test-debug.apk
+2019-08-26 16:06:46,044 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810325223-0/src/ACN-Android-Framework-master/test/build/outputs/apk/test-debug.apk

@@ -1,31 +1,31 @@
-2019-01-08 19:54:04,406 INFO  DownloadService - Downloading "https://github.com/jrejaud/TwilioLookup/archive/master.zip", attempt 3
-2019-01-08 19:54:06,350 INFO  DownloadService - Downloaded https://github.com/jrejaud/TwilioLookup/archive/master.zip, attempt 3
-2019-01-08 19:54:06,350 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/master.zip": 65 KB
-2019-01-08 19:54:06,350 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-08 19:54:06,356 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/master.zip: true
-2019-01-08 19:54:06,356 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src'.
-2019-01-08 19:54:06,368 INFO  FullProcessService - Size of directory with sources: 80 KB
-2019-01-08 19:54:06,368 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src]
-2019-01-08 19:54:06,390 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/.git/
+2019-08-26 16:04:35,910 INFO  DownloadService - Downloading "https://github.com/jrejaud/TwilioLookup/archive/master.zip", attempt 3
+2019-08-26 16:04:36,463 INFO  DownloadService - Downloaded https://github.com/jrejaud/TwilioLookup/archive/master.zip, attempt 3
+2019-08-26 16:04:36,463 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/master.zip": 65 KB
+2019-08-26 16:04:36,463 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-26 16:04:36,468 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/master.zip: true
+2019-08-26 16:04:36,468 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src'.
+2019-08-26 16:04:36,483 INFO  FullProcessService - Size of directory with sources: 80 KB
+2019-08-26 16:04:36,483 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src]
+2019-08-26 16:04:36,523 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/.git/
 
-2019-01-08 19:54:06,392 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/gradlew
-2019-01-08 19:54:06,394 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/twiliolookup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/build.gradle
-2019-01-08 19:54:06,395 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/twiliolookup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/settings.gradle
-2019-01-08 19:54:06,396 INFO  ProjectBuildService - Remote scripts: none
-2019-01-08 19:54:06,396 INFO  ProjectFixService - Fixing project...
-2019-01-08 19:54:06,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/twiliolookup/local.properties
-2019-01-08 19:54:06,402 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/twiliolookup/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-08 19:54:06,402 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/local.properties
-2019-01-08 19:54:06,403 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2019-01-08 19:54:06,403 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2019-01-08 19:54:06,404 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2019-01-08 19:54:06,404 INFO  ProjectFixService - Project was maybe fixed
-2019-01-08 19:54:06,404 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 19:54:06,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/twiliolookup/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 19:54:11,608 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-01-08 19:54:11,609 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-08 19:54:11,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/twiliolookup/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-08 19:54:17,494 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-26 16:04:36,526 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/gradlew
+2019-08-26 16:04:36,528 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/twiliolookup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/build.gradle
+2019-08-26 16:04:36,531 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/twiliolookup/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/settings.gradle
+2019-08-26 16:04:36,531 INFO  ProjectBuildService - Remote scripts: none
+2019-08-26 16:04:36,531 INFO  ProjectFixService - Fixing project...
+2019-08-26 16:04:36,542 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/twiliolookup/local.properties
+2019-08-26 16:04:36,543 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/twiliolookup/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-26 16:04:36,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/local.properties
+2019-08-26 16:04:36,545 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-08-26 16:04:36,546 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-08-26 16:04:36,547 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-26 16:04:36,547 INFO  ProjectFixService - Project was maybe fixed
+2019-08-26 16:04:36,547 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-26 16:04:36,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/twiliolookup/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-26 16:04:44,851 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-08-26 16:04:44,851 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-26 16:04:44,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/twiliolookup/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-26 16:04:50,102 INFO  SysUtils - Configuration on demand is an incubating feature.
 :twiliolookup:preBuild UP-TO-DATE
 :twiliolookup:preDebugBuild UP-TO-DATE
 :twiliolookup:compileDebugNdk UP-TO-DATE
@@ -89,14 +89,14 @@
 
 BUILD SUCCESSFUL
 
-Total time: 5.384 secs
+Total time: 4.771 secs
 
-2019-01-08 19:54:17,501 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 19:54:17,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 19:54:22,463 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-01-08 19:54:22,463 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-08 19:54:22,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546952044403-0/src/TwilioLookup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-08 19:54:27,394 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-26 16:04:50,107 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-26 16:04:50,107 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-26 16:04:55,795 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-08-26 16:04:55,795 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-26 16:04:55,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566810275907-0/src/TwilioLookup-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-26 16:05:00,826 INFO  SysUtils - Configuration on demand is an incubating feature.
 :twiliolookup:preBuild UP-TO-DATE
 :twiliolookup:preDebugBuild UP-TO-DATE
 :twiliolookup:compileDebugNdk UP-TO-DATE
@@ -160,7 +160,7 @@ Total time: 5.384 secs
 
 BUILD SUCCESSFUL
 
-Total time: 4.435 secs
+Total time: 4.531 secs
 
-2019-01-08 19:54:27,403 ERROR FullProcessService - Project build has not produced APK file
-2019-01-08 19:54:27,411 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-26 16:05:00,832 ERROR FullProcessService - Project build has not produced APK file
+2019-08-26 16:05:00,838 ERROR FullProcessService - Could not find generated or existed APK file
