@@ -1,36 +1,33 @@
-2018-12-17 21:09:55,186 INFO  DownloadService - Downloading "https://github.com/onlylemi/MapView/archive/master.zip", attempt 3
-2018-12-17 21:10:55,930 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-17 21:10:57,037 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-17 21:10:57,038 INFO  DownloadService - Downloading "https://github.com/onlylemi/MapView/archive/master.zip", attempt 3
-2018-12-17 21:11:58,761 DEBUG FullProcessService - Repository https://github.com/onlylemi/MapView available: true
-2018-12-17 21:11:58,761 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-17 21:11:58,761 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/onlylemi/MapView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src]
-2018-12-17 21:12:00,768 INFO  SysUtils - 
-2018-12-17 21:12:00,775 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/.git": true
-2018-12-17 21:12:00,779 INFO  FullProcessService - Size of directory with sources: 232 KB
-2018-12-17 21:12:00,779 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src]
-2018-12-17 21:12:00,797 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/.git/
+2019-08-30 11:26:16,326 INFO  DownloadService - Downloading "https://github.com/onlylemi/MapView/archive/master.zip", attempt 3
+2019-08-30 11:26:16,850 INFO  DownloadService - Downloaded https://github.com/onlylemi/MapView/archive/master.zip, attempt 3
+2019-08-30 11:26:16,851 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/master.zip": 149 KB
+2019-08-30 11:26:16,851 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-30 11:26:16,856 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/master.zip: true
+2019-08-30 11:26:16,856 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src'.
+2019-08-30 11:26:16,877 INFO  FullProcessService - Size of directory with sources: 233 KB
+2019-08-30 11:26:16,877 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src]
+2019-08-30 11:26:16,893 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/.git/
 
-2018-12-17 21:12:00,800 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/gradlew
-2018-12-17 21:12:00,803 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/build.gradle
-2018-12-17 21:12:00,806 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/settings.gradle
-2018-12-17 21:12:00,807 INFO  ProjectBuildService - Remote scripts: none
-2018-12-17 21:12:00,807 INFO  ProjectFixService - Fixing project...
-2018-12-17 21:12:00,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/local.properties
-2018-12-17 21:12:00,815 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 21:12:00,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/library/local.properties
-2018-12-17 21:12:00,815 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 21:12:00,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/local.properties
-2018-12-17 21:12:00,816 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-12-17 21:12:00,816 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-12-17 21:12:00,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-12-17 21:12:00,817 INFO  ProjectFixService - Project was maybe fixed
-2018-12-17 21:12:00,817 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-17 21:12:00,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-17 21:12:08,907 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-12-17 21:12:08,908 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-17 21:12:08,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-17 21:12:23,487 ERROR SysUtils - Could not process external command
+2019-08-30 11:26:16,895 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/gradlew
+2019-08-30 11:26:16,898 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/build.gradle
+2019-08-30 11:26:16,900 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/settings.gradle
+2019-08-30 11:26:16,900 INFO  ProjectBuildService - Remote scripts: none
+2019-08-30 11:26:16,900 INFO  ProjectFixService - Fixing project...
+2019-08-30 11:26:16,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/local.properties
+2019-08-30 11:26:16,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-30 11:26:16,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/library/local.properties
+2019-08-30 11:26:16,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-30 11:26:16,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/local.properties
+2019-08-30 11:26:16,908 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-08-30 11:26:16,908 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-08-30 11:26:16,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-08-30 11:26:16,908 INFO  ProjectFixService - Project was maybe fixed
+2019-08-30 11:26:16,909 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-30 11:26:16,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-30 11:26:26,273 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-08-30 11:26:26,273 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-30 11:26:26,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-30 11:26:39,624 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,22 +40,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-17 21:12:23,487 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-30 11:26:39,624 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :demo:preBuild UP-TO-DATE
 :demo:preDebugBuild UP-TO-DATE
@@ -99,7 +95,7 @@ Incremental java compilation is an incubating feature.
 :demo:prepareComAndroidSupportAppcompatV72311Library
 :demo:prepareComAndroidSupportSupportV42311Library
 :demo:prepareComSquareupLeakcanaryLeakcanaryAndroid14Beta2Library
-:demo:prepareSrcLibraryUnspecifiedLibrary
+:demo:prepareMapViewMasterLibraryUnspecifiedLibrary
 :demo:prepareDebugDependencies
 :demo:compileDebugAidl
 :demo:compileDebugRenderscript
@@ -117,21 +113,13 @@ Incremental java compilation is an incubating feature.
 :demo:incrementalDebugJavaCompilationSafeguard
 :demo:compileDebugJavaWithJavac
 :demo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/src/main/java/com/onlylemi/mapview/LocationLayerTestActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/src/main/java/com/onlylemi/mapview/LocationLayerTestActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :demo:compileDebugNdk UP-TO-DATE
 :demo:compileDebugSources
 :demo:prePackageMarkerForDebug
 :demo:transformClassesWithDexForDebugwarning: Ignoring InnerClasses attribute for an anonymous inner class
 (com.squareup.haha.guava.base.Joiner$1) that doesn't come with an
-associated EnclosingMethod attribute. This class was probably produced by a
-compiler that did not target the modern .class file format. The recommended
-solution is to recompile the class from source, using an up-to-date compiler
-and without specifying any "-target" type options. The consequence of ignoring
-this warning is that reflective operations on this class will incorrectly
-indicate that it is *not* an inner class.
-warning: Ignoring InnerClasses attribute for an anonymous inner class
-(com.squareup.haha.guava.collect.Iterables$2) that doesn't come with an
 associated EnclosingMethod attribute. This class was probably produced by a
 compiler that did not target the modern .class file format. The recommended
 solution is to recompile the class from source, using an up-to-date compiler
@@ -146,18 +134,26 @@ solution is to recompile the class from source, using an up-to-date compiler
 and without specifying any "-target" type options. The consequence of ignoring
 this warning is that reflective operations on this class will incorrectly
 indicate that it is *not* an inner class.
+warning: Ignoring InnerClasses attribute for an anonymous inner class
+(com.squareup.haha.guava.collect.Iterables$2) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
 
-Merged dex #1 (326 defs/529.1KiB)
-Merged dex #2 (745 defs/903.4KiB)
-Merged dex #3 (84 defs/77.8KiB)
-Merged dex #4 (57 defs/109.8KiB)
-Merged dex #5 (318 defs/314.8KiB)
-Merged dex #6 (317 defs/251.6KiB)
-Merged dex #7 (14 defs/25.3KiB)
-Merged dex #8 (21 defs/14.5KiB)
-Merged dex #9 (22 defs/40.5KiB)
+Merged dex #1 (22 defs/40.9KiB)
+Merged dex #2 (326 defs/529.1KiB)
+Merged dex #3 (745 defs/903.4KiB)
+Merged dex #4 (84 defs/77.8KiB)
+Merged dex #5 (57 defs/109.8KiB)
+Merged dex #6 (318 defs/314.8KiB)
+Merged dex #7 (317 defs/251.6KiB)
+Merged dex #8 (14 defs/25.3KiB)
+Merged dex #9 (21 defs/14.5KiB)
 Merged dex #10 (41 defs/6.4KiB)
-Result is 1945 defs/2768.0KiB. Took 0.3s
+Result is 1945 defs/2768.5KiB. Took 0.5s
 :demo:mergeDebugJniLibFolders
 :demo:transformNative_libsWithMergeJniLibsForDebug
 :demo:processDebugJavaRes UP-TO-DATE
@@ -185,7 +181,7 @@ Result is 1945 defs/2768.0KiB. Took 0.3s
 :demo:incrementalReleaseJavaCompilationSafeguard
 :demo:compileReleaseJavaWithJavac
 :demo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/src/main/java/com/onlylemi/mapview/LocationLayerTestActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/src/main/java/com/onlylemi/mapview/LocationLayerTestActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :demo:compileReleaseNdk UP-TO-DATE
 :demo:compileReleaseSources
@@ -285,6 +281,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.027 secs
+Total time: 12.771 secs
 
-2018-12-17 21:12:23,547 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545055795183-0/src/demo/build/outputs/apk/demo-debug-unaligned.apk
+2019-08-30 11:26:39,672 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139176319-0/src/MapView-master/demo/build/outputs/apk/demo-debug-unaligned.apk

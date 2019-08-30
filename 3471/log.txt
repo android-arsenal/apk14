@@ -1,33 +1,33 @@
-2019-07-31 12:18:25,588 INFO  DownloadService - Downloading "https://github.com/luizgrp/SectionedRecyclerViewAdapter/archive/master.zip", attempt 3
-2019-07-31 12:18:26,968 INFO  DownloadService - Downloaded https://github.com/luizgrp/SectionedRecyclerViewAdapter/archive/master.zip, attempt 3
-2019-07-31 12:18:26,969 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/master.zip": 649 KB
-2019-07-31 12:18:26,969 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-31 12:18:26,971 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/master.zip: true
-2019-07-31 12:18:26,971 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src'.
-2019-07-31 12:18:27,036 INFO  FullProcessService - Size of directory with sources: 888 KB
-2019-07-31 12:18:27,036 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src]
-2019-07-31 12:18:27,055 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/.git/
+2019-08-30 11:26:47,167 INFO  DownloadService - Downloading "https://github.com/luizgrp/SectionedRecyclerViewAdapter/archive/master.zip", attempt 3
+2019-08-30 11:26:48,108 INFO  DownloadService - Downloaded https://github.com/luizgrp/SectionedRecyclerViewAdapter/archive/master.zip, attempt 3
+2019-08-30 11:26:48,108 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/master.zip": 649 KB
+2019-08-30 11:26:48,108 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-30 11:26:48,114 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/master.zip: true
+2019-08-30 11:26:48,115 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src'.
+2019-08-30 11:26:48,158 INFO  FullProcessService - Size of directory with sources: 888 KB
+2019-08-30 11:26:48,158 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src]
+2019-08-30 11:26:48,180 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/.git/
 
-2019-07-31 12:18:27,059 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/gradlew
-2019-07-31 12:18:27,065 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/build.gradle
-2019-07-31 12:18:27,069 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/library/build_files/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/library/build_files/static-code-analysis.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/library/build_files/android-release-aar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/settings.gradle
-2019-07-31 12:18:27,070 INFO  ProjectBuildService - Remote scripts: none
-2019-07-31 12:18:27,070 INFO  ProjectFixService - Fixing project...
-2019-07-31 12:18:27,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/app/local.properties
-2019-07-31 12:18:27,081 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-31 12:18:27,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/library/local.properties
-2019-07-31 12:18:27,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-31 12:18:27,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/local.properties
-2019-07-31 12:18:27,085 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-31 12:18:27,085 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-31 12:18:27,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-31 12:18:27,086 INFO  ProjectFixService - Project was maybe fixed
-2019-07-31 12:18:27,087 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-31 12:18:27,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-31 12:18:35,029 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-31 12:18:35,029 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-31 12:18:35,030 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-31 12:19:25,520 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-30 11:26:48,185 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/gradlew
+2019-08-30 11:26:48,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/build.gradle
+2019-08-30 11:26:48,193 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/library/build_files/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/library/build_files/static-code-analysis.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/library/build_files/android-release-aar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/settings.gradle
+2019-08-30 11:26:48,193 INFO  ProjectBuildService - Remote scripts: none
+2019-08-30 11:26:48,194 INFO  ProjectFixService - Fixing project...
+2019-08-30 11:26:48,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/app/local.properties
+2019-08-30 11:26:48,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:26:48,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/library/local.properties
+2019-08-30 11:26:48,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:26:48,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/local.properties
+2019-08-30 11:26:48,204 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-30 11:26:48,204 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-30 11:26:48,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-30 11:26:48,205 INFO  ProjectFixService - Project was maybe fixed
+2019-08-30 11:26:48,205 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-30 11:26:48,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-30 11:26:54,969 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-30 11:26:54,969 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-30 11:26:54,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-30 11:27:23,554 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
@@ -36,30 +36,30 @@
 > Task :library:packageDebugRenderscript NO-SOURCE
 > Task :app:prepareLintJar
 > Task :library:generateDebugBuildConfig
-> Task :library:generateDebugResValues
-> Task :library:prepareLintJar
 > Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugSources
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResValues
 > Task :library:generateDebugResources
-> Task :library:packageDebugResources
-> Task :library:generateDebugRFile
+> Task :library:prepareLintJar
 > Task :library:generateDebugSources
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :library:packageDebugResources
+> Task :library:generateDebugRFile
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
 > Task :library:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
 > Task :app:mergeDebugResources
-> Task :app:processDebugManifest
 > Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -161,7 +161,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 50s
+BUILD SUCCESSFUL in 28s
 89 actionable tasks: 89 executed
 
-2019-07-31 12:19:25,609 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564550305580-0/src/SectionedRecyclerViewAdapter-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-30 11:27:23,628 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567139207160-0/src/SectionedRecyclerViewAdapter-master/app/build/outputs/apk/debug/app-debug.apk
