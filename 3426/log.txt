@@ -1,95 +1,87 @@
-2019-08-09 12:47:43,574 INFO  DownloadService - Downloading "https://github.com/Ramotion/folding-cell-android/archive/master.zip", attempt 3
-2019-08-09 12:48:08,385 INFO  DownloadService - Downloaded https://github.com/Ramotion/folding-cell-android/archive/master.zip, attempt 3
-2019-08-09 12:48:08,385 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/master.zip": 23 MB
-2019-08-09 12:48:08,386 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-09 12:48:08,387 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/master.zip: true
-2019-08-09 12:48:08,387 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src'.
-2019-08-09 12:48:08,504 INFO  FullProcessService - Size of directory with sources: 23 MB
-2019-08-09 12:48:08,504 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src]
-2019-08-09 12:48:08,525 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/.git/
+2019-09-07 18:00:13,732 INFO  DownloadService - Downloading "https://github.com/Ramotion/folding-cell-android/archive/master.zip", attempt 3
+2019-09-07 18:00:40,048 INFO  DownloadService - Downloaded https://github.com/Ramotion/folding-cell-android/archive/master.zip, attempt 3
+2019-09-07 18:00:40,049 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/master.zip": 23 MB
+2019-09-07 18:00:40,049 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 18:00:40,051 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/master.zip: true
+2019-09-07 18:00:40,051 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src'.
+2019-09-07 18:00:40,153 INFO  FullProcessService - Size of directory with sources: 23 MB
+2019-09-07 18:00:40,153 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src]
+2019-09-07 18:00:40,180 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/.git/
 
-2019-08-09 12:48:08,530 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/gradlew
-2019-08-09 12:48:08,535 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-simple-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/build.gradle
-2019-08-09 12:48:08,539 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-simple-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/settings.gradle
-2019-08-09 12:48:08,540 INFO  ProjectBuildService - Remote scripts: none
-2019-08-09 12:48:08,540 INFO  ProjectFixService - Fixing project...
-2019-08-09 12:48:08,551 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-listview-example/local.properties
-2019-08-09 12:48:08,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-09 12:48:08,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-simple-example/local.properties
-2019-08-09 12:48:08,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-simple-example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-09 12:48:08,554 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell/local.properties
-2019-08-09 12:48:08,555 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-09 12:48:08,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/local.properties
-2019-08-09 12:48:08,556 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-09 12:48:08,556 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-09 12:48:08,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-09 12:48:08,558 INFO  ProjectFixService - Project was maybe fixed
-2019-08-09 12:48:08,558 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:48:08,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:48:16,652 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-09 12:48:16,652 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-09 12:48:16,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-09 12:49:13,393 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 18:00:40,184 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/gradlew
+2019-09-07 18:00:40,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-simple-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/build.gradle
+2019-09-07 18:00:40,192 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-simple-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/settings.gradle
+2019-09-07 18:00:40,192 INFO  ProjectBuildService - Remote scripts: none
+2019-09-07 18:00:40,193 INFO  ProjectFixService - Fixing project...
+2019-09-07 18:00:40,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-listview-example/local.properties
+2019-09-07 18:00:40,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-07 18:00:40,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-simple-example/local.properties
+2019-09-07 18:00:40,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-simple-example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-07 18:00:40,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell/local.properties
+2019-09-07 18:00:40,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-07 18:00:40,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/local.properties
+2019-09-07 18:00:40,205 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-07 18:00:40,205 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-07 18:00:40,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-07 18:00:40,206 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 18:00:40,206 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 18:00:40,206 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 18:00:48,923 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-07 18:00:48,923 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-07 18:00:48,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-listview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-07 18:01:57,083 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :folding-cell:preBuild UP-TO-DATE
 > Task :folding-cell:preDebugBuild UP-TO-DATE
+> Task :folding-cell:compileDebugAidl NO-SOURCE
 > Task :folding-cell:checkDebugManifest
+> Task :folding-cell:compileDebugRenderscript NO-SOURCE
 > Task :folding-cell:generateDebugBuildConfig
 > Task :folding-cell:generateDebugResValues
-> Task :folding-cell:processDebugManifest
-> Task :folding-cell:prepareLintJar
+> Task :folding-cell:generateDebugResources
+> Task :folding-cell:packageDebugResources
 > Task :folding-cell-listview-example:preBuild UP-TO-DATE
+> Task :folding-cell-listview-example:preDebugBuild UP-TO-DATE
+> Task :folding-cell-listview-example:compileDebugAidl NO-SOURCE
 > Task :folding-cell:packageDebugRenderscript NO-SOURCE
-> Task :folding-cell-listview-example:prepareLintJar
+> Task :folding-cell-listview-example:compileDebugRenderscript NO-SOURCE
+> Task :folding-cell-listview-example:checkDebugManifest
+> Task :folding-cell-listview-example:generateDebugBuildConfig
+> Task :folding-cell:javaPreCompileDebug
+> Task :folding-cell:parseDebugLibraryResources
+> Task :folding-cell-listview-example:mainApkListPersistenceDebug
+> Task :folding-cell-listview-example:generateDebugResValues
+> Task :folding-cell-listview-example:generateDebugResources
+> Task :folding-cell:processDebugManifest
+> Task :folding-cell-listview-example:createDebugCompatibleScreenManifests
+> Task :folding-cell-listview-example:processDebugManifest
+> Task :folding-cell-listview-example:mergeDebugResources
+> Task :folding-cell:generateDebugRFile
+> Task :folding-cell:compileDebugJavaWithJavac
+> Task :folding-cell-listview-example:processDebugResources
+> Task :folding-cell:bundleLibCompileDebug
+> Task :folding-cell-listview-example:javaPreCompileDebug
+> Task :folding-cell-listview-example:compileDebugJavaWithJavac
+> Task :folding-cell-listview-example:compileDebugSources
 > Task :folding-cell:mergeDebugShaders
 > Task :folding-cell:compileDebugShaders
 > Task :folding-cell:generateDebugAssets
 > Task :folding-cell:packageDebugAssets
-> Task :folding-cell:compileDebugAidl NO-SOURCE
-> Task :folding-cell:javaPreCompileDebug
-> Task :folding-cell:compileDebugRenderscript NO-SOURCE
-> Task :folding-cell:generateDebugResources
-> Task :folding-cell:packageDebugResources
-> Task :folding-cell:generateDebugRFile
-> Task :folding-cell:generateDebugSources
-> Task :folding-cell:compileDebugJavaWithJavac
-> Task :folding-cell:bundleLibCompileDebug
-> Task :folding-cell-listview-example:preDebugBuild
-> Task :folding-cell-listview-example:compileDebugAidl NO-SOURCE
-> Task :folding-cell-listview-example:compileDebugRenderscript NO-SOURCE
-> Task :folding-cell-listview-example:checkDebugManifest
-> Task :folding-cell-listview-example:generateDebugBuildConfig
-> Task :folding-cell-listview-example:generateDebugSources
-> Task :folding-cell-listview-example:javaPreCompileDebug
-> Task :folding-cell-listview-example:mainApkListPersistenceDebug
-> Task :folding-cell-listview-example:generateDebugResValues
-> Task :folding-cell-listview-example:generateDebugResources
-> Task :folding-cell-listview-example:mergeDebugResources
-> Task :folding-cell-listview-example:createDebugCompatibleScreenManifests
-> Task :folding-cell-listview-example:processDebugManifest
-> Task :folding-cell-listview-example:processDebugResources
-> Task :folding-cell-listview-example:compileDebugJavaWithJavac
-> Task :folding-cell-listview-example:compileDebugSources
 > Task :folding-cell-listview-example:mergeDebugShaders
 > Task :folding-cell-listview-example:compileDebugShaders
 > Task :folding-cell-listview-example:generateDebugAssets
 > Task :folding-cell-listview-example:mergeDebugAssets
 > Task :folding-cell:processDebugJavaRes NO-SOURCE
+> Task :folding-cell-listview-example:processDebugJavaRes NO-SOURCE
 > Task :folding-cell:bundleLibResDebug
 > Task :folding-cell:bundleLibRuntimeDebug
 > Task :folding-cell:createFullJarDebug
 > Task :folding-cell-listview-example:checkDebugDuplicateClasses
+> Task :folding-cell-listview-example:mergeDebugJavaResource
 > Task :folding-cell-listview-example:transformClassesWithDexBuilderForDebug
 > Task :folding-cell-listview-example:validateSigningDebug
 > Task :folding-cell-listview-example:signingConfigWriterDebug
 > Task :folding-cell:mergeDebugJniLibFolders
-> Task :folding-cell:transformNativeLibsWithMergeJniLibsForDebug
-> Task :folding-cell:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :folding-cell:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :folding-cell-listview-example:mergeDebugJniLibFolders
-> Task :folding-cell-listview-example:transformNativeLibsWithMergeJniLibsForDebug
-> Task :folding-cell-listview-example:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :folding-cell-listview-example:processDebugJavaRes NO-SOURCE
-> Task :folding-cell-listview-example:transformResourcesWithMergeJavaResForDebug
 > Task :folding-cell:preReleaseBuild UP-TO-DATE
 > Task :folding-cell:compileReleaseAidl NO-SOURCE
 > Task :folding-cell:compileReleaseRenderscript NO-SOURCE
@@ -98,45 +90,30 @@
 > Task :folding-cell:generateReleaseResValues
 > Task :folding-cell:generateReleaseResources
 > Task :folding-cell:packageReleaseResources
-> Task :folding-cell:processReleaseManifest
-> Task :folding-cell:generateReleaseRFile
-> Task :folding-cell:generateReleaseSources
-> Task :folding-cell:javaPreCompileRelease
-> Task :folding-cell:compileReleaseJavaWithJavac
-> Task :folding-cell:bundleLibCompileRelease
-> Task :folding-cell-listview-example:preReleaseBuild
+> Task :folding-cell:mergeDebugNativeLibs
+> Task :folding-cell:stripDebugDebugSymbols
+> Task :folding-cell:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :folding-cell:parseReleaseLibraryResources
+> Task :folding-cell-listview-example:preReleaseBuild UP-TO-DATE
 > Task :folding-cell-listview-example:compileReleaseAidl NO-SOURCE
 > Task :folding-cell:packageReleaseRenderscript NO-SOURCE
 > Task :folding-cell-listview-example:compileReleaseRenderscript NO-SOURCE
 > Task :folding-cell-listview-example:checkReleaseManifest
 > Task :folding-cell-listview-example:generateReleaseBuildConfig
-> Task :folding-cell-listview-example:generateReleaseSources
-> Task :folding-cell-listview-example:javaPreCompileRelease
 > Task :folding-cell-listview-example:mainApkListPersistenceRelease
 > Task :folding-cell-listview-example:generateReleaseResValues
 > Task :folding-cell-listview-example:generateReleaseResources
-> Task :folding-cell-listview-example:mergeReleaseResources
-> Task :folding-cell-listview-example:mergeExtDexDebug
-> Task :folding-cell-listview-example:mergeDexDebug
-> Task :folding-cell-listview-example:packageDebug
-> Task :folding-cell-listview-example:assembleDebug
 > Task :folding-cell-listview-example:createReleaseCompatibleScreenManifests
+> Task :folding-cell:processReleaseManifest
+> Task :folding-cell:generateReleaseRFile
 > Task :folding-cell-listview-example:processReleaseManifest
-> Task :folding-cell-listview-example:processReleaseResources
-> Task :folding-cell-listview-example:compileReleaseJavaWithJavac
-> Task :folding-cell-listview-example:compileReleaseSources
 > Task :folding-cell:prepareLintJarForPublish
-
-> Task :folding-cell-listview-example:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1a1a0729139db785fc4334ce3eb6c0ac/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a49174513e4618ba7f8da0955e5bb118/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
+> Task :folding-cell-listview-example:prepareLintJar
 > Task :folding-cell:processReleaseJavaRes NO-SOURCE
-> Task :folding-cell:bundleLibResRelease
-> Task :folding-cell:bundleLibRuntimeRelease
-> Task :folding-cell:createFullJarRelease
 > Task :folding-cell-listview-example:checkReleaseDuplicateClasses
-> Task :folding-cell-listview-example:transformClassesWithDexBuilderForRelease
+> Task :folding-cell-listview-example:mergeDebugNativeLibs
+> Task :folding-cell-listview-example:stripDebugDebugSymbols
+> Task :folding-cell-listview-example:mergeExtDexDebug
 > Task :folding-cell:mergeReleaseShaders
 > Task :folding-cell:compileReleaseShaders
 > Task :folding-cell:generateReleaseAssets
@@ -145,17 +122,37 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :folding-cell-listview-example:compileReleaseShaders
 > Task :folding-cell-listview-example:generateReleaseAssets
 > Task :folding-cell-listview-example:mergeReleaseAssets
+> Task :folding-cell-listview-example:processReleaseJavaRes NO-SOURCE
 > Task :folding-cell-listview-example:signingConfigWriterRelease
 > Task :folding-cell:mergeReleaseJniLibFolders
-> Task :folding-cell:transformNativeLibsWithMergeJniLibsForRelease
-> Task :folding-cell:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :folding-cell:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :folding-cell-listview-example:mergeReleaseJniLibFolders
-> Task :folding-cell-listview-example:transformNativeLibsWithMergeJniLibsForRelease
-> Task :folding-cell-listview-example:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :folding-cell-listview-example:processReleaseJavaRes NO-SOURCE
-> Task :folding-cell-listview-example:transformResourcesWithMergeJavaResForRelease
+> Task :folding-cell:javaPreCompileRelease
+> Task :folding-cell:compileReleaseJavaWithJavac
+> Task :folding-cell:mergeReleaseNativeLibs
+> Task :folding-cell:bundleLibCompileRelease
+> Task :folding-cell:stripReleaseDebugSymbols
+> Task :folding-cell:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :folding-cell-listview-example:mergeDexDebug
+> Task :folding-cell-listview-example:packageDebug
+> Task :folding-cell-listview-example:assembleDebug
+> Task :folding-cell-listview-example:javaPreCompileRelease
+> Task :folding-cell:bundleLibResRelease
+> Task :folding-cell:bundleLibRuntimeRelease
+> Task :folding-cell:createFullJarRelease
+> Task :folding-cell-listview-example:mergeReleaseNativeLibs
+> Task :folding-cell-listview-example:stripReleaseDebugSymbols
 > Task :folding-cell-listview-example:mergeExtDexRelease
+> Task :folding-cell-listview-example:mergeReleaseResources
+> Task :folding-cell-listview-example:processReleaseResources
+> Task :folding-cell-listview-example:compileReleaseJavaWithJavac
+> Task :folding-cell-listview-example:compileReleaseSources
+
+> Task :folding-cell-listview-example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/fca31a644bfd92100c8b9229e78fd7d3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a5fa506c89bfb1d7b1e626b7ccdc1384/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :folding-cell-listview-example:transformClassesWithDexBuilderForRelease
+> Task :folding-cell-listview-example:mergeReleaseJavaResource
 > Task :folding-cell-listview-example:mergeDexRelease
 > Task :folding-cell-listview-example:packageRelease
 > Task :folding-cell-listview-example:assembleRelease
@@ -164,9 +161,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 56s
-91 actionable tasks: 91 executed
+BUILD SUCCESSFUL in 1m 7s
+90 actionable tasks: 90 executed
 
-2019-08-09 12:49:13,471 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565329663568-0/src/folding-cell-android-master/folding-cell-listview-example/build/outputs/apk/release/folding-cell-listview-example-release-unsigned.apk
+2019-09-07 18:01:57,151 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854013728-0/src/folding-cell-android-master/folding-cell-listview-example/build/outputs/apk/release/folding-cell-listview-example-release-unsigned.apk

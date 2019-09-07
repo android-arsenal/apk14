@@ -1,33 +1,33 @@
-2019-08-13 15:42:55,925 INFO  DownloadService - Downloading "https://github.com/requery/sqlite-android/archive/master.zip", attempt 3
-2019-08-13 15:42:56,603 INFO  DownloadService - Downloaded https://github.com/requery/sqlite-android/archive/master.zip, attempt 3
-2019-08-13 15:42:56,604 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/master.zip": 233 KB
-2019-08-13 15:42:56,604 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-13 15:42:56,609 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/master.zip: true
-2019-08-13 15:42:56,609 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src'.
-2019-08-13 15:42:56,644 INFO  FullProcessService - Size of directory with sources: 755 KB
-2019-08-13 15:42:56,644 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src]
-2019-08-13 15:42:56,674 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/.git/
+2019-09-07 18:03:49,983 INFO  DownloadService - Downloading "https://github.com/requery/sqlite-android/archive/master.zip", attempt 3
+2019-09-07 18:03:50,686 INFO  DownloadService - Downloaded https://github.com/requery/sqlite-android/archive/master.zip, attempt 3
+2019-09-07 18:03:50,686 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/master.zip": 233 KB
+2019-09-07 18:03:50,686 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 18:03:50,692 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/master.zip: true
+2019-09-07 18:03:50,692 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src'.
+2019-09-07 18:03:50,716 INFO  FullProcessService - Size of directory with sources: 755 KB
+2019-09-07 18:03:50,716 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src]
+2019-09-07 18:03:50,732 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/.git/
 
-2019-08-13 15:42:56,679 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/gradlew
-2019-08-13 15:42:56,682 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/build.gradle
-2019-08-13 15:42:56,685 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/settings.gradle
-2019-08-13 15:42:56,685 INFO  ProjectBuildService - Remote scripts: none
-2019-08-13 15:42:56,685 INFO  ProjectFixService - Fixing project...
-2019-08-13 15:42:56,691 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/local.properties
-2019-08-13 15:42:56,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-08-13 15:42:56,692 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
-2019-08-13 15:42:56,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/local.properties
-2019-08-13 15:42:56,694 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-08-13 15:42:56,694 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-08-13 15:42:56,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-08-13 15:42:56,696 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
-2019-08-13 15:42:56,696 INFO  ProjectFixService - Project was maybe fixed
-2019-08-13 15:42:56,697 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-13 15:42:56,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-13 15:43:07,400 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-08-13 15:43:07,400 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-13 15:43:07,400 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-13 15:48:07,844 ERROR SysUtils - Could not process external command
+2019-09-07 18:03:50,734 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/gradlew
+2019-09-07 18:03:50,736 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/build.gradle
+2019-09-07 18:03:50,738 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/settings.gradle
+2019-09-07 18:03:50,738 INFO  ProjectBuildService - Remote scripts: none
+2019-09-07 18:03:50,738 INFO  ProjectFixService - Fixing project...
+2019-09-07 18:03:50,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/local.properties
+2019-09-07 18:03:50,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-09-07 18:03:50,743 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-09-07 18:03:50,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/local.properties
+2019-09-07 18:03:50,745 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-09-07 18:03:50,745 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-09-07 18:03:50,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-09-07 18:03:50,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-09-07 18:03:50,746 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 18:03:50,746 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 18:03:50,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 18:04:00,677 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-09-07 18:04:00,677 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-07 18:04:00,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-07 18:09:01,119 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 143 (Exit value: 143)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,14 +47,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 143 (Exi
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-13 15:48:07,844 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 18:09:01,119 INFO  SysUtils - Configuration on demand is an incubating feature.
 Download https://sqlite.org/2019/sqlite-amalgamation-3290000.zip
 > Task :sqlite-android:downloadSqlite
 > Task :sqlite-android:installSqlite
@@ -91,7 +91,7 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sqlite-android:externalNativeBuildDebug
 Build sqlite3x x86_64
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
@@ -107,7 +107,7 @@ Android NDK:     current module
 [x86_64] Compile        : sqlite3x <= sqlite3.c
 [x86_64] SharedLibrary  : libsqlite3x.so
 Build sqlite3x x86
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
@@ -123,7 +123,7 @@ Android NDK:     current module
 [x86] Compile        : sqlite3x <= sqlite3.c
 [x86] SharedLibrary  : libsqlite3x.so
 Build sqlite3x arm64-v8a
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
@@ -139,7 +139,7 @@ Android NDK:     current module
 [arm64-v8a] Compile        : sqlite3x <= sqlite3.c
 [arm64-v8a] SharedLibrary  : libsqlite3x.so
 Build sqlite3x armeabi-v7a
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
@@ -193,7 +193,7 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sqlite-android:externalNativeBuildRelease
 Build sqlite3x x86_64
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
@@ -209,7 +209,7 @@ Android NDK:     current module
 [x86_64] Compile        : sqlite3x <= sqlite3.c
 [x86_64] SharedLibrary  : libsqlite3x.so
 Build sqlite3x x86
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
@@ -224,12 +224,12 @@ Android NDK:     current module
 [x86] Compile++      : sqlite3x <= JNIString.cpp
 [x86] Compile        : sqlite3x <= sqlite3.c
 
-2019-08-13 15:48:07,860 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-13 15:48:07,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-13 15:48:16,695 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-08-13 15:48:16,695 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-13 15:48:16,695 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-13 15:49:54,721 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 18:09:01,136 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 18:09:01,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 18:09:09,202 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-09-07 18:09:09,202 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-07 18:09:09,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-07 18:10:38,150 INFO  SysUtils - Configuration on demand is an incubating feature.
 Download https://sqlite.org/2019/sqlite-amalgamation-3290000.zip
 > Task :sqlite-android:downloadSqlite
 > Task :sqlite-android:installSqlite UP-TO-DATE
@@ -262,29 +262,29 @@ Download https://sqlite.org/2019/sqlite-amalgamation-3290000.zip
 
 > Task :sqlite-android:externalNativeBuildDebug
 Build sqlite3x x86_64
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
-make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/x86_64/libsqlite3x.so' is up to date.
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/x86_64/libsqlite3x.so' is up to date.
 Build sqlite3x x86
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
-make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/x86/libsqlite3x.so' is up to date.
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/x86/libsqlite3x.so' is up to date.
 Build sqlite3x arm64-v8a
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
-make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libsqlite3x.so' is up to date.
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libsqlite3x.so' is up to date.
 Build sqlite3x armeabi-v7a
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
-make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libsqlite3x.so' is up to date.
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libsqlite3x.so' is up to date.
 
 > Task :sqlite-android:mergeDebugJniLibFolders UP-TO-DATE
 > Task :sqlite-android:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
@@ -320,19 +320,19 @@ make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/
 
 > Task :sqlite-android:externalNativeBuildRelease
 Build sqlite3x x86_64
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
-make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/release/obj/local/x86_64/libsqlite3x.so' is up to date.
+make: `/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/build/intermediates/ndkBuild/release/obj/local/x86_64/libsqlite3x.so' is up to date.
 Build sqlite3x x86
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
 [x86] SharedLibrary  : libsqlite3x.so
 Build sqlite3x arm64-v8a
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
@@ -348,7 +348,7 @@ Android NDK:     current module
 [arm64-v8a] Compile        : sqlite3x <= sqlite3.c
 [arm64-v8a] SharedLibrary  : libsqlite3x.so
 Build sqlite3x armeabi-v7a
-Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565685775920-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
+Android NDK: WARNING:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854229981-0/src/sqlite-android-master/sqlite-android/src/main/jni/sqlite/Android.mk:sqlite3x: non-system libraries in linker flags: -latomic    
 Android NDK:     This is likely to result in incorrect builds. Try using LOCAL_STATIC_LIBRARIES    
 Android NDK:     or LOCAL_SHARED_LIBRARIES instead to list the library dependencies of the    
 Android NDK:     current module    
@@ -380,8 +380,8 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 37s
+BUILD SUCCESSFUL in 1m 28s
 49 actionable tasks: 10 executed, 39 up-to-date
 
-2019-08-13 15:49:54,752 ERROR FullProcessService - Project build has not produced APK file
-2019-08-13 15:49:54,778 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-07 18:10:38,176 ERROR FullProcessService - Project build has not produced APK file
+2019-09-07 18:10:38,199 ERROR FullProcessService - Could not find generated or existed APK file

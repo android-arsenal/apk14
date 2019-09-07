@@ -1,37 +1,37 @@
-2019-08-10 20:36:50,950 INFO  DownloadService - Downloading "https://github.com/lordcodes/SnackbarBuilder/archive/master.zip", attempt 3
-2019-08-10 20:36:51,884 INFO  DownloadService - Downloaded https://github.com/lordcodes/SnackbarBuilder/archive/master.zip, attempt 3
-2019-08-10 20:36:51,885 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/master.zip": 159 KB
-2019-08-10 20:36:51,885 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-10 20:36:51,890 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/master.zip: true
-2019-08-10 20:36:51,891 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src'.
-2019-08-10 20:36:51,916 INFO  FullProcessService - Size of directory with sources: 278 KB
-2019-08-10 20:36:51,916 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src]
-2019-08-10 20:36:51,934 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/.git/
+2019-09-07 18:14:52,319 INFO  DownloadService - Downloading "https://github.com/lordcodes/SnackbarBuilder/archive/master.zip", attempt 3
+2019-09-07 18:14:54,127 INFO  DownloadService - Downloaded https://github.com/lordcodes/SnackbarBuilder/archive/master.zip, attempt 3
+2019-09-07 18:14:54,127 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/master.zip": 158 KB
+2019-09-07 18:14:54,127 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 18:14:54,133 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/master.zip: true
+2019-09-07 18:14:54,133 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src'.
+2019-09-07 18:14:54,158 INFO  FullProcessService - Size of directory with sources: 278 KB
+2019-09-07 18:14:54,158 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src]
+2019-09-07 18:14:54,177 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/.git/
 
-2019-08-10 20:36:51,938 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/gradlew
-2019-08-10 20:36:51,942 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/build.gradle
-2019-08-10 20:36:51,945 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/quality-checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/settings.gradle
-2019-08-10 20:36:51,946 INFO  ProjectBuildService - Remote scripts: none
-2019-08-10 20:36:51,946 INFO  ProjectFixService - Fixing project...
-2019-08-10 20:36:51,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/sample/local.properties
-2019-08-10 20:36:51,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/sample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
-2019-08-10 20:36:51,954 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/sample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
-2019-08-10 20:36:51,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/local.properties
-2019-08-10 20:36:51,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
-2019-08-10 20:36:51,956 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
-2019-08-10 20:36:51,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/local.properties
-2019-08-10 20:36:51,957 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-08-10 20:36:51,958 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-08-10 20:36:51,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
-2019-08-10 20:36:51,959 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
-2019-08-10 20:36:51,960 INFO  ProjectFixService - Project was maybe fixed
-2019-08-10 20:36:51,960 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-10 20:36:51,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-10 20:37:02,527 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-10 20:37:02,527 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-10 20:37:02,528 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-10 20:37:02,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-10 20:37:08,593 ERROR SysUtils - Could not process external command
+2019-09-07 18:14:54,180 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/gradlew
+2019-09-07 18:14:54,184 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/build.gradle
+2019-09-07 18:14:54,186 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/quality-checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/settings.gradle
+2019-09-07 18:14:54,187 INFO  ProjectBuildService - Remote scripts: none
+2019-09-07 18:14:54,187 INFO  ProjectFixService - Fixing project...
+2019-09-07 18:14:54,193 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/sample/local.properties
+2019-09-07 18:14:54,194 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/sample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
+2019-09-07 18:14:54,194 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/sample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
+2019-09-07 18:14:54,195 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/local.properties
+2019-09-07 18:14:54,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
+2019-09-07 18:14:54,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
+2019-09-07 18:14:54,197 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/local.properties
+2019-09-07 18:14:54,197 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-09-07 18:14:54,198 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-09-07 18:14:54,198 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=<null>,minSdkVersion=9,targetSdkVersion=25]
+2019-09-07 18:14:54,199 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=29,minSdkVersion=9,targetSdkVersion=25]
+2019-09-07 18:14:54,199 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 18:14:54,199 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 18:14:54,199 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 18:15:06,387 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-07 18:15:06,387 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-07 18:15:06,387 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-07 18:15:06,387 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-07 18:15:12,000 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,22 +44,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-10 20:37:08,593 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 18:15:12,001 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -270,15 +269,15 @@ Searched in the following locations:
 
 BUILD FAILED
 
-Total time: 5.786 secs
+Total time: 5.325 secs
 
-2019-08-10 20:37:08,597 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-10 20:37:08,597 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-10 20:37:14,482 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-10 20:37:14,482 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-10 20:37:14,482 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-10 20:37:14,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-10 20:37:20,189 ERROR SysUtils - Could not process external command
+2019-09-07 18:15:12,004 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 18:15:12,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 18:15:17,215 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-07 18:15:17,215 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-07 18:15:17,215 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-07 18:15:17,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/snackbarbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-07 18:15:22,609 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -291,22 +290,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-10 20:37:20,189 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 18:15:22,609 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -439,15 +437,15 @@ Searched in the following locations:
 
 BUILD FAILED
 
-Total time: 5.451 secs
+Total time: 5.128 secs
 
-2019-08-10 20:37:20,193 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-10 20:37:20,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-10 20:37:26,108 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-10 20:37:26,108 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-10 20:37:26,108 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-10 20:37:26,108 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444210942-0/src/SnackbarBuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-10 20:37:31,992 ERROR SysUtils - Could not process external command
+2019-09-07 18:15:22,613 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 18:15:22,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 18:15:28,062 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-07 18:15:28,062 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-07 18:15:28,062 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-07 18:15:28,062 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854892311-0/src/SnackbarBuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-07 18:15:33,655 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -460,22 +458,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-10 20:37:31,992 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 18:15:33,656 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -686,7 +683,7 @@ Searched in the following locations:
 
 BUILD FAILED
 
-Total time: 5.573 secs
+Total time: 5.254 secs
 
-2019-08-10 20:37:31,996 ERROR FullProcessService - Project build has not produced APK file
-2019-08-10 20:37:32,000 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-07 18:15:33,662 ERROR FullProcessService - Project build has not produced APK file
+2019-09-07 18:15:33,676 ERROR FullProcessService - Could not find generated or existed APK file

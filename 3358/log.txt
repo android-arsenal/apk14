@@ -1,33 +1,36 @@
-2019-08-10 20:35:50,433 INFO  DownloadService - Downloading "https://github.com/niqdev/ipcam-view/archive/master.zip", attempt 3
-2019-08-10 20:35:53,961 INFO  DownloadService - Downloaded https://github.com/niqdev/ipcam-view/archive/master.zip, attempt 3
-2019-08-10 20:35:53,961 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/master.zip": 3 MB
-2019-08-10 20:35:53,961 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-10 20:35:53,968 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/master.zip: true
-2019-08-10 20:35:53,968 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src'.
-2019-08-10 20:35:54,081 INFO  FullProcessService - Size of directory with sources: 7 MB
-2019-08-10 20:35:54,081 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src]
-2019-08-10 20:35:54,097 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/.git/
+2019-09-07 18:13:45,186 INFO  DownloadService - Downloading "https://github.com/niqdev/ipcam-view/archive/master.zip", attempt 3
+2019-09-07 18:13:52,587 INFO  DownloadService - Downloaded https://github.com/niqdev/ipcam-view/archive/master.zip, attempt 3
+2019-09-07 18:13:52,587 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/master.zip": 3 MB
+2019-09-07 18:13:52,587 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 18:13:52,595 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/master.zip: true
+2019-09-07 18:13:52,595 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src'.
+2019-09-07 18:13:52,704 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-09-07 18:13:52,704 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src]
+2019-09-07 18:13:52,725 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/.git/
 
-2019-08-10 20:35:54,102 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/gradlew
-2019-08-10 20:35:54,107 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/build.gradle
-2019-08-10 20:35:54,112 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/settings.gradle
-2019-08-10 20:35:54,112 INFO  ProjectBuildService - Remote scripts: none
-2019-08-10 20:35:54,112 INFO  ProjectFixService - Fixing project...
-2019-08-10 20:35:54,123 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/local.properties
-2019-08-10 20:35:54,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-10 20:35:54,124 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/local.properties
-2019-08-10 20:35:54,125 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-10 20:35:54,125 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/local.properties
-2019-08-10 20:35:54,126 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-08-10 20:35:54,126 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-08-10 20:35:54,127 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-10 20:35:54,127 INFO  ProjectFixService - Project was maybe fixed
-2019-08-10 20:35:54,127 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-10 20:35:54,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-10 20:36:00,365 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-08-10 20:36:00,365 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-10 20:36:00,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-10 20:36:38,456 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 18:13:52,730 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/gradlew
+2019-09-07 18:13:52,735 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/mjpeg-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/build.gradle
+2019-09-07 18:13:52,739 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/mjpeg-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/settings.gradle
+2019-09-07 18:13:52,739 INFO  ProjectBuildService - Remote scripts: none
+2019-09-07 18:13:52,739 INFO  ProjectFixService - Fixing project...
+2019-09-07 18:13:52,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/local.properties
+2019-09-07 18:13:52,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-07 18:13:52,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/mjpeg-view/local.properties
+2019-09-07 18:13:52,750 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/mjpeg-view/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-07 18:13:52,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/local.properties
+2019-09-07 18:13:52,751 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-bin.zip
+2019-09-07 18:13:52,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-07 18:13:52,751 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 18:13:52,752 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 18:13:52,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 18:14:02,110 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-09-07 18:14:02,110 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-07 18:14:02,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-07 18:14:41,229 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.5.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
+
+> Configure project :mjpeg-view
 
          _              _          _            _            _     _          _ 
         /\ \     _     /\ \       /\ \         /\ \         /\ \  /\ \    _ / /\
@@ -42,153 +45,165 @@
 \/_/     \/_/ \/_________/\/________\_\/   \/_____/ \/__________/       \_\/    
 :see https://github.com/niqdev/ipcam-view
 
-*--~> [com.github.niqdev:ipcam-view-master:1.6.0] <~--*
+*--~> [com.github.niqdev:ipcam-view-master:1.7.0] <~--*
 
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:mjpeg-view:preBuild UP-TO-DATE
-:mjpeg-view:preDebugBuild UP-TO-DATE
-:mjpeg-view:checkDebugManifest
-:mjpeg-view:processDebugManifest
-:app:preDebugBuild
-:mjpeg-view:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:mjpeg-view:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:mjpeg-view:compileDebugRenderscript
-:mjpeg-view:generateDebugResValues
-:mjpeg-view:generateDebugResources
-:mjpeg-view:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:mjpeg-view:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:mjpeg-view:generateDebugBuildConfig
-:mjpeg-view:prepareLintJar
-:mjpeg-view:generateDebugSources
-:mjpeg-view:javaPreCompileDebug
-:mjpeg-view:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/src/main/java/com/github/niqdev/mjpeg/MjpegViewDefault.java uses or overrides a deprecated API.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :mjpeg-view:preBuild UP-TO-DATE
+> Task :mjpeg-view:preDebugBuild UP-TO-DATE
+> Task :mjpeg-view:checkDebugManifest
+> Task :mjpeg-view:processDebugManifest
+> Task :app:preDebugBuild
+> Task :mjpeg-view:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :mjpeg-view:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :mjpeg-view:generateDebugBuildConfig
+> Task :mjpeg-view:compileDebugRenderscript NO-SOURCE
+> Task :mjpeg-view:generateDebugResValues
+> Task :mjpeg-view:generateDebugResources
+> Task :mjpeg-view:prepareLintJar
+> Task :mjpeg-view:generateDebugSources
+> Task :mjpeg-view:javaPreCompileDebug
+> Task :mjpeg-view:packageDebugResources
+> Task :mjpeg-view:generateDebugRFile
+
+> Task :mjpeg-view:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/mjpeg-view/src/main/java/com/github/niqdev/mjpeg/MjpegViewDefault.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:mjpeg-view:processDebugJavaRes NO-SOURCE
-:mjpeg-view:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/src/main/java/com/github/niqdev/ipcam/settings/SettingsActivity.java uses or overrides a deprecated API.
+> Task :mjpeg-view:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-10.1.0.jar (com.jakewharton:butterknife-compiler:10.1.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/src/main/java/com/github/niqdev/ipcam/settings/SettingsActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:mjpeg-view:mergeDebugShaders
-:mjpeg-view:compileDebugShaders
-:mjpeg-view:generateDebugAssets
-:mjpeg-view:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:mjpeg-view:compileDebugNdk NO-SOURCE
-:mjpeg-view:mergeDebugJniLibFolders
-:mjpeg-view:transformNativeLibsWithMergeJniLibsForDebug
-:mjpeg-view:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libImageProc.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libImageProc.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-:mjpeg-view:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libImageProc.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libImageProc.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:mjpeg-view:preReleaseBuild UP-TO-DATE
-:mjpeg-view:checkReleaseManifest
-:mjpeg-view:processReleaseManifest
-:app:preReleaseBuild
-:mjpeg-view:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:mjpeg-view:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:mjpeg-view:compileReleaseRenderscript
-:mjpeg-view:generateReleaseResValues
-:mjpeg-view:generateReleaseResources
-:mjpeg-view:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:mjpeg-view:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:mjpeg-view:generateReleaseBuildConfig
-:mjpeg-view:generateReleaseSources
-:mjpeg-view:javaPreCompileRelease
-:mjpeg-view:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/src/main/java/com/github/niqdev/mjpeg/MjpegViewDefault.java uses or overrides a deprecated API.
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :mjpeg-view:mergeDebugShaders
+> Task :mjpeg-view:compileDebugShaders
+> Task :mjpeg-view:generateDebugAssets
+> Task :mjpeg-view:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :mjpeg-view:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :mjpeg-view:processDebugJavaRes NO-SOURCE
+> Task :mjpeg-view:bundleLibResDebug
+> Task :mjpeg-view:mergeDebugJniLibFolders
+> Task :mjpeg-view:transformNativeLibsWithMergeJniLibsForDebug
+> Task :mjpeg-view:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :mjpeg-view:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :mjpeg-view:preReleaseBuild UP-TO-DATE
+> Task :mjpeg-view:checkReleaseManifest
+> Task :mjpeg-view:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :mjpeg-view:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :mjpeg-view:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :mjpeg-view:compileReleaseRenderscript NO-SOURCE
+> Task :mjpeg-view:generateReleaseBuildConfig
+> Task :mjpeg-view:generateReleaseResValues
+> Task :mjpeg-view:generateReleaseResources
+> Task :mjpeg-view:packageReleaseResources
+> Task :mjpeg-view:generateReleaseRFile
+> Task :mjpeg-view:generateReleaseSources
+> Task :mjpeg-view:javaPreCompileRelease
+
+> Task :mjpeg-view:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/mjpeg-view/src/main/java/com/github/niqdev/mjpeg/MjpegViewDefault.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:mjpeg-view:processReleaseJavaRes NO-SOURCE
-:mjpeg-view:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/src/main/java/com/github/niqdev/ipcam/settings/SettingsActivity.java uses or overrides a deprecated API.
+> Task :mjpeg-view:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-10.1.0.jar (com.jakewharton:butterknife-compiler:10.1.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/src/main/java/com/github/niqdev/ipcam/settings/SettingsActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/d0253a91e77238aa2eae34a5f26e3ec0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:mjpeg-view:mergeReleaseShaders
-:mjpeg-view:compileReleaseShaders
-:mjpeg-view:generateReleaseAssets
-:mjpeg-view:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:mjpeg-view:compileReleaseNdk NO-SOURCE
-:mjpeg-view:mergeReleaseJniLibFolders
-:mjpeg-view:transformNativeLibsWithMergeJniLibsForRelease
-:mjpeg-view:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libImageProc.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/mjpeg-view/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libImageProc.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-:mjpeg-view:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libImageProc.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libImageProc.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :app:compileReleaseSources
+> Task :mjpeg-view:prepareLintJarForPublish
 
-BUILD SUCCESSFUL in 37s
-90 actionable tasks: 90 executed
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c1852237ecfa838a7a797f6685fe6463/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-2019-08-10 20:36:38,541 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444150430-0/src/ipcam-view-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :mjpeg-view:mergeReleaseShaders
+> Task :mjpeg-view:compileReleaseShaders
+> Task :mjpeg-view:generateReleaseAssets
+> Task :mjpeg-view:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :mjpeg-view:bundleLibRuntimeRelease
+D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :mjpeg-view:processReleaseJavaRes NO-SOURCE
+> Task :mjpeg-view:bundleLibResRelease
+> Task :mjpeg-view:mergeReleaseJniLibFolders
+> Task :mjpeg-view:transformNativeLibsWithMergeJniLibsForRelease
+> Task :mjpeg-view:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :mjpeg-view:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 38s
+89 actionable tasks: 89 executed
+
+2019-09-07 18:14:41,311 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567854825183-0/src/ipcam-view-master/app/build/outputs/apk/debug/app-debug.apk
