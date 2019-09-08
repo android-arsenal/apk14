@@ -1,46 +1,46 @@
-2019-08-10 20:37:32,034 INFO  DownloadService - Downloading "https://github.com/fengdai/registry/archive/master.zip", attempt 3
-2019-08-10 20:37:32,557 INFO  DownloadService - Downloaded https://github.com/fengdai/registry/archive/master.zip, attempt 3
-2019-08-10 20:37:32,557 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/master.zip": 119 KB
-2019-08-10 20:37:32,557 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-10 20:37:32,557 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/master.zip: true
-2019-08-10 20:37:32,557 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src'.
-2019-08-10 20:37:32,583 INFO  FullProcessService - Size of directory with sources: 136 KB
-2019-08-10 20:37:32,583 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src]
-2019-08-10 20:37:32,601 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/.git/
+2019-09-08 15:47:33,964 INFO  DownloadService - Downloading "https://github.com/fengdai/registry/archive/master.zip", attempt 3
+2019-09-08 15:47:35,823 INFO  DownloadService - Downloaded https://github.com/fengdai/registry/archive/master.zip, attempt 3
+2019-09-08 15:47:35,823 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/master.zip": 119 KB
+2019-09-08 15:47:35,823 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-08 15:47:35,823 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/master.zip: true
+2019-09-08 15:47:35,824 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src'.
+2019-09-08 15:47:35,843 INFO  FullProcessService - Size of directory with sources: 136 KB
+2019-09-08 15:47:35,843 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src]
+2019-09-08 15:47:35,860 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/.git/
 
-2019-08-10 20:37:32,604 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/gradlew
-2019-08-10 20:37:32,608 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-compiler/build.gradle
-2019-08-10 20:37:32,610 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/settings.gradle
-2019-08-10 20:37:32,611 INFO  ProjectBuildService - Remote scripts: none
-2019-08-10 20:37:32,611 INFO  ProjectFixService - Fixing project...
-2019-08-10 20:37:32,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-sample/local.properties
-2019-08-10 20:37:32,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-10 20:37:32,623 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-10 20:37:32,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry/local.properties
-2019-08-10 20:37:32,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=1,targetSdkVersion=28]
-2019-08-10 20:37:32,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=2,targetSdkVersion=28]
-2019-08-10 20:37:32,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/local.properties
-2019-08-10 20:37:32,627 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-10 20:37:32,627 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-10 20:37:32,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-10 20:37:32,628 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-10 20:37:32,629 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-compiler/local.properties
-2019-08-10 20:37:32,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-10 20:37:32,631 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-08-10 20:37:32,632 INFO  ProjectFixService - Project was maybe fixed
-2019-08-10 20:37:32,632 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-10 20:37:32,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-10 20:37:40,021 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-10 20:37:40,021 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-10 20:37:40,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-10 20:38:21,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-08 15:47:35,863 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/gradlew
+2019-09-08 15:47:35,866 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-compiler/build.gradle
+2019-09-08 15:47:35,868 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/settings.gradle
+2019-09-08 15:47:35,868 INFO  ProjectBuildService - Remote scripts: none
+2019-09-08 15:47:35,869 INFO  ProjectFixService - Fixing project...
+2019-09-08 15:47:35,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-sample/local.properties
+2019-09-08 15:47:35,879 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-08 15:47:35,879 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-08 15:47:35,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry/local.properties
+2019-09-08 15:47:35,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=1,targetSdkVersion=28]
+2019-09-08 15:47:35,882 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=2,targetSdkVersion=28]
+2019-09-08 15:47:35,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/local.properties
+2019-09-08 15:47:35,883 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-08 15:47:35,884 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-08 15:47:35,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-08 15:47:35,885 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-08 15:47:35,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-compiler/local.properties
+2019-09-08 15:47:35,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-08 15:47:35,888 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-08 15:47:35,889 INFO  ProjectFixService - Project was maybe fixed
+2019-09-08 15:47:35,889 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-08 15:47:35,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-08 15:47:43,706 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-08 15:47:43,707 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-08 15:47:43,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-08 15:48:16,382 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :registry-compiler:compileJava
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-compiler/src/main/java/com/github/fengdai/registry/compiler/RegistryProcessor.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 
 > Task :registry-compiler:processResources NO-SOURCE
 > Task :registry-compiler:classes
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-compiler/src/main/java/com/github/fengdai/registry/compiler/RegistryProcessor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 > Task :registry-compiler:jar
 > Task :registry:preBuild UP-TO-DATE
 > Task :registry:preDebugBuild UP-TO-DATE
@@ -51,34 +51,31 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :registry:generateDebugResValues
 > Task :registry:generateDebugResources
 > Task :registry:packageDebugResources
-> Task :registry:processDebugManifest
-> Task :registry:generateDebugRFile
-> Task :registry:prepareLintJar
-> Task :registry:generateDebugSources
 > Task :registry:javaPreCompileDebug
+> Task :registry:parseDebugLibraryResources
+> Task :registry-sample:preBuild UP-TO-DATE
+> Task :registry-sample:preDebugBuild UP-TO-DATE
+> Task :registry-sample:compileDebugAidl NO-SOURCE
+> Task :registry:packageDebugRenderscript NO-SOURCE
+> Task :registry-sample:checkDebugManifest
+> Task :registry-sample:compileDebugRenderscript NO-SOURCE
+> Task :registry-sample:generateDebugBuildConfig
+> Task :registry:processDebugManifest
+> Task :registry-sample:mainApkListPersistenceDebug
+> Task :registry-sample:generateDebugResValues
+> Task :registry-sample:generateDebugResources
+> Task :registry:generateDebugRFile
 
 > Task :registry:compileDebugJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :registry:bundleLibCompileDebug
-> Task :registry-sample:preBuild UP-TO-DATE
-> Task :registry-sample:preDebugBuild
-> Task :registry-sample:compileDebugAidl NO-SOURCE
-> Task :registry:packageDebugRenderscript NO-SOURCE
-> Task :registry-sample:compileDebugRenderscript NO-SOURCE
-> Task :registry-sample:checkDebugManifest
-> Task :registry-sample:generateDebugBuildConfig
-> Task :registry-sample:prepareLintJar
-> Task :registry-sample:generateDebugSources
-> Task :registry-sample:javaPreCompileDebug
-> Task :registry-sample:mainApkListPersistenceDebug
-> Task :registry-sample:generateDebugResValues
-> Task :registry-sample:generateDebugResources
 > Task :registry-sample:mergeDebugResources
 > Task :registry-sample:createDebugCompatibleScreenManifests
 > Task :registry-sample:processDebugManifest
 > Task :registry-sample:processDebugResources
+> Task :registry:bundleLibCompileDebug
+> Task :registry-sample:javaPreCompileDebug
 
 > Task :registry-sample:compileDebugJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: registry-compiler-1.0.0-SNAPSHOT.jar (project :registry-compiler).
@@ -94,26 +91,17 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :registry-sample:generateDebugAssets
 > Task :registry-sample:mergeDebugAssets
 > Task :registry:processDebugJavaRes NO-SOURCE
+> Task :registry-sample:processDebugJavaRes NO-SOURCE
 > Task :registry:bundleLibResDebug
 > Task :registry:bundleLibRuntimeDebug
 > Task :registry:createFullJarDebug
 > Task :registry-sample:checkDebugDuplicateClasses
-> Task :registry-sample:mergeExtDexDebug
+> Task :registry-sample:mergeDebugJavaResource
 > Task :registry-sample:transformClassesWithDexBuilderForDebug
-> Task :registry-sample:mergeDexDebug
 > Task :registry-sample:validateSigningDebug
 > Task :registry-sample:signingConfigWriterDebug
 > Task :registry:mergeDebugJniLibFolders
-> Task :registry:transformNativeLibsWithMergeJniLibsForDebug
-> Task :registry:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :registry:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :registry-sample:mergeDebugJniLibFolders
-> Task :registry-sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :registry-sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :registry-sample:processDebugJavaRes NO-SOURCE
-> Task :registry-sample:transformResourcesWithMergeJavaResForDebug
-> Task :registry-sample:packageDebug
-> Task :registry-sample:assembleDebug
 > Task :registry:preReleaseBuild UP-TO-DATE
 > Task :registry:compileReleaseAidl NO-SOURCE
 > Task :registry:compileReleaseRenderscript NO-SOURCE
@@ -122,47 +110,53 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :registry:generateReleaseResValues
 > Task :registry:generateReleaseResources
 > Task :registry:packageReleaseResources
-> Task :registry:processReleaseManifest
-> Task :registry:generateReleaseRFile
-> Task :registry:generateReleaseSources
-> Task :registry:javaPreCompileRelease
-
-> Task :registry:compileReleaseJavaWithJavac
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :registry:bundleLibCompileRelease
-> Task :registry-sample:preReleaseBuild
+> Task :registry:mergeDebugNativeLibs
+> Task :registry:stripDebugDebugSymbols
+> Task :registry:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :registry-sample:preReleaseBuild UP-TO-DATE
 > Task :registry-sample:compileReleaseAidl NO-SOURCE
 > Task :registry:packageReleaseRenderscript NO-SOURCE
 > Task :registry-sample:compileReleaseRenderscript NO-SOURCE
 > Task :registry-sample:checkReleaseManifest
 > Task :registry-sample:generateReleaseBuildConfig
-> Task :registry-sample:generateReleaseSources
-> Task :registry-sample:javaPreCompileRelease
 > Task :registry-sample:mainApkListPersistenceRelease
 > Task :registry-sample:generateReleaseResValues
 > Task :registry-sample:generateReleaseResources
-> Task :registry-sample:mergeReleaseResources
+> Task :registry:javaPreCompileRelease
 > Task :registry-sample:createReleaseCompatibleScreenManifests
+> Task :registry:parseReleaseLibraryResources
+> Task :registry-sample:mergeDebugNativeLibs
+> Task :registry-sample:stripDebugDebugSymbols
+> Task :registry:processReleaseManifest
+> Task :registry:prepareLintJarForPublish
 > Task :registry-sample:processReleaseManifest
+> Task :registry-sample:prepareLintJar
+> Task :registry:processReleaseJavaRes NO-SOURCE
+> Task :registry-sample:checkReleaseDuplicateClasses
+> Task :registry:generateReleaseRFile
+
+> Task :registry:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :registry-sample:mergeReleaseResources
 > Task :registry-sample:processReleaseResources
+> Task :registry:bundleLibCompileRelease
+> Task :registry:bundleLibRuntimeRelease
+> Task :registry:bundleLibResRelease
+> Task :registry:createFullJarRelease
+> Task :registry-sample:javaPreCompileRelease
 
 > Task :registry-sample:compileReleaseJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: registry-compiler-1.0.0-SNAPSHOT.jar (project :registry-compiler).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
 
 > Task :registry-sample:compileReleaseSources
-> Task :registry:prepareLintJarForPublish
+
 > Task :registry-sample:lintVitalRelease
-> Task :registry:processReleaseJavaRes NO-SOURCE
-> Task :registry:bundleLibResRelease
-> Task :registry:bundleLibRuntimeRelease
-> Task :registry:createFullJarRelease
-> Task :registry-sample:checkReleaseDuplicateClasses
-> Task :registry-sample:mergeExtDexRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e2656fb542f3178dab76659b651e8a88/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :registry-sample:transformClassesWithDexBuilderForRelease
-> Task :registry-sample:mergeDexRelease
 > Task :registry:mergeReleaseShaders
 > Task :registry:compileReleaseShaders
 > Task :registry:generateReleaseAssets
@@ -171,16 +165,22 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :registry-sample:compileReleaseShaders
 > Task :registry-sample:generateReleaseAssets
 > Task :registry-sample:mergeReleaseAssets
+> Task :registry-sample:processReleaseJavaRes NO-SOURCE
 > Task :registry-sample:signingConfigWriterRelease
 > Task :registry:mergeReleaseJniLibFolders
-> Task :registry:transformNativeLibsWithMergeJniLibsForRelease
-> Task :registry:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :registry:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :registry-sample:mergeReleaseJniLibFolders
-> Task :registry-sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :registry-sample:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :registry-sample:processReleaseJavaRes NO-SOURCE
-> Task :registry-sample:transformResourcesWithMergeJavaResForRelease
+> Task :registry:mergeReleaseNativeLibs
+> Task :registry:stripReleaseDebugSymbols
+> Task :registry:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :registry-sample:mergeReleaseNativeLibs
+> Task :registry-sample:stripReleaseDebugSymbols
+> Task :registry-sample:mergeReleaseJavaResource
+> Task :registry-sample:mergeExtDexDebug
+> Task :registry-sample:mergeDexDebug
+> Task :registry-sample:packageDebug
+> Task :registry-sample:assembleDebug
+> Task :registry-sample:mergeExtDexRelease
+> Task :registry-sample:mergeDexRelease
 > Task :registry-sample:packageRelease
 > Task :registry-sample:assembleRelease
 > Task :registry-sample:assemble
@@ -188,9 +188,9 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 41s
-93 actionable tasks: 93 executed
+BUILD SUCCESSFUL in 32s
+92 actionable tasks: 92 executed
 
-2019-08-10 20:38:21,522 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565444252030-0/src/registry-master/registry-sample/build/outputs/apk/release/registry-sample-release-unsigned.apk
+2019-09-08 15:48:16,442 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567932453960-0/src/registry-master/registry-sample/build/outputs/apk/release/registry-sample-release-unsigned.apk
