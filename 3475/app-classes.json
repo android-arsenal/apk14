@@ -1,3 +1,0 @@
-{
-  "com.emmasuzuki.segmentedcontrolview" : [ "BuildConfig", "MyActivity", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "R$styleable", "SegmentedControlView", "SegmentedControlView$OnSegmentSelectListener" ]
-}
